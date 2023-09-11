@@ -1,9 +1,8 @@
 site_name: "Terminale Spécialité NSI (Lycée de la méditerranée La Ciotat)"
 site_description: Cours et exercices de première en spécialité NSI
 site_author: R. Hatterer
-site_url: https://lyceemed.forge.aeif.fr/tnsi/
-# https://raoulhatterer.github.io/tnsi # mkdocs serve
-# repo_url: http://lyceemed.forge.aeif.fr/tnsi
+site_url: https://raoulhatterer.github.io/tnsi # mkdocs serve
+repo_url: https://github.com/raoulhatterer/tnsi
 site_dir: public
 edit_uri: tree/main/docs/
 
@@ -15,16 +14,15 @@ nav:
 
 
 theme:
-    favicon: images/favicon.ico
-    icon:
-      logo: material/application-variable
+    name: material
 
     custom_dir: my_theme_customizations/
-
-    name: material
     font: false                     # RGPD ; pas de fonte Google
     language: fr                    # français
     favicon: xtra/favTNSI.png
+    
+    icon:
+      logo: material/application-variable
 
     palette:                        # Palettes de couleurs jour/nuit
       - media: "(prefers-color-scheme: light)"
