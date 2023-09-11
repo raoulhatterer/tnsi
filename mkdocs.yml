@@ -19,10 +19,10 @@ theme:
     custom_dir: my_theme_customizations/
     font: false                     # RGPD ; pas de fonte Google
     language: fr                    # français
-    favicon: xtra/favTNSI.png
+    favicon: docs/xtra/favTNSI.png
     
     icon:
-      logo: xtra/favTNSI.png
+      logo: docs/xtra/favTNSI.png
 
     palette:                        # Palettes de couleurs jour/nuit
       - media: "(prefers-color-scheme: light)"
