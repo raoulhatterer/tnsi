@@ -19,7 +19,7 @@ theme:
     custom_dir: my_theme_customizations/
     font: false                     # RGPD ; pas de fonte Google
     language: fr                    # français
-    favicon: docs/xtra/favTNSI.png
+    favicon: xtra/favTNSI.png
     
     icon:
       logo: docs/xtra/favTNSI.png
