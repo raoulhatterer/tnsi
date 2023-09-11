@@ -22,7 +22,7 @@ theme:
     favicon: xtra/favTNSI.png
     
     icon:
-      logo: docs/xtra/favTNSI.png
+      logo: favTNSI.png
 
     palette:                        # Palettes de couleurs jour/nuit
       - media: "(prefers-color-scheme: light)"
