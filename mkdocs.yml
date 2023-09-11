@@ -22,7 +22,7 @@ theme:
     favicon: xtra/favTNSI.png
     
     icon:
-      logo: material/simple-python
+      logo: material/application-variable
 
     palette:                        # Palettes de couleurs jour/nuit
       - media: "(prefers-color-scheme: light)"
