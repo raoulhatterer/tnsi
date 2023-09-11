@@ -15,8 +15,8 @@ nav:
 
 theme:
     name: material
+    custom_dir: my_theme_customizations
 
-    custom_dir: my_theme_customizations/
     font: false                     # RGPD ; pas de fonte Google
     language: fr                    # français
     favicon: xtra/favTNSI.png
