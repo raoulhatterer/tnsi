@@ -1,0 +1,14 @@
+nav:
+    - Accueil : index.md
+    - Progression et devoirs : progression_et_devoirs.md
+    - Thème 1 : T1_Structures_de_donnees
+    - Thème 2 : T2_Programmation
+    - Thème 3 : T3_Algorithmique          
+    - Thème 4 : T4_Bases_de_donnees       
+    - Thème 5 : T5_Architecture_materielle
+    - Thème 6 : T6_2_CoursPremiere        
+    - Thème 6 : T6_5_algos_coeur          
+    - Thème 6 : T6_6_Epreuve_pratique
+    - Divers : T7_Divers
+    - Projets : T8_Projets
+    - Remerciements : remerciements.md
