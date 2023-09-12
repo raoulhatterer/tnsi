@@ -89,7 +89,7 @@ Comment savoir ce que font les méthodes ? Si elles ont été correctement codé
 ```
 
 
-## 2. Créer ~~son propre objet~~ sa propre classe
+## 2. Créer ~~son propre moule à objets~~ sa propre classe
 ### 2.1 Vocabulaire : classe,  objet, instance de classe
 Jusqu'ici nous avons employé uniquement le mot «objet». Il convient maintenant d'être plus précis.  
 
