@@ -5,7 +5,7 @@ _abrégée par POO en français, OOP en anglais (ne pas confondre)_
 
 ![image](data/meme3.jpg){: .center width='50%'}
 
-
+{{ initexo(0) }}
 
 ## 0. Introduction
 La POO est un **paradigme** de programmation, au même titre que la programmation impérative (que nous pratiquons déjà) ou la programmation fonctionnelle (qui sera étudiée cette année en Terminale), ou encore d'autres paradigmes (la liste est longue).  
@@ -168,7 +168,7 @@ class Voiture :
         self.annee = annee
         self.couleur = coul
         self.vitesse_max = vmax
-        self.age = 2021 - self.annee
+        self.age = 2023 - self.annee
 ```
 
 - le mot-clé ```self```, omniprésent en POO (d'autres langages utilisent ```this```), fait référence à l'objet lui-même, qui est en train d'être construit.
@@ -222,7 +222,7 @@ Bien sûr, on peut créer une autre voiture en suivant le même principe :
 ```
 
 
-!!! example "Exercice 1"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         Créer une classe ```Point``` permettant de créer un objet ```A``` , dont on récupèrera l'abscisse par la variable ```A.x``` et l'ordonnée par ```A.y```.
         
@@ -237,12 +237,16 @@ Bien sûr, on peut créer une autre voiture en suivant le même principe :
             ```
 
     === "Correction"
+        {{ correction(False,
+        "
         ```python linenums='1'
         class Point :
             def __init__(self,x,y):
                 self.x = x
                 self.y = y
         ```
+        "
+        ) }}
 
 #### 2.2.4 Créer une méthode pour notre objet
 
@@ -253,7 +257,7 @@ class Voiture :
         self.annee = annee
         self.couleur = coul
         self.vitesse_max = vmax
-        self.age = 2021 - self.annee
+        self.age = 2023 - self.annee
     
     def petite_annonce(self) :
         "À vendre voiture", self.couleur, "de", self.annee,\
@@ -277,7 +281,7 @@ class Voiture :
         self.annee = annee
         self.couleur = coul
         self.vitesse_max = vmax
-        self.age = 2021 - self.annee
+        self.age = 2023 - self.annee
     
     def petite_annonce(self) :
         """ Rédige automatiquement une petite annonce concernant le véhicule"""
@@ -340,7 +344,7 @@ dir(batmobile)
 On y retrouve donc à la fois les 4 attributs et l'unique méthode que nous avons créés pour notre objet.
 
 
-!!! example "Exercice 2"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         Reprendre la classe de l'exercice précédent et rajouter une méthode ```distance()``` qui renvoie la distance du point par rapport à l'origine du repère (dans un repère orthonormé).
 
@@ -352,6 +356,8 @@ On y retrouve donc à la fois les 4 attributs et l'unique méthode que nous avon
             ```
 
     === "Correction"
+        {{ correction(False,
+        "
         ```python linenums='1'
         class Point:
             def __init__(self,x,y):
@@ -361,6 +367,8 @@ On y retrouve donc à la fois les 4 attributs et l'unique méthode que nous avon
             def distance(self) :
                 return (self.x**2+self.y**2)**0.5
         ```
+        "
+        ) }}
 
 ### 3. Compléments
 
@@ -408,10 +416,12 @@ class Fraction :
 Ce qui est nettement plus agréable !
 
 
-!!! example "Exercice 3"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         Modifier la méthode ```__str__``` afin de n'afficher que le numérateur dans le cas où le dénominateur vaut 1.
     === "Correction"
+        {{ correction(False,
+        "
         ```python linenums='1'
         class Fraction :
             def __init__(self, num, den) :
@@ -421,8 +431,10 @@ Ce qui est nettement plus agréable !
             def __str__(self):
                 if self.denominateur == 1:
                     return str(self.numerateur)
-                return str(self.numerateur)+"/"+str(self.denominateur)
+                return str(self.numerateur)+'/'+str(self.denominateur)
         ```
+        "
+        ) }}
 
 #### 3.2 L'encapsulation poussée à bout : les ```getters``` et les ```setters```
 
@@ -512,12 +524,6 @@ Ce type de méthode s'appelle un ```getter```.
 
 
 
----
-??? Abstract "Sources et bibliographie"
-    - Numérique et Sciences Informatiques, Terminale, T. BALABONSKI, S. CONCHON, J.-C. FILLIATRE, K. NGUYEN, éditions ELLIPSES.
-
-
-[DS01](/data/DS01_POO.pdf)
 
 
 
