@@ -260,7 +260,7 @@ class Voiture :
         self.age = 2023 - self.annee
     
     def petite_annonce(self) :
-        "À vendre voiture", self.couleur, "de", self.annee,\
+        print("À vendre voiture", self.couleur, "de", self.annee,\
              ", vitesse maximale", self.vitesse_max, "km/h.")
 ```
 
@@ -404,7 +404,7 @@ class Fraction :
         self.denominateur = den
     
     def __str__(self):
-        return str(self.numerateur)+ "/" +str(self.denominateur)
+        return f"{self.numerateur}/{self.denominateur}"
 ```
 
 
@@ -431,7 +431,7 @@ Ce qui est nettement plus agréable !
             def __str__(self):
                 if self.denominateur == 1:
                     return str(self.numerateur)
-                return str(self.numerateur)+'/'+str(self.denominateur)
+                return f'{self.numerateur}/{self.denominateur}'
         ```
         "
         ) }}
