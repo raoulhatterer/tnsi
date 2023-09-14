@@ -189,7 +189,7 @@
         
             !!! info "Exemple d'utilisation de la classe"
                 ```python
-                >>> compteGL = CompteBancaire("G.Lassus", 1000)
+                >>> compteGL = CompteBancaire("James Bond", 1000)
                 >>> compteGL.retrait(50)
                 Vous avez retiré 50 euros
                 Solde actuel du compte : 950 euros
