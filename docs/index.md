@@ -9,12 +9,17 @@
 
 
 !!! note ":star: Thème en cours d'étude :star: "
-    - :arrow_right: [TP d'introduction à la POO](T2_Programmation/2.1_Programmation_Orientee_Objet/TP/)
-    - [POO : cours](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/) 
-    - [POO : exercices](T2_Programmation/2.1_Programmation_Orientee_Objet/z_Exercices/) 
 
+    - :arrow_right: [POO : cours](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/) 
+    - :arrow_right: [POO : exercices](T2_Programmation/2.1_Programmation_Orientee_Objet/z_Exercices/) 
+    - :arrow_right: [Récursivité](T2_Programmation/2.2_Recursivite/cours/)  
 {#
 ### *Thèmes déjà traités*
+
+- :arrow_right: [TP d'introduction à la POO](T2_Programmation/2.1_Programmation_Orientee_Objet/TP/)
+
+### *thèmes à trairer
+
 - [Systèmes sur puce](T5_Architecture_materielle/5.1_Systemes_sur_puce/cours/) 
 - [TP Labyrinthe](T1_Structures_de_donnees/1.4_Graphes/TP_Labyrinthe/) 
 - [Graphes](T1_Structures_de_donnees/1.4_Graphes/cours/) 
@@ -29,7 +34,6 @@
 - [Langage SQL](T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
 - [Modèle relationnel](T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
 - [Listes / piles / files](T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/)
-- [Récursivité](T2_Programmation/2.2_Recursivite/cours/)  
 - [Projet en POO sur les balles rebondissantes](T2_Programmation/2.1_Programmation_Orientee_Objet/TP/)   
 - [Programmation Orientée Objet](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/)   
 - [https://www.youtube.com/watch?v=PvpeSYVNVrE](https://www.youtube.com/watch?v=PvpeSYVNVrE)

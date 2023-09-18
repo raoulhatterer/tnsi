@@ -7,7 +7,7 @@
     === "Énoncé"
         Écrire une fonction récursive ```puissance(x,n)``` qui calcule le nombre $x^n$.
     === "Correction"
-        {{ correction(True,
+        {{ correction(False,
         "
         ```python linenums='1'
         def puissance(x, n):
@@ -31,7 +31,7 @@
 
         Écrire un algorithme récursif ```pgcd(a,b)```.
     === "Correction"
-        {{ correction(True,
+        {{ correction(False,
         "
         ```python linenums='1'
         def pgcd(a, b):
@@ -55,7 +55,7 @@
         2. On appelle «temps de vol» le nombre d'étapes nécessaires avant de retomber sur 1. Modifier la fonction précédente afin qu'elle affiche le temps de vol pour tout nombre ```n```.
 
     === "Correction"
-        {{ correction(True,
+        {{ correction(False,
         "
         1.
         ```python linenums='1'
@@ -93,7 +93,7 @@
         ![](data/carres_turtle.png){: .center width=40%}
 
     === "Correction"
-        {{ correction(True,
+        {{ correction(False,
         "
         ```python linenums='1'
         from turtle import *
@@ -129,7 +129,7 @@
         - sinon $a^n=a \times (a \times a)^{(n-1)/2}$
 
     === "Correction"
-        {{ correction(True,
+        {{ correction(False,
         "
         ```python linenums='1'
         def puissance_mod(x,n):
@@ -162,7 +162,7 @@
         ``` 
 
     === "Correction"
-        {{ correction(True,
+        {{ correction(False,
         "
         ```python linenums='1'
         def recherche(lst,m):
