@@ -12,14 +12,14 @@
 
     - :arrow_right: [POO : cours](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/) 
     - :arrow_right: [POO : exercices](T2_Programmation/2.1_Programmation_Orientee_Objet/z_Exercices/) 
-    - :arrow_right: [Récursivité](T2_Programmation/2.2_Recursivite/cours/)  
+
 {#
 ### *Thèmes déjà traités*
 
 - :arrow_right: [TP d'introduction à la POO](T2_Programmation/2.1_Programmation_Orientee_Objet/TP/)
 
 ### *thèmes à trairer
-
+- :arrow_right: [Récursivité](T2_Programmation/2.2_Recursivite/cours/)  
 - [Systèmes sur puce](T5_Architecture_materielle/5.1_Systemes_sur_puce/cours/) 
 - [TP Labyrinthe](T1_Structures_de_donnees/1.4_Graphes/TP_Labyrinthe/) 
 - [Graphes](T1_Structures_de_donnees/1.4_Graphes/cours/) 
