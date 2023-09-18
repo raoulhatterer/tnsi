@@ -12,3 +12,9 @@
     ??? note "Devoirs"
         - Finir la partie POO du  TP et le déposer sur Capytale (code 3e74-1821316)
 
+
+!!! done "séance 3 (4h jeudi 14/09/23):"
+    - POO : Exercices
+    ??? note "Devoirs"
+        - Exercices sur la POO. Déposer l'exercice Compte bancaire sur Capytale (code fb5d-1825971)
+
