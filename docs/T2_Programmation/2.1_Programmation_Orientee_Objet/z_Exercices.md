@@ -2,10 +2,10 @@
 
 
          
+{{ initexo(0) }}
 
 
-
-!!! example "Exercice 1"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         1. Écrire une classe ```Eleve``` qui contiendra les attributs ```nom```, ```classe``` et ```note```.
         2. Instancier trois élèves de cette classe.
@@ -39,7 +39,7 @@
         
 
 
-!!! example "Exercice 2"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         Écrire une classe ```TriangleRect``` qui contiendra les attributs ```cote1```, ```cote2``` et ```hypotenuse```.
 
@@ -70,7 +70,7 @@
         ```
         #}
 
-!!! example "Exercice 3"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         1. Écrire une classe ```Chrono``` qui contiendra les attributs ```heures```, ```minutes``` et ```secondes```.
         2. Doter la classe d'une méthode ```affiche()``` qui fera affichera le temps ```t```.
@@ -123,7 +123,7 @@
         #}
   
 
-!!! example "Exercice 4"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         Écrire une classe ```Player``` qui :
 
@@ -178,7 +178,7 @@
         #}
 
 !!! capytale "À faire sur Capytale"
-    !!! example "Exercice 5"
+    !!! example "{{ exercice() }}"
         === "Énoncé"
             Créer une classe ```CompteBancaire``` dont la méthode constructeur recevra en paramètres :
 
@@ -225,7 +225,7 @@
 
 
 
-!!! abstract "Exercice 6"
+!!! abstract "{{ exercice() }}"
     === "Énoncé"
         **Cet exercice est l'exercice 5.2 de la BNS (version 2022)**.
 
@@ -326,6 +326,11 @@
 
         ```
         #}
+
+
+
+
+    
 
 {#
 !!! abstract "DS02"
