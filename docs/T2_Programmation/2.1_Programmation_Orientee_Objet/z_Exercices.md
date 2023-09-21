@@ -284,7 +284,6 @@
         ```
 
     === "Correction"
-        #{#
         ```python linenums='1'         
          class Carte:
              def __init__(self, c, v):
@@ -299,8 +298,7 @@
                  assert v <= 13
                  self.couleur = c
                  self.valeur = v
-                 
-             
+                              
              def getNom(self):
                  """Renvoie le nom de la Carte As, 2, ... 10, 
                  Valet, Dame, Roi"""
@@ -315,7 +313,6 @@
                  else:
                      return "As"
          
-             
              def getCouleur(self):
                  """Renvoie la couleur de la Carte (parmi pique, coeur, carreau, trefle"""
                  return ['pique', 'coeur', 'carreau', 'trefle' ][self.couleur - 1]
@@ -323,19 +320,17 @@
          class PaquetDeCarte:
              def __init__(self):
                  self.contenu = []
-         
              
              def remplir(self):
                  """Remplit le paquet de cartes"""
-                 self.contenu = [Carte(couleur, valeur) for couleur in range(1, 5) for valeur in range( 1, 14) ] #  
+                 self.contenu = [Carte(couleur, valeur) for couleur in range(1, 5) for valeur in range( 1, 14) ] 
          
              def getCarteAt(self, pos):
                  """Renvoie la Carte qui se trouve a  la position donnee"""
-         
                  assert 0 <= pos < len(self.contenu) 
                  return self.contenu[pos]
                  ```
-         ##}
+    
 
 
 
