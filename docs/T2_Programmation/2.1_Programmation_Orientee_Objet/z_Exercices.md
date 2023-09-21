@@ -21,8 +21,6 @@
             ```
 
     === "Correction"
-
-        
         ```python linenums='1'
         class Eleve:
             def __init__(self, nom, classe, note):
@@ -283,16 +281,16 @@
         8 de coeur
         ```
     === "Correction"
-        ```python linenums='1'         
+        ```python linenums='1'
         class Carte:
             def __init__(self, c, v):
                 """Initialise Couleur (entre 1 a 4), et Valeur (entre 1 a 13)"""
-                assert c in range(1,5) # methode 1
-                assert c in [1,2,3,4] # methode 2
+                assert c in range(1,5)   # methode 1
+                assert c in [1,2,3,4]    # methode 2
                 assert c >= 1 and c <= 4 # methode 3
-                assert c >= 1 # methode 4
-                assert c <= 4 # methode 4
-                assert 1 <= c <= 4 # methode 5
+                assert c >= 1            # methode 4
+                assert c <= 4            # methode 4
+                assert 1 <= c <= 4       # methode 5
                 assert v >= 1
                 assert v <= 13
                 self.couleur = c
@@ -313,7 +311,7 @@
                     return "As"
         
             def getCouleur(self):
-                """Renvoie la couleur de la Carte (parmi pique, coeur, carreau, trefle"""
+                """Renvoie la couleur de la Carte (parmi pique, coeur, carreau, trefle)"""
                 return ['pique', 'coeur', 'carreau', 'trefle' ][self.couleur - 1]
         
         class PaquetDeCarte:
@@ -328,7 +326,8 @@
                 """Renvoie la Carte qui se trouve a  la position donnee"""
                 assert 0 <= pos < len(self.contenu) 
                 return self.contenu[pos]
-                ```
+                
+        ```
 
     
 
