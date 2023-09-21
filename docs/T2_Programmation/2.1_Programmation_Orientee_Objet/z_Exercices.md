@@ -282,54 +282,54 @@
         >>> print(uneCarte.getNom() + " de " + uneCarte.getCouleur())
         8 de coeur
         ```
-
     === "Correction"
         ```python linenums='1'         
-         class Carte:
-             def __init__(self, c, v):
-                 """Initialise Couleur (entre 1 a 4), et Valeur (entre 1 a 13)"""
-                 assert c in range(1,5) # methode 1
-                 assert c in [1,2,3,4] # methode 2
-                 assert c >= 1 and c <= 4 # methode 3
-                 assert c >= 1 # methode 4
-                 assert c <= 4 # methode 4
-                 assert 1 <= c <= 4 # methode 5
-                 assert v >= 1
-                 assert v <= 13
-                 self.couleur = c
-                 self.valeur = v
-                              
-             def getNom(self):
-                 """Renvoie le nom de la Carte As, 2, ... 10, 
-                 Valet, Dame, Roi"""
-                 if ( self.valeur > 1 and self.valeur < 11):
-                     return str( self.valeur)
-                 elif self.valeur == 11:
-                     return "Valet"
-                 elif self.valeur == 12:
-                     return "Dame"
-                 elif self.valeur == 13:
-                     return "Roi"
-                 else:
-                     return "As"
-         
-             def getCouleur(self):
-                 """Renvoie la couleur de la Carte (parmi pique, coeur, carreau, trefle"""
-                 return ['pique', 'coeur', 'carreau', 'trefle' ][self.couleur - 1]
-         
-         class PaquetDeCarte:
-             def __init__(self):
-                 self.contenu = []
-             
-             def remplir(self):
-                 """Remplit le paquet de cartes"""
-                 self.contenu = [Carte(couleur, valeur) for couleur in range(1, 5) for valeur in range( 1, 14) ] 
-         
-             def getCarteAt(self, pos):
-                 """Renvoie la Carte qui se trouve a  la position donnee"""
-                 assert 0 <= pos < len(self.contenu) 
-                 return self.contenu[pos]
-                 ```
+        class Carte:
+            def __init__(self, c, v):
+                """Initialise Couleur (entre 1 a 4), et Valeur (entre 1 a 13)"""
+                assert c in range(1,5) # methode 1
+                assert c in [1,2,3,4] # methode 2
+                assert c >= 1 and c <= 4 # methode 3
+                assert c >= 1 # methode 4
+                assert c <= 4 # methode 4
+                assert 1 <= c <= 4 # methode 5
+                assert v >= 1
+                assert v <= 13
+                self.couleur = c
+                self.valeur = v
+                             
+            def getNom(self):
+                """Renvoie le nom de la Carte As, 2, ... 10, 
+                Valet, Dame, Roi"""
+                if ( self.valeur > 1 and self.valeur < 11):
+                    return str( self.valeur)
+                elif self.valeur == 11:
+                    return "Valet"
+                elif self.valeur == 12:
+                    return "Dame"
+                elif self.valeur == 13:
+                    return "Roi"
+                else:
+                    return "As"
+        
+            def getCouleur(self):
+                """Renvoie la couleur de la Carte (parmi pique, coeur, carreau, trefle"""
+                return ['pique', 'coeur', 'carreau', 'trefle' ][self.couleur - 1]
+        
+        class PaquetDeCarte:
+            def __init__(self):
+                self.contenu = []
+            
+            def remplir(self):
+                """Remplit le paquet de cartes"""
+                self.contenu = [Carte(couleur, valeur) for couleur in range(1, 5) for valeur in range( 1, 14) ] 
+        
+            def getCarteAt(self, pos):
+                """Renvoie la Carte qui se trouve a  la position donnee"""
+                assert 0 <= pos < len(self.contenu) 
+                return self.contenu[pos]
+                ```
+
     
 
 
