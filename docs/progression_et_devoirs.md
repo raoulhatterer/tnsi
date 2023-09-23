@@ -23,3 +23,9 @@
     ??? note "Devoirs"
         - Réviser la POO
 
+!!! done "séance 5 (4h jeudi 21/09/23):"
+    - POO : Correction du TP
+    — POO : Correction des exercices 5 (compte bancaire) et 6 (jeu de cartes)
+    ??? note "Devoirs"
+        - Réviser la POO
+        - Exercice 8 p 46 à déposer sur Capytale (code fa75-1894358)
