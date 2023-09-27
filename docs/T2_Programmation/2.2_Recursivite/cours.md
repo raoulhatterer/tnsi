@@ -170,6 +170,7 @@ Cette fonction ```mystere(n)``` calcule donc la somme des entiers positifs infé
         ```
 
 
+
 !!! example "{{ exercice() }}"
     === "Énoncé"
         On considère la fonction ```factorielle(n)``` (notée $n!$ en mathématiques), qui calcule le produit d'un entier $n$ par les entiers positifs qui lui sont inférieurs:
@@ -180,11 +181,12 @@ Cette fonction ```mystere(n)``` calcule donc la somme des entiers positifs infé
 
         Par convention, $1!=1$
 
-        1. Programmer de manière impérative (manière *classique*) la fonction factorielle. On l'appelera ```fact_imp()```. 
-        2. Programmer de façon récursive la fonction factorielle. On l'appelera ```fact_rec()```.
+        1. Programmer de manière impérative (dite aussi manière *itérative* ou manière *classique*) la fonction factorielle. On l'appelera ```fact_imp```. 
+        2. Programmer de façon récursive la fonction factorielle. On l'appelera ```fact_rec```.
 
         Quelle paradigme de programmation vous a semblé le plus naturel ?
     === "Correction"
+        
         ```python linenums='1'
         def fact_imp(n):
             p = 1
@@ -198,6 +200,7 @@ Cette fonction ```mystere(n)``` calcule donc la somme des entiers positifs infé
             else:
                 return n * fact_rec(n - 1)
         ```
+        
 
 <!--
 
@@ -276,6 +279,7 @@ On a donc $F_2=0+1=1, F_3=F_2+F_1=1+1=2, F_4=F_3+F_2=2+1=3, F_5=F_4+F_3=3+2=5$ .
     === "Énoncé"
         Implémenter de façon récursive la suite de Fibonnaci.
     === "Correction"
+        {#
         ```python linenums='1'
         def fibo(n):
             if n == 0 :
@@ -285,6 +289,7 @@ On a donc $F_2=0+1=1, F_3=F_2+F_1=1+1=2, F_4=F_3+F_2=2+1=3, F_5=F_4+F_3=3+2=5$ .
             else :
                 return fibo(n-1) + fibo(n-2)
         ```
+        #}
 
 
 
@@ -321,6 +326,7 @@ On y remarque (par exemple) que ```fibo(2)``` est calculé 5 fois...
     === "Énoncé"
         Écrire une fonction ```fibo_imperatif(n)``` qui calcule de façon directe (*impérative*) le n-ième terme de la suite de Fibonnaci.
     === "Correction"
+        {#
         ```python linenums='1'
         def fibo_imperatif(n):
             a = 0
@@ -331,6 +337,7 @@ On y remarque (par exemple) que ```fibo(2)``` est calculé 5 fois...
                 a = t
             return b
         ```
+        #}
 
 
 
@@ -396,5 +403,4 @@ trace(5,100)
 <center>
 <gif-player src="https://glassus.github.io/terminale_nsi/T2_Programmation/2.2_Recursivite/data/arbre.gif" speed="1" play></gif-player>
 </center>
-
 

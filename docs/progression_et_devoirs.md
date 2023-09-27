@@ -29,3 +29,11 @@
     ??? note "Devoirs"
         - Exercice 8 p 46 à déposer sur Capytale (code fa75-1894358)
         - Réviser la POO (contrôle)
+
+!!! done "séance 6 (2h mardi 26/09/23):"
+    - Contrôle n°1 
+        - exercice 1: POO
+        - exercice 2: dictionnaires 
+    ??? note "Devoirs"
+        - Venir avec l'énoncé du Contrôle n°1
+
