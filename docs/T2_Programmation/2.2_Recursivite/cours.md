@@ -265,7 +265,7 @@ Nous reparlerons aussi de récursivité lorsque nous l'inscrirons dans un paradi
 
 ## 4. Exemples de récursivité double
 
-### 4.1 La suite de Fibonnaci
+### 4.1 La suite de Fibonacci
 Considérons la suite numérique ainsi définie :
 
 - $F_0 = 0$
@@ -277,7 +277,7 @@ On a donc $F_2=0+1=1, F_3=F_2+F_1=1+1=2, F_4=F_3+F_2=2+1=3, F_5=F_4+F_3=3+2=5$ .
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
-        Implémenter de façon récursive la suite de Fibonnaci.
+        Implémenter de façon récursive la suite de Fibonacci.
     === "Correction"
         {#
         ```python linenums='1'
@@ -312,7 +312,7 @@ On s'aperçoit notamment que :
 - conséquence de la remarque précédente : le calcul de $F_2$ s'effectue 2 fois. Une amélioration future (appelée **mémoïsation**, voir le cours de programmation dynamique) sera de conserver cette valeur de $F_2$ afin d'améliorer les calculs.
 
 
-Observation sur [Capytale](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/2692-90916) avec ```rcviz```  
+Observation sur Capytale (code cca1-1932300) avec ```rcviz``` (Module Python pour visualiser une récursion sous forme d'arbre avec des arguments et des valeurs de retour à chaque nœud.)  
 
 On peut y construire par exemple l'arbre d'appel de ```fibo(6)``` :
 
@@ -324,7 +324,7 @@ On y remarque (par exemple) que ```fibo(2)``` est calculé 5 fois...
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
-        Écrire une fonction ```fibo_imperatif(n)``` qui calcule de façon directe (*impérative*) le n-ième terme de la suite de Fibonnaci.
+        Écrire une fonction ```fibo_imperatif(n)``` qui calcule de façon directe (*impérative*) le n-ième terme de la suite de Fibonacci.
     === "Correction"
         {#
         ```python linenums='1'
@@ -401,6 +401,6 @@ trace(5,100)
 
 
 <center>
-<gif-player src="https://glassus.github.io/terminale_nsi/T2_Programmation/2.2_Recursivite/data/arbre.gif" speed="1" play></gif-player>
+<gif-player src="https://raoulhatterer.github.io/tnsi/T2_Programmation/2.2_Recursivite/data/arbre.gif" speed="1" play></gif-player>
 </center>
 
