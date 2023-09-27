@@ -1,3 +1,224 @@
+# Récursivité
+
+![image](data/BO.png){: .center}
+
+
+![image](data/infini.jpeg){: .center width=60%}
+
+## 1. Première approche
+### 1.1. Définition
+
+!!! abstract "Fonction récursive :heart:"
+    Une fonction est dite récursive lorsqu'elle fait appel à elle-même dans sa propre définition. 
+
+### 1.2 Un très mauvais exemple
+C'est déjà une première chose à comprendre : un programme **peut** être appelé par lui-même, à l'intérieur de sa propre définition.
+
+
+
+```python linenums='1'
+def prems():
+    print("un très mauvais exemple")
+    prems()
+```
+
+Si on appelle cette fonction, par la commande :
+
+```python
+>>> prems()
+```
+La sortie en console sera celle-ci :
+
+```
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+un très mauvais exemple
+...
+```
+
+Évidemment, comme prévu, ce programme ne s'arrête pas. Nous sommes obligés de l'arrêter manuellement. Nous sommes (volontairement) tombés dans un piège qui sera systématiquement présent lors d'une programmation récursive : [le piège de la boucle infinie](data/meme2.gif){target=_blank}.  
+
+
+### 1.3 [La mauvaise réputation](https://youtu.be/26Nuj6dhte8){target=_blank}
+
+Dans la culture informatique, la récursivité est (trop) souvent abordée par le biais de l'auto-référence, le puits sans fin de la boucle infinie.
+
+On trouve d'ailleurs fréquemment cette définition de la récursivité :
+
+> **Fonction récursive** : fonction qui fait appel à la récursivité. Voir *fonction récursive*.
+
+Google fait aussi (dans toutes les langues) la même blague lors d'une recherche sur le terme «récursivité» :
+
+![image](data/google.png){: .center width=50%}
+
+
+
+Les [acronymes récursifs](https://fr.wikipedia.org/wiki/Sigles_auto-r%C3%A9f%C3%A9rentiels){target=_blank} sont aussi très fréquents... et véhiculent avec eux le même piège : une fonction récursive ne serait *jamais vraiment définie* (c'est faux, nous le verrons)
+
+Par exemple :
+
+- GNU (dans GNU/Linux) signifie GNU is Not Unix. On ne sait jamais vraiment ce que signifie GNU...  
+- PHP (le langage serveur) sigifie PHP: Hypertext Preprocessor
+- VISA (les cartes bancaires) signifie VISA International Service Association.
+
+
+
+## 2. La récursivité, ça marche !
+
+Disons-le clairement : au-delà de la blague pour initiés (dont vous faites partie maintenant) la récursivité ne DOIT PAS être associée à une auto-référence vertigineuse : c'est en algorithmique une méthode (parfois) très efficace, à condition de respecter une règle cruciale :  :star: :star: :star: **l'existence d'un CAS DE BASE** :star: :star: :star: .  
+
+Ce «cas de base» sera aussi appelé «condition d'arrêt», puisque la très grande majorité des algorithmes récursifs peuvent être perçus comme des escaliers qu'on descend marche par marche, jusqu'au sol qui assure notre arrêt.
+
+
+### 2.1 La récursivité en BD :
+
+
+
+[![image](data/bd.png){: .center width=70%}](data/bd.png){:target="_blank"}
+
+
+Observez bien la descente puis la remontée de notre vendeur de livre. 
+Le cas de base est ici l'étage 0. Il empêche une descente infinie.
+
+Nous coderons bientôt la fonction donnant le prix du livre en fonction de l'étage.
+
+Pour l'instant, découvrons enfin à quoi ressemble une fonction récursive «bien écrite» :
+
+### 2.2 Enfin un bon exemple
+
+!!! note "Exemple fondateur n°1 :heart:"
+    ```python linenums='1'
+    def mystere(n):
+        if n == 0 :
+            return 0
+        else : 
+            return n + mystere(n-1)
+    ```
+
+
+
+Trois choses sont essentielles et doivent se retrouver dans tout programme récursif :
+
+- ```lignes 2 et 3``` :  le cas de base (si ```n``` vaut 0 on renvoie *vraiment* une valeur, en l'occurence 0)
+- ```ligne 5``` : l'appel récursif
+- ```ligne 5``` : la décrémentation du paramètre d'appel
+
+
+**Utilisation de la fonction ```mystere```** 
+
+```python
+>>> mystere(0)
+0
+>>> mystere(4)
+10
+```
+
+!!! aide "Analyse grâce à PythonTutor"
+    <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20mystere%28n%29%3A%0A%20%20%20%20if%20n%20%3D%3D%200%20%3A%0A%20%20%20%20%20%20%20%20return%200%0A%20%20%20%20else%20%3A%20%0A%20%20%20%20%20%20%20%20return%20n%20%2B%20mystere%28n-1%29%0A%0Amystere%284%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
+
+Que se passe-t-il lorsqu'on appelle ```mystere(4)``` ?
+
+\begin{align}
+  \rm{mystere(4)} &= 4+ \rm{mystere(3)}\\
+   &= 4+ (3+\rm{mystere(2)}) \\
+   &= 4+ (3+(2+\rm{mystere(1)} )) \\
+   &= 4+ (3+(2+(1+\rm{mystere(0)} ))) \\   
+   &= 4+ (3+(2+(1+0 ))) \\  
+\end{align}
+
+
+On voit que l'existence du cas de base pour $n=0$ est primordiale pour éviter la récursion infinie.
+
+![](data/diag.png){: .center width=40%}
+
+
+Cette fonction ```mystere(n)``` calcule donc la somme des entiers positifs inférieurs ou égaux à $n$.
+
+
+??? info "Remarque historique"
+    ```mystere(100)``` est égal à 5050. 
+    Une anecdote raconte que [Carl Friedrich Gauss](https://fr.wikipedia.org/wiki/Carl_Friedrich_Gauss) trouva cette valeur de 5050 en quelques secondes, devant son instituteur ébahi.  
+    Il venait pour cela d'inventer la formule : 
+    $1+2+3+\dots+n=\frac{n(n+1)}{2}$
+
+    Ici, $1+2+3+\dots+100=\frac{100\times 101)}{2}=50 \times 101=5050$
+
+
+{{ initexo(0) }}
+
+!!! example "{{ exercice() }}"
+    === "Énoncé"
+        Coder la fonction ```prix(etage)``` de la BD présentée plus haut. 
+    === "Correction"
+        ```python linenums='1'
+        def prix(etage):
+            if etage == 0:
+                return 3
+            else:
+                return 2 * prix(etage - 1)
+        ```
+
+
+
+!!! example "{{ exercice() }}"
+    === "Énoncé"
+        On considère la fonction ```factorielle(n)``` (notée $n!$ en mathématiques), qui calcule le produit d'un entier $n$ par les entiers positifs qui lui sont inférieurs:
+
+        $$ n! = n \times (n-1) \times (n-2) \times  \dots \times 3 \times 2 \times 1$$
+        
+        Exemple : $5!=5\times4\times3\times2\times1=120$
+
+        Par convention, $1!=1$
+
+        1. Programmer de manière impérative (dite aussi manière *itérative* ou manière *classique*) la fonction factorielle. On l'appelera ```fact_imp```. 
+        2. Programmer de façon récursive la fonction factorielle. On l'appelera ```fact_rec```.
+
+        Quelle paradigme de programmation vous a semblé le plus naturel ?
+    === "Correction"
+        
+        ```python linenums='1'
+        def fact_imp(n):
+            p = 1
+            for k in range(1, n + 1):
+                p = p * k
+            return p
+
+        def fact_rec(n):
+            if n == 1:
+                return 1
+            else:
+                return n * fact_rec(n - 1)
+        ```
+        
+
+<!--
+
+Lien vers une [correction](https://gist.github.com/glassus/de73e52a753f58e2e29e2ebad5a09871)
+
+-->
+
+## 3. Le mécanisme interne de la récursivité
+
+
+### 3.1 Notion de pile
+Lors d'un appel à une fonction récursive, le processeur utilise une structure de **pile** pour stocker les contextes d'exécution de chaque appel. Dans la notion de pile (voir [ici](../../../T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/)), seule l'instruction «en haut de la pile» peut être traitée et enlevée (on dit «dépilée»).
+
+La pile d'appels de notre fonction ```mystere(5)``` peut donc être schématisée comme ceci :
+
+<center>
+![](https://glassus.github.io/terminale_nsi/T2_Programmation/2.2_Recursivite/data/pile_exec.gif)
+</center>
 
 <!-- ![](data/pile_exec.webp){: .center width=30%} -->
 
@@ -179,5 +400,5 @@ trace(5,100)
 ```
 
 <center>
-![](Https://raoulhatterer.github.io/tnsi/T2_Programmation/2.2_Recursivite/data/arbre.gif)
+![](https://raoulhatterer.github.io/tnsi/T2_Programmation/2.2_Recursivite/data/arbre.gif)
 </center>

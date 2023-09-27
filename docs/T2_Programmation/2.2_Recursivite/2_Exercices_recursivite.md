@@ -293,7 +293,7 @@
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
-        Exercice de diffusion récursive sur Capytale à retrouver [ici](https://capytale2.ac-paris.fr/web/c/ffb5-785788/mlc){. target="_blank"}
+        Exercice de diffusion récursive sur Capytale
 
         ![image](data/diffusion.png){: .center}
         
@@ -331,7 +331,7 @@
 
 
 ## Exercice 
-Exercice 4 du sujet [Amérique du Nord J1](https://glassus.github.io/terminale_nsi/T6_Annales/data/2022/2022_Amerique_Nord_J1.pdf){. target="_blank"}
+Exercice 4 du sujet [Amérique du Nord J1](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2022/2022_Amerique_Nord_J1.pdf){. target="_blank"}
 
 ??? tip "correction Q1.a."
     Proposition 3
