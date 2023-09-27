@@ -217,7 +217,7 @@ Lors d'un appel à une fonction récursive, le processeur utilise une structure 
 La pile d'appels de notre fonction ```mystere(5)``` peut donc être schématisée comme ceci :
 
 <center>
-<gif-player src="https://glassus.github.io/terminale_nsi/T2_Programmation/2.2_Recursivite/data/pile_exec.gif" speed="1" play></gif-player>
+![](https://raoulhatterer.github.io/tnsi/T2_Programmation/2.2_Recursivite/data/pile_exec.gif)
 </center>
 
 <!-- ![](data/pile_exec.webp){: .center width=30%} -->
@@ -299,7 +299,7 @@ Appelons ```F(n)``` la fonction calculant de manière récursive le n-ième term
 
 
 <center>
-<gif-player src="https://glassus.github.io/terminale_nsi/T2_Programmation/2.2_Recursivite/data/pile_fibo.gif" speed="1" play></gif-player>
+![](data/pile_fibo.gif)
 </center>
 
 
@@ -397,10 +397,8 @@ left(90)
 speed(0)
 
 trace(5,100)
-```
+w```
 
 
-<center>
-<gif-player src="https://raoulhatterer.github.io/tnsi/T2_Programmation/2.2_Recursivite/data/arbre.gif" speed="1" play></gif-player>
-</center>
+![](https://raoulhatterer.github.io/tnsi/T2_Programmation/2.2_Recursivite/data/arbre.gif)
 
