@@ -37,3 +37,10 @@
     ??? note "Devoirs"
         - Venir avec l'énoncé du Contrôle n°1
 
+!!! done "séance 7 (4h jeudi 28/09/23):"
+    - POO : Correction du contrôle 
+    - Récursivité
+    ??? note "Devoirs"
+        - Correction du contrôle n°1 
+            - exercice 1: POO
+            - exercice 2: dictionnaires 
