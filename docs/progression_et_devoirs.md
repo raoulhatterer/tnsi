@@ -44,3 +44,8 @@
         - Correction du contrôle n°1 
             - exercice 1: POO
             - exercice 2: dictionnaires 
+
+!!! done "séance 8 (2h mardi 3/10/23):"
+    - Exercices récursivité
+    ??? note "Devoirs"
+        - Exercices 1 à 6 sur la récursivité (déposer un Notebook dans votre répertoire personnel)
