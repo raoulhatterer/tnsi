@@ -1,4 +1,4 @@
-># Progression et devoirs
+># mercredi 4/11/2023ercredi 4/11/2023ercredi 4/11/2023rogression et devoirs
 
 !!! done "séance 1 (4h jeudi 7/09/23):"
     - TP d'introduction à la POO
@@ -45,7 +45,13 @@
             - exercice 1: POO
             - exercice 2: dictionnaires 
 
-!!! done "séance 8 (2h mardi 3/10/23):"
+!!! done "séance 8 (2h mardi 3/11/23):"  
     - Exercices récursivité
     ??? note "Devoirs"
         - Exercices 1 à 6 sur la récursivité (déposer un Notebook dans votre répertoire personnel)
+
+!!! done "séance 9 (4h jeudi 5/10/23):"
+    - Correction détaillée du contrôle 
+    - Récursivité
+    ??? note "Devoirs"
+        - Exercices 7 et 8 sur la récursivité
