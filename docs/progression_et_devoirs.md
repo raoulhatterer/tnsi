@@ -1,4 +1,4 @@
-># mercredi 4/11/2023ercredi 4/11/2023ercredi 4/11/2023rogression et devoirs
+># Progression et devoirs
 
 !!! done "séance 1 (4h jeudi 7/09/23):"
     - TP d'introduction à la POO
