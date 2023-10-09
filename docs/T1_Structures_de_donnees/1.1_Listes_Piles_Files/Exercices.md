@@ -2,7 +2,7 @@
 
 !!! example "Exercice 1"
     === "Énoncé"
-        Exercice 5 du sujet [Centres Étrangers 1 - 2021](https://glassus.github.io/terminale_nsi/T6_Annales/data/2021/21_Centres_Etrangers_1.pdf){. target="blank"}
+        Exercice 5 du sujet [Centres Étrangers 1 - 2021](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2021/21_Centres_Etrangers_1.pdf){. target="blank"}
 
     === "Corr. Q1"
         ![image](data/ex1Q1.png){: .center width=50%}
@@ -64,7 +64,7 @@
 
 !!! example "Exercice 2"
     === "Énoncé"
-        Exercice 1 du sujet [La Réunion J2 - 2022](https://glassus.github.io/terminale_nsi/T6_Annales/data/2022/2022_LaReunion_J2.pdf){. target="blank"}
+        Exercice 1 du sujet [La Réunion J2 - 2022](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2022/2022_LaReunion_J2.pdf){. target="blank"}
 
     === "Corr. Q1"
         ![image](data/ex2Q1.png){: .center width=70%}
@@ -94,7 +94,7 @@
 
 !!! example "Exercice 3"
     === "Énoncé"
-        Exercice 2 du sujet [Métropole Candidats Libres J1 - 2021](https://glassus.github.io/terminale_nsi/T6_Annales/data/2021/21_Metropole_Candidats_libres_1.pdf){. target="blank"}
+        Exercice 2 du sujet [Métropole Candidats Libres J1 - 2021](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2021/21_Metropole_Candidats_libres_1.pdf){. target="blank"}
 
     === "Corr. Q1a"
         ```python linenums='1'
@@ -138,7 +138,7 @@
 
 !!! example "Exercice 4"
     === "Énoncé"
-        Exercice 5 du sujet [Amérique du Nord J1 - 2021](https://glassus.github.io/terminale_nsi/T6_Annales/data/2021/21_Am%C3%A9rique_du_Nord.pdf){. target="blank"}
+        Exercice 5 du sujet [Amérique du Nord J1 - 2021](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2021/21_Am%C3%A9rique_du_Nord.pdf){. target="blank"}
 
     === "Corr. Q1a"
         Le contenu de la pile P sera 
@@ -205,7 +205,7 @@
 
 !!! example "Exercice 5"
     === "Énoncé"
-        Exercice 2 du sujet [Centres Étrangers J1 - 2022](https://glassus.github.io/terminale_nsi/T6_Annales/data/2022/2022_Centres_Etrangers_J1.pdf){. target="blank"}
+        Exercice 2 du sujet [Centres Étrangers J1 - 2022](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2022/2022_Centres_Etrangers_J1.pdf){. target="blank"}
 
     === "Corr. Q1"
         Il faut écrire l'instruction : 
@@ -352,11 +352,6 @@
     Par contre, la chaîne ```'dabAcCaCBAcCcaDA'``` sur laquellle nous avons travaillé n'est qu'un exemple...
     La **vraie** chaîne contient 50000 caractères : 
 
-<!--
-    ici anciennement inclusion du fichier chaine.md mais plantage ?
--->
-
-
     Anecdotique ? Pas vraiment...
 
     Effectuez la réduction de cette chaîne avec votre programme précédent. Que remarquez-vous ?
@@ -393,7 +388,7 @@
 
     Cet exercice peut être résolu **beaucoup** plus efficacement grâce à l'utilisation d'une pile... mais comment ?
 
-    Vous pouvez utiliser l'implémentation de pile disponible [ici](https://glassus.github.io/terminale_nsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/#321-a-laide-du-type-list-de-python){. target="_blank"}.
+    Vous pouvez utiliser l'implémentation de pile disponible [ici](https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/#321-a-laide-du-type-list-de-python){. target="_blank"}.
 
 
     ??? aide "Aide à la construction de l'algorithme"
@@ -427,9 +422,8 @@
 
         Le résultat est cette fois immédiat : 0.04 secondes sur ma machine, soit environ 1000 fois plus rapide que le code précédent.
 
-### Exercice 7
 !!! example "Exercice 7"
-    Exercice 3 du sujet [Centres Etrangers J1 - 2023](https://glassus.github.io/terminale_nsi/T6_Annales/data/2023/2023_Centres_Etrangers_J1.pdf){. target="blank"}
+    Exercice 3 du sujet [Centres Etrangers J1 - 2023](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2023/2023_Centres_Etrangers_J1.pdf){. target="blank"}
 
     [Jeu du Simon](https://www.memozor.com/fr/jeux-du-simon/jeu-du-simon){. target="_blank"}
 
