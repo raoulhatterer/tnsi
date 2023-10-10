@@ -12,14 +12,15 @@
 
 
 !!! note ":star: Thème en cours d'étude :star: "
-    - :arrow_right: [T2 Programmation > Récursivité](T2_Programmation/2.2_Recursivite/cours/) 
+    - :arrow_right: [Listes / piles / files](T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/)
+
 
 
 ### *Thèmes déjà traités*
 
 
 - :arrow_right: [T2 Programmation > POO](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/) 
-
+- :arrow_right: [T2 Programmation > Récursivité](T2_Programmation/2.2_Recursivite/cours/) 
 
 
 
@@ -46,7 +47,6 @@
 - [Arbres](T1_Structures_de_donnees/1.3_Arbres/cours/)
 - [Langage SQL](T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
 - [Modèle relationnel](T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
-- [Listes / piles / files](T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/)
 - [Projet en POO sur les balles rebondissantes](T2_Programmation/2.1_Programmation_Orientee_Objet/TP/)   
 - [Programmation Orientée Objet](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/)   
 - [https://www.youtube.com/watch?v=PvpeSYVNVrE](https://www.youtube.com/watch?v=PvpeSYVNVrE)

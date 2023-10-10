@@ -55,3 +55,10 @@
     - Récursivité
     ??? note "Devoirs"
         - Exercices 7 et 8 sur la récursivité
+
+!!! done "séance 10 (2h mardi 10/11/2023):"  
+    - Exercice 6 récursivité
+    - T1 > 1 Liste, Pile, File
+    ??? note "Devoirs"
+        - récursivité: [exercice-042](https://raoulhatterer.github.io/tnsi/T6_6_Epreuve_pratique/BNS_2022/#exercice-042)
+        - Exercice 5 sur la création d'une pile
