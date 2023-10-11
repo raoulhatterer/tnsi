@@ -398,7 +398,12 @@ class Cellule :
         {{ correction(False,
         "
         ```python linenums='1'
-        class Pile:
+        class Cellule :
+        def __init__(self, contenu, suivante):
+            self.contenu = contenu
+            self.suivante = suivante
+
+class Pile:
             def __init__(self):
                 self.data = None
             
@@ -413,7 +418,7 @@ class Cellule :
                 self.data = self.data.suivante  # on supprime la 1ère cellule  
                 return v
             
-            def __str__(self):
+            def __repr__(self):
                 s = '|'
                 c = self.data
                 while c != None :
@@ -702,12 +707,3 @@ class File:
 
 
 
-
----
-## Bibliographie
-- Numérique et Sciences Informatiques, Terminale, T. BALABONSKI, S. CONCHON, J.-C. FILLIATRE, K. NGUYEN, éditions ELLIPSES.
-- Prépabac NSI, Terminale, G.CONNAN, V.PETROV, G.ROZSAVOLGYI, L.SIGNAC, éditions HATIER.
-- Cours du DIU-EIL, David RENAULT, Université de Bordeaux.
-
-
----
