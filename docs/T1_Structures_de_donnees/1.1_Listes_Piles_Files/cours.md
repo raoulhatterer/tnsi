@@ -395,7 +395,7 @@ class Cellule :
         À l'aide cette classe, re-créer une classe ```Pile``` disposant exactement de la même interface que dans l'exercice précédent.
 
     === "Correction :heart:"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         class Cellule :

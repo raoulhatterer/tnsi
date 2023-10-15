@@ -62,3 +62,8 @@
     ??? note "Devoirs"
         - récursivité: [exercice-042](https://raoulhatterer.github.io/tnsi/T6_6_Epreuve_pratique/BNS_2022/#exercice-042)
         - Exercice 5 sur la création d'une pile
+
+!!! done "séance 11 (4h jeudi 12/10/2023):"
+    - Propagation d'un couleur par récursivité
+    ??? note "Devoirs"
+        - Exercice 6: Simuler une gestion de l'historique de navigation internet à l'aide d'une pile
