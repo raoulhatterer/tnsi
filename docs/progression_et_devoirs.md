@@ -68,3 +68,8 @@
     ??? note "Devoirs"
         - Exercice 6: Simuler une gestion de l'historique de navigation internet à l'aide d'une pile
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 12 (2h mardi 17/10/2023):"
+    - Les files
+    ??? note "Devoirs"
+        - [Exercices 1 et 2 sur les listes, piles et files] (https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/Exercices/)
