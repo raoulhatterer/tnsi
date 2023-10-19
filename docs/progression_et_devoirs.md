@@ -72,4 +72,4 @@
 !!! done "séance 12 (2h mardi 17/10/2023):"
     - Les files
     ??? note "Devoirs"
-        - [Exercices 1 et 2 sur les listes, piles et files] (https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/Exercices/)
+        - [Exercices 1 et 2 sur les listes, piles et files](https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/Exercices/)
