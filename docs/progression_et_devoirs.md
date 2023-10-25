@@ -73,3 +73,10 @@
     - Les files
     ??? note "Devoirs"
         - [Exercices 1 et 2 sur les listes, piles et files](https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/Exercices/)
+
+
+!!! done "séance 13 (2h jeudi 19/10/2023):"
+    - [Exercices sur les listes, piles et files](https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/Exercices/)
+    ??? note "Devoirs"
+        - Réviser contrôle sur les listes, piles et files et les chapitres étudiés précédemment
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
