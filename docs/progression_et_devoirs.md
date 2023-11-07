@@ -85,5 +85,5 @@
     - Contrôle n°2 (1h)
     - [T4 Base de données > Modèle relationnel](T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
     ??? note "Devoirs"
-        - Exercices sur le modèle relationnel
+        - Exercices sur le modèle relationnel 
 
