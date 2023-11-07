@@ -14,16 +14,16 @@
 
 
 !!! note ":star: Thème en cours d'étude :star: "
-    - :arrow_right: [Listes / piles / files](T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/)
-
-
+    - [T4 Base de données](T4_Bases_de_donnees/sommaire/)
+        - :arrow_right: [Modèle relationnel](T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
+{#        - :arrow_right: [Langage SQL](T4_Bases_de_donnees/4.2_Langage_SQL/cours/) #}
 
 ### *Thèmes déjà traités*
 
 
 - :arrow_right: [T2 Programmation > POO](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/) 
 - :arrow_right: [T2 Programmation > Récursivité](T2_Programmation/2.2_Recursivite/cours/) 
-
+- :arrow_right: [T1 Structures de donnees > Listes / piles / files](T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/)
 
 
 {#

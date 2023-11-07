@@ -80,3 +80,10 @@
     ??? note "Devoirs"
         - Réviser contrôle sur les listes, piles et files et les chapitres étudiés précédemment
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 14 (2h mardi 7/11/2023):"
+    - Contrôle n°2 (1h)
+    - [T4 Base de données > Modèle relationnel](T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
+    ??? note "Devoirs"
+        - Exercices sur le modèle relationnel
+
