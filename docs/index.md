@@ -13,12 +13,13 @@
 
 
 
-!!! note ":star: Thème en cours d'étude :star: "
+### :high_brightness: Thème en cours d'étude 
+!!! note ""
     - :arrow_right: [T4 Base de données](T4_Bases_de_donnees/sommaire/)
 
 
 
-### *Thèmes déjà traités*
+### Thèmes déjà traités
 
 
 - :arrow_right: [T2 Programmation > POO](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/) 
