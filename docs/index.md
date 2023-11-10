@@ -14,8 +14,8 @@
 
 
 !!! note ":star: Thème en cours d'étude :star: "
-    - [T4 Base de données](T4_Bases_de_donnees/sommaire/)
-        - :arrow_right: [Modèle relationnel](T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
+    - :arrow_right: [T4 Base de données](T4_Bases_de_donnees/sommaire/)
+
 
 
 ### *Thèmes déjà traités*

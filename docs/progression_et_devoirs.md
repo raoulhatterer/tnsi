@@ -75,7 +75,7 @@
         - [Exercices 1 et 2 sur les listes, piles et files](https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/Exercices/)
 
 
-!!! done "séance 13 (2h jeudi 19/10/2023):"
+!!! done "séance 13 (4h jeudi 19/10/2023):"
     - [Exercices sur les listes, piles et files](https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/Exercices/)
     ??? note "Devoirs"
         - Réviser contrôle sur les listes, piles et files et les chapitres étudiés précédemment
@@ -86,4 +86,13 @@
     - [T4 Base de données > Modèle relationnel](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
     ??? note "Devoirs"
         - Exercices sur le modèle relationnel 
+
+!!! done "séance 15 (4h jeudi 9/11/2023):"
+    - Correction du contrôle n°2
+    - Correction des exercices sur le modèle relationnel
+    - [T4 Base de données > SQL](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
+    - Exercice d'application : The SQL Murder Mystery
+    ??? note "Devoirs"
+        - Certains élèves doivent **revoir les listes, piles et files** qu'ils ne maîtrisent pas encore suffisamment.
+        - Terminer l'exercice d'application : The SQL Murder Mystery
 
