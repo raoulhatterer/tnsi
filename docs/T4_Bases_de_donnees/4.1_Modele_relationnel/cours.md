@@ -186,19 +186,19 @@ Considérons la base de données Tour de France 2020, contenant les relations su
 
 **relation Équipes**
 
-| codeEquipe | nomEquipe                      |
-|------|-----------------------------|
-| ALM  |  AG2R La Mondiale           |
-| AST  |  Astana Pro Team            |
-| TBM  |  Bahrain - McLaren          |
-| BOH  |  BORA - hansgrohe           |
-| CCC  |  CCC Team                   |
-| COF  |  Cofidis, Solutions Crédits |
-| DQT  |  Deceuninck - Quick Step    |
-| EF1  |  EF Pro Cycling             |
-| GFC  |  Groupama - FDJ             |
-| LTS  |  Lotto Soudal               |
-| ...  | ...                         |
+| codeEquipe | nomEquipe                  |
+|------------|----------------------------|
+| ALM        | AG2R La Mondiale           |
+| AST        | Astana Pro Team            |
+| TBM        | Bahrain - McLaren          |
+| BOH        | BORA - hansgrohe           |
+| CCC        | CCC Team                   |
+| COF        | Cofidis, Solutions Crédits |
+| DQT        | Deceuninck - Quick Step    |
+| EF1        | EF Pro Cycling             |
+| GFC        | Groupama - FDJ             |
+| LTS        | Lotto Soudal               |
+| ...        | ...                        |
 
 !!! aide "Écriture classique d'un schéma relationnel :heart:"
     Le schéma relationnel de cette table sera fréquemment donné sous cette forme :  
@@ -211,22 +211,22 @@ Considérons la base de données Tour de France 2020, contenant les relations su
 **relation Coureurs**
 
 | dossard | nomCoureur  | prénomCoureur | codeEquipe |
-|---------------|-------------|---------------|------------|
-| 141           | LÓPEZ       | Miguel Ángel  | AST        |
-| 142           | FRAILE      | Omar          | AST        |
-| 143           | HOULE       | Hugo          | AST        |
-| 11            | ROGLIČ      | Primož        | TJV        |
-| 12            | BENNETT     | George        | TJV        |
-| 41            | ALAPHILIPPE | Julian        | DQT        |
-| 44            | CAVAGNA     | Rémi          | DQT        |
-| 45            | DECLERCQ    | Tim           | DQT        |
-| 121           | MARTIN      | Guillaume     | COF        |
-| 122           | CONSONNI    | Simone        | COF        |
-| 123           | EDET        | Nicolas       | COF        |
-| …             | …           | …             | …          |
+|---------|-------------|---------------|------------|
+| 141     | LÓPEZ       | Miguel Ángel  | AST        |
+| 142     | FRAILE      | Omar          | AST        |
+| 143     | HOULE       | Hugo          | AST        |
+| 11      | ROGLIČ      | Primož        | TJV        |
+| 12      | BENNETT     | George        | TJV        |
+| 41      | ALAPHILIPPE | Julian        | DQT        |
+| 44      | CAVAGNA     | Rémi          | DQT        |
+| 45      | DECLERCQ    | Tim           | DQT        |
+| 121     | MARTIN      | Guillaume     | COF        |
+| 122     | CONSONNI    | Simone        | COF        |
+| 123     | EDET        | Nicolas       | COF        |
+| …       | …           | …             | …          |
 
 Schéma : 
-Equipes ( <ins>dossard</ins>  ```Int```,  nomCoureur ```String```,  prénomCoureur ```String```,   codeEquipe* ```String``` ) 
+Coureurs ( <ins>dossard</ins>  ```Int```,  nomCoureur ```String```,  prénomCoureur ```String```,   codeEquipe* ```String``` ) 
 
 
 
@@ -252,13 +252,13 @@ Schéma :
 **relation Temps**
 
 | dossard | numéroEtape | tempsRéalisé |
-|:-------------:|:-----------:|:------------:|
-| 41            | 2           | 04:55:27     |
-| 121           | 4           | 04:07:47     |
-| 11            | 5           | 04:21:22     |
-| 122           | 5           | 04:21:22     |
-| 41           | 4           | 04:08:24     |
-| ...           | ...         | ...          |
+|:-------:|:-----------:|:------------:|
+| 41      | 2           | 04:55:27     |
+| 121     | 4           | 04:07:47     |
+| 11      | 5           | 04:21:22     |
+| 122     | 5           | 04:21:22     |
+| 41      | 4           | 04:08:24     |
+| ...     | ...         | ...          |
 
 Schéma : 
 Temps ( <ins>dossard</ins>*  ```Int```,  <ins>numéroEtape</ins> *  ```Int```,  tempsRéalisé ```String```) 
