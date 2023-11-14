@@ -96,3 +96,8 @@
         - Certains élèves doivent **revoir les listes, piles et files** qu'ils ne maîtrisent pas encore suffisamment.
         - Terminer l'exercice d'application : The SQL Murder Mystery
 
+!!! done "séance 16 (2h mardi 14/11/2023):"
+    - Correction de l'exercice d'application : The SQL Murder Mystery
+    ??? note "Devoirs"
+        - Réviser test sur les bases de données
+
