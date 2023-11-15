@@ -113,6 +113,7 @@ plugins:
         - xtra/*.md           # inutile de chercher cela
   - awesome-pages:
         collapse_single_pages: true
+  - sqlite-console        
   - macros
 
 extra_javascript:
