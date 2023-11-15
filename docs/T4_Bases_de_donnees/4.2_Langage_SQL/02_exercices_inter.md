@@ -795,36 +795,178 @@
 
 
 !!! abstract "{{ exercice() }}"
-    Cet exercice en ligne est proposé le Knight Lab de l'université américaine Northwerstern University.
-
-    ![](data/murdermystery.png){: .center width=50%}
-
-    **Le point de départ de l'histoire** : un meurtre a été commis **dans la ville de SQL City le 15 janvier 2018.**
-
-    À partir de ce point de départ et d'une base de données dont le diagramme est donné ci-dessous, il s'agit de trouver le meurtrier.
-
-    ![](data/schemaMM.png){: .center width=100%}
-
-    ???+ note "Zone d'enquête :octicons-search-16: (à coups de requêtes)"
-        Il est conseillé de travailler avec un Bloc-Notes ouvert à côté afin d'y coller les renseignements obtenus.
-
-        {!{ sqlide titre="Tapez votre requête ci-dessous"  base="T4_Bases_de_donnees/4.2_Langage_SQL/data/sql-murder-mystery.db" }!}
-
-    ??? question "Vous pensez avoir trouvé le meurtrier ?"
-        Copiez la requête 
-        ```sql
-        INSERT INTO solution VALUES (1, 'nom du meurtrier');
-        SELECT value FROM solution;
-        ```
-        
-
-        {!{ sqlide titre="dans le champ ci-dessous :"  base="T4_Bases_de_donnees/4.2_Langage_SQL/data/sql-murder-mystery.db" }!}
-
-
-    Sur [la page officielle](https://mystery.knightlab.com/walkthrough.html){:target="_blank"}, vous pouvez être guidés étape par étape jusqu'à la recherche du meurtrier (qui n'est pas la fin de l'énigme !)
-
-    - Vous pouvez si vous le souhaitez télécharger la base [sql-murder-mystery.db](data/sql-murder-mystery.db). 
-
+    === "Énoncé"
+        Cet exercice en ligne est proposé le Knight Lab de l'université américaine Northwerstern University.
     
-    - [Correction](https://gist.github.com/raoulhatterer/ee2e0727e5577852705b6d11b5523f83){:target="_blank"}
+        ![](data/murdermystery.png){: .center width=50%}
+    
+        **Le point de départ de l'histoire** : un meurtre a été commis **dans la ville de SQL City le 15 janvier 2018.**
+    
+        À partir de ce point de départ et d'une base de données dont le diagramme est donné ci-dessous, il s'agit de trouver le meurtrier.
+    
+        ![](data/schemaMM.png){: .center width=100%}
+
+    === "Zone d'enquête"
+        ???+ note "Zone d'enquête :octicons-search-16: (à coups de requêtes)"
+            Il est conseillé de travailler avec un Bloc-Notes ouvert à côté afin d'y coller les renseignements obtenus.
+    
+            {!{ sqlide titre="Tapez votre requête ci-dessous"  base="T4_Bases_de_donnees/4.2_Langage_SQL/data/sql-murder-mystery.db" }!}
+    
+        ??? question "Vous pensez avoir trouvé le meurtrier ?"
+            Copiez la requête 
+            ```sql
+            INSERT INTO solution VALUES (1, 'nom du meurtrier');
+            SELECT value FROM solution;
+            ```
+            
+    
+            {!{ sqlide titre="dans le champ ci-dessous :"  base="T4_Bases_de_donnees/4.2_Langage_SQL/data/sql-murder-mystery.db" }!}
+    
+    
+        Sur [la page officielle](https://mystery.knightlab.com/walkthrough.html){:target="_blank"}, vous pouvez être guidés étape par étape jusqu'à la recherche du meurtrier (qui n'est pas la fin de l'énigme !)
+    
+        - Vous pouvez si vous le souhaitez télécharger la base [sql-murder-mystery.db](data/sql-murder-mystery.db). 
+    
+    === "Correction"
+        ```sql
+        -- Requette:
+        SELECT * FROM crime_scene_report 
+        
+        Résultat:
+        -- Affichage de la table complète 
+        -- On voit qu'il y a une description qu'il devrait être intéressant de consulter. 
+        ___________________________________________________________________________________________
+        -- Requette:
+        SELECT description FROM crime_scene_report
+        WHERE date = 20180115
+        AND type = 'murder'
+        AND city = 'SQL City';
+        
+        Résultat:
+        -- Security footage shows that there were 2 witnesses. 
+        -- The first witness lives at the last house on "Northwestern Dr". 
+        -- The second witness, named Annabel, lives somewhere on "Franklin Ave".
+        
+        Commentaire: 
+        -- Le rapport est de toute évidence incomplet.
+        -- Mais comme deux localisations sont données, on va tenter de les exploiter.
+        ___________________________________________________________________________________________
+        -- Requette pour « The first witness lives at the last house on "Northwestern Dr". » :
+        SELECT * FROM person
+        WHERE address_street_name = 'Northwestern Dr'
+        ORDER BY address_number DESC
+        LIMIT 1;
+        
+        Résultat:
+        |-------+----------------+------------+----------------+---------------------+-----------|
+        |    id | name           | license_id | address_number | address_street_name |       ssn |
+        |-------+----------------+------------+----------------+---------------------+-----------|
+        | 14887 | Morty Schapiro |     118009 |           4919 | Northwestern Dr     | 111564949 |
+        ___________________________________________________________________________________________
+                -- Requette pour « The second witness, named Annabel, lives somewhere on "Franklin Ave". »:
+        SELECT * FROM person
+        WHERE name LIKE '%Annabel%' and address_street_name = 'Franklin Ave';
+        
+        Résultat:
+        |-------+----------------+------------+----------------+---------------------+-----------|
+        |    id | name           | license_id | address_number | address_street_name |       ssn |
+        |-------+----------------+------------+----------------+---------------------+-----------|
+        | 16371 | Annabel Miller |     490173 |            103 | Franklin Ave        | 318771143 |
+        |-------+----------------+------------+----------------+---------------------+-----------|
+        
+        Commentaire: 
+        -- On a identifié les deux témoins: Morty Schapiro et Annabel Miller
+        -- id de la_table person est une clée primaire liée à la clé étrangère person_id 
+        -- de la_table interview  
+        ___________________________________________________________________________________________
+        -- Requette donnant l'interview d'Annabel Miller : 
+        SELECT transcript FROM interview 
+        JOIN person ON person.id = interview.person_id
+        WHERE person.name = 'Annabel Miller';
+        
+        Résultat:
+        -- I saw the murder happen, and I recognized the killer from my gym when
+        -- I was working out last week on January the 9th.
+        ___________________________________________________________________________________________
+        -- Requette donnant l'interview de Morty Schapiro : 
+        SELECT transcript FROM interview 
+        JOIN person ON person.id = interview.person_id
+        WHERE person.name = 'Morty Schapiro';
+        
+        Résultat:
+        -- I heard a gunshot and then saw a man run out. He had a "Get Fit Now Gym" bag.
+        -- The membership number on the bag started with "48Z".
+        -- Only gold members have those bags. The man got into a car with a plate that included "H42W".
+        
+        Commentaire: 
+        -- On aurait pu faire la requette suivante pour avoir toutes ces informations en une fois.
+        SELECT transcript FROM interview 
+        JOIN person ON person.id = interview.person_id
+        WHERE person.name in ('Annabel Miller', 'Morty Schapiro');
+        
+        ___________________________________________________________________________________________
+        -- Requette exploitant ces deux interviews:
+        SELECT person.name FROM person
+        JOIN get_fit_now_member AS member ON person.id = member.person_id
+        JOIN drivers_license AS dl ON person.license_id = dl.id
+        JOIN get_fit_now_check_in AS ci ON ci.membership_id=member.id
+        WHERE member.id LIKE '48Z%' 
+        AND member.membership_status = 'gold'
+        AND dl.plate_number like '%H42W%'
+        AND ci.check_in_date = '20180109';
+        
+        Résultat:
+        /*
+        +---------------+
+        | name          |
+        +---------------+
+        | Jeremy Bowers |
+        +---------------+
+        */
+        -- Commentaire: 
+        -- Ne pas utiliser la date conduit à la même réponse. 
+        -- Mais, il est faux de ne pas vérifier que la date correspond. 
+        -- La personne qui a pris la fuite a été trouvée, voyons sa déposition.
+        ___________________________________________________________________________________________
+        - Requette:
+        SELECT transcript FROM interview
+        JOIN person ON person.id = interview.person_id
+        WHERE person.name = 'Jeremy Bowers';
+        
+        Résultat:
+        -- I was hired by a woman with a lot of money.
+        -- I don't know her name but I know she's around 5'5" (65") or 5'7" (67").
+        -- She has red hair and she drives a Tesla Model S. 
+        -- I know that she attended the SQL Symphony Concert 3 times in December 2017. 
+        
+        Commentaire :
+        -- On a trouvé le meurtrier 
+        -- Mais il faut maintenant chercher la femme qui a commandité le crime.
+        ___________________________________________________________________________________________
+        Requette:
+        SELECT name as nom, fb.date as 'date du concert SQL' FROM person
+        JOIN drivers_license AS dl ON dl.id = person.license_id
+        JOIN facebook_event_checkin AS fb ON fb.person_id = person.id 
+        WHERE fb.event_name LIKE "%SQL%"
+        AND dl.car_make = 'Tesla' 
+        AND dl.car_model = 'Model S'
+        AND dl.hair_color = 'red'
+        AND (65 <= dl.height <= 67);
+        
+        Résultat:
+        /*
+        |-------------------+---------------------|
+        | nom               | date du concert SQL |
+        |-------------------+---------------------|
+        | Miranda  Priestly |            20171206 |
+        |-------------------+---------------------|
+        | Miranda  Priestly |            20171212 |
+        |-------------------+---------------------|
+        | Miranda  Priestly |            20171229 |
+        |-------------------+---------------------|
+        */
+        Commentaire:
+        -- Même si l'on enlève la couleur des cheveux, il n'y a pas plus de résultats.
+        -- La personne qui a commandité le meurtre est donc Miranda Priestly        
+        ```
     
