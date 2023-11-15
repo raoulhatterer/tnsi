@@ -1,5 +1,5 @@
 # Exercices SQL interactifs
-sur des bases de données réelles
+
 
 
 {{initexo(0)}}
@@ -372,10 +372,285 @@ sur des bases de données réelles
     La base de données [locations.db](data/locations.db) contient les tables ```Agences```,```Locations```, ```Vehicules```.
     ![](data/diag_locations.png)
 
-    1. Répondez aux [9 questions](https://colbert.bzh/sql/tp.html?html=locations_1&db=locations){. target="_blank"} sur la relation Agence. (Travail sur SELECT)
-    2. Répondez aux [11 questions](https://colbert.bzh/sql/tp.html?html=locations_2&db=locations){. target="_blank"} sur la relation Véhicules. (Travail sur SELECT plus des fonctions d'agrégation)
-    3. Répondez aux [12 questions](https://colbert.bzh/sql/tp.html?html=locations_3&db=locations){. target="_blank"} sur la relation Locations. (Travail sur des jointures)
-    4. Répondez aux [17 questions](https://colbert.bzh/sql/tp.html?html=locations_4&db=locations){. target="_blank"} sur la relation Véhicules. (Travail sur UPDATE, INSERT, DELETE)
+    {!{ sqlide titre="**Requête :**"  base="T4_Bases_de_donnees/4.2_Langage_SQL/data/locations.db" }!}
+
+    ??? note "Questions sur la relation ```Agences```"
+
+        **Q1**. Visualisez toute la relation ```Agences```
+
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT * 
+            FROM Agences
+            ```            
+        """
+        )
+        }}
+
+
+        **Q2**. Listez uniquement les noms des agences et de leur ville.
+
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT nom, ville 
+            FROM Agences
+            ```           
+        """
+        )
+        }}
+
+
+        **Q3**. Listez les noms des agences de la ville de Lorient
+
+
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT nom 
+            FROM Agences
+            WHERE ville = 'Lorient'
+            ```            
+        """
+        )
+        }}
+
+
+
+        **Q4**. Listez les noms des agences du département du Morbihan (code postal 56***) ainsi que les codes postaux en utilisant par exemple un ```WHERE LIKE```.
+
+
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT nom 
+            FROM Agences
+            WHERE code LIKE '56%'
+            ```            
+        """
+        )
+        }}
+
+
+
+    ??? note "Questions sur la relation ```Vehicules```"
+
+        **Q5**. Déterminez le nombre de voitures que vous possédez. 
+
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT COUNT(*) 
+            FROM Vehicules
+            ```       
+        """
+        )
+        }}
+
+
+
+        **Q6**. Déterminez l'âge minimum et maximum de vos véhicules.
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT MAX(age), MIN(age) 
+            FROM Vehicules
+            ```        
+        """
+        )
+        }}
+
+
+
+        **Q7**. Quels sont la marque et le modèle de votre dernière acquisition qui date de trois mois ?
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT nom 
+            FROM Vehicules
+            WHERE age = 3
+            ```           
+        """
+        )
+        }}
+
+
+        **Q8**.  Quel est le kilométrage maximum des véhicules ?
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT MAX(kilometrage) 
+            FROM Vehicules
+            ```            
+        """
+        )
+        }}
+
+
+        **Q9**.  Quel est le kilométrage moyen des véhicules ?
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT AVG(kilometrage) 
+            FROM Vehicules
+            ```            
+        """
+        )
+        }}
+
+
+
+        **Q10**. Afficher toute la flotte de véhicules par ordre décroissant de kilométrage.
+
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT * 
+            FROM Vehicules
+            ORDER BY kilometrage DESC
+            ```   
+        """
+        )
+        }}
+
+
+
+    ??? note "Questions sur la relation ```Locations```"
+
+        **Q11**. Visualisez toute la relation Locations. 
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT * 
+            FROM Locations
+            ```            
+        """
+        )
+        }}
+
+
+
+        **Q12**. Déterminez le nombre de locations effectuées avec changement d'agence
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT COUNT(*) 
+            FROM Locations
+            WHERE depart != retour
+            ```            
+        """
+        )
+        }}
+
+
+
+
+        **Q13**. Déterminez le nombre total de kilomètres effectués durant les locations
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT SUM(distance) 
+            FROM Locations
+            ```            
+        """
+        )
+        }}
+
+
+
+        **Q14**. Listez toutes les locations en y associant les caractéristiques du véhicule
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT * 
+            FROM Locations
+            JOIN Vehicules ON Locations.vehicule = Vehicules.immatriculation
+            ```            
+        """
+        )
+        }}
+
+
+
+        **Q15**. Affichez le nom et l'immatriculation du véhicule ainsi que la date de la location et le kilométrage réalisé pour chacune des locations
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT Vehicules.nom, Vehicules.immatriculation, Locations.date, Locations.kilometrage 
+            FROM Locations
+            JOIN Vehicules ON Locations.vehicule = Vehicules.immatriculation
+            ```            
+        """
+        )
+        }}
+
+
+
+        **Q16**. Affichez une seule fois le nom et l'immatriculation des véhicules ayant déjà été loués.
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT DISTINCT nom, immatriculation 
+            FROM Locations
+            JOIN Vehicules ON Locations.vehicule = Vehicules.immatriculation
+            ```            
+        """
+        )
+        }}
+ 
+
+
+        **Q17**. Affichez les locations du véhicule immatriculé AB-224-BA en précisant le nom de l'agence de départ ainsi que la ville de départ dans l'ordre chronologique des locations.
+        {{
+        correction(True,
+        """
+        ??? success \"Correction\" 
+            ```sql
+            SELECT Agences.nom, Agences.ville, Locations.* 
+            FROM Locations
+            JOIN Agences ON Locations.depart = Agences.id
+            WHERE vehicule = 'AB-224-BA'
+            ORDER BY Locations.date
+            ```            
+        """
+        )
+        }}
+
+
+
 
 !!! abstract "{{ exercice() }}"
     Championnat de France de Football 2015-2016
@@ -384,8 +659,172 @@ sur des bases de données réelles
    
     La base de données [soccer.db](data/soccer.db) contient les tables ```Team```,```Match```, ```Event```, ```Player```.  
 
-    ![](data/soccer_diag.png)
+    ![](data/soccer_diag2.png)
 
-    1. Répondez à ces [12 questions](https://colbert.bzh/sql/tp.html?html=soccer_1&db=soccer){. target="_blank"} générales.
-    2. Répondez à ces [11 questions](https://colbert.bzh/sql/tp.html?html=soccer_2&db=soccer){. target="_blank"} sur l'équipe de Lorient.
+    {!{ sqlide titre="**Requête :**"  base="T4_Bases_de_donnees/4.2_Langage_SQL/data/soccer.db" }!}
 
+    **Q1**. Combien d'équipes ont participé à ce championnat ?
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```sql
+        SELECT COUNT(*) 
+        FROM Team
+        ```            
+    """
+    )
+    }}
+
+
+    **Q2**. Listez les noms des clubs ainsi que leur date de création dans l'ordre chronologique de leur création.
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```sql
+        SELECT name, birthday 
+        FROM Team
+        ORDER BY birthday
+        ```           
+    """
+    )
+    }}
+
+
+    **Q3**. Combien de pénaltys ont été marqués ?
+
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```sql
+        SELECT COUNT(*) 
+        FROM Event
+        WHERE type='penalty'
+        ```            
+    """
+    )
+    }}
+
+
+
+    **Q4**. Combien de pénaltys ont été sifflés ?
+
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```sql
+        SELECT COUNT(*) 
+        FROM Event
+        WHERE type IN ('penalty','miss')
+        ```            
+    """
+    )
+    }}
+
+
+    **Q5**. Combien de cartons ont été distribués ? 
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```sql
+        SELECT COUNT(*) 
+        FROM Event
+        WHERE type IN ('red','yellow2','yellow')
+        ```       
+    """
+    )
+    }}
+
+
+
+    **Q6**. Combien de buts ont été marqués ?
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```sql
+        SELECT COUNT(*) 
+        FROM Event
+        WHERE type IN ('goal','own','penalty')
+        ```        
+    """
+    )
+    }}
+
+
+
+    **Q7**. Affichez tous les renseignements sur les 10 cartons rouges obtenus le plus rapidement pendant un match.
+
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```sql
+        SELECT * FROM Event
+        WHERE type = 'red'
+        ORDER BY time
+        LIMIT 10
+        ```           
+    """
+    )
+    }}
+
+
+    **Q8**.  Donnez le nom du joueur qui a obtenu le carton rouge le plus rapidement.
+    {{
+    correction(False,
+    """
+    ??? success \"Correction\" 
+        ```sql
+        SELECT name from Player
+        WHERE id=392
+        ```            
+    """
+    )
+    }}
+
+
+
+!!! abstract "{{ exercice() }}"
+    Cet exercice en ligne est proposé le Knight Lab de l'université américaine Northwerstern University.
+
+    ![](data/murdermystery.png){: .center width=50%}
+
+    **Le point de départ de l'histoire** : un meurtre a été commis **dans la ville de SQL City le 15 janvier 2018.**
+
+    À partir de ce point de départ et d'une base de données dont le diagramme est donné ci-dessous, il s'agit de trouver le meurtrier.
+
+    ![](data/schemaMM.png){: .center width=100%}
+
+    ???+ note "Zone d'enquête :octicons-search-16: (à coups de requêtes)"
+        Il est conseillé de travailler avec un Bloc-Notes ouvert à côté afin d'y coller les renseignements obtenus.
+
+        {!{ sqlide titre="Tapez votre requête ci-dessous"  base="T4_Bases_de_donnees/4.2_Langage_SQL/data/sql-murder-mystery.db" }!}
+
+    ??? question "Vous pensez avoir trouvé le meurtrier ?"
+        Copiez la requête 
+        ```sql
+        INSERT INTO solution VALUES (1, 'nom du meurtrier');
+        SELECT value FROM solution;
+        ```
+        
+
+        {!{ sqlide titre="dans le champ ci-dessous :"  base="T4_Bases_de_donnees/4.2_Langage_SQL/data/sql-murder-mystery.db" }!}
+
+
+    Sur [la page officielle](https://mystery.knightlab.com/walkthrough.html){:target="_blank"}, vous pouvez être guidés étape par étape jusqu'à la recherche du meurtrier (qui n'est pas la fin de l'énigme !)
+
+    - Vous pouvez si vous le souhaitez télécharger la base [sql-murder-mystery.db](data/sql-murder-mystery.db). 
+
+    
+    - [Correction](https://gist.github.com/raoulhatterer/ee2e0727e5577852705b6d11b5523f83){:target="_blank"}
+    
