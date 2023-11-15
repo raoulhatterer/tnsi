@@ -388,22 +388,7 @@ Le résultat précédent a permis d'améliorer la visibilité de la table «empr
 
     ![](data/ex14.png)
 
-### 1.4 Exercice d'application : The SQL Murder Mystery 
-Cet exercice en ligne est proposé le Knight Lab de l'université américaine Northwerstern University.
 
-![](data/murdermystery.png){: .center width=50%}
-
-**Le point de départ de l'histoire** : un meurtre a été commis dans la ville de SQL City le 15 janvier 2018.
-
-À partir de ce point de départ et d'une base de données dont le diagramme est donné ci-dessous, il s'agit de trouver le meurtrier.
-
-![](data/schemaMM.png){: .center width=100%}
-
-Rendez-vous sur [cette page](https://mystery.knightlab.com/walkthrough.html){:target="_blank"}, et bonne enquête à coups de requêtes !
-
-- Vous pouvez travailler en ligne ou bien dans votre SGBD préféré, avec la base [sql-murder-mystery.db](data/sql-murder-mystery.db). Attention pour valider votre réponse, il faudra vous rendre en bas de la page officielle.
-
-- Vous pouvez trouver des éléments de correction [ici](https://gist.github.com/raoulhatterer/ee2e0727e5577852705b6d11b5523f83){:target="_blank"}...
 
 ## 2. Création et modification d'une base de données
 
