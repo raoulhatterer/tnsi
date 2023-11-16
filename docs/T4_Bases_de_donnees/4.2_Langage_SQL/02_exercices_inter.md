@@ -845,7 +845,7 @@
         Résultat:
         -- Security footage shows that there were 2 witnesses. 
         -- The first witness lives at the last house on "Northwestern Dr". 
-        -- The second witness, named Annabel, lives somewhere on "Franklin Ave".
+        -- The  witness, named Annabel, lives somewhere on "Franklin Ave".
         
         Commentaire: 
         -- Le rapport est de toute évidence incomplet.
@@ -863,7 +863,7 @@
         |-------+----------------+------------+----------------+---------------------+-----------|
         | 14887 | Morty Schapiro |     118009 |           4919 | Northwestern Dr     | 111564949 |
         ___________________________________________________________________________________________
-                -- Requette pour « The second witness, named Annabel, lives somewhere on "Franklin Ave". »:
+        -- Requette pour « The second witness, named Annabel, lives somewhere on "Franklin Ave". »:
         SELECT * FROM person
         WHERE name LIKE '%Annabel%' and address_street_name = 'Franklin Ave';
         
