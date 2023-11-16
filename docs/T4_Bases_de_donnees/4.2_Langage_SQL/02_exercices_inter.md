@@ -432,7 +432,7 @@
         """
         ??? success \"Correction\" 
             ```sql
-            SELECT nom 
+            SELECT nom, code
             FROM Agences
             WHERE code LIKE '56%'
             ```            
