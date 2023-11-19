@@ -101,3 +101,8 @@
     ??? note "Devoirs"
         - Réviser test sur les bases de données
 
+!!! done "séance 17 (4h jeudi 16/11/2023):"
+    - Exercices SQL
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Réviser les bases de données pour le contrôle de jeudi prochain.
