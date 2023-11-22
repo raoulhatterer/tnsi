@@ -106,3 +106,10 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Réviser les bases de données pour le contrôle de jeudi prochain.
+
+!!! done "séance 18 (2h mardi 21/11/2023):"
+    - Création et modification d'une base de données
+    - Révisions 
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Réviser les bases de données pour le contrôle de jeudi
