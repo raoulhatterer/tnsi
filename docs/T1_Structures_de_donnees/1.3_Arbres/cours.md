@@ -35,9 +35,9 @@ dans l'arbre ci-dessus,
 
 ### 1.2 Exemples d'arbres
 
-#### 1.2.1 La famille royale britannique (avant le 08 septembre 2022)
+#### 1.2.1 La famille royale britannique
 
-![image](data/windsor.png){: .center width=60%}
+![image](data/Famille_royalle_britanique.png){: .center width=60%}
 
 Redessinez de manière plus schématique cet arbre. Pour quelle raison cet arbre a-t-il été modifié par rapport à sa version orginale (voir [ici](https://i.pinimg.com/originals/e8/d1/c7/e8d1c7b2834ce2c368848cf7fc91a057.jpg ) ), qui laissait apparaître les parents de chaque enfant ?
 
