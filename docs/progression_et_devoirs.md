@@ -113,3 +113,15 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Réviser les bases de données pour le contrôle de jeudi
+
+!!! done "séance 19 (4h jeudi 23/11/2023):"
+    - Contrôle SQL
+    - Python-SQL 
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 20 (2h mardi 28/11/2023):"
+    - Mini-projets python-SQL
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Terminer les Mini-projets python-SQL
