@@ -2,111 +2,164 @@
 {{initexo(0)}}
 
 !!! example "{{ exercice() }}"
-    Exercice 2 du sujet [Nouvelle-Calédonie J2 2022](https://glassus.github.io/terminale_nsi/T6_Annales/data/2022/2022_Nouvelle-Caledonie_J2.pdf){. target="_blank"}  
+    === "Énoncé"
+        Exercice 2 du sujet [Nouvelle-Calédonie J2 2022](https://glassus.github.io/terminale_nsi/T6_Annales/data/2022/2022_Nouvelle-Caledonie_J2.pdf){. target="_blank"}  
+    === "Correction"
+        {{
+        correction(False,
+        """
+        ??? success \"Correction 1.\" 
+            C'est un arbre binaire car chaque nœud possède au maximum deux fils.
+        """
+        )
+        }}
+    
+        {{
+        correction(False,
+        """
+        ??? success \"Correction 2.a\" 
+            ```V``` est un dictionnaire. 
+        """
+        )
+        }}
+    
+        {{
+        correction(False,
+        """
+        ??? success \"Correction 2.b\" 
+            ```python
+            V['J']
+            ```
+        """
+        )
+        }}
+    
+        {{
+        correction(False,
+        """
+        ??? success \"Correction 2.c\" 
+            ```python linenums='1'
+            def somme(W):
+                s = 0
+                for cle in W:
+                    s += W[cle]
+                return s
+            ```        
+        """
+        )
+        }}
+    
+    
+            {{
+        correction(False,
+        """
+        ??? success \"Correction 2.d\" 
+            ```python linenums='1'
+            def VMax(W):
+                val_max = 0
+                for cle in W:
+                    if W[cle] > val_max:
+                        val_max = W[cle]
+                        cle_max = cle
+                return cle_max
+            ```        
+        """
+        )
+        }}
+    
+        {{
+        correction(False,
+        """
+        ??? success \"Correction 3.\" 
+            Cet algorithme calcule le nombre total de nœuds de l'arbre, donc sa taille de l'arbre.
+            C'est un algorithme récursif qui va renvoyer, si on n'est pas positionné sur un arbre vide, la valeur 1 (correspond au nœud racine sur lequel on est positionné), plus la taille des deux sous-arbres gauche et droits.         
+        """
+        )
+        }}
+    
+        {{
+        correction(False,
+        """
+        ??? success \"Correction 4.a\" 
+            Le parcours est ```A-B-C-E-D-F-G-I-H-J```         
+        """
+        )
+        }}
+    
+        {{
+        correction(False,
+        """
+        ??? success \"Correction 4.b\" 
+            C'est un parcours préfixe.           
+        """
+        )
+        }}
 
-    ??? tip "Correction 1."
-        C'est un arbre binaire car chaque nœud possède au maximum deux fils. 
-
-    ??? tip "Correction 2.a."
-        ```V``` est un dictionnaire. 
-
-    ??? tip "Correction 2.b."
-        ```python
-        V['J']
-        ```
-
-    ??? tip "Correction 2.c."
-        ```python linenums='1'
-        def somme(W):
-            s = 0
-            for cle in W:
-                s += W[cle]
-            return s
-        ```
-
-    ??? tip "Correction 2.d."
-        ```python linenums='1'
-        def VMax(W):
-            val_max = 0
-            for cle in W:
-                if W[cle] > val_max:
-                    val_max = W[cle]
-                    cle_max = cle
-            return cle_max
-        ```
-
-    ??? tip "Correction 3."
-        Cet algorithme calcule le nombre total de nœuds de l'arbre, donc sa taille de l'arbre.
-        C'est un algorithme récursif qui va renvoyer, si on n'est pas positionné sur un arbre vide, la valeur 1 (correspond au nœud racine sur lequel on est positionné), plus la taille des deux sous-arbres gauche et droits. 
-        
-    ??? tip "Correction 4.a."
-        Le parcours est ```A-B-C-E-D-F-G-I-H-J```  
-
-    ??? tip "Correction 4.b."
-        C'est un parcours préfixe.   
 
 !!! example "{{ exercice() }}"
-    *2020, sujet 0*
-
-    **Question  1**
-
-    Déterminer la taille et la hauteur de l’arbre binaire suivant :
-    ![image](data/ex1a.png){: .center}
-
-    **Question 2**  
-
-    On décide de numéroter en binaire les nœuds d’un arbre binaire de la façon suivante :  
-
-    - la racine correspond à 1 ;
-    - la numérotation pour un fils gauche s’obtient en ajoutant le chiffre 0 à droite au numéro de son
-    père ;
-    - la numérotation pour un fils droit s’obtient en ajoutant le chiffre 1 à droite au numéro de son
-    père ;  
-
-
-    Par exemple, dans l’arbre ci-dessous, on a utilisé ce procédé pour numéroter les nœuds A, B, C, E et
-    F .
-
-    ![image](data/ex1b.png){: .center}
-
-    1. Dans l’exemple précédent, quel est le numéro en binaire associé au nœud G ?
-    2. Quel est le nœud dont le numéro en binaire vaut 13 en décimal ?
-    3. En notant $h$ la hauteur de l’arbre, sur combien de bits seront numérotés les nœuds les plus en
-    bas ?
-    4. Justifier que pour tout arbre de hauteur $h$ et de taille $n \geqslant 2$, on a :
-    $h\leqslant n \leqslant 2^h-1$
-
-
-    **Question 3**  
-    Un arbre binaire est dit complet si tous les niveaux de l’arbre sont remplis.
-    ![image](data/ex1c.png){: .center}
-
-    On décide de représenter un arbre binaire complet par un tableau de taille n + 1, où n est la taille de
-    l’arbre, de la façon suivante :  
-
-    - La racine a pour indice 1 ;
-    - Le fils gauche du nœud d’indice i a pour indice $2 \times i$ ;
-    - Le fils droit du nœud d’indice i a pour indice $2 \times i + 1$ ;
-    - On place la taille $n$ de l’arbre dans la case d’indice 0.
-
-    Répondre aux questions suivantes :  
-
-    1. Déterminer le tableau qui représente l’arbre binaire complet de l’exemple précédent.
-    2. On considère le père du nœud d’indice $i$ avec $i \geqslant 2$. Quel est son indice dans le tableau ?
-
-    **Question 4**  
-
-    On se place dans le cas particulier d’un arbre binaire de recherche complet où les nœuds
-    contiennent des entiers et pour lequel la valeur de chaque noeud est supérieure à celles des
-    noeuds de son fils gauche, et inférieure à celles des noeuds de son fils droit.
-
-
-    Écrire une fonction `recherche` ayant pour paramètres un arbre `arbre` et un élément `element`. Cette
-    fonction renvoie `True` si `element` est dans l’arbre et `False` sinon. L’arbre sera représenté par un tableau
-    comme dans la question précédente.
-
-
-    ??? tip "corrigé"
+    === "Énoncé"
+        *2020, sujet 0*
+    
+        **Question  1**
+    
+        Déterminer la taille et la hauteur de l’arbre binaire suivant :
+        ![image](data/ex1a.png){: .center}
+    
+        **Question 2**  
+    
+        On décide de numéroter en binaire les nœuds d’un arbre binaire de la façon suivante :  
+    
+        - la racine correspond à 1 ;
+        - la numérotation pour un fils gauche s’obtient en ajoutant le chiffre 0 à droite au numéro de son
+        père ;
+        - la numérotation pour un fils droit s’obtient en ajoutant le chiffre 1 à droite au numéro de son
+        père ;  
+    
+    
+        Par exemple, dans l’arbre ci-dessous, on a utilisé ce procédé pour numéroter les nœuds A, B, C, E et
+        F .
+    
+        ![image](data/ex1b.png){: .center}
+    
+        1. Dans l’exemple précédent, quel est le numéro en binaire associé au nœud G ?
+        2. Quel est le nœud dont le numéro en binaire vaut 13 en décimal ?
+        3. En notant $h$ la hauteur de l’arbre, sur combien de bits seront numérotés les nœuds les plus en
+        bas ?
+        4. Justifier que pour tout arbre de hauteur $h$ et de taille $n \geqslant 2$, on a :
+        $h\leqslant n \leqslant 2^h-1$
+    
+        
+        **Question 3**  
+        Un arbre binaire est dit complet si tous les niveaux de l’arbre sont remplis.
+        ![image](data/ex1c.png){: .center}
+    
+        On décide de représenter un arbre binaire complet par un tableau de taille n + 1, où n est la taille de
+        l’arbre, de la façon suivante :  
+    
+        - La racine a pour indice 1 ;
+        - Le fils gauche du nœud d’indice i a pour indice $2 \times i$ ;
+        - Le fils droit du nœud d’indice i a pour indice $2 \times i + 1$ ;
+        - On place la taille $n$ de l’arbre dans la case d’indice 0.
+    
+        Répondre aux questions suivantes :  
+    
+        1. Déterminer le tableau qui représente l’arbre binaire complet de l’exemple précédent.
+        2. On considère le père du nœud d’indice $i$ avec $i \geqslant 2$. Quel est son indice dans le tableau ?
+    
+        **Question 4**  
+    
+        On se place dans le cas particulier d’un arbre binaire de recherche complet où les nœuds
+        contiennent des entiers et pour lequel la valeur de chaque noeud est supérieure à celles des
+        noeuds de son fils gauche, et inférieure à celles des noeuds de son fils droit.
+    
+    
+        Écrire une fonction `recherche` ayant pour paramètres un arbre `arbre` et un élément `element`. Cette
+        fonction renvoie `True` si `element` est dans l’arbre et `False` sinon. L’arbre sera représenté par un tableau
+        comme dans la question précédente.
+    === "Correction"
+        {{
+        correction(False,
+        """
         **Q1** La taille est 9, la hauteur est 4.  
         **Q2** 1. G est associé à 1010.   
         **Q2** 2. 13 s'écrit 1101 en binaire, c'est donc le nœud I.    
@@ -120,71 +173,77 @@
         **Q3** 2. Le père du nœud d'indice ```i``` a pour indice ```i//2```.   
 
         **Q4** :
-        ```python
-        def recherche(arbre, element):
-            i = 1
-            while i < len(arbre):
-                if arbre[i] == element:
-                    return True
-                if element < arbre[i]:
-                    i = 2*i # on se place sur le fils gauche
-                else:
-                    i = 2*i +  1 # on se place sur le fils droit
-            return False
-        ```
+         ```python
+         def recherche(arbre, element):
+             i = 1
+             while i < len(arbre):
+                 if arbre[i] == element:
+                     return True
+                 if element < arbre[i]:
+                     i = 2*i # on se place sur le fils gauche
+                 else:
+                     i = 2*i +  1 # on se place sur le fils droit
+             return False
+         ```
+        """
+        )
+        }}
+                
 
 !!! example "{{ exercice() }}"
-    *2021, Métropole sujet 1*
-
-    Dans cet exercice, les arbres binaires de recherche ne peuvent pas comporter plusieurs fois la
-    même clé. De plus, un arbre binaire de recherche limité à un nœud a une hauteur de 1.
-    On considère l’arbre binaire de recherche représenté ci-dessous (figure 1), où `val` représente un entier :
-
-    ![image](data/ex2a.png){: .center}
-
-    **1.a** Donner le nombre de feuilles de cet arbre et préciser leur valeur (étiquette).  
-
-    **1.b** Donner le sous arbre-gauche du nœud 23.
-
-    **1.c** Donner la hauteur et la taille de l’arbre.
-
-    **1.d** Donner les valeurs entières possibles de `val` pour cet arbre binaire de recherche.
-
-    On suppose, pour la suite de cet exercice, que `val` est égal à 16.
-
-    **2.** On rappelle qu’un parcours infixe depuis un nœud consiste, dans l’ordre, à faire un parcours
-    infixe sur le sous arbre-gauche, afficher le nœud puis faire un parcours infixe sur le sous-arbre
-    droit.    
-    Dans le cas d’un parcours suffixe, on fait un parcours suffixe sur le sous-arbre gauche puis un
-    parcours suffixe sur le sous-arbre droit, avant d’afficher le nœud.
-
-    **a.** Donner les valeurs d’affichage des nœuds dans le cas du parcours infixe de l’arbre.  
-    **b**. Donner les valeurs d’affichage des nœuds dans le cas du parcours suffixe de l’arbre.
-
-
-    **3.** On considère la classe `Noeud` définie de la façon suivante en Python :
-
-    ![image](data/ex2b.png){: .center}
-
-
-    **a.** Représenter l’arbre construit suite à l’exécution de l’instruction suivante :
-
-    ```python 
-    racine = Noeud(18)
-    racine.insere_tout([12, 13, 15, 16, 19, 21, 32, 23])
-    ```
-    **b.** Écrire les deux instructions permettant de construire l’arbre de la figure 1. On rappelle que
-    le nombre `val` est égal à 16.
-
-    **c.** On considère l’arbre tel qu’il est présenté sur la figure 1. Déterminer l’ordre d’exécution des
-    blocs (repérés de 1 à 3) suite à l’application de la méthode `insere(19)` au nœud racine
-    de cet arbre.
-
-    **4.** Écrire une méthode `recherche(self, v)` qui prend en argument un entier `v` et renvoie la
-    valeur `True` si cet entier est une étiquette de l’arbre, `False` sinon.
-
-
-    ??? tip "corrigé"
+    === "Énoncé"
+        *2021, Métropole sujet 1*
+    
+        Dans cet exercice, les arbres binaires de recherche ne peuvent pas comporter plusieurs fois la
+        même clé. De plus, un arbre binaire de recherche limité à un nœud a une hauteur de 1.
+        On considère l’arbre binaire de recherche représenté ci-dessous (figure 1), où `val` représente un entier :
+    
+        ![image](data/ex2a.png){: .center}
+    
+        **1.a** Donner le nombre de feuilles de cet arbre et préciser leur valeur (étiquette).  
+    
+        **1.b** Donner le sous arbre-gauche du nœud 23.
+    
+        **1.c** Donner la hauteur et la taille de l’arbre.
+    
+        **1.d** Donner les valeurs entières possibles de `val` pour cet arbre binaire de recherche.
+    
+        On suppose, pour la suite de cet exercice, que `val` est égal à 16.
+    
+        **2.** On rappelle qu’un parcours infixe depuis un nœud consiste, dans l’ordre, à faire un parcours
+        infixe sur le sous arbre-gauche, afficher le nœud puis faire un parcours infixe sur le sous-arbre
+        droit.    
+        Dans le cas d’un parcours suffixe, on fait un parcours suffixe sur le sous-arbre gauche puis un
+        parcours suffixe sur le sous-arbre droit, avant d’afficher le nœud.
+    
+        **a.** Donner les valeurs d’affichage des nœuds dans le cas du parcours infixe de l’arbre.  
+        **b**. Donner les valeurs d’affichage des nœuds dans le cas du parcours suffixe de l’arbre.
+    
+    
+        **3.** On considère la classe `Noeud` définie de la façon suivante en Python :
+    
+        ![image](data/ex2b.png){: .center}
+    
+    
+        **a.** Représenter l’arbre construit suite à l’exécution de l’instruction suivante :
+    
+        ```python 
+        racine = Noeud(18)
+        racine.insere_tout([12, 13, 15, 16, 19, 21, 32, 23])
+        ```
+        **b.** Écrire les deux instructions permettant de construire l’arbre de la figure 1. On rappelle que
+        le nombre `val` est égal à 16.
+    
+        **c.** On considère l’arbre tel qu’il est présenté sur la figure 1. Déterminer l’ordre d’exécution des
+        blocs (repérés de 1 à 3) suite à l’application de la méthode `insere(19)` au nœud racine
+        de cet arbre.
+    
+        **4.** Écrire une méthode `recherche(self, v)` qui prend en argument un entier `v` et renvoie la
+        valeur `True` si cet entier est une étiquette de l’arbre, `False` sinon.
+    === "Correction"
+        {{
+        correction(True,
+        """
         **1.a.** Il y a 4 feuilles, d'étiquette 12, `val`, 21 et 32.  
         **1.b.** Le sous-arbre gauche du nœud 23 est 19-21.  
         **1.c.** La hauteur de l'arbre est 4. Sa taille est 9.  
@@ -253,10 +312,11 @@
         print(racine.recherche(149))
         print(racine.recherche(12))
 
-
-
         ```
-
+        """
+        )
+        }}
+    
 
 !!! example "{{ exercice() }}"
     *2021, Métropole Candidats Libres 2*

@@ -1,6 +1,9 @@
 
 !!! abstract "Actualités"
-    - :new: Informations sur les épreuves de Juin 2024:
+    - :new: « [Passe ton hack d’abord](https://www.defense.gouv.fr/comcyber/passe-ton-hack-dabord-challenge-qui-permis-900-lyceens-se-glisser-peau-cybercombattants) »
+        - Challenge visant à initier les élèves à la cybersécurité en complément des programmes scolaires et à stimuler leur intérêt pour le domaine. 
+        - Il est organisé par le Commandement de la Cyberdéfense (COMCYBER) du Ministère des Armées, en partenariat avec la Direction générale de la scolarité (DGESCO) du Ministère de l’Éducation et de la Jeunesse.
+    - Informations sur les épreuves de Juin 2024:
         - La **totalité** du programme pourra être évaluée.
         - Changement de coefficients : 15 points pour l'épreuve écrite, 5 points pour l'épreuve pratique. 
     - Préparez-vous à l'Épreuve Écrite : les annales des années précédentes sont disponibles [ici](T6_Annales/liste_sujets/) 

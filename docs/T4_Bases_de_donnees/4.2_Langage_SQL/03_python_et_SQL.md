@@ -163,17 +163,127 @@ Reprendre le mini-projet précédent, en rendant possible à l'utilisateur de re
 
 
 #### 2.3 Mini-projet 3
-Créer un système d'authenfication par login / mot de passe, dans le but de conserver une phrase secrète.  
-
-Idéalement le mot de passe ne sera pas conservé en clair mais haché.
-
-*Exemple :*
-
-![](data/miniprojet3.gif)
 
 
-[lien vers une correction](https://fr.wikipedia.org/wiki/Poisson_d%27avril)
+=== "Énoncé"
+    Créer un système d'authenfication par login / mot de passe, dans le but de conserver une phrase secrète.  
+    
+    Idéalement le mot de passe ne sera pas conservé en clair mais haché (à l'aide du module `hashlib`).
+    
+    *Exemple :*
+    
+    ![](data/miniprojet3.gif)
+=== "Aide"
+    La méthode `fetchall()` est simple à utiliser mais peut poser un problème de performance.
+    En effet, cette méthode retourne une liste, cela signifie que tous les résultats sont récupérés de la base de données pour être convertis en n-uplets. 
+    S’il y a un nombre important de lignes dans le résultat de la requête, cela signifie que la liste peut être très grande et avoir une empreinte mémoire importante.
+    
+    Parfois, on désire traiter directement la donnée retournée et il n’est pas nécessaire de la stocker dans une liste. 
+    Nous pouvons améliorer notre code en optant pour l’appel à la méthode `fetchone()`. 
+    Cette méthode retourne un seul résultat sous la forme d’un n-uplet. 
+    Lorsqu’il n’y a plus de résultat à lire, la méthode retourne None. 
+    
+    Le résultat du programme sera le même sauf que les résultats sont extraits un à un et qu’aucune liste n’est créée.
+    !!! warning
+        Si vous fermez un curseur avant d’avoir extrait tous les résultats, vous obtiendrez une exception. 
+        N’utilisez pas la méthode `fetchone()` pour ne retourner que le premier résultat, elle n’a pas été conçue pour cela. 
+        Son rôle est de permettre de retourner tous les résultats d’une requête mais un à un.
 
-{#
-[lien vers une correction](https://gist.github.com/glassus/446fbe11420536bf79bb30e1098dc1b2)
-#}
+    Si vous voulez limiter le nombre de résultats retournés par une requête, utilisez l’instruction SQL `LIMIT` 
+=== "Correction"
+    ```python
+    import sqlite3
+    import hashlib
+    
+    connexion = sqlite3.connect('secretdata.db')
+    c = connexion.cursor()
+    
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS secret(
+        login TEXT,
+        password TEXT,
+        secret_texte TEXT);
+        """)
+    
+    connexion.commit()
+    
+    def menu():
+        print('-------------')
+        print('1. login     ') 
+        print('2. register  ')
+        print('3. quit      ')
+        print('-------------')
+        rep = int(input("choix ?"))
+        return rep
+    
+    def register():
+        login_identique = True
+        
+        while login_identique == True :
+            login = input("choississez votre login : ")
+            tlogin = (login,)
+            c.execute("""
+            SELECT COUNT(*) FROM secret WHERE login = ?
+            """,tlogin)
+            if c.fetchone()[0] > 0 :
+                print("login déjà utilisé")
+            else :
+                login_identique = False
+                
+        pwd = input("choississez votre mot de passe : ")
+        pwd_hash = hashlib.md5(pwd.encode()).hexdigest()
+        phrase_secrete = input("tapez la phrase secrète que vous voulez conserver : ")
+        data = (login, pwd_hash, phrase_secrete)
+        c.execute('''
+        INSERT INTO secret VALUES (?,?,?)
+        ''', data)
+        connexion.commit()
+    
+    def login():
+        login_existant = False
+        while login_existant == False :
+            login = input("login : ")
+            tlogin = (login,)
+            c.execute("""
+            SELECT COUNT(*) FROM secret WHERE login = ?
+            """,tlogin)
+            if c.fetchone()[0] == 0 :
+                print("login inconnu")
+            else :
+                login_existant = True
+    
+    
+        pwd = input("mot de passe : ")
+        pwd_hash = hashlib.md5(pwd.encode()).hexdigest()
+        c.execute("""
+        SELECT password, secret_texte FROM secret WHERE login = ?
+        """,tlogin)
+        result = c.fetchone()
+        
+        pwd_recorded = result[0]
+        if pwd_hash == pwd_recorded :
+            print("phrase secrète : ", result[1])
+        else :
+            print("wrong password")
+    
+    
+    while True :
+        r = menu()
+        if r == 3 :
+            break
+        
+        if r == 2 :
+            register()
+            
+        if r == 1 :
+            login()
+    
+    connexion.close()
+    
+    ```
+    
+    
+    
+    
+    
+    
