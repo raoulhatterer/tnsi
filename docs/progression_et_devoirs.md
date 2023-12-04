@@ -125,3 +125,9 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Terminer les Mini-projets python-SQL
+
+!!! done "séance 21 (4h jeudi 30/11/2023):"
+    - Les arbres
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
