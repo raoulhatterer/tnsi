@@ -8,8 +8,8 @@
 
 ## 0. Résumé des épisodes précédents
 
-- [cours](https://glassus.github.io/premiere_nsi/T3_Architecture_materielle/3.3_Architecture_reseau/cours/){:target="_blank"} de 1ère sur l'architecture d'un réseau
-- [cours](https://glassus.github.io/premiere_nsi/T3_Architecture_materielle/3.4_Protocoles_de_communication/cours/){:target="_blank"} de 1ère sur les différents protocoles de communication dans un réseau.
+- [cours](https://lyceemed.forge.aeif.fr/pnsi/T3_Architecture_materielle/Chapitre_3:_Architecture_reseau/cours/){:target="_blank"} de 1ère sur l'architecture d'un réseau
+- [cours](https://lyceemed.forge.aeif.fr/pnsi/T3_Architecture_materielle/Chapitre_4:_Protocoles_de_communication/cours/){:target="_blank"} de 1ère sur les différents protocoles de communication dans un réseau.
 
 
 !!! abstract "Notions essentielles :heart: :heart: :heart:"
@@ -73,7 +73,7 @@ De la même manière, la communication avec le réseau C nécessite de confier l
 
 ## 2. Le protocole RIP
 
-_voir le TP débranché_ : [le jeu dont vous êtes le routeur](https://github.com/glassus/nsi/tree/master/Terminale/Theme_5_Architecture_materielle/5.3_Protocoles_de_routage/TP_protocole_RIP){. target="_blank"}
+_voir le TP débranché_ : [le jeu dont vous êtes le routeur](https://www.overleaf.com/read/ppcyddjmkgjp#aaf7e4){. target="_blank"}
 
 
 !!! abstract "Les règles du protocole RIP :heart: :heart: :heart:"
