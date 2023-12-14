@@ -131,3 +131,25 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+!!! done "séance 22 (2h mardi 5/12/2023):"
+    - Exercices sur les arbres
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 23 (4h jeudi 7/12/2023):"
+    - Exercices sur les arbres pour les élèves de Lumière (élèves du lycée de la méditerranée en sortie orientation)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 24 (2h mardi 12/12/2023):"
+    - Contrôle sur les arbres
+    - Routage
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 25 (4h jeudi 14/12/2023):"
+    - Routage
+    - TP Routage débranché
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+

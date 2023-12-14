@@ -87,7 +87,7 @@ _voir le TP débranché_ : [le jeu dont vous êtes le routeur](https://www.overl
 
     - s'il découvre une route vers un réseau connu mais plus longue que celle qu'il possède dans sa table, il ignore cette route.
 
-    - s'il reçoit une route vers un réseau connu en provenance d'un routeur déjà existant dans sa table, s'il met à jour sa table car la topologie du réseau a été modifiée.
+    - s'il reçoit une route vers un réseau connu en provenance d'un routeur déjà existant dans sa table, il met à jour sa table car la topologie du réseau a été modifiée.
 
     - si le réseau n'évolue pas (panne ou ajout de nouveau matériel), les tables de routage _convergent_ vers une valeur stable. Elles n'évoluent plus.
 
@@ -265,7 +265,7 @@ Le routeur A doit transmettre un message au routeur G, en empruntant le chemin d
     
 
 
-
+{#
 ---
 !!! aide "Bibliographie"
     - Numérique et Sciences Informatiques, Terminale, T. BALABONSKI, S. CONCHON, J.-C. FILLIATRE, K. NGUYEN, éditions ELLIPSES.
@@ -274,3 +274,4 @@ Le routeur A doit transmettre un message au routeur G, en empruntant le chemin d
 
 
 ---
+#}

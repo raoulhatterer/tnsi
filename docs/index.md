@@ -18,8 +18,7 @@
 
 ### :high_brightness: Thème en cours d'étude 
 !!! note ""
-    - :arrow_right: [T1 Structures de donnees > Arbres](T1_Structures_de_donnees/1.3_Arbres/cours/)
-
+    - :arrow_right: [T5 Architecture matérielle > Protocoles de routage](T5_Architecture_materielle/5.3_Protocoles_de_routage/cours/)
 
 
 ### Thèmes déjà traités
@@ -29,6 +28,7 @@
 - :arrow_right: [T2 Programmation > Récursivité](T2_Programmation/2.2_Recursivite/cours/) 
 - :arrow_right: [T1 Structures de donnees > Listes / piles / files](T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/)
 - :arrow_right: [T4 Base de données](T4_Bases_de_donnees/sommaire/)
+- :arrow_right: [T1 Structures de donnees > Arbres](T1_Structures_de_donnees/1.3_Arbres/cours/)
 
 {#
 ### *Thèmes déjà traités*
