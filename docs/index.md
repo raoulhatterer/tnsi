@@ -11,7 +11,7 @@
 
     - Page sur l'orientation post-bac à retrouver [ici](T7_Divers/10_orientation/cours/). 
     
-
+    - Hors programme, mais fortement recommandé pour le travail de développeurs informatiques en équipe: [Débuter avec Git et Github](https://youtu.be/V6Zo68uQPqE?si=qjbKbj_SQvdclmxs) (présentation très claire de Sébastien Saunier sur la chaîne youtube *Le Wagon*)
 
 
 
