@@ -171,3 +171,12 @@
         - Installer Git sur son ordinateur personnel
         - Préparer contrôle sur le routage
 
+
+!!! done "séance 29 (4h jeudi 11/1/2024):"
+    - Contrôle n°5 portant sur le routage
+    - Les dictionnaires
+    ??? note "Devoirs"
+        - Exercices sur les dictionnaires
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+

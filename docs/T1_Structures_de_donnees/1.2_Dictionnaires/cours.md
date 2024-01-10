@@ -2,7 +2,7 @@
 
 ![image](data/BO.png){: .center}
 
-Préambule : retour sur [le cours de Première](../../../../premiere_nsi/T2_Representation_des_donnees/2.3_Dictionnaires/cours/).
+Préambule : retour sur [le cours de Première](https://lyceemed.forge.aeif.fr/pnsi/T2_Representation_des_donnees/Chapitre_3%3A_Dictionnaires/cours/){:target="_blank"}
 
 
 ## 0. Notion de tableau associatif
@@ -26,53 +26,136 @@ En Python, le **dictionnaire** est une structure native de tableau associatif.
 
 ### 1.1 Protocole de mesure
 
-Observons le code suivant :
+Le but est de créer une liste et un dictionnaire de même taille (arbitraire), et de comparer ensuite le temps de recherche d'un élément n'appartenant pas à ces deux structures.
 
-```python linenums='1'
-import time
+**Q1.** Créer une fonction ```fabrique_liste``` qui prend en paramètre un entier ```nb``` et qui renvoie une liste composée de tous les entiers de ```0``` à ```nb-1```.
 
-def fabrique_liste(nb):
-    lst = [k for k in range(nb)]
-    return lst
+{{
+correction(True,
+"""
+??? success \"Correction\" 
+    ```python
+    def fabrique_liste(nb):
+        lst = [k for k in range(nb)]
+        return lst
+    ```
 
-def fabrique_dict(nb):
-    dct = {}
-    for k in fabrique_liste(nb):
-        dct[k] = k
-    return dct
+"""
+)
+}}
 
-def mesures(nb):
-    lst = fabrique_liste(nb)
-    d = fabrique_dict(nb)
-    
-    tps_total = 0
-    for _ in range(10):
-        t0 = time.time()
-        test = 'a' in lst # on cherche une donnée inexistante
-        delta_t = time.time() - t0
-        tps_total += delta_t
-    tps_moyen_lst = tps_total / 10
+**Q2.** Créer une fonction ```fabrique_dict``` qui prend en paramètre un entier ```nb``` et qui renvoie dictionnaire composé de paires qui associent à toutes les clés ```k```  de ```0``` à ```nb-1``` leur propre valeur ```k```. 
 
-    tps_total = 0
-    for _ in range(10):
-        t0 = time.time()
-        test = 'a' in d # on cherche une donnée inexistante
-        delta_t = time.time() - t0
-        tps_total += delta_t
-    tps_moyen_d = tps_total / 10
-    
-    print(f"temps pour une liste de taille {nb}       : {tps_moyen_lst}")
-    print(f"temps pour un dictionnaire de taille {nb} : {tps_moyen_d}")
-```
+{{
+correction(True,
+"""
+??? success \"Correction\" 
+    ```python
+    def fabrique_dict(nb):
+        dct = {k:k for k in range(nb)}
+        return dct
+    ```
 
-La fonction ```mesures``` prend en paramètre un nombre ```nb``` qui sera la taille de la liste ou du dictionnaire.  
-Dans le corps de cette fonction, la liste ```lst``` et le dictionnaire ```d``` sont fabriqués *avant le commencement de la mesure du temps*.  
-La liste ```lst``` contient des nombres (de `1` à ```nb```), et le dictionnaire ```d``` associe à un nombre (de `1` à ```nb```) sa propre valeur.
+"""
+)
+}}
 
-Dans ces deux structures, nous allons partir à la recherche d'une valeur qui n'a aucune chance de s'y trouver : la chaine de caractères ```'a'```.
+**Q3.** Créer une fonction ```mesures``` qui prend en paramètre un entier ```nb``` et qui :
+
+- Créé une liste et un dictionnaire de taille ```nb``` à l'aide des fonctions précédentes.
+- Mesure la recherche d'une valeur inexistante dans la liste, et affiche le temps de recherche.
+- Mesure la recherche d'une valeur inexistante dans le dictionnaire, et affiche le temps de recherche.
+
+Cette recherche d'une valeur inexistante s'appelle recherche *dans le pire des cas*.
+
+!!! note "Comment faire la recherche ?"
+    Il est impératif d'utiliser le mot-clé ```in``` propre à Python afin de bénéficier des avantages (ou inconvénients) de chacune des deux structures.
+
+    Si on cherche notre élément en parcourant «à la main» la totalité de la structure, on aura forcément un temps de recherche proportionnel au nombre d'éléments de la structure (et donc une complexité linéaire).
+
+    En utilisant le mot-clé ```in```, on va laisser Python gérer tout seul la recherche.
 
 
-10 fois de suite (pour avoir un temps moyen le plus juste possible), on va donc mesurer le temps mis pour chercher la chaine ```'a'```, qui n'est présente ni dans la liste ```lst``` ni dans le dictionnaire ```d```. On mesure donc une recherche dans **le pire des cas**.
+Pour davantage de précision, on pourra dans un second temps effectuer plusieurs mesures et faire une moyenne des temps obtenus.
+
+Pour rappel, l'import du module ```time``` permet d'appeler la fonction ```time.time()```. 
+
+
+
+
+
+{{
+correction(True,
+"""
+??? success \"Correction\" 
+    ```python linenums='1'
+    import time
+
+    def fabrique_liste(nb):
+        lst = [k for k in range(nb)]
+        return lst
+
+    def fabrique_dict(nb):
+        dct = {k:k for k in range(nb)}
+        return dct
+
+    def mesures(nb):
+        # À vous
+    ``` 
+"""
+)
+}}
+
+
+
+{{
+correction(False,
+"""
+??? success \"Correction\" 
+    ```python linenums='1'
+    import time
+
+    def fabrique_liste(nb):
+        lst = [k for k in range(nb)]
+        return lst
+
+    def fabrique_dict(nb):
+        dct = {k:k for k in range(nb)}
+        return dct
+
+    def mesures(nb):
+        lst = fabrique_liste(nb)
+        d = fabrique_dict(nb)
+        
+        tps_total = 0
+        for _ in range(10):
+            t0 = time.time()
+            test = 'a' in lst # on cherche une donnée inexistante
+            delta_t = time.time() - t0
+            tps_total += delta_t
+        tps_moyen_lst = tps_total / 10
+
+        tps_total = 0
+        for _ in range(10):
+            t0 = time.time()
+            test = 'a' in d # on cherche une donnée inexistante
+            delta_t = time.time() - t0
+            tps_total += delta_t
+        tps_moyen_d = tps_total / 10
+        
+        print(f'temps pour une liste de taille {nb}       : {tps_moyen_lst}')
+        print(f'temps pour un dictionnaire de taille {nb} : {tps_moyen_d}')
+    ``` 
+"""
+)
+}}
+
+
+
+
+
+**Q4.** Effectuer des mesures avec différentes valeurs de ```nb```.
+
 
 
 
@@ -80,7 +163,7 @@ Dans ces deux structures, nous allons partir à la recherche d'une valeur qui n'
 
 Nous allons effectuer 3 mesures, avec une taille de liste et de dictionnaire augmentant d'un facteur 10 à chaque fois.
 
-```python
+```pycon
 >>> mesures(10**4)
 temps pour une liste de taille 10000       : 0.00023534297943115235
 temps pour un dictionnaire de taille 10000 : 1.6689300537109374e-07
@@ -139,7 +222,7 @@ def mesures(nb):
     print(f"temps pour un dictionnaire de taille {nb} : {tps_moyen_d}")
 ```
 
-```python
+```pycon
 >>> mesures(10**5)
 temps pour liste de taille 100000           : 0.004771041870117188
 temps pour un dictionnaire de taille 100000 : 0.012260651588439942
@@ -181,7 +264,7 @@ La clé MD5 proposée pour chaque fichier est le résultat ce que **doit** donne
 ```ubuntu-18.04.3-desktop-amd64.iso```, nous devons calculer l'empreinte du fichier téléchargé et vérifier que nous obtenons bien ```72491db7ef6f3cd4b085b9fe1f232345``` :
 
 
-Essayons :
+Voici ce que l'on obtient si l'on utilise un Terminal:
 
 ![](data/check_iso.png){: .center}
 
@@ -189,13 +272,14 @@ La clé calculée sur l'ordinateur correspond bien à celle indiquée sur le sit
 
 
 !!! note "Exemple"
-    Téléchargez le fichier [banniere.png](data/banniere.png) et dans un Terminal, calculez son empreinte MD5 :
+    Téléchargez le fichier [banniere.png](data/banniere.png) et si vous disposez d'un Terminal, calculez son empreinte MD5 :
 
     ```
     eleve@linux:~/ md5sum banniere.png
     2895bae45eb0ab36a2a8324c0208ad95  banniere.png
 
     ```
+    On pourra aussi utiliser un outil en ligne sur le fabuleux site [https://gchq.github.io/CyberChef](https://gchq.github.io/CyberChef){. target="_blank"} du [GHCQ](https://www.gchq.gov.uk/){. target="_blank"}
     
     Si votre fichier ```banniere.png``` a été convenablement téléchargé, votre empreinte devra être égale à ```2895bae45eb0ab36a2a8324c0208ad95```. 
 
@@ -215,10 +299,11 @@ Le mécanisme effectif de calcul de la fonction MD5 est très complexe : une exp
 Il est évidemment **impossible** de revenir en arrière et de recréer le fichier original à partir de l'empreinte MD5. Dans le cas contraire, cela voudrait dire qu'on est capable de compresser *sans perte* un fichier de 1,9 Go en une chaîne de 128 bits. Cette impossibilité de trouver une fonction réciproque à la fonction de hachage est très importante en cryptographie.
 
 En effet, les simples chaînes de caractères peuvent aussi être transformées par une fonction de hachage :
-![](data/terminal.png){: .center}
+
 
 
 ![](data/md5.png){: .center}
+
 
 Quel est l'intérêt de hacher une chaîne de caractère ? La conservation des mots de passe !!!
 
