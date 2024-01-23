@@ -180,3 +180,16 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
+!!! done "séance 30 (2h mardi 16/1/2024):"
+    - Github
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance annulée (4h jeudi 18/1/2024):"
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 31 (2h mardi 23/1/2024):"
+    - Gestion des processus
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.

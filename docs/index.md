@@ -18,8 +18,7 @@
 
 ### :high_brightness: Thème en cours d'étude 
 !!! note ""
-    - :arrow_right: [T1 Structures de données > Dictionnaires](T1_Structures_de_donnees/1.2_Dictionnaires/cours/) 
-
+    - :arrow_right: [T5 Architecture matérielle > Gestion des processus](T5_Architecture_materielle/5.2_Gestion_des_processus/cours/) 
 ### Thèmes déjà traités
 
 
@@ -29,7 +28,7 @@
 - :arrow_right: [T4 Base de données](T4_Bases_de_donnees/sommaire/)
 - :arrow_right: [T1 Structures de donnees > Arbres](T1_Structures_de_donnees/1.3_Arbres/cours/)
 - :arrow_right: [T5 Architecture matérielle > Protocoles de routage](T5_Architecture_materielle/5.3_Protocoles_de_routage/cours/)
-
+- :arrow_right: [T1 Structures de données > Dictionnaires](T1_Structures_de_donnees/1.2_Dictionnaires/cours/) 
 {#
 ### *Thèmes déjà traités*
 
@@ -45,7 +44,6 @@
 - [Graphes](T1_Structures_de_donnees/1.4_Graphes/cours/) 
 - [Calculabilité / Décidabilité](T2_Programmation/2.3_Calculabilite_Decidabilite/cours/)
 - [Cryptographie](T5_Architecture_materielle/5.4_Cryptographie/cours/)
-- [Gestion des processus](T5_Architecture_materielle/5.2_Gestion_des_processus/cours/) 
 - [Dichotomie](T3_Algorithmique/3.1_Diviser_pour_regner/dichotomie/)
 - [Diviser pour régner](T3_Algorithmique/3.1_Diviser_pour_regner/cours/)
 - [Arbres](T1_Structures_de_donnees/1.3_Arbres/cours/)

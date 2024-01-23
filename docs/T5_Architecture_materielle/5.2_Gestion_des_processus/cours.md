@@ -16,7 +16,7 @@ Un processus est caractérisé par :
 
 - l'ensemble des instructions qu'il va devoir accomplir (écrites dans le fichier exécutable obtenu par la compilation du code-source du programme)
 - les ressources que le programme va mobiliser (fichier en ouverture, carte son...)
-- l'état des registres du processeur (voir le cours de Première sur l'[architecture Von Neumann](https://glassus.github.io/premiere_nsi/T3_Architecture_materielle/3.2_Architecture_Von_Neumann/cours/){. target="_blank"})
+- l'état des registres du processeur (voir le cours de Première sur l'[architecture Von Neumann](https://lyceemed.forge.aeif.fr/pnsi/T3_Architecture_materielle/Chapitre_2:_Architecture_Von_Neumann/cours/){. target="_blank"})
 
 
 
@@ -278,12 +278,4 @@ Il existe trois stratégies pour éviter les interblocages :
 
 
 
-
-
-??? tip "Sources"
-    - [http://info-mounier.fr/terminale_nsi/archi_se_reseaux/processus.php](http://info-mounier.fr/terminale_nsi/archi_se_reseaux/processus.php)
-    - [http://lycee.educinfo.org/index.php?page=creation_thread&activite=processus](http://lycee.educinfo.org/index.php?page=creation_thread&activite=processus)
-    - [https://www.lecluse.fr/nsi/NSI_T/archi/process/](https://www.lecluse.fr/nsi/NSI_T/archi/process/)
-    - [http://www.uqac.ca/pguerin/8INF341/Cours9_Interblocage.html}](http://www.uqac.ca/pguerin/8INF341/Cours9_Interblocage.html)
-    - [http://www-inf.it-sudparis.eu/cours/AlgoRep/Web/8.25.html](http://www-inf.it-sudparis.eu/cours/AlgoRep/Web/8.25.html)
 
