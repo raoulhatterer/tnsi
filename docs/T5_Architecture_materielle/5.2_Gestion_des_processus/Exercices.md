@@ -33,7 +33,7 @@
         - d.   ```kill```
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         1. b
@@ -62,7 +62,7 @@
     ![image](data/ex2_2.png){: .center}
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ![image](data/corr_exo21.png){: .center}
@@ -79,7 +79,7 @@
     ![image](data/ex2_3.png){: .center}
 
     {{
-    correction(True,
+    correction(False,
     """
     ??? success \"Correction\" 
         ![image](data/scenarios.png){: .center}
