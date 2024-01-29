@@ -193,3 +193,8 @@
     - Gestion des processus
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 32 (4h jeudi 25/1/2024):"
+    - Exercices sur la gestion des processus
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
