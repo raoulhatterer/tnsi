@@ -204,3 +204,14 @@
     ??? note "Devoirs"
         - Dernier exercice sur la gestion des processus
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 34 (4h jeudi 1/2/2024):"
+    - Exercices sur la gestion des processus
+    - Dichotomie
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 35 (2h mardi 6/2/2024):"
+    - Annulée pour raisons médicales
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
