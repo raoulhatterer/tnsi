@@ -215,3 +215,10 @@
     - Annulée pour raisons médicales
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 36 (4h jeudi 8/2/2024):"
+    - Exercice sur la rapidité du calcul de puissance
+    - Tri fusion
+    - Exercices sur la dichotomie
+    ??? note "Devoirs"
+        - Étude mathématique de la fonction `distance_point_droite`
