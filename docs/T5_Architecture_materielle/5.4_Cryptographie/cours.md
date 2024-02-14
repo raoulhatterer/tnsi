@@ -23,7 +23,7 @@
         - Cette fonction doit pouvoir **aussi** servir à déchiffrer le message chiffré.
 
     === "Aide"
-        - Le ```XOR``` (voir [ici](https://glassus.github.io/premiere_nsi/T2_Representation_des_donnees/2.5_Booleens/cours/#disjonction-exclusive-xor){target = "_blank"}) est une opération symétrique :
+        - Le ```XOR``` (voir [ici](https://lyceemed.forge.aeif.fr/pnsi/T2_Representation_des_donnees/Chapitre_5%3A_Booleens/cours/#disjonction-exclusive-xor){target = "_blank"}) est une opération symétrique :
         ```python
         >>> 34 ^ 23
         53
@@ -78,7 +78,7 @@ La clé est un renseignement permettant de chiffrer ou déchiffrer un message. C
 
 - un nombre (dans un simple décalage des lettres de l'alphabet, comme [le chiffre de César](https://fr.wikipedia.org/wiki/Chiffrement_par_d%C3%A9calage))
 - une phrase (dans la méthode du [masque jetable](https://fr.wikipedia.org/wiki/Masque_jetable))
-- une image (imaginez un chiffrement où on effectue un XOR par les pixels d'une image, comme dans [cette énigme](https://github.com/glassus/nsi/blob/master/Premiere/DM/DM1/enonce.md))
+- une image (imaginez un chiffrement où on effectue un XOR par les pixels d'une image, comme dans [cette énigme](image.md))
 
 Un chiffrement est dit symétrique lorsque la connaissance de la clé ayant servi au chiffrement permet de déchiffrer le message. Par exemple, Alice chiffre son message en décalant les lettres de 3 rangs vers la droite dans l'alphabet, Bob saura qu'il doit les décaler de 3 rangs vers la gauche pour retrouver le message initial.
 
@@ -326,11 +326,3 @@ Le transmission par protocole ```http``` de données chiffrées au préalable av
 >Remarque : en réalité, ce n'est pas la clé AES qui est transmise à l'étape 4, mais un nombre choisi par le client, qui permettra, avec deux autres nombres choisis par le client (étape 1) et le serveur (étape 2) de reconstituer la clé AES, qui sera donc identique côté client et côté serveur.
 
 
----
-## Bibliographie
-- Numérique et Sciences Informatiques, Terminale, T. BALABONSKI, S. CONCHON, J.-C. FILLIATRE, K. NGUYEN, éditions ELLIPSES.
-- Prépabac NSI, Terminale, G. CONNAN, V. PETROV, G. ROZSAVOLGYI, L. SIGNAC, éditions HATIER.
-- https://www.cloudflare.com/fr-fr/learning/ssl/what-happens-in-a-tls-handshake/
-
-
----

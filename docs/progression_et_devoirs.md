@@ -222,3 +222,17 @@
     - Exercices sur la dichotomie
     ??? note "Devoirs"
         - Étude mathématique de la fonction `distance_point_droite`
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        
+
+!!! done "séance 37 (2h mardi 13/2/2024):"
+    - Étude mathématique de la fonction `distance_point_droite`
+    - Cryptographie
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 38 (4h jeudi 15/2/2024):"
+    - Cryptographie
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
