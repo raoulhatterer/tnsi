@@ -60,7 +60,33 @@
 
 
     !!! note "Q3 : tester son code"
+        On cherche les coordonnées du point $M$.
 
+        ![](./data/geogebra-export.png){width="500" }
+        
+        La droite $(AB)$ a une équation du type: $y=m\times x+od$
+        
+        Son coefficient directeur est $\displaystyle m = \frac{\Delta y}{\Delta x}=\frac{y_B-y_A}{x_B-x_A}$
+        
+        
+        L'équation de la droite perpendiculaire à la droite $(AB)$ a un coefficient directeur égal à $-\frac{1}{m}$. 
+        
+        Son équation est du type: $y=-\frac{1}{m}x+c$
+        
+        Cette droite passant par $P$ on en déduit: $c=y_p+\frac{1}{m}x_P$
+        
+        Cherchons les coordonnées de $M$, le point d'intersection des deux droites:
+        
+        $m\times x_M+od= -\frac{1}{m}x_M+y_P+\frac{1}{m}x_P$
+        
+        En en déduit que $\displaystyle x_M=\frac{x_P+m(y_P-od)}{1+m^2}$ 
+        
+        Sachant que $\displaystyle m = \frac{y_B-y_A}{x_B-x_A}$
+        
+        On obtient: 
+        $\displaystyle x_M=\frac{x_P(x_B-x_A)+(y_P-od)(y_B-y_A)}{(x_B-x_A)+m(y_B-y_A)}$
+        et $y_m=m\times x_M + od$
+        
         Fonction ```distance_point_droite``` :
         ```python linenums='1'
         def distance_point_droite(p, a, b):

@@ -233,6 +233,8 @@
 
 !!! done "séance 38 (4h jeudi 15/2/2024):"
     - Cryptographie
+    - Le chiffrement RSA
+    - Algorithme de Blankinship
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
