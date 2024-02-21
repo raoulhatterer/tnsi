@@ -238,3 +238,15 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+
+!!! done "séance 39 (2h mardi 20/2/2024):"
+    - HTTPS
+    - Exercices Cryptographie
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 40 (4h jeudi 22/2/2024):"
+    - Exercices cryptographie
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+

@@ -1,8 +1,12 @@
 
+!!! info "Exercices pratiques pour vous entraîner"
+    - Le site [e-nsi](https://e-nsi.gitlab.io/pratique/tags/){:target="_blank"} propose des exercices d'entrainement à la pratique de la programmation en lien avec la spécialité NSI. 
+    - Pour chaque exercice, on trouve un énoncé, souvent pour créer une fonction, puis des exemples d'application de la fonction. Ensuite, une zone de saisie du code qui est accompagné des premiers tests. Il y a des tests secrets qui permettent ensuite d'accepter (ou valider) votre code.
+
+
+
+
 !!! abstract "Actualités"
-    - :new: « [Passe ton hack d’abord](https://www.defense.gouv.fr/comcyber/passe-ton-hack-dabord-challenge-qui-permis-900-lyceens-se-glisser-peau-cybercombattants) »
-        - Challenge visant à initier les élèves à la cybersécurité en complément des programmes scolaires et à stimuler leur intérêt pour le domaine. 
-        - Il est organisé par le Commandement de la Cyberdéfense (COMCYBER) du Ministère des Armées, en partenariat avec la Direction générale de la scolarité (DGESCO) du Ministère de l’Éducation et de la Jeunesse.
     - Informations sur les épreuves de Juin 2024:
         - La **totalité** du programme pourra être évaluée.
         - Changement de coefficients : 15 points pour l'épreuve écrite, 5 points pour l'épreuve pratique. 
@@ -52,6 +56,14 @@
 - [Projet en POO sur les balles rebondissantes](T2_Programmation/2.1_Programmation_Orientee_Objet/TP/)   
 - [Programmation Orientée Objet](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/)   
 - [https://www.youtube.com/watch?v=PvpeSYVNVrE](https://www.youtube.com/watch?v=PvpeSYVNVrE)
+
+
+    - :new: « [Passe ton hack d’abord](https://www.defense.gouv.fr/comcyber/passe-ton-hack-dabord-challenge-qui-permis-900-lyceens-se-glisser-peau-cybercombattants) »
+        - Challenge visant à initier les élèves à la cybersécurité en complément des programmes scolaires et à stimuler leur intérêt pour le domaine. 
+        - Il est organisé par le Commandement de la Cyberdéfense (COMCYBER) du Ministère des Armées, en partenariat avec la Direction générale de la scolarité (DGESCO) du Ministère de l’Éducation et de la Jeunesse.
+
+
+
 
 #}
 
