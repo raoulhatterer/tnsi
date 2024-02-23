@@ -7,16 +7,23 @@
 
 
 !!! abstract "Actualités"
+
+    - :new: Épreuve pratique: les sujets de la BNS 2024 (sur lesquels vous serez évaluées) sont disponibles [ici](https://cyclades.education.gouv.fr/delos/public/listPublicECE)  :star: :star: :star:
+
+      | Critères d’évaluation                    | Définition du critère                         | Très insuffisant                                                | Insuffisant                                                      | Satisfaisant                                                                           | Très satisfaisant                                                 |
+      |------------------------------------------|-----------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+      | Connaissance des savoir-faire techniques | Connaissance des concepts de base             | Besoin permanent d’assistance                                   | A besoin de consignes complémentaires et d’assistance ponctuelle | A rarement besoin de consignes complémentaires                                         | Travaille de façon autonome                                       |
+      | Qualité de mise en œuvre                 | Niveau de conformité des opérations réalisées | Fait fréquemment des erreurs, exige une surveillance permanente | Produit un travail qu’il faut contrôler régulièrement            | Fait des erreurs minimes qu’il ou elle parvient à verbaliser et  propose des solutions | Travaille sans erreur                                             |
+      | Qualité du dialogue                      | Justification                                 | Pas de réponse                                                  | Pas clair                                                        | Relativement clair mais manque parfois de précision                                    | Démontre une capacité à reformuler pour bien se faire comprendre. |
+    
+
     - Informations sur les épreuves de Juin 2024:
         - La **totalité** du programme pourra être évaluée.
         - Changement de coefficients : 15 points pour l'épreuve écrite, 5 points pour l'épreuve pratique. 
     - Préparez-vous à l'Épreuve Écrite : les annales des années précédentes sont disponibles [ici](T6_Annales/liste_sujets/) 
-    - Préparez-vous à l'Épreuve Pratique : les sujets de la BNS 2023 sont disponibles [ici](T6_6_Epreuve_pratique/BNS_2023/) :star: :star: :star:
-
     - Page sur l'orientation post-bac à retrouver [ici](T7_Divers/10_orientation/cours/). 
     
-    - Hors programme, mais fortement recommandé pour le travail de développeurs informatiques en équipe: [Débuter avec Git et Github](https://youtu.be/V6Zo68uQPqE?si=qjbKbj_SQvdclmxs) (présentation très claire de Sébastien Saunier sur la chaîne youtube *Le Wagon*)
-
+ 
 
 
 
@@ -62,7 +69,8 @@
         - Challenge visant à initier les élèves à la cybersécurité en complément des programmes scolaires et à stimuler leur intérêt pour le domaine. 
         - Il est organisé par le Commandement de la Cyberdéfense (COMCYBER) du Ministère des Armées, en partenariat avec la Direction générale de la scolarité (DGESCO) du Ministère de l’Éducation et de la Jeunesse.
 
-
+    - Hors programme, mais fortement recommandé pour le travail de développeurs informatiques en équipe: [Débuter avec Git et Github](https://youtu.be/V6Zo68uQPqE?si=qjbKbj_SQvdclmxs) (présentation très claire de Sébastien Saunier sur la chaîne youtube *Le Wagon*)
+    - Préparez-vous à l'Épreuve Pratique : les sujets de la BNS 2023 sont disponibles [ici](T6_6_Epreuve_pratique/BNS_2023/)
 
 
 #}
