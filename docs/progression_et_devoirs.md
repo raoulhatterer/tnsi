@@ -249,5 +249,5 @@
     - Exercices cryptographie
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - :new: Épreuve pratique: les sujets de la BNS 2024 (sur lesquels vous serez évaluées) sont disponibles [ici](https://cyclades.education.gouv.fr/delos/public/listPublicECE)  :star: :star: :star:
+        - :new: Épreuve pratique: les sujets de la BNS 2024 (sur lesquels vous serez évaluées) sont disponibles [ici](https://cyclades.education.gouv.fr/delos/public/listPublicECE) (il est prévu que la mise en ligne se fasse à partir du 12 mars 2024) :star: :star: :star:
 

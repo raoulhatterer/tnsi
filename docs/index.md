@@ -8,7 +8,7 @@
 
 !!! abstract "Actualités"
 
-    - :new: Épreuve pratique: les sujets de la BNS 2024 (sur lesquels vous serez évaluées) sont disponibles [ici](https://cyclades.education.gouv.fr/delos/public/listPublicECE)  :star: :star: :star:
+    - :new: Épreuve pratique: les sujets de la BNS 2024 (sur lesquels vous serez évaluées) sont disponibles [ici](https://cyclades.education.gouv.fr/delos/public/listPublicECE) (il est prévu que la mise en ligne se fasse à partir du 12 mars 2024) :star: :star: :star:
 
       | Critères d’évaluation                    | Définition du critère                         | Très insuffisant                                                | Insuffisant                                                      | Satisfaisant                                                                           | Très satisfaisant                                                 |
       |------------------------------------------|-----------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------|
