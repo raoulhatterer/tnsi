@@ -129,16 +129,19 @@
     M = bytes_to_long(msg.encode('utf-8')) # on convertit le message msg en un nombre
 
     chiffre = ...  # message chiffré (sous forme de nombre)
-    
+    print(long_to_bytes(chiffre)) # message chiffré (sous forme de texte)
     clair = ...   # message déchiffré (sous forme de nombre) 
-    print(long_to_bytes(res)) # message déchiffré (sous forme de texte)
+    print(long_to_bytes(clair)) # message déchiffré (sous forme de texte)
 
 
     ```
 
+    - Pour disposer du module `Crypto` installer `pycryptodome` avec pip
+    - Si vous ne disposez pas des droits d'installation, le travail peut être fait en ligne sur [https://www.pythonanywhere.com](https://www.pythonanywhere.com)
     - Pour générer un grand nombre premier, on utilise la fonction ```Crypto.Util.number.getPrime(bits, randfunc=get_random_bytes)```.
     - Pour inverser un nombre $x$ modulo $n$, on utilise la fonction    ```libnum.invmod(x, n)```.
     - Pour calculer ```a``` à la puissance ```b``` modulo ```n```, on utilise ```pow(a, b, n)```.
+
 
     {{
     correction(False,

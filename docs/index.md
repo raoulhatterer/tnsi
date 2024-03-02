@@ -3,7 +3,8 @@
     - Le site [e-nsi](https://e-nsi.gitlab.io/pratique/tags/){:target="_blank"} propose des exercices d'entrainement à la pratique de la programmation en lien avec la spécialité NSI. 
     - Pour chaque exercice, on trouve un énoncé, souvent pour créer une fonction, puis des exemples d'application de la fonction. Ensuite, une zone de saisie du code qui est accompagné des premiers tests. Il y a des tests secrets qui permettent ensuite d'accepter (ou valider) votre code.
 
-
+!!! info "Python et terminal Linux"
+    - Le site [https://www.pythonanywhere.com](https://www.pythonanywhere.com){:target="_blank"} permet de créer un compte gratuit pour programmer en python ou pour disposer d'un terminal sous Linux.
 
 
 !!! abstract "Actualités"
