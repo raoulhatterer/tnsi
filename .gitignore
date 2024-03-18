@@ -6,3 +6,8 @@
 /docs/#progression_et_devoirs.md#
 /docs/T2_Programmation/2.3_Calculabilite_Decidabilite/data/#test.org#
 /docs/T2_Programmation/2.3_Calculabilite_Decidabilite/data/test.py~
+*.md~
+*.md~
+./*.md~
+[a-zA-Z]*.md~
+/[a-zA-Z]*.md~
