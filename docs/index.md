@@ -30,7 +30,7 @@
 
 ### :high_brightness: Thème en cours d'étude 
 !!! note ""
-    - :arrow_right: [Cryptographie](T5_Architecture_materielle/5.4_Cryptographie/cours/)
+    - :arrow_right: [Programmation dynamique](T3_Algorithmique/3.2_Programmation_dynamique/cours/)
 ### Thèmes déjà traités
 
 
@@ -43,6 +43,8 @@
 - :arrow_right: [T1 Structures de données > Dictionnaires](T1_Structures_de_donnees/1.2_Dictionnaires/cours/) 
 - :arrow_right: [T5 Architecture matérielle > Gestion des processus](T5_Architecture_materielle/5.2_Gestion_des_processus/cours/) 
 - :arrow_right: [Dichotomie](T3_Algorithmique/3.1_Diviser_pour_regner/cours/)
+- :arrow_right: [Cryptographie](T5_Architecture_materielle/5.4_Cryptographie/cours/)
+
 {#
 ### *Thèmes déjà traités*
 
