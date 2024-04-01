@@ -270,3 +270,8 @@
     - Programmation dynamique (TP pyramides)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 45 (2h mardi 2/4/2024):"
+    - Programmation dynamique (TP pyramides)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
