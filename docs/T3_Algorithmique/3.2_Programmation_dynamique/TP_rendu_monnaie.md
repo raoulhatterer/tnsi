@@ -13,7 +13,7 @@ Dans toute la suite, on considérera que la somme à rendre est un nombre entier
 
 ## 1. Retour sur l'algorithme glouton
 
-Nous avons vu [en Première](https://lyceemed.forge.aeif.fr/pnsi/T4_Algorithmique/4.6_Algorithmes_gloutons/cours/#2-le-probleme-du-rendu-de-monnaie){. target="_blank"} un algorithme capable de donner une combinaison de pièces pour rendre la somme ```somme```.
+Nous avons vu [en Première](https://lyceemed.forge.aeif.fr/pnsi/T4_Algorithmique/Chapitre_4:_Algorithmes_gloutons/cours/#2-le-probleme-du-rendu-de-monnaie){. target="_blank"} un algorithme capable de donner une combinaison de pièces pour rendre la somme ```somme```.
 
 Cet algorithme fonctionnait de manière gloutonne : on cherche à rendre à chaque fois la plus grosse pièce possible.
 
