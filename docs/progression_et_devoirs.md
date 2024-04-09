@@ -280,3 +280,8 @@
     - Programmation dynamique (TP pyramides+TP rendu de monnaie)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 47 (2h mardi 2/4/2024):"
+    - Programmation dynamique (TP rendu de monnaie)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
