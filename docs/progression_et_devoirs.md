@@ -285,3 +285,4 @@
     - Programmation dynamique (TP rendu de monnaie)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Exercice 3 du TP rendu de monnaie
