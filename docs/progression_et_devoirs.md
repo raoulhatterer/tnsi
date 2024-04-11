@@ -281,8 +281,14 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 47 (2h mardi 2/4/2024):"
+!!! done "séance 47 (2h mardi 9/4/2024):"
     - Programmation dynamique (TP rendu de monnaie)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Exercice 3 du TP rendu de monnaie
+
+!!! done "séance 48 (4h jeudi 11/4/2024):"
+    - Programmation dynamique (TP rendu de monnaie + TP Le plus grand carré blanc)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - TP Le plus grand carré blanc
