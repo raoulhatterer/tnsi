@@ -1,3 +1,11 @@
+!!! tip "Grand Oral"
+    - [Guide Eduscol pour le Grand Oral (avec exemples de sujets NSI)](data/GO_NSI_Eduscol.pdf){. target="_blank"}
+    - [FAQ Grand Oral](data/GO_FAQ.pdf){. target="_blank"}
+{#    - une idée pour le Grand Oral : [Le bug de Minecraft](https://www.youtube.com/watch?v=ei58gGM9Z8k){. target="_blank"}#}
+
+
+
+
 
 !!! info "Exercices pratiques pour vous entraîner"
     - Le site [e-nsi](https://e-nsi.gitlab.io/pratique/tags/){:target="_blank"} propose des exercices d'entrainement à la pratique de la programmation en lien avec la spécialité NSI. 
