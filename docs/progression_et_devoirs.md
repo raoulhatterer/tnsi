@@ -292,3 +292,9 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - TP Le plus grand carré blanc
+
+!!! done "séance 49 (2h mardi 16/4/2024):"
+    - FAQ Grand Oral
+    - Programmation dynamique (Recherche textuelle)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
