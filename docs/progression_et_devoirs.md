@@ -299,3 +299,10 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Terminer Recherche textuelle
+        
+!!! done "séance 50 (4h jeudi 18/4/2024):"
+    - Correction du bac blanc
+    - Recherche textuelle
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+    
