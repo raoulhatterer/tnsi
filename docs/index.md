@@ -27,6 +27,7 @@
     
 
     - Informations sur les épreuves de Juin 2024:
+        - Les épreuves pratiques sont organisées entre le 27 et 28 mai 2024.
         - La **totalité** du programme pourra être évaluée.
         - Changement de coefficients : 15 points pour l'épreuve écrite, 5 points pour l'épreuve pratique. 
     - Préparez-vous à l'Épreuve Écrite : les annales des années précédentes sont disponibles [ici](T6_Annales/liste_sujets/) 
