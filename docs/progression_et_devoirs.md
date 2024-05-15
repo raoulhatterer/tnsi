@@ -312,5 +312,11 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Réviser les graphes 
     
+!!! done "séance 52 (2h mardi 14/5/2024):"
+    - Parcours de graphes
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Réviser le contrôle sur les graphes 
+    
     
     
