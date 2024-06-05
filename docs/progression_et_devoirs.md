@@ -317,6 +317,33 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Réviser le contrôle sur les graphes 
-    
+
+!!! done "séance 53 (4h jeudi 16/5/2024):"
+    - Contrôle sur les graphes
+    - Révision épreuve pratique
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        
+!!! done "séance 54 (2h mardi 21/5/2024):"
+    - Révision épreuve pratique
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 55 (4h jeudi 23/5/2024):"
+    - Révision épreuve pratique
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        
+!!! done "séance 56 (2h mardi 28/5/2024):"
+    - Correction du contrôle sur les graphes
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Pour cause d'épreuves et de conseils de classe, le prochain cours aura lieu de 10h à 12h le jeudi 06/06/24.
+
+
+
+
+
+
     
     
