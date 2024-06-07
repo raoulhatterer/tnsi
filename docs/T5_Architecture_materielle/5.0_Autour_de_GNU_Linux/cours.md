@@ -46,7 +46,7 @@ En 1985, [Richard Stallman](https://fr.wikipedia.org/wiki/Richard_Stallman) quit
     - gratuiciels (freewares) ;
     - open source.
 
-En 1991, [Linus Torvalds](https://fr.wikipedia.org/wiki/Linus_Torvalds), étudiant norvégien de 21 ans, indisposé par la faible disponibilité de serveur UNIX de l'université d'Helsinki décide d'écrire un mini OS dérivé d'Unix pour son PC. Il écrit un [noyau](https://fr.wikipedia.org/wiki/Noyau_de_système_d%27exploitation) auquel il adapte de nombreux composants disponibles du [projet GNU](https://fr.wikipedia.org/wiki/Projet_GNU). Réputé pour sa stabilité (mais aussi pour sa complexité d'installation), le [noyau Linux](https://fr.wikipedia.org/wiki/Noyau_Linux) est adopté par une grande communauté de bidouilleurs ([hacker](https://fr.wikipedia.org/wiki/Hacker_(sous-culture))) sur l'internet, qui étendent régulièrement ses possibilités. Sans publicité, soutenu par la communauté du libre et de l'[open-source](https://fr.wikipedia.org/wiki/Open_source), [Linux](https://fr.wikipedia.org/wiki/Linux) se répand doucement et devient rapidement une alternative crédible à Windows, à tel point que 90 % des serveurs du cloud sont des serveurs *Linux*. Linus Torvalds continue à diriger le développement de *Linux*, et est considéré comme le « dictateur bienveillant à vie » (Benevolent Dictator for Life) de celui-ci.
+En 1991, [Linus Torvalds](https://fr.wikipedia.org/wiki/Linus_Torvalds), étudiant norvégien de 21 ans, indisposé par la faible disponibilité de serveur UNIX de l'université d'Helsinki décide d'écrire un mini OS dérivé d'Unix pour son PC. Il écrit un [noyau](https://fr.wikipedia.org/wiki/Noyau_de_système_d%27exploitation) auquel il adapte de nombreux composants disponibles du [projet GNU](https://fr.wikipedia.org/wiki/Projet_GNU). Réputé pour sa stabilité (mais aussi pour sa complexité d'installation), le [noyau Linux](https://fr.wikipedia.org/wiki/Noyau_Linux) est adopté par une grande communauté de bidouilleurs ([hacker](https://fr.wikipedia.org/wiki/Hacker_(sous-culture))) sur l'internet, qui étendent régulièrement ses possibilités. Sans publicité, soutenu par la communauté du libre et de l'[open-source](https://fr.wikipedia.org/wiki/Open_source), [Linux](https://fr.wikipedia.org/wiki/Linux) se répand doucement et devient rapidement une alternative crédible à *Windows*, à tel point que 90 % des serveurs du cloud sont des serveurs *Linux*. Linus Torvalds continue à diriger le développement de *Linux*, et est considéré comme le « dictateur bienveillant à vie » (Benevolent Dictator for Life) de celui-ci.
 
 Si, à l'origine, *Linux* a été développé pour les ordinateurs compatibles PC, il n'a jamais équipé qu'une très faible part des ordinateurs personnels. Mais le *noyau Linux*, accompagné ou non des *logiciels GNU*, est également utilisé par d'autres types de systèmes informatiques, notamment les serveurs, téléphones portables, systèmes embarqués ou encore superordinateurs. Le système d'exploitation pour téléphones portables *Android* qui utilise le noyau *Linux* (mais pas *GNU*) équipe aujourd'hui 85 % des tablettes tactiles et smartphones.
 
@@ -54,7 +54,7 @@ Si, à l'origine, *Linux* a été développé pour les ordinateurs compatibles P
 Selon les modalités à votre disposition.
 
 === "En ligne"
-    - Le site [https://www.pythonanywhere.com](https://www.pythonanywhere.com){:target="_blank"} permet de créer un compte gratuit pour programmer en python ou pour disposer d'un terminal sous Linux.
+    - Le site [https://www.pythonanywhere.com](https://www.pythonanywhere.com){:target="_blank"} permet de créer un compte gratuit pour programmer en *python* ou pour disposer d'un [terminal](https://fr.wikipedia.org/wiki/Terminal_(informatique)) sous *Linux*.
 
 === "Avec WSL"
     - **Installation sur WSL**
@@ -90,7 +90,7 @@ Selon les modalités à votre disposition.
 **Bash** (acronyme de Bourne-Again shell) est un interpréteur en ligne de commande de type script. C’est le shell Unix(l'interpréteur de commande) du projet GNU.
 
 
-Le terminal fonctionne avec le principe **REPL** : Read Eval Print Loop.
+[Le terminal](https://fr.wikipedia.org/wiki/Terminal_(informatique)) fonctionne avec le principe **REPL** : Read Eval Print Loop.
 
 - **Read**: L’utilisateur tape une commande qui est lue par l’interpréteur,
 - **Eval**: Cette commande est exécutée et retourne une chaîne de caractères,
