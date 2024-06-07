@@ -7,7 +7,7 @@
 
 
 !!! Quote "D'après la définition de Wikipedia "
-    « En informatique, un [système d'exploitation](https://fr.wikipedia.org/wiki/Système_d%27exploitation) (souvent appelé OS — de l'anglais Operating System) est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs.
+    « En informatique, un [système d'exploitation](https://fr.wikipedia.org/wiki/Système_d%27exploitation){:target="_blank"} (souvent appelé OS — de l'anglais **O**perating **S**ystem) est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs.
     
     Il reçoit des demandes d'utilisation des ressources de l'ordinateur — ressources de stockage des mémoires (par exemple des accès à la mémoire vive, aux disques durs), ressources de calcul du processeur central, ressources de communication vers des périphériques [...] ou via le réseau — de la part des logiciels applicatifs. Le système d'exploitation gère les demandes ainsi que les ressources nécessaires évitant les interférences entre les logiciels. »
 
@@ -36,25 +36,25 @@ Chaque ordinateur doit donc disposer d'un OS afin de pouvoir faire fonctionner l
 
 ### 1.2 GNU/Linux
 
-En 1985, [Richard Stallman](https://fr.wikipedia.org/wiki/Richard_Stallman) quitte le MIT pour écrire un système d'exploitation compatible Unix : [GNU](https://fr.wikipedia.org/wiki/GNU) (**G**nu is **N**ot **U**nix). Opposé au principe du logiciel « propriétaire », il publie le manifeste GNU, où il expose ses  idées de [logiciel libre](https://fr.wikipedia.org/wiki/Logiciel_libre), permettant à chacun de s'approprier, de modifier et de diffuser le code source d'un logiciel.
+En 1985, [Richard Stallman](https://fr.wikipedia.org/wiki/Richard_Stallman){:target="_blank"} quitte le MIT pour écrire un système d'exploitation compatible Unix : [GNU](https://fr.wikipedia.org/wiki/GNU){:target="_blank"} (**G**nu is **N**ot **U**nix). Opposé au principe du logiciel « propriétaire », il publie le manifeste GNU, où il expose ses  idées de [logiciel libre](https://fr.wikipedia.org/wiki/Logiciel_libre){:target="_blank"}, permettant à chacun de s'approprier, de modifier et de diffuser le code source d'un logiciel.
 
 
 !!! abstract "{{ exercice() }}"
-    Se rendre sur [Wikipédia](https://fr.wikipedia.org/wiki/Logiciel_libre) et expliquer pourquoi il ne faut pas confondre les termes suivants: 
+    Se rendre sur [Wikipédia](https://fr.wikipedia.org/wiki/Logiciel_libre){:target="_blank"} et expliquer pourquoi il ne faut pas confondre les termes suivants: 
     
     - logiciel libre (free software, libre software ou libreware) ;
     - gratuiciels (freewares) ;
     - open source.
 
-En 1991, [Linus Torvalds](https://fr.wikipedia.org/wiki/Linus_Torvalds), étudiant norvégien de 21 ans, indisposé par la faible disponibilité de serveur UNIX de l'université d'Helsinki décide d'écrire un mini OS dérivé d'Unix pour son PC. Il écrit un [noyau](https://fr.wikipedia.org/wiki/Noyau_de_système_d%27exploitation) auquel il adapte de nombreux composants disponibles du [projet GNU](https://fr.wikipedia.org/wiki/Projet_GNU). Réputé pour sa stabilité (mais aussi pour sa complexité d'installation), le [noyau Linux](https://fr.wikipedia.org/wiki/Noyau_Linux) est adopté par une grande communauté de bidouilleurs ([hacker](https://fr.wikipedia.org/wiki/Hacker_(sous-culture))) sur l'internet, qui étendent régulièrement ses possibilités. Sans publicité, soutenu par la communauté du libre et de l'[open-source](https://fr.wikipedia.org/wiki/Open_source), [Linux](https://fr.wikipedia.org/wiki/Linux) se répand doucement et devient rapidement une alternative crédible à *Windows*, à tel point que 90 % des serveurs du cloud sont des serveurs *Linux*. Linus Torvalds continue à diriger le développement de *Linux*, et est considéré comme le « dictateur bienveillant à vie » (Benevolent Dictator for Life) de celui-ci.
+En 1991, [Linus Torvalds](https://fr.wikipedia.org/wiki/Linus_Torvalds){:target="_blank"}, étudiant norvégien de 21 ans, indisposé par la faible disponibilité de serveur UNIX de l'université d'Helsinki décide d'écrire un mini OS dérivé d'Unix pour son PC. Il écrit un [noyau](https://fr.wikipedia.org/wiki/Noyau_de_système_d%27exploitation){:target="_blank"} auquel il adapte de nombreux composants disponibles du [projet GNU](https://fr.wikipedia.org/wiki/Projet_GNU){:target="_blank"}. Réputé pour sa stabilité (mais aussi pour sa complexité d'installation), [ GNU/Linux](https://fr.wikipedia.org/wiki/Linux){:target="_blank"} appelé communément **[Linux](https://fr.wikipedia.org/wiki/Linux){:target="_blank"}** est adopté par une grande communauté de bidouilleurs ([hacker](https://fr.wikipedia.org/wiki/Hacker_(sous-culture)){:target="_blank"}) sur l'internet, qui étendent régulièrement ses possibilités. Sans publicité, soutenu par la communauté du libre et de l'[open-source](https://fr.wikipedia.org/wiki/Open_source){:target="_blank"}, *Linux* se répand doucement et devient rapidement une alternative crédible à *Windows*, à tel point que 90 % des serveurs du cloud sont des serveurs *Linux*. Linus Torvalds continue à diriger le développement de *Linux*, et est considéré comme le « dictateur bienveillant à vie » (Benevolent Dictator for Life) de celui-ci.
 
-Si, à l'origine, *Linux* a été développé pour les ordinateurs compatibles PC, il n'a jamais équipé qu'une très faible part des ordinateurs personnels. Mais le *noyau Linux*, accompagné ou non des *logiciels GNU*, est également utilisé par d'autres types de systèmes informatiques, notamment les serveurs, téléphones portables, systèmes embarqués ou encore superordinateurs. Le système d'exploitation pour téléphones portables *Android* qui utilise le noyau *Linux* (mais pas *GNU*) équipe aujourd'hui 85 % des tablettes tactiles et smartphones.
+Si, à l'origine, *Linux* a été développé pour les ordinateurs compatibles PC, il n'a jamais équipé qu'une très faible part des ordinateurs personnels. Mais le *[noyau Linux](https://fr.wikipedia.org/wiki/Noyau_Linux){:target="_blank"}*, accompagné ou non des *logiciels GNU*, est également utilisé par d'autres types de systèmes informatiques, notamment les serveurs, téléphones portables, systèmes embarqués ou encore superordinateurs. Le système d'exploitation pour téléphones portables *Android* qui utilise le noyau *Linux* (mais pas *GNU*) équipe aujourd'hui 85 % des tablettes tactiles et smartphones.
 
 ## 2. Premiers pas
 Selon les modalités à votre disposition.
 
 === "En ligne"
-    - Le site [https://www.pythonanywhere.com](https://www.pythonanywhere.com){:target="_blank"} permet de créer un compte gratuit pour programmer en *python* ou pour disposer d'un [terminal](https://fr.wikipedia.org/wiki/Terminal_(informatique)) sous *Linux*.
+    - Le site [https://www.pythonanywhere.com](https://www.pythonanywhere.com){:target="_blank"} permet de créer un compte gratuit pour programmer en *python* ou pour disposer d'un [terminal](https://fr.wikipedia.org/wiki/Terminal_(informatique)){:target="_blank"} sous *Linux*.
 
 === "Avec WSL"
     - **Installation sur WSL**
@@ -73,7 +73,7 @@ Selon les modalités à votre disposition.
 === "Sur Raspberry Pi" 
     - **Installation sur Raspberry Pi 4**
         - Il existe des distributions *Linux* spécifiques pour Rasberry 4, mais nous utiliserons **Raspberry Pi OS** (anciennement connu sous le nom de **Raspbian**), qui est une distribution basée sur **Linux Debian** spécialement optimisé pour Rasberry Pi. 
-        - Une image est téléchargeable [ici](https://www.raspberrypi.com/software/)
+        - Une image est téléchargeable [ici](https://www.raspberrypi.com/software/){:target="_blank"}
         - Une fois l'image installée sur une carte micro-SD, le mini-ordinateur devrait-être immédiatement fonctionnel.
     !!! example "Exercice"
         Suivez toutes les étapes d'installation de l'OS **Raspebbry Pi OS**, en créant un utilisateur administrateur avec votre nom de famille + première lettre de votre prénom, et un **mot de passe simple**.
@@ -90,7 +90,7 @@ Selon les modalités à votre disposition.
 **Bash** (acronyme de Bourne-Again shell) est un interpréteur en ligne de commande de type script. C’est le shell Unix(l'interpréteur de commande) du projet GNU.
 
 
-[Le terminal](https://fr.wikipedia.org/wiki/Terminal_(informatique)) fonctionne avec le principe **REPL** : Read Eval Print Loop.
+[Le terminal](https://fr.wikipedia.org/wiki/Terminal_(informatique)){:target="_blank"} fonctionne avec le principe **REPL** : Read Eval Print Loop.
 
 - **Read**: L’utilisateur tape une commande qui est lue par l’interpréteur,
 - **Eval**: Cette commande est exécutée et retourne une chaîne de caractères,
@@ -99,7 +99,7 @@ Selon les modalités à votre disposition.
 
 Comme tous les interpréteurs en ligne de commande de type script, *Bash* exécute quatre opérations fondamentales:
 
-- Il fournit une liste de commandes permettant d’opérer sur l’ordinateur (lancement de programmes, copie de fichiers, etc.) et il permet de regrouper ces commandes dans un fichier unique appelé [script](https://fr.wikipedia.org/wiki/Langage_de_script) ;
+- Il fournit une liste de commandes permettant d’opérer sur l’ordinateur (lancement de programmes, copie de fichiers, etc.) et il permet de regrouper ces commandes dans un fichier unique appelé [script](https://fr.wikipedia.org/wiki/Langage_de_script){:target="_blank"} ;
 
 - Il vérifie la ligne de commande lors de son exécution ou lors d’une éventuelle procédure de vérification et renvoie un message d’erreur en cas d’erreur de syntaxe ;
 
@@ -165,7 +165,7 @@ drwx------@ 887 raoul         staff    28384  6 jui     22:22 Downloads
 - `-` indique que l'élément trouvé est un fichier alors que `d` indique qu'il s'agit d'un dossier;
 - les 3×3=9 lettres suivantes indiquent les droits dont disposent les différents utilisateurs sur ce fichier; 
 - le nombre suivant est pour nous sans intérêt (il s'agit d'un compteur de liaison) ;
-- `@` est pour nous sans intérêt (il indique que l'existence d'[attributs étendus](https://fr.wikipedia.org/wiki/Attributs_étendus))
+- `@` est pour nous sans intérêt (il indique que l'existence d'[attributs étendus](https://fr.wikipedia.org/wiki/Attributs_étendus){:target="_blank"})
 - le groupe de lettre suivant est le nom de l'**utilisateur** propriétaire du fichier ou dossier ;
 - le groupe de lettre suivant est le nom **du groupe** propriétaire du fichier ou dossier ;
 - `21359` et `28384` représentent respectivement la taille en octet du fichier et celle du dossier ;
@@ -231,7 +231,7 @@ drwx------@ 887 raoul         staff    28384  6 jui     22:22 Downloads
     chmod o-rwx mon_texte.txt
     ```
     
-    Il est aussi possible d'utiliser la notation octale pour gérer ces droits. Par exemple, la commande suivante :
+    Il est aussi possible d'utiliser la notation octale pour gérer ces droits. Par exemple, avec la commande suivante :
     ```bash
     chmod 640 mon_texte.txt
     ```
@@ -245,59 +245,146 @@ drwx------@ 887 raoul         staff    28384  6 jui     22:22 Downloads
     
     Une commande telle que `chmod 777 mon_texte.txt` done tous les droits de lecture, écriture et exécution à tous les utilisateurs du système.
 
-!!! danger "La suite à venir (en travaux)"
+!!! abstract "{{ exercice() }}"
+    1. Copiez un fichier quelconque depuis votre session Windows vers votre session WSL par l'intermédiaire de l'explorateur de fichier de windows.
+    2. Quels sont les droits sur ce fichier ?
+    3. Modifiez-les de manière à ce que seul l'utilisateur principal (vous) ait des droits de lecture, écriture et exécution sur ce fichier, et que les autres n'aient qu'un droit de lecture.
 
-Exercice
-1. Copiez un fichier quelconque depuis votre session Windows vers votre session WSL par l'intermédiaire de l'explorateur de fichier de windows.
-2. Quels sont les droits sur ce fichier ?
-3. Modifiez-les de manière à ce que seul l'utilisateur principal (vous) ait des droits de lecture, écriture et exécution sur ce fichier, et que les autres n'aient qu'un droit de lecture.
-3.4. Les principales commandes Shell sous *Linux*
+### 3.4. Les principales commandes Shell sous *Linux*
 Voici, de manière non-exhaustive, quelques-unes des commandes les plus utiles sous *Linux* :
-pwd :donnelecheminabsoludurépertoirecourant.
-man (raccourci de manual) : donne le manuel de la commande passée en argument.
-cat (raccourcideconcatenate):sonutilisationsimpleestd'aficherlecontenud'unfichierdirectementdansleterminal. Cependant cette commande permet bien d'autres choses :
-: crée un nouveau fichier dans le répertoire courant, et le remplit avec les saisies de l'utilisateur (
-+ C pour quitter) ;
-cat fichier 1 fichier2 > fichier3 :concatènelescontenusdesfichiers1et2dansunnouveaufichier.
-cp (raccourci de copy) : copie un fichier dans un dossier :
-cp bidule.jpg /home/bob/photo copie le fichier bidule.jpg vers le répertoire /home/bob/photo , si les permissions sont
-correctement attribuées.
-mv (raccourcidemove):dépalceunfichierversunrépertoirecible,etparextensionpermetderenommerunfichier:
-mv bidule.jpg /home/bob/photo déplace le fichier bidule.jpg vers /home/bob/photo ; mv bidule.jpg truc.jpg renomme le fichier bidule.jpg en truc.jpg .
-cat > nv_fichier.txt
-  ⌃ Ctrl
+
+!!! info "Les principales commandes"
+
+    === "pwd"
+        (**p**rint **w**orking **d**irectory)
+        
+        - Donne le chemin absolu du répertoire courant.
+    === "man"
+        (**man**ual)
+        
+        - Donne le manuel de la commande passée en argument.
+    === "cat"
+        (con**cat**enate)
+        
+        - Son utilisation simple est d'afficher le contenu d'un fichier directement dans le terminal. 
+        - Cependant cette commande permet bien d'autres choses :
+            - `cat > nv_fichier.txt`: crée un nouveau fichier dans le répertoire courant, et le remplit avec les saisies de l'utilisateur (`Ctrl`+`C` pour quitter) ;
+            - `cat fichier1 fichier2 > fichier3` :concatène les contenus des fichiers 1 et 2 dans un nouveau fichier.
+            
+        Remarque:
+        
+        - Pour créer un fichier vide on utilise plutôt la commande `touch`.
+    === "cp"
+        (**c**o**p**y)
+        
+        - Copie un fichier dans un dossier.
+        
+        Exemple:
+        
+        - `cp bidule.jpg /home/bob/photo` copie le fichier `bidule.jpg` vers le répertoire `/home/bob/photo` , si les permissions sont correctement attribuées.
+    === "mv"
+        (**m**o**v**e)
+        
+        - **Déplace** un fichier vers un répertoire cible, et par extension **permet de renommer un fichier**.
+        
+        Exemples:
+        
+        - `mv bidule.jpg /home/bob/photo` déplace le fichier `bidule.jpg` vers `/home/bob/photo` ; 
+        - `mv bidule.jpg truc.jpg` renomme le fichier `bidule.jpg` en `truc.jpg` .
+    === "mkdir"
+        (**m**a**k**e **dir**ectory)
     
+        - Crée un nouveau répertoire dont le nom est passé en argument.
+        
+        Exemple:
+        
+        - `mkdir nv_dossier` 
+    === "rmdir"
+        (**r**e**m**ove **dir**ectory)
+        
+        - Supprime un répertoire **vide** dont le nom est passé en argument.
+        
+        Exemple: 
+        
+        - `rmdir nom_dossier` 
+    === "rm"
+        (**r**e**m**ove)
+    
+        - Supprime le ou les fichiers passés en arguments.
+        
+        :warning: **Attention à cette commande qui peut tout casser** :warning:
+    
+        Exemples:
+        
+        - `rm mon_fichier`: supprime `mon_fichier` 
+        - `rm *` : supprime tous les fichiers du répertoire courant !
+        - `rm -R`: supprime de manière récursive tous les fichiers et sous-dossiers du répertoire courant !!!
+    === "touch"
+    
+        - Permet de créer un **nouveau fichier vide** en lui passant le nom en argument. Ce n'est pas la peine d'utiliser la commande `cat` pour créer un fichier vide.
+    
+        Exemple:
+    
+        - `touch nv_fichier`
+    === "find"
+    
+        - Permet de chercher des fichiers et/ou des dossiers dans un dossier donné. 
+    
+        Exemple:
+    
+        - `find /home/ -name mon_texte.txt` :  cherche le fichier `mon_texte.txt` dans le répertoire `home` et tous ses sous-dossiers.
+    === "locate"
+        Permet de donner la localisation d'un fichier dans le système de fichier.
+        
+        Remarques: 
+        
+        - Le résultat de la commande `locate` est très rapide à obtenir, car elle utilise une base de donnée mise à jour régulièrement qui recense tous les fichiers du système. Cependant, la mise à jour de cette base de donnée n'est pas immédiate, donc les modifications récentes ne sont pas prises en compte.
+        - Si l'on a les droits super-utilisateur on peut mettre à jour la base de données avec la commande `sudo updatedb`.
+    === "grep"
+        (**G**lobal **R**egular **E**xpression **P**rint)
+        
+        - Permet de chercher une chaîne de caractère dans un fichier. Ce qui est déjà utile mais cette commande  permet aussi aux utilisateurs de spécifier des modèles à l'aide d'expressions régulières, puis de rechercher des lignes qui leur correspondent. Ce qui en fait un outil très puissant.
+        
+        Syntaxe:
+        
+        - `grep [options] modèle [fichier...]`
+        
+        Exemples:
+        
+        - `grep "toto" bob.txt` utilisation basique qui renverra toutes les lignes du fichier `bob.txt` contenant la chaîne `toto`. 
+        - `grep "linux" /path/to/directory/*` renverra toutes les lignes contenant la chaîne `linux` dans les différents fichiers du répertoire indiqué.
+        - `grep -i "important" /path/to/directory/*` où l'option `-i` permet de rendre la recherche insensible à la [casse](https://fr.wikipedia.org/wiki/Casse_(typographie)#:~:text=La%20casse%20est%20généralement%20régie,généralisée%20pour%20tous%20les%20substantifs.){:target="_blank"}.
+        - `grep -c "pattern" /path/to/directory/*` où l'option `-c` permet de compter le nombre d'occurences.
+        - `grep -r "pattern" /path/to/directory/` où l'option `-r`permet de chercher de façon récursive dans les sous-dossiers.
+        
+        Remarque: `grep` est très efficace sur les fichiers comptenant du texte, mais ne fonctionne pas correctement sur les fichiers pdf, odt ...
+        
+    === "head"
+        - Renvoie les 10 premières lignes d'un fichier. 
+        - On peut paramétrer le nombre de lignes obtenues avec l'option `-n`
+        
+        Exemple:
+        
+        - `head -n 5 bob.txt` envoie les 5 premières lignes du fichier `bob.txt`.
+    === "tail"
+        Fonctionne de la même manière que `head` , mais en renvoyant les 10 dernières lignes.
+    === "diff"
+        Compare deux fichiers ligne par ligne et renvoie toutes celles présentant une différence. Pratique!
 
+!!! abstract "{{ exercice() }}"
+    1. Télécharger le fichier [Arborescence.tar.gz](data/Arborescence.tar.gz){:target="_blank"}
+    2. Créer un dossier `TP` dans le dossier personnel 
+    3. Copier le fichier précédent dans ce dossier, puis le décompresser avec la commande 
+    ```bash
+    tar -xzf Arborescence.tar.gz
+    ```
+    Attention, la décompression peut durer plusieurs minutes.
+    4. Vous aurez besoin de la commande `locate` qui n'est pas installée. Exécutez la commande suivante pour installer le paquet nécessaire à son utilisation :
+    ```bash
+    sudo apt install plocate
+    ```
+    5. Pour débuter, chercher le fichier `commencement.txt`   dans l'arborescence, et le lire ! Bon courage, vous aurez probablement à chercher en parallèle sur des commandes spécifiques avec les options qui vont bien pour parvenir à la fin de ce TP ! (Petit point de détail, si une commande vous semble trop longue, vous pouvez l'interrompre avec le raccourci clavier `Ctrl`+`C`).
+  
 
-(pour make directory) : crée un nouveau répertoire dont le nom est passé en argument.
-rmdir nom_dossier (pourremovedirectory):supprimeunrépertoirevidedontlenomestpasséenargument.
-rm (pourremove):supprimeleoulesfichierspassésenarguments.Attentionàcettecommandequipeuttoutcasser!:
-rm * :supprimetouslesfichiersdurépertoirecourant
-rm -R:supprimedemanièrerécursivetouslesfichiersetsous-dossiersdurépertoirecourant!
-Il existe aussi des commandes interdites, à ne jamais utiliser sous peine de mise au ban de la société, lynchage en place
-publique, etc...
-touch nv_fichier : permet de créer un nouveau fichier vide en lui passant le nom en argument. A préférer à la commande cat .
-find : permet de chercher des fichiers et/ou des dossier dans un dossier donné. Par exemple find /home/ -name mon_texte.txt cherche le fichier mon_texte.txt dans le répertoire home et tous ses sous-dossiers.
-locate : permet de donner la localisation d'un fichier dans le système de fichier. locate est très rapide, car elle utilise une base de donnée mise à jour régulièrement qui recense tous les fichiers du système. Cependant, la mise à jour de cette base de donnée n'est pas immédiate, donc les modifications récentes ne sont pas prises en compte.
-grep : permet de chercher une chaîne de caractère dans un fichier. grep toto bob.txt renverra toutes les lignes du fichier bob.txt contenant la chaîne toto . grep est très eficace, mais ne fonctionne pas correctement sur les fichiers pdf et odt ...
-head : renvoie les 10 premières lignes d'un fichier. On peut paramétrer le nombre de lignes obtenues avec l'option -n : head -n 5 bob.txt envoie les 5 premières lignes du fichier bob.txt .
-tail : fonctionne de la même manière que head , mais en renvoyant les 10 dernières lignes.
-diff :comparedeuxfichierslignesparlignes,etrenvoietoutescellesprésentantunedifférence.Pratique!
-               Un petit TP
-1. Téléchargez le fichier Arborescence.tar.gz
-2. Créez dans votre dossier personnel un dossier TP
-3. Copiez le fichier précédent dans ce dossier, puis décompressez le avec la commande
-tar -xzf Arborescence.tar.gz
-Attention, ce peut-être long...
-4. Vous aurez besoin de la commande locate qui n'est pas installée. Exécutez la commande suivante pour installer le paquet nécessaire à son utilisation :
-sudo apt install plocate
-5. Pour débuter, cherchez le fichier   dans l'arborescence, et lisez-le ! Bon courage, vous aurez probablement à chercher en parallèle sur   des commandes spécifiques avec les options qui vont bien pour parvenir à la fin de ce TP ! (Petit point de détail, si une commande vous semble trop longue, vous pouvez l'interrompre avec le raccourci clavier ++ctrl+C++)
-   commencement.txt
-StackOverflow
- 1. Richard Stallman est un peu le grand gourou de l'informatique, soit adulé, soit détesté... Mais un personnage incontournable (voir ici)
-2. que voici un bel acronyme récursif !
-3. en réalité, nous devrions toujours parler de système GNU/Linux, car *Linux* n'est que le noyau du système. On trouvera ici un célèbre texte faussement attribué à Richard Stallman sur ce point de détail. Fun fact, ce texte est parfois récité par coeur par certains ardents défenseurs du libre...
-4. si vous avez oublié, le jeu terminus
-mkdir nv_dossier
 
 
