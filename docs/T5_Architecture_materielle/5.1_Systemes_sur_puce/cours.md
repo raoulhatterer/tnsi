@@ -2,7 +2,10 @@
 
 ![image](data/BO.png){: .center}
 
-*préambule : [cours de Première sur l'architecture Von Neumann](https://glassus.github.io/premiere_nsi/T3_Architecture_materielle/3.2_Architecture_Von_Neumann/cours/){. target="_blank"}*
+*préambule : [cours de Première sur l'architecture Von Neumann](https://lyceemed.forge.aeif.fr/pnsi/T3_Architecture_materielle/Chapitre_2:_Architecture_Von_Neumann/cours/){. target="_blank"}*
+
+
+
 
 ## 1. Loi de Moore et miniaturisation progressive
 
