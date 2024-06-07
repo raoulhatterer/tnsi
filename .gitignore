@@ -11,3 +11,4 @@
 ./*.md~
 [a-zA-Z]*.md~
 /[a-zA-Z]*.md~
+/docs/T5_Architecture_materielle/5.0_Autour_de_GNU_Linux/.pages~
