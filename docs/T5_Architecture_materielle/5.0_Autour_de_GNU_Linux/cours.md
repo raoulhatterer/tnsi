@@ -99,7 +99,7 @@ Le terminal fonctionne avec le principe **REPL** : Read Eval Print Loop.
 
 Comme tous les interpréteurs en ligne de commande de type script, *Bash* exécute quatre opérations fondamentales:
 
-- Il fournit une liste de commandes permettant d’opérer sur l’ordinateur (lancement de programmes, copie de fichiers, etc.) ; Il permet de regrouper ces commandes dans un fichier unique appelé script ;
+- Il fournit une liste de commandes permettant d’opérer sur l’ordinateur (lancement de programmes, copie de fichiers, etc.) et il permet de regrouper ces commandes dans un fichier unique appelé [script](https://fr.wikipedia.org/wiki/Langage_de_script) ;
 
 - Il vérifie la ligne de commande lors de son exécution ou lors d’une éventuelle procédure de vérification et renvoie un message d’erreur en cas d’erreur de syntaxe ;
 
