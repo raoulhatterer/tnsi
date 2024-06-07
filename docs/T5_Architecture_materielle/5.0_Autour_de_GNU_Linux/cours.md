@@ -36,7 +36,15 @@ Chaque ordinateur doit donc disposer d'un OS afin de pouvoir faire fonctionner l
 
 ### 1.2 GNU/Linux
 
-En 1985, [Richard Stallman](https://fr.wikipedia.org/wiki/Richard_Stallman) quitte le MIT pour écrire un système d'exploitation compatible Unix : [GNU](https://fr.wikipedia.org/wiki/GNU) (Gnu is Not Unix). Opposé au principe du logiciel « propriétaire », il publie le manifeste GNU, où il expose ses  idées de logiciel libre, permettant à chacun de s'approprier, de modifier et de diffuser le code source d'un logiciel.
+En 1985, [Richard Stallman](https://fr.wikipedia.org/wiki/Richard_Stallman) quitte le MIT pour écrire un système d'exploitation compatible Unix : [GNU](https://fr.wikipedia.org/wiki/GNU) (**G**nu is **N**ot **U**nix). Opposé au principe du logiciel « propriétaire », il publie le manifeste GNU, où il expose ses  idées de [logiciel libre](https://fr.wikipedia.org/wiki/Logiciel_libre), permettant à chacun de s'approprier, de modifier et de diffuser le code source d'un logiciel.
+
+
+!!! abstract "{{ exercice() }}"
+    Se rendre sur [Wikipédia](https://fr.wikipedia.org/wiki/Logiciel_libre) et expliquer pourquoi il ne faut pas confondre les termes suivants: 
+    
+    - logiciel libre (free software, libre software ou libreware) ;
+    - gratuiciels (freewares) ;
+    - open source.
 
 En 1991, [Linus Torvalds](https://fr.wikipedia.org/wiki/Linus_Torvalds), étudiant norvégien de 21 ans, indisposé par la faible disponibilité de serveur UNIX de l'université d'Helsinki décide d'écrire un mini OS dérivé d'Unix pour son PC. Il écrit un [noyau](https://fr.wikipedia.org/wiki/Noyau_de_système_d%27exploitation) auquel il adapte de nombreux composants disponibles du [projet GNU](https://fr.wikipedia.org/wiki/Projet_GNU). Réputé pour sa stabilité (mais aussi pour sa complexité d'installation), le [noyau Linux](https://fr.wikipedia.org/wiki/Noyau_Linux) est adopté par une grande communauté de bidouilleurs sur l'internet, qui étendent régulièrement ses possibilités. Sans publicité, soutenu par la communauté du libre et de l'[open-source](https://fr.wikipedia.org/wiki/Open_source), [Linux](https://fr.wikipedia.org/wiki/Linux) se répand doucement et devient rapidement une alternative crédible à Windows, à tel point que 90 % des serveurs du cloud sont des serveurs *Linux*. Linus Torvalds continue à diriger le développement de *Linux*, et est considéré comme le « dictateur bienveillant à vie » (Benevolent Dictator for Life) de celui-ci.
 
