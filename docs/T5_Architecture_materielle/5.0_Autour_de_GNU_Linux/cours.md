@@ -107,22 +107,22 @@ Comme tous les interpréteurs en ligne de commande de type script, *Bash* exé
 
 - Les scripts sont de courts programmes généralement faciles à construire. *Bash* offre un service de gestion de flux, c’est-à-dire qu’il permet que le résultat d’un script (la sortie) soit transmis à un autre script (l’entrée). De cette façon, les scripts peuvent être « chaînés », chacun effectuant une seule tâche bien délimitée.
 
-Les scripts peuvent être exécutés manuellement par l’utilisateur ou automatiquement par le système. Par exemple, dans la distribution GNU/Linux Ubuntu, le répertoire `resume.d` contient un certain nombre de scripts qui s’exécutent automatiquement lors du redémarrage du système, c’est-à-dire après la fin de la mise en veille de celui-ci. Ces scripts servent à relancer les différents programmes interrompus par la mise en veille.
+Les scripts peuvent être exécutés manuellement par l’utilisateur ou automatiquement par le système. Par exemple, dans la distribution *GNU/Linux Ubuntu*, le répertoire `resume.d` contient un certain nombre de scripts qui s’exécutent automatiquement lors du redémarrage du système, c’est-à-dire après la fin de la mise en veille de celui-ci. Ces scripts servent à relancer les différents programmes interrompus par la mise en veille.
 
 ### 3.2. Le système de fichiers
 Sur un système *Linux*, **tout est un fichier**, y compris un dossier. Mais pour rester compatible avec l'arborescence classique de windows, nous parlerons donc de :
 
 - **fichier** lorsqu'il s'agit d'une feuille de l'arborescence ; 
-- **dossier** lorsqu'on parle d'un noeud ayant des enfants.
+- **dossier** lorsqu'on parle d'un nœud ayant des enfants.
 
 Pour naviguer dans l'arborescence, il est nécessaire de connaître deux commandes:
 
-1. la commande `ls` , qui permet de lister tous les enfants du répertoire courant dans l'arborescence et peut utiliser les options suivantes :
+1. la commande `ls`  pour *List*, qui permet de lister tous les enfants du répertoire courant dans l'arborescence et peut utiliser les options suivantes :
     - `ls -a` affiche les fichiers cachés;
     - `ls -R` afiche tous les fichiers dans les sous-répertoires(de manière **récursive**);
     - `ls -l` affichera les détails des fichiers (autorisations,taille,propriétaires,etc...).
 
- 2. la commande `cd` pour Change Directory, qui peut s'utiliser selon les manières suivantes :
+ 2. la commande `cd` pour *Change Directory*, qui peut s'utiliser selon les manières suivantes :
     - `cd ~`, ramène au répertoire de l'utilisateur courant;
     - `cd nom_du_repertoire_enfant`, qui déplace le prompt dans le répertoire enfant sélectionné (adressage relatif); 
     - `cd /chemin/absolu/vers/un répertoire`, qui déplace vers le répertoire cible (adressage absolu);
@@ -154,7 +154,7 @@ Pour naviguer dans l'arborescence, il est nécessaire de connaître deux comma
     ```
 
 ### 3.3. Les utilisateurs et les droits
-En *Linux*, tout fichier, et par extension dossier, appartient à un propriétaire ainsi qu'à un groupe et un utilisateur quelconque ne pourra pas forcément avoir tous les droits sur un fichier qui ne lui appartient pas.
+En *Linux*, tout fichier, et par extension dossier, appartient à un *propriétaire* ainsi qu'à un *groupe* et un *utilisateur quelconque* ne pourra pas forcément avoir tous les droits sur un fichier qui ne lui appartient pas.
 
 Par exemple, étudions la sortie donnée par la commande ls -l suivante :
 ```bash
@@ -163,9 +163,9 @@ drwx------@ 887 raoul         staff    28384  6 jui     22:22 Downloads
 ```
 
 - `-` indique que l'élément trouvé est un fichier alors que `d` indique qu'il s'agit d'un dossier;
-- les 9 lettres suivantes indiquent les droits dont disposent les utilisateurs sur ce fichier; 
+- les 3×3=9 lettres suivantes indiquent les droits dont disposent les différents utilisateurs sur ce fichier; 
 - le nombre suivant est pour nous sans intérêt (il s'agit d'un compteur de liaison) ;
-- `@` indique que l'existence d'[attributs étendus](https://fr.wikipedia.org/wiki/Attributs_étendus)
+- `@` est pour nous sans intérêt (il indique que l'existence d'[attributs étendus](https://fr.wikipedia.org/wiki/Attributs_étendus))
 - le groupe de lettre suivant est le nom de l'**utilisateur** propriétaire du fichier ou dossier ;
 - le groupe de lettre suivant est le nom **du groupe** propriétaire du fichier ou dossier ;
 - `21359` et `28384` représentent respectivement la taille en octet du fichier et celle du dossier ;
