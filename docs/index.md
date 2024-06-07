@@ -1,7 +1,3 @@
-!!! info ":warning: Pour cause d'épreuves et de conseils de classe, le prochain cours aura lieu de 10h à 12h le jeudi 06/06/24."
-
-
-
 !!! tip "Grand Oral"
     - [Guide Eduscol pour le Grand Oral (avec exemples de sujets NSI)](data/GO_NSI_Eduscol.pdf){. target="_blank"}
     - [FAQ Grand Oral](data/GO_FAQ.pdf){. target="_blank"}
