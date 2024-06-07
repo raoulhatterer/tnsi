@@ -13,11 +13,11 @@
 
 
 !!! abstract "Historique"
-    Les années 1960 ont constitué un tournant pour les système d'exploitation. Dans le cadre du projet MAC au *MIT* (Massachusset Institute of Technology), le système d'exploitation **CTTS** (Compatible Time Sharing System)est publié en 1961. C'est l'un des tout premiers système d'exploitation **à temps partagé**, permettant à plusieurs utilisateurs d'utiliser **un ordinateur en même temps**. Cette apparente simultanéité dans l'exécution des programmes a permis de se diriger vers l'informatique moderne.
+    Les années 1960 ont constitué un tournant pour les système d'exploitation. Au *MIT* (Massachusset Institute of Technology), le système d'exploitation **CTTS** (Compatible Time Sharing System) est publié en 1961. C'est l'un des tout premiers système d'exploitation **à temps partagé**, permettant à plusieurs utilisateurs d'utiliser **un ordinateur en même temps**. Cette apparente simultanéité dans l'exécution des programmes a permis de se diriger vers l'informatique moderne.
     
-    Le *MIT* s'associa aux laboratoires *BELL* et à *General Electric* pour créer **Multics** qui était un système innovant, héritant de **CTTS**, et était l'un des premier système d'exploitation avec système de fichier hiérarchique, temps partagé, multitâche préemptif (c'est- à-dire la capacité d'arrêter ou d'exécuter une tâche planifiée en cours), multiutilisateur, avec une prise en compte de la sécurité. La première version sortit en 1965.
+    Le *MIT* s'associa aux laboratoires *BELL* et à *General Electric* pour créer **Multics** qui était un système innovant, héritant de **CTTS**. C'était l'un des premier système d'exploitation avec système de fichier hiérarchique, temps partagé, multitâche préemptif (c'est- à-dire la capacité d'arrêter ou d'exécuter une tâche planifiée en cours), multiutilisateur, avec une prise en compte de la sécurité. La première version sortit en 1965.
 
-    En 1969, les laboratoires BELL sortirent du projet et deux de leurs plus brillants informaticiens, [Ken THOMPSON](https://fr.wikipedia.org/wiki/Ken_Thompson) et [Dennis RITCHIE](https://fr.wikipedia.org/wiki/Dennis_Ritchie) qui avaient travaillé sur le projet *Multics* en conçurent une version simplifiée (ils considéraient *Multics* inutilement complexe) qu'ils nommèrent initialement UNICS (UNiplexed Information and Computing Service) puis **UNIX**. L'informatique moderne était née !
+    En 1969, les laboratoires *BELL* sortirent du projet et deux de leurs plus brillants informaticiens, [Ken THOMPSON](https://fr.wikipedia.org/wiki/Ken_Thompson) et [Dennis RITCHIE](https://fr.wikipedia.org/wiki/Dennis_Ritchie) qui avaient travaillé sur le projet *Multics* en conçurent une version simplifiée (ils considéraient *Multics* inutilement complexe) qu'ils nommèrent initialement UNICS (UNiplexed Information and Computing Service) puis **UNIX**. L'informatique moderne était née !
 
     Au fil des années, des surcouches de plus en plus complexes sont ajoutées aux systèmes d'exploitations afin de gérer par exemple les entrées claviers, puis souris, et une interface graphique est ajoutée, simplifiant la tâche pour l'utilisateur.
 
@@ -158,7 +158,7 @@ Pour naviguer dans l'arborescence, il est nécessaire de connaître deux comma
 ### 3.3. Les utilisateurs et les droits
 En *Linux*, tout fichier, et par extension dossier, appartient à un *propriétaire* ainsi qu'à un *groupe* et un *utilisateur quelconque* ne pourra pas forcément avoir tous les droits sur un fichier qui ne lui appartient pas.
 
-Par exemple, étudions la sortie donnée par la commande ls -l suivante :
+Par exemple, étudions la sortie suivante donnée par la commande `ls -l` :
 ```bash
 -rw-r--r--    1 raoul         staff    21359 2024-06-07 02:16 cours.md
 drwx------@ 887 raoul         staff    28384  6 jui     22:22 Downloads
