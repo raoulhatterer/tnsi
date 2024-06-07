@@ -23,12 +23,15 @@
 
 Chaque ordinateur doit donc disposer d'un OS afin de pouvoir faire fonctionner les différents logiciels en parallèle. Historiquement, chaque fabriquant d'ordinateur a développé en partie son OS. On pourra, de manière non-exhaustive, citer :
 
-- OS/360 par IBM, en 1968 ;
-- DOS par Microsoft en 1981 ;
-- Mac OS par Apple en 1984 ;
-- TOS par Atari en 1985 ;
-- AmigaOS par Commodore en 1985; Windows 3.X par Microsoft en 1990 ; GNU/Linux par la communauté en 1991 ; Android par Google en 2007 ;
-- iOS par Apple en 2007. 1.2. GNU/Linux
+- *OS/360* par *IBM*, en 1968 ;
+- *DOS* par *Microsoft* en 1981 ;
+- *Mac OS* par *Apple* en 1984 ;
+- *Windows 3.X* par *Microsoft* en 1990 ; 
+- **GNU/Linux** par la communauté en 1991 ; 
+- *Android* par *Google* en 2007 ;
+- *iOS* par *Apple* en 2007.
+
+
 
 
 ### 1.2 GNU/Linux
@@ -37,7 +40,7 @@ En 1985, [Richard Stallman](https://fr.wikipedia.org/wiki/Richard_Stallman) quit
 
 En 1991, [Linus Torvalds](https://fr.wikipedia.org/wiki/Linus_Torvalds), étudiant norvégien de 21 ans, indisposé par la faible disponibilité de serveur UNIX de l'université d'Helsinki décide d'écrire un mini OS dérivé d'Unix pour son PC. Il écrit un [noyau](https://fr.wikipedia.org/wiki/Noyau_de_système_d%27exploitation) auquel il adapte de nombreux composants disponibles du [projet GNU](https://fr.wikipedia.org/wiki/Projet_GNU). Réputé pour sa stabilité (mais aussi pour sa complexité d'installation), le [noyau Linux](https://fr.wikipedia.org/wiki/Noyau_Linux) est adopté par une grande communauté de bidouilleurs sur l'internet, qui étendent régulièrement ses possibilités. Sans publicité, soutenu par la communauté du libre et de l'[open-source](https://fr.wikipedia.org/wiki/Open_source), [Linux](https://fr.wikipedia.org/wiki/Linux) se répand doucement et devient rapidement une alternative crédible à Windows, à tel point que 90 % des serveurs du cloud sont des serveurs *Linux*. Linus Torvalds continue à diriger le développement de *Linux*, et est considéré comme le « dictateur bienveillant à vie » (Benevolent Dictator for Life) de celui-ci.
 
-Si, à l'origine, *Linux* a été développé pour les ordinateurs compatibles PC, il n'a jamais équipé qu'une très faible part des ordinateurs personnels. Mais le noyau *Linux*, accompagné ou non des logiciels GNU, est également utilisé par d'autres types de systèmes informatiques, notamment les serveurs, téléphones portables, systèmes embarqués ou encore superordinateurs. Le système d'exploitation pour téléphones portables Android qui utilise le noyau *Linux* (mais pas GNU) équipe aujourd'hui 85 % des tablettes tactiles et smartphones.
+Si, à l'origine, *Linux* a été développé pour les ordinateurs compatibles PC, il n'a jamais équipé qu'une très faible part des ordinateurs personnels. Mais le *noyau Linux*, accompagné ou non des *logiciels GNU*, est également utilisé par d'autres types de systèmes informatiques, notamment les serveurs, téléphones portables, systèmes embarqués ou encore superordinateurs. Le système d'exploitation pour téléphones portables *Android* qui utilise le noyau *Linux* (mais pas *GNU*) équipe aujourd'hui 85 % des tablettes tactiles et smartphones.
 
 ## 2. Premiers pas
 Selon les modalités à votre disposition.
