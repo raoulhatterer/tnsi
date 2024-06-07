@@ -1,4 +1,4 @@
-# Autour de GNU/Linux
+# OS & GNU/Linux
 {{initexo(0)}}
 
 ## 1. Systèmes d'exploitations :
@@ -50,8 +50,9 @@ En 1991, [Linus Torvalds](https://fr.wikipedia.org/wiki/Linus_Torvalds){:target=
 
 Si, à l'origine, *Linux* a été développé pour les ordinateurs compatibles PC, il n'a jamais équipé qu'une très faible part des ordinateurs personnels. Mais le *[noyau Linux](https://fr.wikipedia.org/wiki/Noyau_Linux){:target="_blank"}*, accompagné ou non des *logiciels GNU*, est également utilisé par d'autres types de systèmes informatiques, notamment les serveurs, téléphones portables, systèmes embarqués ou encore superordinateurs. Le système d'exploitation pour téléphones portables *Android* qui utilise le noyau *Linux* (mais pas *GNU*) équipe aujourd'hui 85 % des tablettes tactiles et smartphones.
 
-## 2. Premiers pas
-Selon les modalités à votre disposition.
+## 2. Où pratiquer ?
+
+Si vous utilisez déjà `Linux` ou un mac vous n'avez rien à installer. Sinon, pour faire vos premiers pas, selon les modalités à votre disposition, vous avez les solutions suivantes:
 
 === "En ligne"
     - Le site [https://www.pythonanywhere.com](https://www.pythonanywhere.com){:target="_blank"} permet de créer un compte gratuit pour programmer en *python* ou pour disposer d'un [terminal](https://fr.wikipedia.org/wiki/Terminal_(informatique)){:target="_blank"} sous *Linux*.
@@ -81,6 +82,7 @@ Selon les modalités à votre disposition.
         - Pour obtenir la ligne de commande dans Raspbian, il faut lancer le programme `Terminal`.
         - Le prompt est de la forme `nom_utilisateur@nom_machine : chemin_dossier_courant $` .
         - Normalement, votre répertoire courant est symbolisé par `~` , ce qui est un raccourci pour symboliser le répertoire personnel de l'utilisateur.
+
 
 
 

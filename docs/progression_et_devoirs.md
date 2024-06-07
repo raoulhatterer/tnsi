@@ -340,6 +340,15 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Pour cause d'épreuves et de conseils de classe, le prochain cours aura lieu de 10h à 12h le jeudi 06/06/24.
 
+!!! done "séance 57 (2h vendredi 31/5/2024):"
+    - T5 > Systèmes sur puce
+    - Architecture Von Neumann
+    - Programmation en langage assembleur.
+
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
 
 
 
