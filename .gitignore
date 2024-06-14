@@ -1,14 +1,5 @@
-# Ignore Mac DS_Store files
-.DS_Store
-*.DS_Store
+**/.DS_Store
 /__pycache__/
+**/*.*#
+**/*.*~
 
-/docs/#progression_et_devoirs.md#
-/docs/T2_Programmation/2.3_Calculabilite_Decidabilite/data/#test.org#
-/docs/T2_Programmation/2.3_Calculabilite_Decidabilite/data/test.py~
-*.md~
-*.md~
-./*.md~
-[a-zA-Z]*.md~
-/[a-zA-Z]*.md~
-/docs/T5_Architecture_materielle/5.0_Autour_de_GNU_Linux/.pages~
