@@ -2,7 +2,7 @@
 
 ## Cours de Première
 
-À retrouver [ici](https://lyceemed.forge.aeif.fr/pnsi/){:target="_blank"}
+À retrouver [ici](https://raoulhatterer.github.io/pnsi/){:target="_blank"}
 
 ## À propos de la spécialité NSI
 
