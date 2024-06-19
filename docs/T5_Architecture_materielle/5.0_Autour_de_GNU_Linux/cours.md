@@ -122,7 +122,7 @@ Pour naviguer dans l'arborescence, il est nécessaire de connaître deux comma
 1. la commande `ls`  pour *List*, qui permet de lister tous les enfants du répertoire courant dans l'arborescence et peut utiliser les options suivantes :
     - `ls -a` affiche les fichiers cachés;
     - `ls -R` afiche tous les fichiers dans les sous-répertoires(de manière **récursive**);
-    - `ls -l` affichera les détails des fichiers (autorisations,taille,propriétaires,etc...).
+    - `ls -l` affichera les détails des fichiers (autorisations, taille, propriétaires, etc...).
 
  2. la commande `cd` pour *Change Directory*, qui peut s'utiliser selon les manières suivantes :
     - `cd ~`, ramène au répertoire de l'utilisateur courant;
@@ -166,8 +166,8 @@ drwx------@ 887 raoul         staff    28384  6 jui     22:22 Downloads
 
 - `-` indique que l'élément trouvé est un fichier alors que `d` indique qu'il s'agit d'un dossier;
 - les 3×3=9 lettres suivantes indiquent les droits dont disposent les différents utilisateurs sur ce fichier; 
-- le nombre suivant est pour nous sans intérêt (il s'agit d'un compteur de liaison) ;
 - `@` est pour nous sans intérêt (il indique que l'existence d'[attributs étendus](https://fr.wikipedia.org/wiki/Attributs_étendus){:target="_blank"})
+- le nombre suivant est pour nous sans intérêt (il s'agit d'un compteur de liaison) ;
 - le groupe de lettre suivant est le nom de l'**utilisateur** propriétaire du fichier ou dossier ;
 - le groupe de lettre suivant est le nom **du groupe** propriétaire du fichier ou dossier ;
 - `21359` et `28384` représentent respectivement la taille en octet du fichier et celle du dossier ;
@@ -179,9 +179,9 @@ drwx------@ 887 raoul         staff    28384  6 jui     22:22 Downloads
 !!! abstact "Les utilisateurs"
     Pour un fichier, on distinguera **trois types d'utilisateurs** :
     
-    - `u` pour user, c'est-à-dire le propriétaire du fichier ;
-    - `g` pour group, le groupe auquel appartient le fichier ;
-    - `o` pour other, tous les autres utilisateurs.
+    - `u` pour *user*, c'est-à-dire le propriétaire du fichier ;
+    - `g` pour *group*, le groupe auquel appartient le fichier ;
+    - `o` pour *other*, tous les autres utilisateurs.
 
 
 
@@ -204,14 +204,14 @@ drwx------@ 887 raoul         staff    28384  6 jui     22:22 Downloads
     sudo apt upgrade
     ```
     **Attention ! Avec de grands pouvoirs viennent de grandes responsabilités !**
-  
+    ![image](data/grands-pouvoirs-grandes-responsabilitc3a9s.jpg){: .center width=30%}
   
 !!!abstract  "Les droits"
     Pour un fichier donné, on distinguera 4 permissions :
     
-    - `r` : read, droit de lire le fichier ;
-    - `w` : write, droit de modifier le fichier ;
-    - `x` : execute, droit d'exécution du fichier ; 
+    - `r` : *read*, droit de lire le fichier ;
+    - `w` : *write*, droit de modifier le fichier ;
+    - `x` : *execute*, droit d'exécution du fichier ; 
     - `-` : aucun droit sur le fichier.
     
 !!! example "{{ exercice() }}"
@@ -237,7 +237,7 @@ drwx------@ 887 raoul         staff    28384  6 jui     22:22 Downloads
     ```bash
     chmod 640 mon_texte.txt
     ```
-    en sachant que `r = 4`, `w =2`, `x=1` , et que le premier chiffre correspond à l'utilisateur, le second au groupe, et le troisième aux autres. 
+    en sachant que `r = 4`, `w = 2`, `x = 1` , et que le premier chiffre correspond à l'utilisateur, le second au groupe, et le troisième aux autres. 
     
     Ainsi ici :
     
@@ -265,13 +265,19 @@ Voici, de manière non-exhaustive, quelques-unes des commandes les plus utiles 
         (**man**ual)
         
         - Donne le manuel de la commande passée en argument.
+        
+        Exemple:
+        
+        - `man pwd`affiche le manuel de la commande `pwd`
+        
+
     === "cat"
         (con**cat**enate)
         
         - Son utilisation simple est d'afficher le contenu d'un fichier directement dans le terminal. 
         - Cependant cette commande permet bien d'autres choses :
             - `cat > nv_fichier.txt`: crée un nouveau fichier dans le répertoire courant, et le remplit avec les saisies de l'utilisateur (`Ctrl`+`C` pour quitter) ;
-            - `cat fichier1 fichier2 > fichier3` :concatène les contenus des fichiers 1 et 2 dans un nouveau fichier.
+            - `cat fichier1 fichier2 > fichier3` : concatène les contenus des fichiers 1 et 2 dans un nouveau fichier.
             
         Remarque:
         
