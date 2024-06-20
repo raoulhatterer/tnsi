@@ -69,15 +69,24 @@ De la même manière, la communication avec le réseau C nécessite de confier l
 
 #### Comment sont construites les tables de routage ?
 - Soit à la main par l'administrateur réseau, quand le réseau est petit : on parle alors de table **statique**.
-- Soit de manière **dynamique** : les réseaux s'envoient eux-mêmes des informations permettant de mettre à jour leurs tables de routages respectives. Des algorithmes de détermination de meilleur chemin sont alors utilisés : nous allons en découvrir deux, le protocole RIP et le protocole OSPF.
+- Soit de manière **dynamique** : les réseaux s'envoient eux-mêmes des informations permettant de mettre à jour leurs tables de routages respectives. Des algorithmes de détermination de meilleur chemin sont alors utilisés : nous allons en découvrir deux, le protocole `RIP` et le protocole `OSPF`.
 
 ## 2. Le protocole RIP
+
+
+Le protocole `RIP` (**R**outing **I**nformation **P**rotocol) est un protocole de routage qui
+minimise le nombre de routeurs par lesquels les paquets transitent.
+
+!!! abstract "principe fondamental du protocole RIP :heart:"
+    Le chemin le plus court.
+
+
 
 _voir le TP débranché_ : [le jeu dont vous êtes le routeur](https://www.overleaf.com/read/ppcyddjmkgjp#aaf7e4){. target="_blank"}
 
 
 !!! abstract "Les règles du protocole RIP :heart: :heart: :heart:"
-    Le Routing Information Protocol (RIP) est basé sur l'échange (toutes les 30 secondes) des tables de routage de chaque routeur.  
+    Le Routing Information Protocol (`RIP`) est basé sur l'échange (toutes les 30 secondes) des tables de routage de chaque routeur.  
     Au début, chaque routeur ne connaît que les réseaux auquel il est directement connecté, associé à la distance 1.  
     Ensuite, chaque routeur va recevoir périodiquement (toutes les 30 secondes) la table des réseaux auquel il est connecté, et mettre à jour sa propre table suivant les règles ci-dessous :
 
@@ -95,24 +104,22 @@ _voir le TP débranché_ : [le jeu dont vous êtes le routeur](https://www.overl
 
 **Remarques et inconvénients:** 
 
-- Le protocole RIP n'admet qu'une distance maximale égale à 15 (ceci explique que 16 soit considéré comme la distance infinie), ce qui le limite aux réseaux de petite taille.
+- Le protocole `RIP` n'admet qu'une distance maximale égale à 15 (ceci explique que 16 soit considéré comme la distance infinie), ce qui le limite aux réseaux de petite taille.
 
 - Chaque routeur n'a jamais connaissance de la topologie du réseau tout entier : il ne le connaît que par ce que les autres routeurs lui ont raconté. On dit que ce protocole de routage est du _routing by rumor_.
 
-- La _métrique_ utilisée (le nombre de sauts) ne tient pas compte de la qualité de la liaison, contrairement au protocole OSPF.    
+- La _métrique_ utilisée (le nombre de sauts) ne tient pas compte de la qualité de la liaison, contrairement au protocole `OSPF`.    
 
 
 
 ## 3. Le protocole OSPF
 
-OSPF : *Open Shortest Path First*
-
-
 Un inconvénient majeur du protocole précédent est la non-prise en compte de la bande passante reliant les routeurs.
 
 ![image](data/matrix.jpeg){: .center width=30%}
 
-
+Le protocole `OSPF` (**O**pen **S**hortest **P**ath **F**irst) est un protocole de routage qui
+minimise le coût du transit des paquets.
 
 !!! abstract "principe fondamental du protocole OSPF :heart:"
     Le chemin le plus rapide n'est pas forcément le plus court.
@@ -127,14 +134,9 @@ En gris, le chemin RIP. En bleu, l'OSPF.
 </center>
 </div>
 
+Dans le protocole `OSPF`, les tables de routage vont prendre en considération la **vitesse de communication** entre les routeurs.
 
-
-
-
-
-Dans le protocole OSPF, les tables de routage vont prendre en considération la vitesse de communication entre les routeurs.
-
-Dans une première phase d'initialisation, chaque routeur va acquérir (par succession de messages envoyés et reçus) la connaissance **totale** du réseau (différence fondamentale avec RIP) et de la qualité technique de la liaison entre chaque routeur.
+Dans une première phase d'initialisation, chaque routeur va acquérir (par succession de messages envoyés et reçus) la connaissance **totale** du réseau (différence fondamentale avec `RIP`) et de la qualité technique de la liaison entre chaque routeur.
 
 #### 3.1 Les différents types de liaison et leur coût
 On peut, approximativement, classer les types de liaison suivant ce tableau de débits **théoriques** :
@@ -155,7 +157,7 @@ On peut, approximativement, classer les types de liaison suivant ce tableau de d
 
 
 
-L'idée du protocole OSPF est de pondérer chaque trajet entre routeurs (comptant simplement pour «1» dans le protocole RIP) par une valeur de **coût** inversement proportionnelle au débit de transfert.
+L'idée du protocole `OSPF` est de pondérer chaque trajet entre routeurs (comptant simplement pour «1» dans le protocole `RIP`) par une valeur de **coût** inversement proportionnelle au débit de transfert.
 
 Par exemple, si le débit $d$ est exprimé en bits/s, on peut calculer le coût de chaque liaison par la formule :
 
@@ -190,7 +192,7 @@ Le graphe pondéré est donc :
 ![image](data/ospf2.png){: .center width=60%}
 
 
-Le chemin le plus rapide pour aller de l'ordinateur au serveur est donc R1-R2-R4, et non plus R1-R3 comme l'aurait indiqué le protocole RIP.
+Le chemin le plus rapide pour aller de l'ordinateur au serveur est donc R1-R2-R4, et non plus R1-R3 comme l'aurait indiqué le protocole `RIP`.
 
 ### 3.3 Trouver le plus court chemin dans un graphe pondéré
 L'exemple précédent était très simple et de solution intuitive. Dans le cas d'un graphe pondéré complexe, existe-t-il un algorithme de détermination du plus court chemin d'un point à un autre ?
