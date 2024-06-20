@@ -1,5 +1,8 @@
 ># Progression et devoirs
 
+Lien vers la [dernière saisie](#a-suivre)
+
+
 !!! done "séance 1 (4h jeudi 7/09/23):"
     - TP d'introduction à la POO
     ??? note "Devoirs"
@@ -348,7 +351,7 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-
+### à suivre
 
 
 
