@@ -1,6 +1,6 @@
 ># Progression et devoirs
 
-Lien vers la [dernière saisie](#a-suivre)
+[2023-2024](#a-suivre)
 
 
 !!! done "séance 1 (4h jeudi 7/09/23):"
