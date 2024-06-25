@@ -1,6 +1,9 @@
 # Langage SQL
+{{ initexo(0) }}
 
-![image](data/meme1.png){: .center width=40%}
+![](data/extraitBO.png)
+
+
 
 
 ## 0. Du modèle relationnel au SGBD
@@ -28,23 +31,31 @@ Nous allons travailler principalement avec le langage SQLite peut lui s'utiliser
 Sa simplicité d'utilisation en fera notre choix pour illustrer cette présentation du langage SQL. 
 
 
+![image](data/meme1.png){: .center width=40%}
+
+
+
 ## 1. Introduction au langage SQL
 
-![](data/extraitBO.png)
+
 
 Dans toute la suite, nous allons travailler avec la base de données ```livres.db``` qui provient de l'ouvrage paru chez Ellipses, cité en bibliographie.
 
-### 1.0 Différents moyens d'interroger la base de données
-**Pré-requis :** téléchargez la base de données [livres.db](data/livres.db).
+### 1.0 Mise en œuvre
 
-??? abstract "1. En ligne avec ```sqliteonline.com``` "
+**Pré-requis :** 
+
+- Télécharger la base de données [livres.db](data/livres.db).
+- Disposer d'un moyen agir sur la base de données à partir de requêtes SQL, soit en ligne soit en utilisant un logiciel externe.
+
+=== "1. En ligne avec ```sqliteonline.com``` "
     - Rendez vous sur [https://sqliteonline.com/](https://sqliteonline.com/)
     - Par File / OpenDB, ouvrez le fichier  ```livres.db``` précédemment téléchargé.
     - Écrivez votre requête plus cliquez sur Run.  
     ![](data/sqlonline.png)
 
 
-!!! abstract "2. Avec un logiciel externe : DB Browser for SQLite :star: :star: :star:"
+=== "2. Avec un logiciel externe : DB Browser for SQLite :star: :star: :star:"
     - Installez ```DB Browser for SQLite```, téléchargeable à l'adresse [https://sqlitebrowser.org/](https://sqlitebrowser.org/)
     - Ouvrez le fichier ```livres.db```.  
     ![](data/dbbrowser.png)
@@ -66,11 +77,11 @@ Voici le diagramme relationnel de cette base :
 .db -> .sql fait avec DBbrowser -->
 
 
-### 1.1. Sélection de données
+### 1.1. Sélections
 
-#### 1.1.0 Exemple 0 
 
-!!! note "Requête basique : SELECT, FROM :heart:"
+
+!!! example "{{ exemple() }} : écrire une requête basique avec `SELECT` et `FROM` :heart:"
     - **Commande :** 
     ```sql
     SELECT titre FROM livre ;
@@ -93,9 +104,8 @@ Voici le diagramme relationnel de cette base :
 - L'indentation n'est pas syntaxique (pas comme en Python). On peut faire des retours à la ligne et des indentations pour rendre le code plus lisible.
 
 
-#### 1.1.1 Exemple 1 
 
-!!! note "Requête filtrée : SELECT, FROM, WHERE :heart:"
+!!! example "{{ exemple() }} : écrire une requête filtrée avec `SELECT`, `FROM` et `WHERE` :heart:"
     - **Commande :** 
     ```sql
     SELECT titre FROM livre WHERE annee >= 1990;
@@ -109,10 +119,9 @@ Voici le diagramme relationnel de cette base :
     ![](data/ex1.png)
 
 
-Le mot-clé WHERE doit être suivi d'un booléen. Les opérateurs classiques ```=``` , ```!=```, ```>```, ```>=```, ```<```, ```<=``` peuvent être utilisés, mais aussi le mot-clé IN :
-#### 1.1.1bis Exemple 1bis 
+Le mot-clé `WHERE` doit être suivi d'un booléen. Les opérateurs classiques ```=``` , ```!=```, ```>```, ```>=```, ```<```, ```<=``` peuvent être utilisés, mais aussi le mot-clé `IN` :
 
-!!! note "Requête avec plusieurs possibilités : WHERE ... IN... :heart:"
+!!! example "{{ exemple() }} : écrire une requête avec plusieurs possibilités  avec `WHERE` ... `IN`... :heart:"
     - **Commande :** 
     ```sql
     SELECT titre FROM livre WHERE annee IN (1990, 1991, 1992);
@@ -125,10 +134,7 @@ Le mot-clé WHERE doit être suivi d'un booléen. Les opérateurs classiques ```
 
     ![](data/ex1bis.png)
 
-
-#### 1.1.2 Exemple 2 
-
-!!! note "Requête avec booléens : AND - OR :heart:"
+!!! example "{{ exemple() }}: écrire une requête avec booléens `AND` - `OR` :heart:"
     - **Commande :** 
     ```sql
     SELECT titre FROM livre WHERE   annee >= 1970 AND
@@ -143,10 +149,7 @@ Le mot-clé WHERE doit être suivi d'un booléen. Les opérateurs classiques ```
 
     ![](data/ex2.png)
 
-
-#### 1.1.3 Exemple 3 
-
-!!! note "Requête approchée : LIKE :heart:"
+!!! example "{{ exemple() }} : écrire une requête approchée avec  `LIKE` :heart:"
     - **Commande :** 
     ```sql
     SELECT titre FROM livre WHERE titre LIKE '%Astérix%';
@@ -160,9 +163,8 @@ Le mot-clé WHERE doit être suivi d'un booléen. Les opérateurs classiques ```
 
     ![](data/ex3.png)
 
-#### 1.1.4 Exemple 4 
 
-!!! note "Plusieurs colonnes :heart:"
+!!! example "{{ exemple() }} : sélectionner plusieurs colonnes :heart:"
     - **Commande :** 
     ```sql
     SELECT titre, isbn FROM livre WHERE annee >= 1990;
@@ -175,9 +177,7 @@ Le mot-clé WHERE doit être suivi d'un booléen. Les opérateurs classiques ```
 
     ![](data/ex4.png)
 
-#### 1.1.5 Exemple 5 
-
-!!! note "Toutes les colonnes : * :heart:"
+!!! example "{{ exemple() }} : sélectionner toutes les colonnes avec `*` :heart:"
     - **Commande :** 
     ```sql
     SELECT * FROM livre WHERE annee >= 1990;
@@ -190,10 +190,7 @@ Le mot-clé WHERE doit être suivi d'un booléen. Les opérateurs classiques ```
     - **Résultat :**   
 
     ![](data/ex5.png)
-
-#### 1.1.6 Exemple 6 
-
-!!! note "Renommer les colonnes : AS :heart:"
+!!! example "{{ exemple() }} : renommer les colonnes avec `AS` :heart:"
     - **Commande :** 
     ```sql
     SELECT titre AS titre_du_livre FROM livre WHERE annee >= 1990;
@@ -209,14 +206,12 @@ Le mot-clé WHERE doit être suivi d'un booléen. Les opérateurs classiques ```
 **Remarque**  
 L'alias ```AS``` sera souvent utilisé pour raccourcir un nom, notamment lors des jointures de plusieurs tables (voir plus loin).
 
-### 1.2. Opérations sur les données : sélection avec agrégation
+### 1.2. Agrégations
 
-Les requêtes effectuées jusqu'ici ont juste sélectionné des données grâce à différents filtres : aucune action à partir de ces données n'a été effectuée.  
-Nous allons maintenant effectuer des opérations à partir des données sélectionnées. On appelle ces opérations des **opérations d'agrégation**.
+- Les requêtes effectuées jusqu'ici ont juste sélectionné des données grâce à différents filtres : aucune action  n'a été effectuée à partir de ces données. Nous allons maintenant effectuer des opérations à partir des données sélectionnées. 
+- On appelle ces opérations des **opérations d'agrégation**.
 
-#### 1.2.1 Exemple 7 
-
-!!! note "Compter : COUNT :heart:"
+!!! example "{{ exemple() }} : compter avec `COUNT` :heart:"
     - **Commande :** 
     ```sql
     SELECT COUNT(*) AS total FROM livre
@@ -230,9 +225,7 @@ Nous allons maintenant effectuer des opérations à partir des données sélecti
 
     ![](data/ex7.png)
 
-#### 1.2.2 Exemple 8 
-
-!!! note "Additionner : SUM :heart:"
+!!! example "{{ exemple() }} : additionner avec `SUM` :heart:"
     - **Commande :** 
     ```sql
     SELECT SUM(annee) AS somme FROM livre
@@ -247,9 +240,7 @@ Nous allons maintenant effectuer des opérations à partir des données sélecti
 
     ![](data/ex8.png)
 
-#### 1.2.3 Exemple 9 
-
-!!! note "Faire une moyenne : AVG :heart:"
+!!! example "{{ exemple() }} : faire une moyenne avec `AVG` :heart:"
     - **Commande :** 
     ```sql
     SELECT AVG(annee) AS moyenne FROM livre
@@ -264,10 +255,7 @@ Nous allons maintenant effectuer des opérations à partir des données sélecti
 
     ![](data/ex9.png)
 
-
-#### 1.2.4 Exemple 10 
-
-!!! note "Trouver les extremums : MIN, MAX :heart:"
+!!! example "{{ exemple() }} : trouver les extremums avec  `MIN`, `MAX` :heart:"
     - **Commande :** 
     ```sql
     SELECT MIN(annee) AS minimum FROM livre
@@ -281,9 +269,7 @@ Nous allons maintenant effectuer des opérations à partir des données sélecti
 
     ![](data/ex10.png)
 
-#### 1.2.5 Exemple 11 
-
-!!! note "Classer des valeurs : ORDER BY, ASC, DESC, LIMIT :heart:"
+!!! example "{{ exemple() }} : ordonner des valeurs avec  `ORDER BY`, `ASC`, `DESC`, `LIMIT` :heart:"
     - **Commande :** 
     ```sql
     SELECT titre, annee FROM livre
@@ -299,9 +285,9 @@ Nous allons maintenant effectuer des opérations à partir des données sélecti
 
     ![](data/ex11.png)
 
-    - **Comportement par défaut :** Si le paramètre ASC ou DESC est omis, le classement se fait par ordre **croissant** (donc ASC est le paramètre par défaut).
+    - **Comportement par défaut :** Si le paramètre `ASC` ou `DESC` est omis, le classement se fait par ordre **croissant** (`ASC` est le paramètre par défaut).
 
-    - **Utilisation de LIMIT :** Le mot-clé LIMIT (suivi d'un nombre) permet de limiter le nombre de résultats affichés.  
+    - **Utilisation de `LIMIT` :** Le mot-clé `LIMIT` (suivi d'un nombre) permet de limiter le nombre de résultats affichés.  
     Ainsi la requête  
     ```sql
     SELECT titre, annee FROM livre
@@ -311,10 +297,7 @@ Nous allons maintenant effectuer des opérations à partir des données sélecti
     ``` 
     permet d'obtenir les renseignements sur l'Astérix le plus récent.                    
        
-
-#### 1.2.5 Exemple 12 
-
-!!! note "Suppression des doublons : DISTINCT :heart:"
+!!! example "{{ exemple() }} : éviter les doublons avec `DISTINCT` :heart:"
     - **Commande :** 
     ```sql
     SELECT DISTINCT editeur FROM livre;
@@ -327,7 +310,7 @@ Nous allons maintenant effectuer des opérations à partir des données sélecti
 
     ![](data/ex12.png)
 
-## 1.3 Des recherches croisées sur les tables : les jointures
+### 1.3 Jointures
 
 Observons le contenu de la table «emprunt» :
 
@@ -343,9 +326,7 @@ Souvenons-nous du diagramme de la base de données.
 
  Pour que la table «emprunt» soit lisible, il faudrait (dans un premier temps) que l'on affiche à la place de l'ISBN le titre de l'ouvrage. Or ce titre est disponible dans la table «livres».  On va donc procéder à une **jointure** de ces deux tables.
 
-#### 1.3.1 Exemple 13 
-
-!!! note "Jointure de 2 tables : JOIN :heart:"
+!!! example "{{ exemple() }} : jointure de 2 tables avec `JOIN`...`ON` :heart:"
     - **Commande :** 
     ```sql
     SELECT livre.titre, emprunt.code_barre, emprunt.retour FROM emprunt
@@ -368,12 +349,12 @@ Il est donc très important de spécifier ce sur quoi les deux tables vont se re
 
 ![](data/ex13.png)
 
-#### 1.3.2 Exemple 14 
+
 
 
 Le résultat précédent a permis d'améliorer la visibilité de la table «emprunt», mais il reste la colonne «code_barre» qui est peu lisible. Nous pouvons la remplacer par le titre du livre, en faisant une nouvelle jointure, en invitant maintenant les deux tables «livre» et «usager».
 
-!!! note "Jointure de 3 tables : JOIN :heart:"
+!!! example "{{ exemple() }} : jointure de 3 tables :heart:"
     - **Commande :** 
     ```sql
     SELECT u.nom, u.prenom, l.titre, e.retour FROM emprunt AS e
@@ -392,8 +373,7 @@ Le résultat précédent a permis d'améliorer la visibilité de la table «empr
 
 ## 2. Création et modification d'une base de données
 
-_rappel_ : ![](data/extraitBO.png)
-
+### 2.1 Création
 
 L'objectif est de créer la table suivante :
 
@@ -403,11 +383,12 @@ L'objectif est de créer la table suivante :
 | 2 | Bob  | 12 | 15 | 10 |
 | 3 | Charles | 9 | 11 | 18 |
 
-#### 2.1 Exemple 15 
+
 
 *La création d'une table n'est pas explicitement au programme de NSI. Personne ne sait vraiment pourquoi*
 
-!!! note "Création d'une table : CREATE TABLE :heart:"
+
+!!! example "{{ exemple() }} : création d'une table avec  `CREATE TABLE` :heart:"
     - **Commande :** 
     ```sql
     CREATE TABLE Table_notes (
@@ -424,11 +405,18 @@ L'objectif est de créer la table suivante :
     - **Résultat :**  
     Dans DB Browser, il faut avoir au préalable créé une nouvelle base de données.
 
-![](data/ex15.png)
+    ![](data/ex15.png)
 
-#### 2.2 Exemple 16 
 
-!!! note "Insertion de valeurs : INSERT INTO, VALUES :heart:"
+### 2.2 Modification
+
+Par contre, la modification d'une base de données est au programme.
+
+
+_rappel_ : ![](data/extraitBO.png)
+
+
+!!! example "{{ exemple() }} : insertion de valeurs avec `INSERT INTO`... `VALUES` :heart:"
     - **Commande :** 
     ```sql
     INSERT INTO Table_notes VALUES  (1, 'Alice', 16, 11, 17),
@@ -440,7 +428,7 @@ L'objectif est de créer la table suivante :
 
     ![](data/ex16.png)
 
-#### 2.3 Exemple 17 : Intérêt de la clé primaire
+#### Intérêt de la clé primaire
 Essayons d'insérer un 4ème enregistrement ayant le même ```id``` qu'un autre élève. 
 
 - **Commande :** 
@@ -475,10 +463,7 @@ et le résultat serait :
 
 L'attribut ```id``` est donc géré automatiquement par le SGBD.
 
-
-#### 2.4 Exemple 18 
-
-!!! note "Modification d'une valeur UPDATE, SET :heart:"
+!!! example "{{ exemple() }} : modifier une valeur avec `UPDATE`, `SET` :heart:"
     Pour modifier la note de Maths d'Alice :
 
     - **Commande :** 
@@ -486,9 +471,11 @@ L'attribut ```id``` est donc géré automatiquement par le SGBD.
     UPDATE Table_notes SET Maths = 18 WHERE Nom = 'Alice';
     ``` 
 
-#### 2.5 Exemple 19 
 
-!!! note "Suppression d'un enregistrement : DELETE :heart:"
+### 2.3 Suppressions
+
+
+!!! example "{{ exemple() }} : supprimer un enregistrement avec `DELETE` :heart:"
     Pour supprimer totalement la ligne concernant Charles :
 
     - **Commande :** 
@@ -496,12 +483,11 @@ L'attribut ```id``` est donc géré automatiquement par le SGBD.
     DELETE FROM Table_notes WHERE Nom = 'Charles';
     ``` 
 
-Si une autre table contient par exemple l'attribut ```id```  comme clé étrangère, et si l'```id```  de Charles fait partie de cette table, le SGBD refusera de supprimer cette ligne, afin de ne pas violer la contrainte de référence.
+    - **Contrainte de référence :** si une autre table contient par exemple l'attribut ```id```  comme clé étrangère, et si l'```id```  de Charles fait partie de cette table, le SGBD refusera de supprimer cette ligne, afin de ne pas violer la contrainte de référence.
 
 
-#### 2.6 Exemple 20 
 
-!!! note "Suppression totale d'une table : DROP TABLE :heart:"
+!!! example "{{ exemple() }} : suppression totale d'une table avec  `DROP TABLE` :heart:"
     Pour supprimer totalement et défitivement la table :
 
     - **Commande :** 
@@ -509,4 +495,4 @@ Si une autre table contient par exemple l'attribut ```id```  comme clé étrang�
     DROP TABLE Table_notes;
     ``` 
 
-Là encore, si une autre table est reliée à ```Table_notes``` par une clé étrangère, la suppression sera bloquée par le SGBD.
+    - **Contrainte de référence :** là encore, si une autre table est reliée à ```Table_notes``` par une clé étrangère, la suppression sera bloquée par le SGBD.

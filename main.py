@@ -24,6 +24,31 @@ def define_env(env):
 
     #---------------- </exo perso>-------------------- 
 
+
+    #---------------- <exo perso>-------------------- 
+    env.variables['compteur_exemple'] = 0
+    @env.macro
+    def exemple():
+        env.variables['compteur_exemple'] += 1
+        return f"Exemple  { env.variables['compteur_exemple']}"
+
+    @env.macro
+    def correction(bool, texte):
+        if bool == False:
+            return ""
+        else:
+            return texte
+
+    @env.macro
+    def initexemple(n):
+        env.variables['compteur_exemple'] = n
+        return ""
+
+    #---------------- </exo perso>-------------------- 
+
+
+
+    
     @env.macro
     def rel_to_abs(chemin_relatif):
         """ Renvoie le chemin absolu d'un fichier pointé par `chemin_relatif`
