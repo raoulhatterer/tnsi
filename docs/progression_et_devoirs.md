@@ -1,13 +1,13 @@
 ># Progression et devoirs
 
-[2024-2024](#a-suivre)
+[2024-2025](#a-suivre)
 
 
-!!! done "séance 1 (4h jeudi 7/09/23):"
+!!! done "séance 1 (4h jeudi 5/09/24):"
     - TP d'introduction à la POO
     ??? note "Devoirs"
         - Finir le TP et le déposer sur Capytale
-
+{#
 
 !!! done "séance 2 (2h mardi 12/09/23):"
     - TP d'introduction à la POO 
@@ -350,6 +350,8 @@
 
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+#}
 
 ### à suivre
 
