@@ -50,7 +50,7 @@ Modifiez le code précédent afin que la balle rebondisse sur chaque paroi (il s
     Il s'agit d'un abus de langage. En effet, la vitesse horizontale de la balle se note $v_x$ pas $dx$ mais $v_x$ est liée à la variation de position horizontale $dx$ par la formule $v_x=\frac{dx}{dt}$ où $dt$ est le temps entre deux rafraîchissement d'image que l'on indique dans `time.sleep(dt)`. Donc, à rafraîchissement d'image constant, c'est bien $dx$ qui permet de fixer la vitesse horizontale de la balle. Il en est de même pour la relation entre la vitesse verticale $v_y$ et `dy`. 
 
 
-??? info "Correction"
+??? info "Correction"{#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -93,14 +93,63 @@ Modifiez le code précédent afin que la balle rebondisse sur chaque paroi (il s
         time.sleep(0.02)
 
 
-    ```
+    ```#}
 
 
 
 ### 1.2 Rajout d'une deuxième balle
 Attention au nommage des variables...
 
-??? info "Correction"
+??? info "À compléter"
+    ```python linenums='1'
+    import pygame, sys
+    import time
+    from pygame.locals import *
+
+    LARGEUR = 640
+    HAUTEUR = 480
+    RAYON = 20
+
+    pygame.display.init()
+    fenetre = pygame.display.set_mode((LARGEUR, HAUTEUR))
+    fenetre.fill([0, 0, 0])
+
+    dxA = 7
+    dyA = 4
+    dxB = -5
+    dyB = 3
+
+
+    xA = LARGEUR // 3
+    yA = HAUTEUR // 2
+    xB = LARGEUR // 2
+    yB = HAUTEUR // 2
+
+
+    couleurA = (45, 170, 250)
+    couleurB = (155, 17, 250)
+
+    while True:
+        ######################
+        #        À vous      #
+        ######################        
+        pygame.display.update()
+
+        # routine pour pouvoir fermer «proprement» la fenêtre Pygame
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.display.quit()
+                sys.exit()
+
+        time.sleep(0.03)
+    ```
+
+
+
+
+
+
+??? info "Correction"{#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -168,7 +217,7 @@ Attention au nommage des variables...
         time.sleep(0.03)
 
 
-    ```
+    ```#}
 
 ### 1.3 Gestion de la collision entre les deux balles
 **Q1.** À l'aide d'un schéma (papier-crayon !), mettez en évidence le test devant être réalisé pour détecter une collision.
@@ -179,7 +228,7 @@ Attention au nommage des variables...
 
 **Q2.** Implémentez ce test (en créant pour cela une fonction ```distance``` )  et affichez "collision" en console lorsque les deux balles se touchent.
 
-??? info "Correction"
+??? info "Correction"{#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -256,12 +305,12 @@ Attention au nommage des variables...
 
 
 
-    ```
+    ```#}
 
 
 **Q3.** Pour donner l'illusion physique du rebond, échangez les valeurs respectives de ```dx``` et ```dy``` pour les deux balles.
 
-??? info "Correction"
+??? info "Correction"{#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -339,7 +388,7 @@ Attention au nommage des variables...
 
 
 
-    ```
+    ```#}
 
 
 
@@ -365,8 +414,7 @@ Il faut pour cela importer la fonction, par ```from random import randint```
 Créez cette classe et instanciez une balle.
 
 
-??? info "Correction"
-    
+??? info "Correction"{#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -422,14 +470,14 @@ Créez cette classe et instanciez une balle.
 
         time.sleep(0.05)
 
-    ```
+    ```#}
     
 
 ### 2.2 Plusieurs balles
 
 L'idée est de stocker dans une liste ```sac_a_balles``` un nombre déterminé de balles... 
 
-??? info "Correction"
+??? info "Correction"{#
     
     ```python linenums='1'
     import pygame, sys
@@ -489,7 +537,7 @@ L'idée est de stocker dans une liste ```sac_a_balles``` un nombre déterminé d
         time.sleep(0.05)
 
 
-    ```
+    ```#}
     
 
 ### 2.3 Collision de toutes les balles
