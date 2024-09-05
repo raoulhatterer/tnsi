@@ -4,9 +4,10 @@
 
 
 !!! done "séance 1 (4h jeudi 5/09/24):"
+    - Cours sur la POO (T2>Chap1)
     - TP d'introduction à la POO
     ??? note "Devoirs"
-        - Finir le TP et le déposer sur Capytale
+        - Finir le TP et le déposer dans votre dossier personnel
 {#
 
 !!! done "séance 2 (2h mardi 12/09/23):"
