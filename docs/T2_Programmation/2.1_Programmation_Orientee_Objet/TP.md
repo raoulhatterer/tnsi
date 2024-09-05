@@ -261,7 +261,7 @@ Attention au nommage des variables...
 
 **Q3.** Pour donner l'illusion physique du rebond, échangez les valeurs respectives de ```dx``` et ```dy``` pour les deux balles.
 
-??? info "Correction"
+??? info "Correction"{#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -339,7 +339,7 @@ Attention au nommage des variables...
 
 
 
-    ```
+    ```#}
 
 
 
