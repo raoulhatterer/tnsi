@@ -496,7 +496,7 @@ L'idée est de stocker dans une liste ```sac_a_balles``` un nombre déterminé d
 
 Il «suffit» , dans la méthode constructeur, de tester la collision de la balle ```self``` avec chacune des balles de notre ```sac_a_balles```. 
 
-??? info "Correction"
+??? info "Correction"{#
     
     ```python linenums='1'
     import pygame, sys
@@ -569,7 +569,7 @@ Il «suffit» , dans la méthode constructeur, de tester la collision de la ball
         time.sleep(0.05)
 
 
-    ```
+    ```#}
     
 
 {#
