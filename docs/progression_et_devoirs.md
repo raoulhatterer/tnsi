@@ -7,7 +7,7 @@
     - Cours sur la POO (T2>Chap1)
     - TP d'introduction à la POO
     ??? note "Devoirs"
-        - Finir le TP et le déposer dans votre dossier personnel
+        - Avancer dans le TP jusqu'au 2 et le déposer dans votre dossier personnel
 {#
 
 !!! done "séance 2 (2h mardi 12/09/23):"
