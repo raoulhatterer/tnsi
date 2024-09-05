@@ -366,7 +366,7 @@ Créez cette classe et instanciez une balle.
 
 
 ??? info "Correction"
-    
+    {#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -423,7 +423,7 @@ Créez cette classe et instanciez une balle.
         time.sleep(0.05)
 
     ```
-    
+    #}
 
 ### 2.2 Plusieurs balles
 
