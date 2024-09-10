@@ -413,7 +413,53 @@ Il faut pour cela importer la fonction, par ```from random import randint```
 
 Créez cette classe et instanciez une balle.
 
+??? info "A compléter"
+    ```python linenums='1'
+    import pygame, sys
+    import time
+    from pygame.locals import *
+    from random import randint
 
+    # randint(0,10) -> nb aléatoire entre 0 et 10
+
+    LARGEUR = 640
+    HAUTEUR = 480
+    RAYON = 20
+
+    pygame.display.init()
+    fenetre = pygame.display.set_mode((LARGEUR, HAUTEUR))
+    fenetre.fill([0, 0, 0])
+
+
+    class Balle:
+        def __init__(self):
+            # à vous
+
+        def dessine(self):
+            # à vous
+
+        def bouge(self):
+            # à vous
+
+
+    ma_balle = Balle()
+
+    while True:
+        fenetre.fill([0, 0, 0])
+
+        ma_balle.dessine()
+        ma_balle.bouge()
+
+        pygame.display.update()
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.display.quit()
+                sys.exit()
+
+        time.sleep(0.05)
+
+
+    ```
 
 ??? info "Correction"{#
     ```python linenums='1'
