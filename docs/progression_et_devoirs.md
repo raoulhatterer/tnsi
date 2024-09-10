@@ -8,15 +8,15 @@
     - TP d'introduction à la POO
     ??? note "Devoirs"
         - Avancer dans le TP jusqu'au 2 et le déposer dans votre dossier personnel
-{#
 
-!!! done "séance 2 (2h mardi 12/09/23):"
+
+!!! done "séance 2 (2h mardi 10/09/24):"
     - TP d'introduction à la POO 
-    - POO : Cours
     ??? note "Devoirs"
-        - Finir la partie POO du  TP et le déposer sur Capytale (code 3e74-1821316)
+        - Finir la partie POO du  TP et le déposer dans dans votre dossier personnel
 
 
+{#
 !!! done "séance 3 (4h jeudi 14/09/23):"
     - POO : Exercices
     ??? note "Devoirs"
