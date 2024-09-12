@@ -16,11 +16,13 @@
         - Finir la partie POO du  TP et le déposer dans dans votre dossier personnel
 
 
-{#
-!!! done "séance 3 (4h jeudi 14/09/23):"
+
+!!! done "séance 3 (4h jeudi 12/09/23):"
     - POO : Exercices
     ??? note "Devoirs"
         - Exercices sur la POO. Déposer l'exercice Compte bancaire sur Capytale (code fb5d-1825971)
+
+{#
 
 !!! done "séance 4 (2h mardi 19/09/23):"
     - POO : Correction des exercices sur la POO
