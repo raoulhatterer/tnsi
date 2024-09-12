@@ -413,7 +413,7 @@ Il faut pour cela importer la fonction, par ```from random import randint```
 
 Créez cette classe et instanciez une balle.
 
-??? info "A compléter"
+??? info "À compléter"
     ```python linenums='1'
     import pygame, sys
     import time
@@ -525,6 +525,69 @@ Créez cette classe et instanciez une balle.
 ### 2.2 Plusieurs balles
 
 L'idée est de stocker dans une liste ```sac_a_balles``` un nombre déterminé de balles... 
+
+??? info "À compléter"
+    
+    ```python linenums='1'
+    import pygame, sys
+    import time
+    from pygame.locals import *
+    from random import randint
+
+    # randint(0,10) -> nb aléatoire entre 0 et 10
+
+    LARGEUR = 640
+    HAUTEUR = 480
+    RAYON = 20
+    NB_BALLES = 10
+
+    pygame.display.init()
+    fenetre = pygame.display.set_mode((LARGEUR, HAUTEUR))
+    fenetre.fill([0, 0, 0])
+
+
+    class Balle:
+        def __init__(self):
+            self.x = randint(0, LARGEUR)
+            self.y = randint(0, HAUTEUR)
+            self.dx = randint(2, 5)
+            self.dy = randint(2, 5)
+            self.couleur = (randint(0, 255), randint(0, 255), randint(0, 255))
+            self.taille = RAYON
+
+        def dessine(self):
+            pygame.draw.circle(fenetre, self.couleur, (self.x, self.y), self.taille)
+
+        def bouge(self):
+            self.x += self.dx
+            self.y += self.dy
+
+            if self.y < self.taille or self.y > HAUTEUR - self.taille:
+                self.dy = -self.dy
+            if self.x < self.taille or self.x > LARGEUR - self.taille:
+                self.dx = -self.dx
+
+
+    mon_sac_a_balles = # à vous 
+
+    while True:
+        fenetre.fill([0, 0, 0])
+
+        for balle in mon_sac_a_balles:
+            balle.dessine()
+            balle.bouge()
+
+        pygame.display.update()
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.display.quit()
+                sys.exit()
+
+        time.sleep(0.05)
+
+
+    ```
+
 
 ??? info "Correction"
     
