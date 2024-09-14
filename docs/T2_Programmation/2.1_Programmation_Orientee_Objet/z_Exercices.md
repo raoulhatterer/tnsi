@@ -58,7 +58,6 @@
 
 
     === "Correction"
-        {#
         ```python linenums='1'
         class TriangleRect:
             def __init__(self, a, b):
@@ -66,7 +65,7 @@
                 self.cote2 = b
                 self.hypotenuse = (self.cote1**2 + self.cote2**2)**0.5
         ```
-        #}
+
 
 !!! example "{{ exercice() }}"
     === "Énoncé"
@@ -91,7 +90,6 @@
             'Il est 17 heures, 26 minutes et 5 secondes'
             ```
     === "Correction"
-        {#
         ```python linenums='1'
         class Chrono:
             def __init__(self, h, m, s):
@@ -118,7 +116,7 @@
                 # à fabriquer des heures supplémentaires
                 self.minutes = self.minutes % 60
         ```
-        #}
+
   
 
 !!! example "{{ exercice() }}"
