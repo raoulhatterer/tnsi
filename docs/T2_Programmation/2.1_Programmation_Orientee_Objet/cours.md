@@ -237,7 +237,7 @@ Bien sûr, on peut créer une autre voiture en suivant le même principe :
             ```
 
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         class Point :
@@ -356,7 +356,7 @@ On y retrouve donc à la fois les 4 attributs et l'unique méthode que nous avon
             ```
 
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         class Point:
@@ -420,7 +420,7 @@ Ce qui est nettement plus agréable !
     === "Énoncé"
         Modifier la méthode ```__str__``` afin de n'afficher que le numérateur dans le cas où le dénominateur vaut 1.
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         class Fraction :
