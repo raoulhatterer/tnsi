@@ -20,7 +20,8 @@
 !!! done "séance 3 (4h jeudi 12/09/23):"
     - POO : Exercices
     ??? note "Devoirs"
-        - Exercices sur la POO. Déposer l'exercice Compte bancaire sur Capytale (code fb5d-1825971)
+        - Exercices sur la POO à déposer dans votre dossier personnel
+        - Réviser contrôle sur la POO
 
 {#
 
