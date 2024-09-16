@@ -23,12 +23,15 @@
         - Exercices sur la POO à déposer dans votre dossier personnel
         - Réviser contrôle sur la POO
 
-{#
 
-!!! done "séance 4 (2h mardi 19/09/23):"
+
+!!! done "séance 5 (2h mardi 16/09/24):"
     - POO : Correction des exercices sur la POO
+    - Les dictionnaires
     ??? note "Devoirs"
-        - Réviser la POO
+        - Réviser la POO et les dictionnaires
+        
+{#
 
 !!! done "séance 5 (4h jeudi 21/09/23):"
     - POO : Correction du TP
