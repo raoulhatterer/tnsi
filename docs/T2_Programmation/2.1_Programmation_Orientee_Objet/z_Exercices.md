@@ -154,8 +154,7 @@
             0
             ```
 
-    === "Correction"
-        {#
+    === "Correction"       
         ```python linenums='1'
         class Player:
             def __init__(self):
@@ -171,7 +170,7 @@
                 if self.energie > 0:
                     self.energie += 1
         ```
-        #}
+        
 
 !!! capytale "À faire sur Capytale"
     !!! example "{{ exercice() }}"
