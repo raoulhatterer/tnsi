@@ -30,6 +30,7 @@
     - Les dictionnaires
     ??? note "Devoirs"
         - Réviser la POO et les dictionnaires
+        - Contrôle écrit d'une heure sur la POO jeudi 19/09.
         
 {#
 
