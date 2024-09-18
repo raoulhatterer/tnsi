@@ -17,7 +17,7 @@
 
 
 
-!!! done "séance 3 (4h jeudi 12/09/23):"
+!!! done "séance 3 (4h jeudi 12/09/24):"
     - POO : Exercices
     ??? note "Devoirs"
         - Exercices sur la POO à déposer dans votre dossier personnel
@@ -32,15 +32,16 @@
         - Réviser la POO et les dictionnaires
         - Contrôle écrit d'une heure sur la POO jeudi 19/09.
         
-{#
 
-!!! done "séance 5 (4h jeudi 21/09/23):"
-    - POO : Correction du TP
-    - POO : Correction des exercices 5 (compte bancaire) et 6 (jeu de cartes)
+
+!!! done "séance 5 (4h jeudi 19/09/24):"
+    - Révision POO en salle 217
+    - Contrôle sur la POO en salle 104
+    - Les dictionnaires
     ??? note "Devoirs"
-        - Exercice 8 p 46 à déposer sur Capytale (code fa75-1894358)
-        - Réviser la POO (contrôle)
+        - à venir
 
+{#
 !!! done "séance 6 (2h mardi 26/09/23):"
     - Contrôle n°1 
         - exercice 1: POO
