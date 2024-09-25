@@ -39,24 +39,22 @@
     - Contrôle sur la POO en salle 104
     - Les dictionnaires
     ??? note "Devoirs"
-        - à venir
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
+!!! done "séance 6 (2h mardi 24/09/24):"
+    - exercice 1: dictionnaires (création d'une rainbow table)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 7 (4h jeudi 26/09/24):"
+    - exercice 2: dictionnaires (Centres Etrangers J1 2021)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
 
 {#
-!!! done "séance 6 (2h mardi 26/09/23):"
-    - Contrôle n°1 
-        - exercice 1: POO
-        - exercice 2: dictionnaires 
-    ??? note "Devoirs"
-        - Venir avec l'énoncé du Contrôle n°1
-
-!!! done "séance 7 (4h jeudi 28/09/23):"
-    - POO : Correction du contrôle 
-    - Récursivité
-    ??? note "Devoirs"
-        - Correction du contrôle n°1 
-            - exercice 1: POO
-            - exercice 2: dictionnaires 
-
 !!! done "séance 8 (2h mardi 3/11/23):"  
     - Exercices récursivité
     ??? note "Devoirs"
