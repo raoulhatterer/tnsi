@@ -2,7 +2,7 @@
 
 ![image](data/BO.png){: .center}
 
-Préambule : retour sur [le cours de Première](https://lyceemed.forge.aeif.fr/pnsi/T2_Representation_des_donnees/Chapitre_3%3A_Dictionnaires/cours/){:target="_blank"}
+Préambule : retour sur [le cours de Première](https://raoulhatterer.github.io/pnsi/T2_Representation_des_donnees/Chapitre_3%3A_Dictionnaires/cours/){:target="_blank"}
 
 
 ## 0. Notion de tableau associatif
