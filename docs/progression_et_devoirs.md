@@ -9,21 +9,16 @@
     ??? note "Devoirs"
         - Avancer dans le TP jusqu'au 2 et le déposer dans votre dossier personnel
 
-
 !!! done "séance 2 (2h mardi 10/09/24):"
     - TP d'introduction à la POO 
     ??? note "Devoirs"
         - Finir la partie POO du  TP et le déposer dans dans votre dossier personnel
-
-
 
 !!! done "séance 3 (4h jeudi 12/09/24):"
     - POO : Exercices
     ??? note "Devoirs"
         - Exercices sur la POO à déposer dans votre dossier personnel
         - Réviser contrôle sur la POO
-
-
 
 !!! done "séance 5 (2h mardi 16/09/24):"
     - POO : Correction des exercices sur la POO
@@ -32,15 +27,12 @@
         - Réviser la POO et les dictionnaires
         - Contrôle écrit d'une heure sur la POO jeudi 19/09.
         
-
-
 !!! done "séance 5 (4h jeudi 19/09/24):"
     - Révision POO en salle 217
     - Contrôle sur la POO en salle 104
     - Les dictionnaires
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
 
 !!! done "séance 6 (2h mardi 24/09/24):"
     - exercice 1: dictionnaires (création d'une rainbow table)
@@ -50,6 +42,7 @@
 !!! done "séance 7 (4h jeudi 26/09/24):"
     - exercice 2: dictionnaires (Centres Etrangers J1 2021)
     ??? note "Devoirs"
+        - Revoir le dernier exercice sur les dictionnaires (surtout la fin de l'exercice qui est plus difficile)
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
