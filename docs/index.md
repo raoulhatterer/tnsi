@@ -33,12 +33,9 @@
 
 
 ### :high_brightness: Thème en cours d'étude 
-!!! note ""
-- :arrow_right: [T2 Programmation > POO](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/) 
-- :arrow_right: [T1 Structures de données > Dictionnaires](T1_Structures_de_donnees/1.2_Dictionnaires/cours/) 
-
-{#
 - :arrow_right: [T2 Programmation > Récursivité](T2_Programmation/2.2_Recursivite/cours/) 
+{#
+
 - :arrow_right: [T1 Structures de données > Listes / piles / files](T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/)
 - :arrow_right: [T4 Base de données](T4_Bases_de_donnees/sommaire/)
 - :arrow_right: [T1 Structures de données > Arbres](T1_Structures_de_donnees/1.3_Arbres/cours/)
@@ -52,4 +49,5 @@
 
 
 ### Thèmes déjà traités
-
+- :arrow_right: [T2 Programmation > POO](T2_Programmation/2.1_Programmation_Orientee_Objet/cours/) 
+- :arrow_right: [T1 Structures de données > Dictionnaires](T1_Structures_de_donnees/1.2_Dictionnaires/cours/) 
