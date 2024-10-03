@@ -40,27 +40,29 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 7 (4h jeudi 26/09/24):"
+    - Correction du contrôle POO
     - exercice 2: dictionnaires (Centres Etrangers J1 2021)
     ??? note "Devoirs"
         - Revoir le dernier exercice sur les dictionnaires (surtout la fin de l'exercice qui est plus difficile)
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+!!! done "séance 8 (2h mardi 1/10/24):"
+    - Cours sur la récursivité
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+
+!!! done "séance 9 (4h jeudi 3/10/24):"
+    - Exercices du cours sur la récursivité
+    - Exercices supplémentaires sur la récursivité
+    ??? note "Devoirs"
+        - Exercices 1 et 2 sur la récursivité (déposer un Notebook dans votre répertoire personnel)
 
 {#
-!!! done "séance 8 (2h mardi 3/11/23):"  
-    - Exercices récursivité
-    ??? note "Devoirs"
-        - Exercices 1 à 6 sur la récursivité (déposer un Notebook dans votre répertoire personnel)
-
-!!! done "séance 9 (4h jeudi 5/10/23):"
-    - Correction détaillée du contrôle 
-    - Récursivité
-    ??? note "Devoirs"
-        - Exercices 7 et 8 sur la récursivité
-
 !!! done "séance 10 (2h mardi 10/11/2023):"  
-    - Exercice 6 récursivité
+    - Exercice 3 à 6 récursivité
+    - Exercices 7 et 8 sur la récursivité
+
     - T1 > 1 Liste, Pile, File
     ??? note "Devoirs"
         - récursivité: [exercice-042](https://raoulhatterer.github.io/tnsi/T6_6_Epreuve_pratique/BNS_2022/#exercice-042)
