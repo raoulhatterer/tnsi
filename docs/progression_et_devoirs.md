@@ -57,6 +57,7 @@
     - Exercices supplémentaires sur la récursivité
     ??? note "Devoirs"
         - Exercices 1 et 2 sur la récursivité (déposer un Notebook dans votre répertoire personnel)
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 {#
 !!! done "séance 10 (2h mardi 10/11/2023):"  
