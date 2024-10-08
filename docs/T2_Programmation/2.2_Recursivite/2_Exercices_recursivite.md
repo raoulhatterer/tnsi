@@ -7,7 +7,7 @@
     === "Énoncé"
         Écrire une fonction récursive ```puissance(x, n)``` qui calcule le nombre $x^n$.
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         def puissance(x, n):
@@ -31,7 +31,7 @@
 
         Écrire un algorithme récursif ```pgcd(a,b)```.
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         def pgcd(a, b):
@@ -51,7 +51,7 @@
 
         *Prenons un nombre $n$ : si $n$ est pair, on le divise par 2, sinon on le multiplie par 3 puis on ajoute 1. On recommence cette opération tant que possible. Au bout d'un certain temps, on finira toujours par tomber sur le nombre 1.*
 
-        1. Proposer un programme récursif ```syracuse(n)``` écrivant tous les termes de la suite de Syracuse, s'arrêtant (on l'espère) à la valeur 1.
+        1. Ecrire une fonction récursive ```syracuse(n)``` écrivant tous les termes de la suite de Syracuse, s'arrêtant (on l'espère) à la valeur 1.
         2. On appelle «temps de vol» le nombre d'étapes nécessaires avant de retomber sur 1. Modifier la fonction précédente afin qu'elle affiche le temps de vol pour tout nombre ```n```.
 
     === "Correction"
