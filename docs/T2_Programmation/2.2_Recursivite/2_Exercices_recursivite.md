@@ -55,7 +55,7 @@
         2. On appelle «temps de vol» le nombre d'étapes nécessaires avant de retomber sur 1. Modifier la fonction précédente afin qu'elle affiche le temps de vol pour tout nombre ```n```.
 
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         1.
 
