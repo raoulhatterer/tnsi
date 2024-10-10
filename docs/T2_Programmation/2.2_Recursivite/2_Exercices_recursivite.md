@@ -108,8 +108,18 @@
 
         ![](data/carres_turtle.png){: .center width=40%}
 
+        ```python linenums='1'
+        from turtle import *
+        def carre(c):
+            for k in range(4):
+                forward(c)
+                right(90)
+                
+        carre(200)
+        ```
+
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         from turtle import *
@@ -145,7 +155,7 @@
         - sinon $a^n=a \times (a \times a)^{(n-1)/2}$
 
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         def puissance_mod(x, n):
