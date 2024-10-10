@@ -186,6 +186,18 @@
         >>> lst[3:]
         [17, 18, 20, 22]
         ``` 
+    === "Slicing"
+        ```python linenums='1'
+        def recherche(lst, m):
+            """Si la liste n'est pas triée"""
+            if lst==[]:
+                return False
+            if lst[0]==m:
+                return True
+            else:
+                return recherche(lst[1:], m)    
+        ```
+        Si la liste est triée, il faut trouver un slicing bien plus efficace. 
 
     === "Correction"
         {{ correction(False,
