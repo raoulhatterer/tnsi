@@ -237,7 +237,26 @@
         ![](data/hanoi4.png){: .center width=60%}
 
 
-        Écrire une fonction récursive ```hanoi(n, A, B, C)``` qui donnera la suite d'instructions (sous la forme " A vers C") pour faire passer une pile de taille n de A vers C en prenant B comme intermédiaire.
+        Écrire une fonction récursive ```hanoi(n, depart, inter, arrivee)``` qui donnera la suite d'instructions (sous la forme " A vers C") pour faire passer une pile de taille n de A vers C en prenant B comme intermédiaire.
+
+        - Exemple 1: 
+          ``` pycon
+          hanoi(1, "A", "B", "C")
+          ```
+          donne:
+          ``` pycon
+          A vers C
+          ```
+         - Exemple 2: 
+          ``` pycon
+          hanoi(2, "A", "B", "C")
+          ```
+          donne:
+          ``` pycon
+          A vers B
+          A vers C
+          B vers C
+          ```
 
     === "Correction"
         {#   
