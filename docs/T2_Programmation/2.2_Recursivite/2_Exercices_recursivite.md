@@ -257,7 +257,20 @@
           A vers C
           B vers C
           ```
-
+         - Exemple 3: 
+          ``` pycon
+          hanoi(3, "A", "B", "C")
+          ```
+          donne:
+          ``` pycon
+          A vers C
+          A vers B
+          C vers B
+          A vers C
+          B vers A
+          B vers C
+          A vers C
+          ```
     === "Correction"
         {#   
         ```python linenums='1'
