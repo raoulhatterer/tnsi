@@ -272,7 +272,7 @@
           A vers C
           ```
     === "Correction"
-        {#   
+        {#  #} 
         ```python linenums='1'
         def hanoi(n, depart, inter, arrivee):
             """ n : nombre d'assiettes dans la pile
@@ -287,8 +287,8 @@
                 print(depart + " vers " + arrivee)
                 hanoi(n-1, inter, depart, arrivee)
 
-        hanoi(5, "A", "B", "C")
-        ```#}
+        hanoi(3, "A", "B", "C")
+        ```
       
 
 
