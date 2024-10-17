@@ -311,13 +311,27 @@
         - l'instruction de tracé n'a lieu que quand ```n``` vaut 0.
         - l'étape ```n``` fait 4 appels sucessifs à l'étape ```n-1```.
 
+        ```python linenums='1'
+        from turtle import forward, left, right, speed, mainloop
+        
+        def floc(n, l):
+            # à vous
+                
+        speed(0)
+        
+        floc(3,400)
+        
+        mainloop() # lance le gestionnaire de fenetres
+        ```
+
         2) Créer une fonction ```triangle(n, l)``` qui trace le flocon complet.
 
     === "Correction"
         {#       
         ```python linenums='1'
-        from turtle import *
-
+        ```python linenums='1'
+        from turtle import forward, left, right, speed, mainloop
+        
         def floc(n, l):
             if n == 0:
                 forward(l)
@@ -330,15 +344,17 @@
                 left(60)
                 floc(n-1,l/3)
                 
-
         speed(0)
-
+        
         def triangle(n,l):
             for _ in range(3):
                 floc(n,l)
                 right(120)
                 
-        triangle(5,400)
+        triangle(4,400)
+        
+        mainloop() # lance le gestionnaire de fenetres
+        ```
 
         ``` #}
 
