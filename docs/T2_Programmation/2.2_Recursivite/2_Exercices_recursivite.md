@@ -384,7 +384,7 @@
         #}
 
 
-## Exercice 
+## Bac 
 Exercice 4 du sujet [Amérique du Nord J1](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2022/2022_Amerique_Nord_J1.pdf){. target="_blank"}
 
 ??? tip "correction Q1.a."
