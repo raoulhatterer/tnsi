@@ -80,24 +80,15 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
+!!! done "séance 14 (4h jeudi 07/11/2024):"
+    - T1 > 1 Liste, Pile, File    
+    - Exercices du cours
+    ??? note "Devoirs"
+        - Exercices sur les listes, piles et files
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
 
 {#
-
-
-!!! done "séance 13 (4h jeudi 19/10/2023):"
-    - Propagation d'un couleur par récursivité
-    - T1 > 1 Liste, Pile, File    
-    - Les files
-    - [Exercices sur les listes, piles et files](https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/Exercices/)
-    ??? note "Devoirs"
-        - [Exercices 1 et 2 sur les listes, piles et files](https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.1_Listes_Piles_Files/Exercices/)
-        - Exercice 6: Simuler une gestion de l'historique de navigation internet à l'aide d'une pile
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - récursivité: [exercice-042](https://raoulhatterer.github.io/tnsi/T6_6_Epreuve_pratique/BNS_2022/#exercice-042)
-        - Exercice 5 sur la création d'une pile
-    
-        - Réviser contrôle sur les listes, piles et files et les chapitres étudiés précédemment
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 14 (2h mardi 7/11/2023):"
     - Contrôle n°2 (1h)
