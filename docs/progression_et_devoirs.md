@@ -84,7 +84,7 @@
     - T1 > 1 Liste, Pile, File    
     - Exercices du cours
     ??? note "Devoirs"
-        - Exercices sur les listes, piles et files
+        - Exercices 6 du cours sur les listes, piles et files
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
