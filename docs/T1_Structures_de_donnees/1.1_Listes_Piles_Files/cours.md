@@ -560,7 +560,7 @@ Nous y ajouterons comme précédemment la méthode facultative suivante :
 - ```__repr__``` : permet d'afficher la file sous forme agréable (par ex : ```|3|6|2|5|```)
 
 
-!!! example "Exercice"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         Créer la classe ci-dessus. Là encore, le type ```list```  de Python est peut être utilisé.
         
