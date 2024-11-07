@@ -395,15 +395,15 @@ class Cellule :
         À l'aide cette classe, re-créer une classe ```Pile``` disposant exactement de la même interface que dans l'exercice précédent.
 
     === "Correction :heart:"
-        {{ correction(True,
+        {{ correction(False,
         "
         ```python linenums='1'
         class Cellule :
-        def __init__(self, contenu, suivante):
-            self.contenu = contenu
-            self.suivante = suivante
+            def __init__(self, contenu, suivante):
+                self.contenu = contenu
+                self.suivante = suivante
 
-class Pile:
+        class Pile:
             def __init__(self):
                 self.data = None
             
