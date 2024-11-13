@@ -88,16 +88,29 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-{#
 
-!!! done "séance 14 (2h mardi 7/11/2023):"
-    - Contrôle n°2 (1h)
-    - [T4 Base de données > Modèle relationnel](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
-    ??? note "Devoirs"
-        - Exercices sur le modèle relationnel 
+
+!!! done "séance annulée (2h mardi 12/11/2024):"
+    - Pour cause de convocation extérieure
+
 
 !!! done "séance 15 (4h jeudi 9/11/2023):"
     - Correction du contrôle n°2
+    - Exercices du cours sur les listes, piles et files
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+    
+    
+    
+{#    
+    
+    
+    
+    
+    
+    
+    
     - Correction des exercices sur le modèle relationnel
     - [T4 Base de données > SQL](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
     - Exercice d'application : The SQL Murder Mystery
