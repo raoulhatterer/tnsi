@@ -94,13 +94,13 @@
     - Pour cause de convocation extérieure
 
 
-!!! done "séance 15 (4h jeudi 9/11/2023):"
+!!! done "séance 15 (4h jeudi 14/11/2023):"
     - Correction du contrôle n°2
     - Exercices du cours sur les listes, piles et files
     ??? note "Devoirs"
+        - Préparer le contrôle de la semaine prochaine (qui pourra porter sur tout ce qui a été vu jusqu'à présent)
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-    
     
     
 {#    
