@@ -528,7 +528,7 @@ La représentation la plus courante d'une file se fait horizontalement, en enfil
         11. f.est_vide() 
         ```
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python
         1. f est vide
