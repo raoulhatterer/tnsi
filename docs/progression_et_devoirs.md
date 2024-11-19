@@ -103,25 +103,17 @@
 
     
     
-{#    
-    
-    
-    
-    
-    
-    
-    
-    - Correction des exercices sur le modèle relationnel
+!!! done "séance 16 (2h mardi 14/11/2023):"
+    - [T4 Base de données > Modèle relationnel](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
+    - Exercices sur le modèle relationnel
     - [T4 Base de données > SQL](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
     - Exercice d'application : The SQL Murder Mystery
     ??? note "Devoirs"
-        - Certains élèves doivent **revoir les listes, piles et files** qu'ils ne maîtrisent pas encore suffisamment.
-        - Terminer l'exercice d'application : The SQL Murder Mystery
+        - Préparer le contrôle de jeudi  (qui pourra porter sur tout ce qui a été vu jusqu'à présent)
+    
+{#    
+    
 
-!!! done "séance 16 (2h mardi 14/11/2023):"
-    - Correction de l'exercice d'application : The SQL Murder Mystery
-    ??? note "Devoirs"
-        - Réviser test sur les bases de données
 
 !!! done "séance 17 (4h jeudi 16/11/2023):"
     - Exercices SQL
