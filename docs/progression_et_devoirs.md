@@ -103,7 +103,7 @@
 
     
     
-!!! done "séance 16 (2h mardi 14/11/2023):"
+!!! done "séance 16 (2h mardi 19/11/2023):"
     - [T4 Base de données > Modèle relationnel](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
     - Exercices sur le modèle relationnel
     - Utilisation de [Mocodo](https://www.mocodo.net/)
