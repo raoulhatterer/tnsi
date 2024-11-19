@@ -1,4 +1,4 @@
-># Progression et devoirs
+# Progression et devoirs
 
 [2024-2025](#a-suivre)
 
@@ -106,8 +106,7 @@
 !!! done "séance 16 (2h mardi 14/11/2023):"
     - [T4 Base de données > Modèle relationnel](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
     - Exercices sur le modèle relationnel
-    - [T4 Base de données > SQL](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
-    - Exercice d'application : The SQL Murder Mystery
+    - Utilisation de Mocodo
     ??? note "Devoirs"
         - Préparer le contrôle de jeudi  (qui pourra porter sur tout ce qui a été vu jusqu'à présent)
     
@@ -116,6 +115,8 @@
 
 
 !!! done "séance 17 (4h jeudi 16/11/2023):"
+    - [T4 Base de données > SQL](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
+    - Exercice d'application : The SQL Murder Mystery
     - Exercices SQL
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
