@@ -106,7 +106,7 @@
 !!! done "séance 16 (2h mardi 14/11/2023):"
     - [T4 Base de données > Modèle relationnel](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
     - Exercices sur le modèle relationnel
-    - Utilisation de Mocodo
+    - Utilisation de [Mocodo](https://www.mocodo.net/)
     ??? note "Devoirs"
         - Préparer le contrôle de jeudi  (qui pourra porter sur tout ce qui a été vu jusqu'à présent)
     
