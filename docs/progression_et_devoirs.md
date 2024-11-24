@@ -103,26 +103,29 @@
 
     
     
-!!! done "séance 16 (2h mardi 19/11/2023):"
+!!! done "séance 16 (2h mardi 19/11/2024):"
     - [T4 Base de données > Modèle relationnel](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
     - Exercices sur le modèle relationnel
     - Utilisation de [Mocodo](https://www.mocodo.net/)
     ??? note "Devoirs"
         - Préparer le contrôle de jeudi  (qui pourra porter sur tout ce qui a été vu jusqu'à présent)
     
-{#    
+
     
 
 
-!!! done "séance 17 (4h jeudi 16/11/2023):"
+!!! done "séance 17 (4h jeudi 21/11/2024):"
     - [T4 Base de données > SQL](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
-    - Exercice d'application : The SQL Murder Mystery
     - Exercices SQL
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Réviser les bases de données pour le contrôle de jeudi prochain.
+
+
+
+{#    
 
 !!! done "séance 18 (2h mardi 21/11/2023):"
+    - Exercice d'application : The SQL Murder Mystery
     - Création et modification d'une base de données
     - Révisions 
     ??? note "Devoirs"
