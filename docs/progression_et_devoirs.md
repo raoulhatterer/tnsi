@@ -115,30 +115,29 @@
 
 
 !!! done "séance 17 (4h jeudi 21/11/2024):"
+    - Contrôle n°3 sur les piles et files 
     - [T4 Base de données > SQL](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
     - Exercices SQL
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+!!! done "séance 18 (2h mardi 26/11/2024):"
+    - Rattrapage du contrôle pour les absents
+    - Exercices SQL 
+    - Révisions Wims sur les bases de python
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+!!! done "séance 19 (4h jeudi 28/11/2023):"
+    - Correction du contrôle n°3
+    - Exercices SQL
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 {#    
-
-!!! done "séance 18 (2h mardi 21/11/2023):"
-    - Exercice d'application : The SQL Murder Mystery
-    - Création et modification d'une base de données
-    - Révisions 
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Réviser les bases de données pour le contrôle de jeudi
-
-!!! done "séance 19 (4h jeudi 23/11/2023):"
+!!! done "séance 20 (2h mardi 28/11/2023):"
     - Contrôle SQL
     - Python-SQL 
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-!!! done "séance 20 (2h mardi 28/11/2023):"
     - Mini-projets python-SQL
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
