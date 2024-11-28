@@ -132,6 +132,7 @@
     - Correction du contrôle n°3
     - Exercices SQL
     ??? note "Devoirs"
+        - Finir exercice 1 (Q3 sur JOIN)
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 {#    
