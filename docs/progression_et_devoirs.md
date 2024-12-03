@@ -128,26 +128,32 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 19 (4h jeudi 28/11/2023):"
+!!! done "séance 19 (4h jeudi 28/11/2024):"
     - Correction du contrôle n°3
-    - Exercices SQL
+    - Exercices SQL: n°1
     ??? note "Devoirs"
         - Finir exercice 1 (Q3 sur JOIN)
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-{#    
-!!! done "séance 20 (2h mardi 28/11/2023):"
+  
+!!! done "séance 20 (2h mardi 03/12/2024):"
+    - Exercices SQL: n°2 et n°3
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Finir l'exercice n°3 sur SQL
+        - Commencer à réviser pour le contrôle de la semaine prochaine sur les bases de données.
+
+{#  
+
+!!! done "séance 21 (4h jeudi 30/11/2023):"
     - Contrôle SQL
     - Python-SQL 
     - Mini-projets python-SQL
+    - Les arbres
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Terminer les Mini-projets python-SQL
 
-!!! done "séance 21 (4h jeudi 30/11/2023):"
-    - Les arbres
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 22 (2h mardi 5/12/2023):"
     - Exercices sur les arbres
