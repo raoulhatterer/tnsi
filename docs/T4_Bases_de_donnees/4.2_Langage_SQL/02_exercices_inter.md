@@ -828,6 +828,7 @@
         - Vous pouvez si vous le souhaitez télécharger la base [sql-murder-mystery.db](data/sql-murder-mystery.db). 
     
     === "Correction"
+    {#
         ```sql
         -- Requette:
         SELECT * FROM crime_scene_report 
@@ -969,4 +970,4 @@
         -- Même si l'on enlève la couleur des cheveux, il n'y a pas plus de résultats.
         -- La personne qui a commandité le meurtre est donc Miranda Priestly        
         ```
-    
+   #} 
