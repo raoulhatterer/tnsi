@@ -792,8 +792,9 @@
     """
     ??? success \"Correction\" 
         ```sql
-        SELECT name from Player
-        WHERE id=392
+        SELECT name  FROM event 
+        JOIN player ON player.id=event.player
+        WHERE type='red' ORDER BY time LIMIT 1;
         ```            
     """
     )
