@@ -688,13 +688,13 @@
     **Q2**. Listez les noms des clubs ainsi que leur date de création dans l'ordre chronologique de leur création.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```sql
         SELECT name, birthday 
         FROM Team
-        ORDER BY birthday
+        ORDER BY birthday;
         ```           
     """
     )
