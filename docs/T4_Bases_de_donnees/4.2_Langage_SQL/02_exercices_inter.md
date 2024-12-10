@@ -755,7 +755,7 @@
 
     **Q6**. Combien de buts ont été marqués ?
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```sql
