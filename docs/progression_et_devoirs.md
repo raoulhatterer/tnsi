@@ -88,13 +88,11 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-
-
 !!! done "séance annulée (2h mardi 12/11/2024):"
     - Pour cause de convocation extérieure
 
 
-!!! done "séance 15 (4h jeudi 14/11/2023):"
+!!! done "séance 15 (4h jeudi 14/11/2024):"
     - Correction du contrôle n°2
     - Exercices du cours sur les listes, piles et files
     ??? note "Devoirs"
@@ -110,9 +108,6 @@
     ??? note "Devoirs"
         - Préparer le contrôle de jeudi  (qui pourra porter sur tout ce qui a été vu jusqu'à présent)
     
-
-    
-
 
 !!! done "séance 17 (4h jeudi 21/11/2024):"
     - Contrôle n°3 sur les piles et files 
@@ -143,27 +138,32 @@
         - Finir l'exercice n°3 sur SQL
         - Commencer à réviser pour le contrôle de la semaine prochaine sur les bases de données.
 
-{#  
+!!! done "séance 21 (4h jeudi 05/12/2024):"
+    - Séance annulée pour cause de grève
+    ??? note "Devoirs"
+    - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+    - Réviser pour le contrôle de la semaine prochaine sur les bases de données.
 
-!!! done "séance 21 (4h jeudi 30/11/2023):"
+
+!!! done "séance 22 (2h mardi 10/12/2024):"
+    - Exercices SQL (SQL Murder Mystery et suivants)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Réviser pour le contrôle de la séance prochaine sur les bases de données.
+
+
+{# 
+!!! done "séance 23 (4h jeudi 7/12/2023):"
     - Contrôle SQL
     - Python-SQL 
     - Mini-projets python-SQL
     - Les arbres
+    - Exercices sur les arbres
+    - Exercices sur les arbres pour les élèves de Lumière (élèves du lycée de la méditerranée en sortie orientation)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Terminer les Mini-projets python-SQL
 
-
-!!! done "séance 22 (2h mardi 5/12/2023):"
-    - Exercices sur les arbres
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-!!! done "séance 23 (4h jeudi 7/12/2023):"
-    - Exercices sur les arbres pour les élèves de Lumière (élèves du lycée de la méditerranée en sortie orientation)
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 24 (2h mardi 12/12/2023):"
     - Contrôle sur les arbres
