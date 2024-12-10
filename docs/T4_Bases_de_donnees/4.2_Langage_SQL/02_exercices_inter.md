@@ -705,13 +705,13 @@
 
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```sql
         SELECT COUNT(*) 
         FROM Event
-        WHERE type='penalty'
+        WHERE type='penalty';
         ```            
     """
     )
