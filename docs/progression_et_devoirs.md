@@ -141,8 +141,8 @@
 !!! done "séance 21 (4h jeudi 05/12/2024):"
     - Séance annulée pour cause de grève
     ??? note "Devoirs"
-    - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-    - Réviser pour le contrôle de la semaine prochaine sur les bases de données.
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Réviser pour le contrôle de la semaine prochaine sur les bases de données.
 
 
 !!! done "séance 22 (2h mardi 10/12/2024):"
