@@ -739,7 +739,7 @@
     **Q5**. Combien de cartons ont été distribués ? 
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```sql
