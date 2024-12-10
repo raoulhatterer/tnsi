@@ -788,7 +788,7 @@
 
     **Q8**.  Donnez le nom du joueur qui a obtenu le carton rouge le plus rapidement.
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```sql
