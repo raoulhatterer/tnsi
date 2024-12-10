@@ -666,13 +666,20 @@
     **Q1**. Combien d'équipes ont participé à ce championnat ?
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ```sql
         SELECT COUNT(*) 
         FROM Team
-        ```            
+        ```    
+        ou mieux
+        ```sql
+        SELECT  COUNT( DISTINCT team) from EVENT;
+        ```
+
+
+        
     """
     )
     }}
