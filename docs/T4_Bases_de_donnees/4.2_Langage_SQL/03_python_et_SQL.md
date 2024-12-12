@@ -190,7 +190,7 @@ Reprendre le mini-projet précédent, en rendant possible à l'utilisateur de re
         Son rôle est de permettre de retourner tous les résultats d’une requête mais un à un.
 
     Si vous voulez limiter le nombre de résultats retournés par une requête, utilisez l’instruction SQL `LIMIT` 
-=== "Correction"
+=== "Correction" {#
     ```python
     import sqlite3
     import hashlib
@@ -280,7 +280,7 @@ Reprendre le mini-projet précédent, en rendant possible à l'utilisateur de re
     
     connexion.close()
     
-    ```
+    ``` #}
     
     
     
