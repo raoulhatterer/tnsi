@@ -152,20 +152,21 @@
         - Réviser pour le contrôle de la séance prochaine sur les bases de données.
 
 
-{# 
-!!! done "séance 23 (4h jeudi 7/12/2023):"
+
+!!! done "séance 23 (4h jeudi 12/12/2023):"
     - Contrôle SQL
     - Python-SQL 
     - Mini-projets python-SQL
-    - Les arbres
-    - Exercices sur les arbres
-    - Exercices sur les arbres pour les élèves de Lumière (élèves du lycée de la méditerranée en sortie orientation)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Terminer les Mini-projets python-SQL
 
+{# 
 
 !!! done "séance 24 (2h mardi 12/12/2023):"
+    - Les arbres
+    - Exercices sur les arbres
+    - Exercices sur les arbres pour les élèves de Lumière (élèves du lycée de la méditerranée en sortie orientation)
     - Contrôle sur les arbres
     - Routage
     ??? note "Devoirs"
