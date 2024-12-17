@@ -43,7 +43,7 @@ Redessinez de manière plus schématique cet arbre. Pour quelle raison cet arbre
 
 #### 1.2.2 Un arbre en LaTeX
 
-Exécuter le code suivant dans [Overleaf](https://www.overleaf.com/) 
+Exécuter le code suivant dans [Overleaf](https://www.overleaf.com/){. target="_blank"}
 ``` latex
 \documentclass[12pt]{article}
 \usepackage[a4paper, margin=3cm]{geometry}
