@@ -45,7 +45,7 @@ Redessinez de manière plus schématique cet arbre. Pour quelle raison cet arbre
 
 ![image](data/latex.png){: .center}
 
-Exécuter le code suivant dans [Overleaf](https://www.overleaf.com/){. target="_blank"}
+Exécuter le code suivant dans [Overleaf](https://www.overleaf.com/){. target="_blank"} après avoir choisi `Compiler: XeLaTeX` dans le menu.
 ``` latex
 \documentclass[12pt]{article}
 \usepackage[a4paper, margin=3cm]{geometry}
