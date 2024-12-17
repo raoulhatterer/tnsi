@@ -41,6 +41,9 @@ dans l'arbre ci-dessus,
 
 Redessinez de manière plus schématique cet arbre. Pour quelle raison cet arbre a-t-il été modifié par rapport à sa version orginale (voir [ici](https://i.pinimg.com/originals/e8/d1/c7/e8d1c7b2834ce2c368848cf7fc91a057.jpg ) ), qui laissait apparaître les parents de chaque enfant ?
 
+#### 1.2.2 Un arbre en LaTeX
+
+Exécuter le code suivant dans [Overleaf](https://www.overleaf.com/) 
 ``` latex
 \documentclass[12pt]{article}
 \usepackage[a4paper, margin=3cm]{geometry}
@@ -84,13 +87,13 @@ Redessinez de manière plus schématique cet arbre. Pour quelle raison cet arbre
 
 
 
-#### 1.2.2 Le DOM d'une page web
+#### 1.2.3 Le DOM d'une page web
 DOM : Document Object Model
 
 ![image](data/dom.svg){: .center width=40%}
 
 
-#### 1.2.3 L'arborescence d'un disque dur
+#### 1.2.4 L'arborescence d'un disque dur
 Les systèmes Unix (MacOS ou GNU/Linux) organisent leur disque dur suivant l'arborescence ci-dessous :
 ![image](data/arbo-unix.gif){: .center width=40%}
 
