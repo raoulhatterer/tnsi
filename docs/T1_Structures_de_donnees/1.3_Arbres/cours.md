@@ -41,6 +41,49 @@ dans l'arbre ci-dessus,
 
 Redessinez de manière plus schématique cet arbre. Pour quelle raison cet arbre a-t-il été modifié par rapport à sa version orginale (voir [ici](https://i.pinimg.com/originals/e8/d1/c7/e8d1c7b2834ce2c368848cf7fc91a057.jpg ) ), qui laissait apparaître les parents de chaque enfant ?
 
+``` latex
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=3cm]{geometry}
+\usepackage{fontspec}
+\usepackage[french]{babel}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\usetikzlibrary {arrows.meta,automata,positioning,shadows}
+\setmainfont{Times New Roman}
+%\setmainfont{OpenDyslexic}
+
+\title{Arbres}
+\date{\today}
+\author{}   
+\begin{document}
+\maketitle
+
+\paragraph{source:} 
+
+\url{https://tikz.dev/tikz-trees}
+
+\paragraph{Exemple d'arbre}
+
+\begin{center}
+\begin{tikzpicture} [
+   every node/.style={draw,circle,inner sep=2pt}]
+  \node {racine}
+    child {node {G1}}
+    child {node {D1}
+      child[missing]{node {}}
+      child {node {D2}}     
+    };
+\end{tikzpicture}
+\end{center}
+
+\end{document}
+
+
+```
+
+
+
 #### 1.2.2 Le DOM d'une page web
 DOM : Document Object Model
 
