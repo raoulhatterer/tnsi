@@ -291,14 +291,14 @@ Un parcours préfixe commencera toujours par la racine, alors qu'un parcours pos
         2. Parcours préfixe
         3. Parcours infixe
         4. Parcours postfixe
-    === "Corr. largeur"
-        largeur : 9 8 7 6 2 5 1 4 3
-    === "Corr. préfixe"
-        préfixe : 9 8 6 2 1 7 5 4 3
-    === "Corr. infixe"
-        infixe : 6 8 1 2 9 7 4 5 3
-    === "Corr. postfixe"
-        postfixe : 6 1 2 8 4 3 5 7 9
+    === "Corr. largeur"{#
+        largeur : 9 8 7 6 2 5 1 4 3#}
+    === "Corr. préfixe"{#
+        préfixe : 9 8 6 2 1 7 5 4 3#}
+    === "Corr. infixe"{#
+        infixe : 6 8 1 2 9 7 4 5 3#}
+    === "Corr. postfixe"{#
+        postfixe : 6 1 2 8 4 3 5 7 9#}
 
 
 
