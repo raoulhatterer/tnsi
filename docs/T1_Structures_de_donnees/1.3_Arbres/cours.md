@@ -43,6 +43,8 @@ Redessinez de manière plus schématique cet arbre. Pour quelle raison cet arbre
 
 #### 1.2.2 Un arbre en LaTeX
 
+![image](data/latex.png){: .center}
+
 Exécuter le code suivant dans [Overleaf](https://www.overleaf.com/){. target="_blank"}
 ``` latex
 \documentclass[12pt]{article}
