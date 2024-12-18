@@ -33,11 +33,10 @@
 
 
 ### :high_brightness: Thème en cours d'étude 
-- :arrow_right: [T4 Base de données](T4_Bases_de_donnees/sommaire/)
+- :arrow_right: [T1 Structures de données > Arbres](T1_Structures_de_donnees/1.3_Arbres/cours/)
 
 
 {#
-- :arrow_right: [T1 Structures de données > Arbres](T1_Structures_de_donnees/1.3_Arbres/cours/)
 - :arrow_right: [T5 Architecture matérielle > Protocoles de routage](T5_Architecture_materielle/5.3_Protocoles_de_routage/cours/)
 - :arrow_right: [T5 Architecture matérielle > Gestion des processus](T5_Architecture_materielle/5.2_Gestion_des_processus/cours/) 
 - :arrow_right: [T3 > Dichotomie](T3_Algorithmique/3.1_Diviser_pour_regner/cours/)
@@ -52,3 +51,4 @@
 - :arrow_right: [T1 Structures de données > Dictionnaires](T1_Structures_de_donnees/1.2_Dictionnaires/cours/) 
 - :arrow_right: [T2 Programmation > Récursivité](T2_Programmation/2.2_Recursivite/cours/) 
 - :arrow_right: [T1 Structures de données > Listes / piles / files](T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours/)
+- :arrow_right: [T4 Base de données](T4_Bases_de_donnees/sommaire/)

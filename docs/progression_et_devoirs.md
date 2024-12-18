@@ -161,18 +161,21 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Terminer les Mini-projets python-SQL
 
-{# 
 
-!!! done "séance 24 (2h mardi 12/12/2023):"
+
+!!! done "séance 24 (2h mardi 17/12/2024):"
     - Les arbres
+    - Les commandes Linux
     - Exercices sur les arbres
-    - Exercices sur les arbres pour les élèves de Lumière (élèves du lycée de la méditerranée en sortie orientation)
-    - Contrôle sur les arbres
-    - Routage
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Exercices 2 et 3 sur les arbres 
+
+{# 
+
 
 !!! done "séance 25 (4h jeudi 14/12/2023):"
+    - Contrôle sur les arbres
     - Routage
     - TP Routage débranché
     ??? note "Devoirs"
