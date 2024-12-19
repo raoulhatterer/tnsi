@@ -171,17 +171,22 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Exercices 2 et 3 sur les arbres 
 
+
+
+
+!!! done "séance 25 (4h jeudi 19/12/2024):"
+    - Exercices sur les arbres
+    ??? note "Devoirs"
+        - Préparer le contrôle sur les arbres prévu à la rentrée.
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
 {# 
 
-
-!!! done "séance 25 (4h jeudi 14/12/2023):"
+!!! done "séance 26 (2h mardi 19/12/2023):"
     - Contrôle sur les arbres
     - Routage
     - TP Routage débranché
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-!!! done "séance 26 (2h mardi 19/12/2023):"
     - Routage
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
