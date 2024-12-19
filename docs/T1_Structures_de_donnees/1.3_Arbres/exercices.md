@@ -708,37 +708,37 @@
             Parcours(A.fils_droit)
         ```
 
-## Exercice
+!!! example "{{ exercice() }}" {#exercice n°7#}
 
-Exercice 3 du sujet [Centres Etrangers J2 - 2023](https://glassus.github.io/terminale_nsi/T6_Annales/data/2023/2023_Centres_Etrangers_J2.pdf){. target="blank"}
+    Exercice 3 du sujet [Centres Etrangers J2 - 2023](https://glassus.github.io/terminale_nsi/T6_Annales/data/2023/2023_Centres_Etrangers_J2.pdf){. target="blank"}
 
-??? tip "Correction Q1.a."
-    ```'Bonjour Alan !'```
+    ??? tip "Correction Q1.a."
+        ```'Bonjour Alan !'```
 
-??? tip "Correction Q1.b."
-    Ce sont des booléens. ```x``` vaut ```False```, ```y``` vaut ```True```.    
+    ??? tip "Correction Q1.b."
+        Ce sont des booléens. ```x``` vaut ```False```, ```y``` vaut ```True```.    
 
-??? tip "Correction Q1.c."
-    ```python linenums='1'
-    def occurences_lettre(une_chaine, une_lettre):
-        nb = 0
-        for lettre in une_chaine:
-            if lettre == une_lettre:
-                nb += 1
-        return nb
-    ```
+    ??? tip "Correction Q1.c."
+        ```python linenums='1'
+        def occurences_lettre(une_chaine, une_lettre):
+            nb = 0
+            for lettre in une_chaine:
+                if lettre == une_lettre:
+                    nb += 1
+            return nb
+        ```
 
-??? tip "Correction Q3.b.."
-    ```python linenums='1'
-    def hauteur(un_abr):
-        if un_abr.est_vide():
-            return 0
-        else:
-            return 1 + max(hauteur(un_abr.sous_arbre_gauche, hauteur(un_abr.sous_arbre_droit)
-    ```
+    ??? tip "Correction Q3.b.."
+        ```python linenums='1'
+        def hauteur(un_abr):
+            if un_abr.est_vide():
+                return 0
+            else:
+                return 1 + max(hauteur(un_abr.sous_arbre_gauche, hauteur(un_abr.sous_arbre_droit)
+        ```
 
 
 
-Fichier des mots français : [gutemberg.txt](./data/gutenberg.txt)
+    Fichier des mots français : [gutemberg.txt](./data/gutenberg.txt)
     
      
