@@ -6,7 +6,7 @@
         Exercice 2 du sujet [Nouvelle-Calédonie J2 2022](https://glassus.github.io/terminale_nsi/T6_Annales/data/2022/2022_Nouvelle-Caledonie_J2.pdf){. target="_blank"}  
     === "Correction"
         {{
-        correction(False,
+        correction(True,
         """
         ??? success \"Correction 1.\" 
             C'est un arbre binaire car chaque nœud possède au maximum deux fils.
@@ -15,7 +15,7 @@
         }}
     
         {{
-        correction(False,
+        correction(True,
         """
         ??? success \"Correction 2.a\" 
             ```V``` est un dictionnaire. 
@@ -24,7 +24,7 @@
         }}
     
         {{
-        correction(False,
+        correction(True,
         """
         ??? success \"Correction 2.b\" 
             ```python
@@ -158,7 +158,7 @@
         comme dans la question précédente.
     === "Correction"
         {{
-        correction(True,
+        correction(False,
         """
         **Q1** La taille est 9, la hauteur est 4.  
         **Q2** 1. G est associé à 1010.   
@@ -190,7 +190,7 @@
         }}
                 
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°3#}
     === "Énoncé"
         *2021, Métropole sujet 1*
     
@@ -318,7 +318,7 @@
         }}
     
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°4#}
     *2021, Métropole Candidats Libres 2*
 
     On rappelle qu’un arbre binaire est composé de nœuds, chacun des nœuds possédant
@@ -504,7 +504,7 @@
         ```
 
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°5#}
     *2021, Polynésie*
 
     Cet exercice traite principalement du thème « algorithmique, langages et
@@ -615,7 +615,7 @@
 
 
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°6#}
     *2021, Centres Étrangers, sujet 1*
 
     Un arbre binaire est soit vide, soit un nœud qui a une valeur et au plus deux fils (le
