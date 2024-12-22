@@ -8,8 +8,8 @@
 
 ## 0. Résumé des épisodes précédents
 
-- [cours](https://lyceemed.forge.aeif.fr/pnsi/T3_Architecture_materielle/Chapitre_3:_Architecture_reseau/cours/){:target="_blank"} de 1ère sur l'architecture d'un réseau
-- [cours](https://lyceemed.forge.aeif.fr/pnsi/T3_Architecture_materielle/Chapitre_4:_Protocoles_de_communication/cours/){:target="_blank"} de 1ère sur les différents protocoles de communication dans un réseau.
+- [cours](https://raoulhatterer.github.io/pnsi/T3_Architecture_materielle/Chapitre_3:_Architecture_reseau/cours/){:target="_blank"} de 1ère sur l'architecture d'un réseau
+- [cours](https://raoulhatterer.github.io/pnsi/T3_Architecture_materielle/Chapitre_4:_Protocoles_de_communication/cours/){:target="_blank"} de 1ère sur les différents protocoles de communication dans un réseau.
 
 
 !!! abstract "Notions essentielles :heart: :heart: :heart:"
