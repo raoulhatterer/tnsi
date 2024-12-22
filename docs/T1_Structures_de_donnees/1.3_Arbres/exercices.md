@@ -1,7 +1,7 @@
 
 {{initexo(0)}}
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°1#}
     === "Énoncé"
         Exercice 2 du sujet [Nouvelle-Calédonie J2 2022](https://glassus.github.io/terminale_nsi/T6_Annales/data/2022/2022_Nouvelle-Caledonie_J2.pdf){. target="_blank"}  
     === "Correction"
@@ -35,7 +35,7 @@
         }}
     
         {{
-        correction(True,
+        correction(False,
         """
         ??? success \"Correction 2.c\" 
             ```python linenums='1'
@@ -51,7 +51,7 @@
     
     
             {{
-        correction(True,
+        correction(False,
         """
         ??? success \"Correction 2.d\" 
             ```python linenums='1'
@@ -68,7 +68,7 @@
         }}
     
         {{
-        correction(True,
+        correction(False,
         """
         ??? success \"Correction 3.\" 
             Cet algorithme calcule le nombre total de nœuds de l'arbre, donc sa taille de l'arbre.
@@ -78,7 +78,7 @@
         }}
     
         {{
-        correction(True,
+        correction(False,
         """
         ??? success \"Correction 4.a\" 
             Le parcours est ```A-B-C-E-D-F-G-I-H-J```         
@@ -87,7 +87,7 @@
         }}
     
         {{
-        correction(True,
+        correction(False,
         """
         ??? success \"Correction 4.b\" 
             C'est un parcours préfixe.           
@@ -96,7 +96,7 @@
         }}
 
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°2#}
     === "Énoncé"
         *2020, sujet 0*
     
@@ -158,7 +158,7 @@
         comme dans la question précédente.
     === "Correction"
         {{
-        correction(True,
+        correction(False,
         """
         **Q1** La taille est 9, la hauteur est 4.  
         **Q2** 1. G est associé à 1010.   
@@ -190,7 +190,7 @@
         }}
                 
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°3#}
     === "Énoncé"
         *2021, Métropole sujet 1*
     
@@ -318,7 +318,7 @@
         }}
     
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°4#}
     *2021, Métropole Candidats Libres 2*
 
     On rappelle qu’un arbre binaire est composé de nœuds, chacun des nœuds possédant
@@ -504,7 +504,7 @@
         ```
 
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°5#}
     *2021, Polynésie*
 
     Cet exercice traite principalement du thème « algorithmique, langages et
@@ -615,7 +615,7 @@
 
 
 
-!!! example "{{ exercice() }}"
+!!! example "{{ exercice() }}" {#exercice n°6#}
     *2021, Centres Étrangers, sujet 1*
 
     Un arbre binaire est soit vide, soit un nœud qui a une valeur et au plus deux fils (le
@@ -708,37 +708,37 @@
             Parcours(A.fils_droit)
         ```
 
-## Exercice
+!!! example "{{ exercice() }}" {#exercice n°7#}
 
-Exercice 3 du sujet [Centres Etrangers J2 - 2023](https://glassus.github.io/terminale_nsi/T6_Annales/data/2023/2023_Centres_Etrangers_J2.pdf){. target="blank"}
+    Exercice 3 du sujet [Centres Etrangers J2 - 2023](https://glassus.github.io/terminale_nsi/T6_Annales/data/2023/2023_Centres_Etrangers_J2.pdf){. target="blank"}
 
-??? tip "Correction Q1.a."
-    ```'Bonjour Alan !'```
+    ??? tip "Correction Q1.a."
+        ```'Bonjour Alan !'```
 
-??? tip "Correction Q1.b."
-    Ce sont des booléens. ```x``` vaut ```False```, ```y``` vaut ```True```.    
+    ??? tip "Correction Q1.b."
+        Ce sont des booléens. ```x``` vaut ```False```, ```y``` vaut ```True```.    
 
-??? tip "Correction Q1.c."
-    ```python linenums='1'
-    def occurences_lettre(une_chaine, une_lettre):
-        nb = 0
-        for lettre in une_chaine:
-            if lettre == une_lettre:
-                nb += 1
-        return nb
-    ```
+    ??? tip "Correction Q1.c."
+        ```python linenums='1'
+        def occurences_lettre(une_chaine, une_lettre):
+            nb = 0
+            for lettre in une_chaine:
+                if lettre == une_lettre:
+                    nb += 1
+            return nb
+        ```
 
-??? tip "Correction Q3.b.."
-    ```python linenums='1'
-    def hauteur(un_abr):
-        if un_abr.est_vide():
-            return 0
-        else:
-            return 1 + max(hauteur(un_abr.sous_arbre_gauche, hauteur(un_abr.sous_arbre_droit)
-    ```
+    ??? tip "Correction Q3.b.."
+        ```python linenums='1'
+        def hauteur(un_abr):
+            if un_abr.est_vide():
+                return 0
+            else:
+                return 1 + max(hauteur(un_abr.sous_arbre_gauche, hauteur(un_abr.sous_arbre_droit)
+        ```
 
 
 
-Fichier des mots français : [gutemberg.txt](./data/gutenberg.txt)
+    Fichier des mots français : [gutemberg.txt](./data/gutenberg.txt)
     
      
