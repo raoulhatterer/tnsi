@@ -82,7 +82,7 @@ minimise le nombre de routeurs par lesquels les paquets transitent.
 
 
 
-_voir le TP débranché_ : [le jeu dont vous êtes le routeur](https://www.overleaf.com/read/ppcyddjmkgjp#aaf7e4){. target="_blank"} (procédure: se connecter à Overleaf pour pouvoir éditer le document & dans le menu Settings compiler avec XeLaTeX)
+_voir le TP débranché_ : [le jeu dont vous êtes le routeur](https://www.overleaf.com/read/ppcyddjmkgjp#aaf7e4){. target="_blank"} (procédure: se connecter à Overleaf pour pouvoir éditer le document)
 
 
 !!! abstract "Les règles du protocole RIP :heart: :heart: :heart:"
