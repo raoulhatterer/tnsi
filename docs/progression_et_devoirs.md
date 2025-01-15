@@ -175,7 +175,15 @@
         - Préparer le contrôle sur les arbres prévu à la rentrée.
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 26 (2h mardi 12/01/2025):"
+
+!!! done "séance 26 (2h mardi 07/01/2025):"
+    - Exercices sur les arbres
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
+
+!!! done "séance 27 (4h mardi 09/01/2025):"
     - Contrôle sur les arbres reporté à mardi
     - Routage
     - TP Routage débranché
@@ -183,22 +191,20 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-
-{# 
-
-!!! done "séance 27 (4h jeudi 21/12/2023):"
-    - Routage
+!!! done "séance 28 (2h mardi 14/01/2025):"
+    - Contrôle sur les arbres
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Prochaine séance annulée pour cause de présentation de la spécialité NSI aux élèves de seconde.
 
-!!! done "séance 28 (2h mardi 9/1/2024):"
-    - Hors programme, mais fortement recommandé pour le travail de développeurs informatiques en équipe: [Débuter avec Git et Github](https://youtu.be/V6Zo68uQPqE?si=qjbKbj_SQvdclmxs) (présentation très claire de Sébastien Saunier sur la chaîne youtube *Le Wagon*)
-    - Lien vers [Visualizing Git Concepts with D3](https://onlywei.github.io/explain-git-with-d3/) dont il est question à [33:29 dans la vidéo.](https://youtu.be/V6Zo68uQPqE?si=YCp3e0pvnCce4gzo&t=2009)
+
+!!! done "séance 29 (2h jeudi 16/01/2025):"
+    - Séance annulée pour cause de présentation de la spécialité NSI aux élèves de seconde.
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Installer Git sur son ordinateur personnel
-        - Préparer contrôle sur le routage
+        - Préparer les exercices sur le routage.
 
+{#
 
 !!! done "séance 29 (4h jeudi 11/1/2024):"
     - Contrôle n°5 portant sur le routage
