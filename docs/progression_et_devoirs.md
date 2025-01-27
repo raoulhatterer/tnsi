@@ -213,21 +213,19 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
+
+!!! done "séance 31 (4h jeudi 23/01/2025):"
+    - Fin de la correction du contrôle sur les arbres
+    - Exercices sur le routage
+    ??? note "Devoirs"
+        - Réviser le routage (et tout ce qui précède) pour le contrôle de la semaine prochaine.
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
 {#
 
-!!! done "séance annulée (4h jeudi 18/1/2024):"
-    ??? note "Devoirs"
-        - Contrôle n°5 portant sur le routage
-        - Les dictionnaires
-        - Github
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-!!! done "séance 31 (2h mardi 23/1/2024):"
-    - Gestion des processus
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
 !!! done "séance 32 (4h jeudi 25/1/2024):"
+    - Contrôle n°5 portant sur le routage
+    - Gestion des processus    
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
