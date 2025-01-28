@@ -221,16 +221,20 @@
         - Réviser le routage (et tout ce qui précède) pour le contrôle de la semaine prochaine.
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-{#
 
-!!! done "séance 32 (4h jeudi 25/1/2024):"
-    - Contrôle n°5 portant sur le routage
+!!! done "séance 32 (2h mardi 28/01/2025):"
     - Gestion des processus    
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
+        - Réviser le routage (et tout ce qui précède) pour le contrôle de la semaine prochaine.
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+
+{#
+
+
 !!! done "séance 33 (2h mardi 30/1/2024):"
+    - Contrôle n°5 portant sur le routage
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
         - Dernier exercice sur la gestion des processus
