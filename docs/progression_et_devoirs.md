@@ -230,15 +230,17 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-{#
 
 
-!!! done "séance 33 (2h mardi 30/1/2024):"
-    - Contrôle n°5 portant sur le routage
+
+!!! done "séance 33 (4h mardi 30/1/2025):"
+    - Contrôle n°6 portant sur le routage
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
         - Dernier exercice sur la gestion des processus
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+{#
 
 !!! done "séance 34 (4h jeudi 1/2/2024):"
     - Exercices sur la gestion des processus
