@@ -229,11 +229,7 @@
         - Réviser le routage (et tout ce qui précède) pour le contrôle de la semaine prochaine.
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-
-
-
-
-!!! done "séance 33 (4h mardi 30/1/2025):"
+!!! done "séance 33 (4h jeudi 30/1/2025):"
     - Contrôle n°6 portant sur le routage
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
