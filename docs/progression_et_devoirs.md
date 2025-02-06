@@ -235,19 +235,17 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-{#
-
-!!! done "séance 34 (4h jeudi 1/2/2024):"
+!!! done "séance 34 (2h mardi 04/02/2025):"
     - Exercices sur la gestion des processus
-    - Dichotomie
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 35 (2h mardi 6/2/2024):"
-    - Annulée pour raisons médicales
+!!! done "séance 35 (4h jeudi 06/02/2025):"
+    - Exercices sur la gestion des processus
     ??? note "Devoirs"
+        - Réviser contrôle sur la gestion des processus (et tout ce qui précède).
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
+{#
 !!! done "séance 36 (4h jeudi 8/2/2024):"
     - Exercice sur la rapidité du calcul de puissance
     - Tri fusion
