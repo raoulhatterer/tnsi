@@ -3,8 +3,10 @@
 
 L'épreuve se partage en :
 
-- une **Épreuve Pratique** (sur 8 points, sur machine, durée 1h)
-- une **Épreuve Écrite** (sur 12 points, à l'écrit, durée 3h30)
+- une **Épreuve Pratique** (sur 20 points, à l'écrit, durée 3h30, coefficient 0.75)
+- une **Épreuve Écrite** (sur 20 points, sur machine, durée 1h, coefficient 0.25)
+
+On peut considérer que la note sur 20 au bacaccalauréat en NSI est constituée de 15 points d'épreuve écrite et de 5 points d'épreuve pratique.
 
 ## Épreuve Pratique
 
@@ -13,9 +15,9 @@ L'épreuve se partage en :
 
 
 - Durée : 1 heure
-- L'épreuve pratique donne lieu à une note sur **8 points**, qui s'ajouteront aux 12 points de l'épreuve écrite.
+- L'épreuve pratique donne lieu à une note sur 20 points, coefficient 0.25.
 
-La partie pratique consiste en la résolution de **deux exercices sur ordinateur**, chacun étant noté sur **4 points**.
+La partie pratique consiste en la résolution de **deux exercices sur ordinateur**, chacun étant noté sur **10 points**.
 
 Le candidat est évalué sur la base d’un dialogue avec un professeur-examinateur. Un examinateur évalue au maximum quatre élèves. L’examinateur ne peut pas évaluer un élève qu’il a eu en classe durant l’année en cours.
 L’évaluation de cette partie se déroule au cours du deuxième trimestre pendant la période de l’épreuve écrite de spécialité.
