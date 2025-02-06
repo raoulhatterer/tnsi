@@ -2,7 +2,7 @@
 
 
 
-!!! abstract "{{ exercice() }}"   
+!!! abstract "{{ exercice() }}"   {# exo 1 #}
 
     **Partie A**
 
@@ -89,7 +89,7 @@
     }}
 
 
-!!! abstract "{{ exercice() }}" 
+!!! abstract "{{ exercice() }}" {# exo 2 #}
 
     _2021, Métropole Candidats Libres sujet 2_
 
@@ -99,7 +99,7 @@
     **Q1.b.** Proposer un schéma illustrant les passages entre les différents états.
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         **Q1a.** Élu signifie que le processus est actuellement en cours d'exécution par le processeur.
@@ -129,7 +129,7 @@
     - iii. Dernier entré, premier sorti
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         **Q2a.** ii. Premier entré, premier sorti
@@ -158,7 +158,7 @@
     ![image](data/ex4_frise.png){: .center}
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ![image](data/ex4_frise_corr.png){: .center} 
@@ -169,7 +169,7 @@
 
 
 
-!!! abstract "{{ exercice() }}"
+!!! abstract "{{ exercice() }}" {# exo 3 #}
 
 
     _2021, sujet Amérique du Nord_
@@ -203,7 +203,7 @@
     Montrer que les applications s'attendent mutuellement. Comment s'appelle cette situation ?
 
     {{
-    correction(False,
+    correction(True,
     """
     ??? success \"Correction\" 
         ![image](data/corr_exo1.png){: .center}
@@ -215,7 +215,7 @@
 
         
 
-!!! abstract "{{ exercice() }}"   
+!!! abstract "{{ exercice() }}"  {# exo 4 #} 
 
     _2021, Métropole sujet 2_
 
@@ -324,7 +324,7 @@
 
 
 
-!!! abstract "{{ exercice() }}"        
+!!! abstract "{{ exercice() }}"  {# exo 5 #}      
 
 
     Exercice 2 du sujet [Amérique du Nord J2 2022](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2022/2022_Amerique_Nord_J2.pdf){. target="_blank"}
@@ -443,7 +443,7 @@
 
 
 
-!!! abstract "{{ exercice() }}"        
+!!! abstract "{{ exercice() }}"  {# exo 6 #}      
 
 
     Exercice 2 du sujet [Polynésie J1](https://raoulhatterer.github.io/tnsi/T6_Annales/data/2023/2023_Polynesie_J1.pdf){. target="_blank"}
