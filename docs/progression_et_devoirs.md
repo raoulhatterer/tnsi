@@ -241,9 +241,10 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 35 (4h jeudi 06/02/2025):"
+    - Correction du contrôle n°6 portant sur le routage
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
-        - Réviser contrôle sur la gestion des processus (et tout ce qui précède).
+        - Réviser le prochain contrôle portant sur la gestion des processus (et tout ce qui précède).
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 {#
 !!! done "séance 36 (4h jeudi 8/2/2024):"
