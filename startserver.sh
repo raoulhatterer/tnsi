@@ -1,4 +1,4 @@
-# script permettant de démarrer le serveur mkdocs
+# script permettant de démarrer le serveur mkdocs tnsi
 
 #1. Activation de l'environnement virtuel 
 source /Users/raoul/.virtualenvs/mkDocs_env/bin/activate

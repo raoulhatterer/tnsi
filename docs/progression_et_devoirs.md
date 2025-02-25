@@ -246,8 +246,10 @@
     ??? note "Devoirs"
         - Réviser le prochain contrôle portant sur la gestion des processus (et tout ce qui précède).
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-{#
-!!! done "séance 36 (4h jeudi 8/2/2024):"
+
+!!! done "séance 36 (2h mardi 25/02/2025):"
+    - [T3 > Dichotomie](./T3_Algorithmique/3.1_Diviser_pour_regner/cours.md)
+    - [Activité d'introduction](./T3_Algorithmique/3.1_Diviser_pour_regner/intro_dichotomie.md)
     - Exercice sur la rapidité du calcul de puissance
     - Tri fusion
     - Exercices sur la dichotomie
@@ -255,6 +257,7 @@
         - Étude mathématique de la fonction `distance_point_droite`
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         
+{#
 
 !!! done "séance 37 (2h mardi 13/2/2024):"
     - Étude mathématique de la fonction `distance_point_droite`

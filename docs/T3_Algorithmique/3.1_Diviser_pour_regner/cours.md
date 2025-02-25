@@ -1,5 +1,7 @@
 # Diviser pour régner
 
+{{initexo(0)}}
+
 ![image](data/BO.png){: .center}
 
 ## 1. Retour sur l'algorithme de dichotomie
@@ -213,7 +215,7 @@ Ainsi, dans le cas où $n$ est pair, il suffit d'élever $a$ au carré (une seul
 
 ![image](data/puiss.png){: .center}
 
-!!! example "Exercice"
+!!! example "{{ exercice() }}" {#Exercice1#}
     === "Énoncé"
         Recréer le graphique ci-dessus, qui compare les temps d'exécution des deux fonctions ```puissance``` et ```puissance_mod```.
 
@@ -235,7 +237,7 @@ Ainsi, dans le cas où $n$ est pair, il suffit d'élever $a$ au carré (une seul
 
         ![image](data/carre.png){: .center width=50%}
 
-    === "Correction"
+    === "Correction" {#
         ```python linenums='1'
         import matplotlib.pyplot as plt
         import time
@@ -265,7 +267,8 @@ Ainsi, dans le cas où $n$ est pair, il suffit d'élever $a$ au carré (une seul
             t0 = time.time()
             p = puissance_mod(3,n)
             return time.time()-t0
-        ```
+        ``` 
+        #}
         
 ## 4. Le tri-fusion
 En anglais le *merge sort*.
@@ -287,11 +290,11 @@ Principe de l'interclassement de deux listes ```lst1``` et ```lst2```.
 
 
 
-!!! example "Exercice"
+!!! example "{{ exercice() }}" {#Exercice2#}
     === "Énoncé"
         Coder la fonction ```interclassement```. 
     === "Correction"
-        {{ correction(True,
+        {{ correction(False,
         "
         ```python
         def interclassement(lst1, lst2):
