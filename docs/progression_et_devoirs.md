@@ -255,16 +255,15 @@
         - Réviser le prochain contrôle portant sur la gestion des processus (et tout ce qui précède).    
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         
-{#
 
-!!! done "séance 37 (2h mardi 13/2/2024):"
-    - Exercice sur la rapidité du calcul de puissance
-    - Tri fusion
-    - Exercices sur la dichotomie
-    - Étude mathématique de la fonction `distance_point_droite`
-    - Cryptographie
+
+!!! done "séance 37 (4h jeudi 27/02/2024):"
+    - Contrôle n°7 sur les processus
+    - Exercice 1  (Comparaison de la vitesse d'exécution des deux algorithmes puissance)
     ??? note "Devoirs"
+        - Exercice 2
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+{#
 
 !!! done "séance 38 (4h jeudi 15/2/2024):"
     - Cryptographie
