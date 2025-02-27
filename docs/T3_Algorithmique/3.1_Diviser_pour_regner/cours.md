@@ -237,7 +237,7 @@ Ainsi, dans le cas où $n$ est pair, il suffit d'élever $a$ au carré (une seul
 
         ![image](data/carre.png){: .center width=50%}
 
-    === "Correction" {#
+    === "Correction" {# #}
         ```python linenums='1'
         import matplotlib.pyplot as plt
         import time
@@ -268,7 +268,7 @@ Ainsi, dans le cas où $n$ est pair, il suffit d'élever $a$ au carré (une seul
             p = puissance_mod(3,n)
             return time.time()-t0
         ``` 
-        #}
+        
         
 ## 4. Le tri-fusion
 En anglais le *merge sort*.
