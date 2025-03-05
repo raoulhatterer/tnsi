@@ -257,23 +257,27 @@
         
 
 
-!!! done "séance 37 (4h jeudi 27/02/2024):"
+!!! done "séance 37 (4h jeudi 27/02/2025):"
     - Contrôle n°7 sur les processus
     - Exercice 1  (Comparaison de la vitesse d'exécution des deux algorithmes puissance)
     ??? note "Devoirs"
         - Exercice 2
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-{#
 
-!!! done "séance 38 (4h jeudi 15/2/2024):"
+
+!!! done "séance 38 (2h jeudi 4/3/2025):"
+    - Tri fusion
+    - Exercice 2
+    - Complexité O(1) O(log n) O(n) O(n log n) O(n2) 
+    ??? note "Devoirs"
+        - Exercice 4 du sujet Amérique du Sud J2 2022
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+{#
+!!! done "séance 39 (2h mardi 20/2/2024):"
     - Cryptographie
     - Le chiffrement RSA
     - Algorithme de Blankinship
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-!!! done "séance 39 (2h mardi 20/2/2024):"
     - HTTPS
     - Exercices Cryptographie
     ??? note "Devoirs"
