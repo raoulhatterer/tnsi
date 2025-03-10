@@ -265,7 +265,7 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-!!! done "séance 38 (2h jeudi 4/3/2025):"
+!!! done "séance 38 (2h mardi 4/3/2025):"
     - Tri fusion
     - Exercice 2
     - Complexité O(1) O(log n) O(n) O(n log n) O(n2) 
@@ -279,6 +279,19 @@
     ??? note "Devoirs"
         - Finir Exercice 4 du sujet Amérique du Sud J2 2022
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance annulée pour cause de bac blanc (2h mardi 11/03/2025):"
+    ??? note "Devoirs"
+        - Finir Exercice 4 du sujet Amérique du Sud J2 2022
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années
+
+!!! done "séance annulée pour cause de bac blanc (4h jeudi 13/03/2025):"
+    - L'épreuve Bac Blanc de NSI a lieu en salle 107B de 8h00 à 11h30 (12h40 pour les tiers temps).
+    ??? note "Devoirs"
+        - Finir Exercice 4 du sujet Amérique du Sud J2 2022
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années
+
+
 
 {#
 
