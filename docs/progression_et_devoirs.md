@@ -291,21 +291,20 @@
         - Finir Exercice 4 du sujet Amérique du Sud J2 2022
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années
 
+!!! done "séance 40 (2h mardi 18/03/2025):"
+    - Correction du bac blanc
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
 
 
 {#
 
-!!! done "séance 40 (4h jeudi 22/2/2024):"
+!!! done "séance 41 (2h mardi 12/3/2024):"
     - Cryptographie
     - Le chiffrement RSA
     - Algorithme de Blankinship
     - HTTPS
-    - Exercices cryptographie
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Exercices 3 à 5 sur la cryptographie
-
-!!! done "séance 41 (2h mardi 12/3/2024):"
     - Exercices cryptographie
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
