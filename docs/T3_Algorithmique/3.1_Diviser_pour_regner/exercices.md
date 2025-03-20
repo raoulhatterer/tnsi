@@ -320,8 +320,7 @@
                     if dmax <= seuil:
                         return [ligne[0], ligne[n-1]]
                     else:
-                        return simplifie(extrait(ligne, 0, indice_max), seuil) + \
-                            simplifie(extrait(ligne, indice_max, n-1), seuil)
+                        return simplifie(extrait(ligne, 0, indice_max), seuil) + simplifie(extrait(ligne, indice_max, n-1), seuil)
 
 
             def trace(ligne, seuil):
