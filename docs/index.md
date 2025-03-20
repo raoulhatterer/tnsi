@@ -35,9 +35,9 @@
 
 ### :high_brightness: Thème en cours d'étude 
 - :arrow_right: [T3 > Programmation dynamique](T3_Algorithmique/3.2_Programmation_dynamique/cours/)
-- :arrow_right: [T5 > Cryptographie](T5_Architecture_materielle/5.4_Cryptographie/cours/)
 
 {#
+- :arrow_right: [T5 > Cryptographie](T5_Architecture_materielle/5.4_Cryptographie/cours/)
 - :arrow_right: [T1 Structures de données > Graphes](T1_Structures_de_donnees/1.4_Graphes/cours/) 
 #}
 
