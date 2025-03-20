@@ -173,7 +173,7 @@ def liste_parcours(pyr):
 
 ## 3. Recherche par méthode gloutonne
 
-Notre algorithme de force brute n'étant pas utilisable, il va falloir essayer d'être plus efficace. Pourquoi ne pas chercher une méthode [gloutonne](https://lyceemed.forge.aeif.fr/pnsi/T4_Algorithmique/Chapitre_6:_Algorithmes_gloutons/cours/){. target="_blank"} ?
+Notre algorithme de force brute n'étant pas utilisable, il va falloir essayer d'être plus efficace. Pourquoi ne pas chercher une méthode [gloutonne]([https://lyceemed.forge.aeif.fr/pnsi/T4_Algorithmique/Chapitre_6:_Algorithmes_gloutons/cours/](https://raoulhatterer.github.io/pnsi/T4_Algorithmique/Chapitre_6:_Algorithmes_gloutons/cours/)){. target="_blank"} ?
 
 *Rappel :*  lors du parcours d'une pyramide, les deux cases sous la case ```[i][j]``` sont la case ```[i+1][j]``` et ```[i+1][j+1]```.
 
