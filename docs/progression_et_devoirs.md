@@ -297,6 +297,14 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
+!!! done "séance 41 (4h jeudi 20/03/2025):"
+    - Correction de l'exercice 4 du sujet Amérique du Sud J2 2022
+    - Programmation dynamique (Cours)
+    - Programmation dynamique (TP pyramides)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
 
 {#
 
@@ -314,13 +322,8 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 43 (2h mardi 19/3/2024):"
-    - Programmation dynamique (Cours)
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 44 (2h mardi 19/3/2024):"
-    - Programmation dynamique (TP pyramides)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
