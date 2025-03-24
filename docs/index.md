@@ -17,7 +17,7 @@
     
 
     - Informations sur les épreuves:
-        - Les épreuves pratiques de l'an dernier ont été organisées entre le 27 et 28 mai 2024.
+        - Les épreuves pratiques seront organisées le lundi 2 et mardi 3 juin 2025 en salle info2.
         - La **totalité** du programme pourra être évaluée.
         - Coefficients : 15 points pour l'épreuve écrite, 5 points pour l'épreuve pratique. 
     - Préparez-vous à l'Épreuve Écrite : les annales des années précédentes sont disponibles [ici](T6_Annales/liste_sujets/) 
