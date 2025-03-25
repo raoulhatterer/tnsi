@@ -307,18 +307,21 @@
 
 
 
-{#
 
-!!! done "séance 41 (2h mardi 12/3/2024):"
+
+!!! done "séance 42 (2h mardi 25/03/2025):"
+    - TP rendu de monnaie
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
+{#
+!!! done "séance 42 (4h jeudi 14/3/2024):"
     - Cryptographie
     - Le chiffrement RSA
     - Algorithme de Blankinship
     - HTTPS
     - Exercices cryptographie
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-!!! done "séance 42 (4h jeudi 14/3/2024):"
     - Exercices cryptographie
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
