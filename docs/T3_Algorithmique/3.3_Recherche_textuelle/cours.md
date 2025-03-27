@@ -96,7 +96,7 @@ Nous allons travailler avec le Tome 1 du roman _Les Misérables_ de Victor Hugo,
 #### 1.3.1 Récupération du texte dans une seule chaîne de caractères
 
 ```python linenums='1'
-with open("Les_Miserables.txt") as f:
+with open("Les_Miserables.txt" , encoding='utf-8') as f:
     roman = f.read().replace('\n', ' ')
 ```
 
