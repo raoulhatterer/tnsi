@@ -1,24 +1,28 @@
 # Recherche textuelle
-![image](data/illus.png){: .center width=40%}
+
 
 
 ![image](data/BO.png){: .center}
+![image](data/meme.png){: .center width=40%}
+![image](data/illus.png){: .center width=40%}
 
-<!--
-<gif-player src="https://glassus.github.io/terminale_nsi/T3_Algorithmique/3.3_Recherche_textuelle/data/gif_naive.gif" speed="1" play></gif-player>
+{{initexo(0)}}
 
--->
+
 
 ## 1. Recherche naïve
 
 ???+ tip "Illustration de l'algorithme"
-    <gif-player src="https://glassus.github.io/terminale_nsi/T3_Algorithmique/3.3_Recherche_textuelle/data/gif_naive.gif" speed="1" play></gif-player>
+    ![image](data/gif_naive.gif){: .center}    
 
-    _Vous pouvez contrôler le déroulement de l'animation en la survolant avec la souris._
 
 
 
 ### 1.1 Premier algorithme
+
+[codes à trous](../intro_naive/){. target="_blank"}
+
+
 
 !!! note "Algorithme de recherche naïve :heart:"
     ```python linenums='1'
@@ -57,7 +61,7 @@ Exemple d'utilisation :
 
 ### 1.2 Modification de l'algorithme
 
-!!! example "Exercice 1"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         Re-écrire l'algorithme précédent en s'arrêtant dès qu'une occurrence de ```motif``` est trouvée dans ```texte```.
 
@@ -98,7 +102,7 @@ with open("Les_Miserables.txt") as f:
 
 #### 1.3.2 Vérification et mesure du temps de recherche
 
-!!! example "Exercice 2"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         À l'aide du module ```time```, mesurer le temps de recherche dans Les Misérables d'un mot court, d'une longue phrase (présente dans le texte), d'un mot qui n'existe pas. Que remarquez-vous ?  
     
@@ -138,7 +142,12 @@ with open("Les_Miserables.txt") as f:
 
 ## 2. Vers l'algorithme de Boyer-Moore : et si on partait à l'envers ?
 
-!!! example "Exercice 3"
+???+ tip "Illustration de l'algorithme en partant à l'envers"
+    ![image](data/naive_envers.gif){: .center width=40%}
+
+
+
+!!! example "{{ exercice() }}"
     === "Énoncé"
         Re-écrire l'algorithme de recherche naïve mais en démarrant de la fin du **motif** et non du début. 
         Certes, c'est pour l'instant très artificiel, mais :
@@ -172,57 +181,43 @@ Pour cela on regarde le caractère ```X```  du texte sur lequel on s'est arrêt�
 - si ```X``` est dans le motif (sauf à la dernière place du motif !), on va regarder la place de la dernière occurence de ```X``` dans le motif et de déplacer de ce nombre, afin de faire coïncider le ```X``` du motif et le ```X``` du texte.
 
 ???+ tip "Illustration de l'algorithme"
-    <gif-player src="https://glassus.github.io/terminale_nsi/T3_Algorithmique/3.3_Recherche_textuelle/data/gif_BM.gif" speed="1" play></gif-player>
-
-    _Vous pouvez contrôler le déroulement de l'animation en la survolant avec la souris._
+    ![image](data/gif_BM.gif){: .center width=40%}
 
 
 
 ### 2.2 Implémentation
 
-On va d'abord coder une fonction ```dico_lettres``` qui renvoie un dictionnaire associant à chaque lettre de ```mot``` (paramètre d'entrée) son dernier rang dans le ```mot```. On exclut la dernière lettre, qui poserait un problème lors du décalage (on décalerait de 0...) 
+#### 2.2.1 Fonction préparatoire
+On va d'abord coder une fonction ```dico_lettres``` qui prend en paramètre un mot ```mot``` et qui renvoie un dictionnaire associant à chaque lettre de ```mot``` son dernier rang dans ```mot```. On exclut la dernière lettre, qui poserait un problème lors du décalage (on décalerait de 0...) 
 
+!!! example "{{ exercice() }}"
+    Écrire la fonction ```dico_lettres```.
 
-{#
-!!! note "Algorithme de Boyer-Moore-Horspool :heart:"
-    ```python linenums='1'
-    def dico_lettres(mot):
-        d = {}
-        for i in range(len(mot)-1):
-            d[mot[i]] = i
-        return d
+    *Exemple d'utilisation :*
 
-    def BMH(texte, motif):
-        dico = dico_lettres(motif)
-        indices = []
-        i = len(motif) -1
-        while i < len(texte):
-            k = 0
-            while k < len(motif) and motif[len(motif)-1-k] == texte[i-k]:
-                k += 1
-            if k == ...:
-                indices.append(i-len(motif)+1)
-                i += ...
-            else:
-                if texte[i-k] in ...:
-                    i += len(motif)-dico[texte[i-k]]-1
-                else:
-                    i += ...
-
-        return indices
-
+    ```python
+    >>> dico_lettres("MAURIAC")
+    {'M': 0, 'A': 5, 'U': 2, 'R': 3, 'I': 4}
     ```
 
-Exemple d'utilisation :
-```python
->>> BMH("une magnifique maison bleue", "maison")
-[15]
->>> BMH("une magnifique maison bleue", "nsi")
-[]
->>> BMH("une magnifique maison bleue", "ma")
-[4, 15]
-```
-#}
+    {{
+    correction(True,
+    """
+    ??? success \"Correction\" 
+        ```python linenums='1'
+        def dico_lettres(mot):
+            d = {}
+            for i in range(len(mot)-1):
+                d[mot[i]] = i
+            return d
+        ``` 
+    """
+    )
+    }}
+
+#### 2.2.2 Boyer-Moore-Horspool
+
+[codes à trous](../intro_BMH/){. target="_blank"}
 
 
 
@@ -273,7 +268,7 @@ Exemple d'utilisation :
 [4, 15]
 ```
 
-!!! example "Exercice 4"
+!!! example "{{ exercice() }}"
     === "Énoncé"
         Reprendre les mesures effectuées sur Les Misérables, mais cette fois avec l'algorithme BMH. Que remarquez-vous ?  
 
