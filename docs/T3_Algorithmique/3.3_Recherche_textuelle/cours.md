@@ -153,7 +153,7 @@ with open("Les_Miserables.txt" , encoding='utf-8') as f:
         Certes, c'est pour l'instant très artificiel, mais :
         ![image](data/mickey.jpg){: .center width=40%}
     === "Aide"        
-        ![image](data/aide_envers.png){: .center}
+        ![image](data/aide_envers.PNG){: .center}
     === "Correction"
         ```python linenums='1'
         def presqueBMH(texte, motif):
