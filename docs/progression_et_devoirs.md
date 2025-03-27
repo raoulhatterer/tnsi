@@ -182,7 +182,6 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-
 !!! done "séance 27 (4h mardi 09/01/2025):"
     - Contrôle sur les arbres reporté à mardi
     - Routage
@@ -211,7 +210,6 @@
     - Distribution des codes passe ton hack d'abord
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
 
 
 !!! done "séance 31 (4h jeudi 23/01/2025):"
@@ -255,7 +253,6 @@
         - Réviser le prochain contrôle portant sur la gestion des processus (et tout ce qui précède).    
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         
-
 
 !!! done "séance 37 (4h jeudi 27/02/2025):"
     - Contrôle n°7 sur les processus
@@ -305,29 +302,26 @@
         - Exercice 7 pyramide (principe de mémoïsation).
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-
-
-
-
 !!! done "séance 42 (2h mardi 25/03/2025):"
     - TP rendu de monnaie
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
+
+!!! done "séance 43 (4h jeudi 27/03/2025):"
+    - :new: Les sujets 2025 de l'épreuve pratique + Présentation de l'épreuve pratique et du rythme de préparation.
+    - Programmation dynamique (Recherche textuelle).
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 {#
-!!! done "séance 42 (4h jeudi 14/3/2024):"
+
+!!! done "séance 44 (2h mardi 19/3/2024):"
     - Cryptographie
     - Le chiffrement RSA
     - Algorithme de Blankinship
     - HTTPS
     - Exercices cryptographie
-    - Exercices cryptographie
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-!!! done "séance 44 (2h mardi 19/3/2024):"
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
