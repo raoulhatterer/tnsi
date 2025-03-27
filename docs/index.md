@@ -20,6 +20,8 @@
         - Les épreuves pratiques seront organisées le lundi 2 et mardi 3 juin 2025 en salle info2.
         - La **totalité** du programme pourra être évaluée.
         - Coefficients : 15 points pour l'épreuve écrite, 5 points pour l'épreuve pratique. 
+        - Le candidat traite 2 exercices sur ordinateur sans accès à internet. 
+        - Durée : 1 heure.
     - Préparez-vous à l'Épreuve Écrite : les annales des années précédentes sont disponibles [ici](T6_Annales/liste_sujets/) 
     - Les supports d’évaluation sont regroupés dans une banque disponible sur [ce site](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi) au plus tard au 24 mars de chaque session. Les exercices contenus dans cette banque ne sont pas dissociables. Le candidat traite les 2 exercices proposés.
     - Page sur l'orientation post-bac à retrouver [ici](T7_Divers/10_orientation/cours/). 
