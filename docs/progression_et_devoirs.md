@@ -311,7 +311,7 @@
 
 !!! done "séance 43 (4h jeudi 27/03/2025):"
     - :new: Les sujets 2025 de l'épreuve pratique + Présentation de l'épreuve pratique et du rythme de préparation.
-    - Programmation dynamique (Recherche textuelle).
+    - Programmation dynamique (Recherche textuelle vers l'Algorithme de Boyer-Moore-Horspool)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 {#
