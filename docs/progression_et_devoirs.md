@@ -314,18 +314,23 @@
     - Programmation dynamique (Recherche textuelle vers l'Algorithme de Boyer-Moore-Horspool)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-{#
+
+
 
 !!! done "séance 44 (2h mardi 19/3/2024):"
+    - Programmation dynamique (Recherche textuelle vers l'Algorithme de Boyer-Moore-Horspool)
+
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Contrôle sur un des 20 premiers [sujets de l'épreuve pratique](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi)
+
+{#
+!!! done "séance 45 (2h mardi 2/4/2024):"
     - Cryptographie
     - Le chiffrement RSA
     - Algorithme de Blankinship
     - HTTPS
     - Exercices cryptographie
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-!!! done "séance 45 (2h mardi 2/4/2024):"
     - Programmation dynamique (TP pyramides)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
