@@ -119,6 +119,7 @@ Un graphe orienté est décrit par une matrice non symétrique.
 
 ![](data/matgraph_3.png){: .center width=75%}
 
+Il peut exister des graphes pondérés et orientés.
 
 #### 2.1.4 Exercices
 
