@@ -426,7 +426,7 @@ Le choix de la structure de l'ensemble ```S``` est prépondérant:
 
 
 
-![image](data/bfs.gif){: .center}
+![image](data/bfs.gif){: .center width=50%}
 
 
 
