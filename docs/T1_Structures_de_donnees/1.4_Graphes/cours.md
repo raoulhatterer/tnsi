@@ -342,7 +342,7 @@ L'objet de type ```Graphe``` aura comme attributs :
 ### 3.3 Implémentation
 
 !!! example "{{ exercice() }}"
-    Implémentation d'une classe ```Graphe```
+    Implémenter la classe ```Graphe```
     ```python linenums='1'
     class Graphe:
         def __init__(self, liste_sommets):
