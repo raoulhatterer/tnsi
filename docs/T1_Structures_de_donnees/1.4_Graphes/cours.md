@@ -341,7 +341,7 @@ L'objet de type ```Graphe``` aura comme attributs :
 
 ### 3.3 Implémentation
 
-{#
+
 !!! abstract "Implémentation d'une classe ```Graphe``` "
     ```python linenums='1'
     class Graphe:
@@ -359,9 +359,9 @@ L'objet de type ```Graphe``` aura comme attributs :
         def sont_voisins(self, sommetA, sommetB):
             return ...
     ```
-#}
 
 
+{#
 !!! abstract "Implémentation d'une classe ```Graphe``` :heart: :heart: :heart:"
     ```python linenums='1'
     class Graphe:
@@ -379,7 +379,7 @@ L'objet de type ```Graphe``` aura comme attributs :
         def sont_voisins(self, sommetA, sommetB):
             return sommetB in self.adjacents[sommetA]
     ```
-
+#}
 
 ## 4. :star: :star: :star: Parcours de graphes :star: :star: :star: 
 
