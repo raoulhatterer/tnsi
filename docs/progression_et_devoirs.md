@@ -317,56 +317,50 @@
 
 
 
-!!! done "séance 44 (2h mardi 19/3/2024):"
-    - Programmation dynamique (Recherche textuelle vers l'Algorithme de Boyer-Moore-Horspool)
+!!! done "séance 44 (2h mardi 01/04/2025):"
+    - Programmation dynamique (Recherche textuelle avec l'Algorithme de Boyer-Moore-Horspool)
 
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Contrôle sur un des 20 premiers [sujets de l'épreuve pratique](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi)
+        - Contrôle à la rentrée sur un des 20 premiers [sujets de l'épreuve pratique](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi)
+
+
+!!! done "séance 45 (4h jeudi 03/04/2025):"
+    - T1 > Les graphes
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Contrôle à la rentrée sur un des 20 premiers [sujets de l'épreuve pratique](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi)
 
 {#
-!!! done "séance 45 (2h mardi 2/4/2024):"
-    - Cryptographie
-    - Le chiffrement RSA
-    - Algorithme de Blankinship
-    - HTTPS
-    - Exercices cryptographie
-    - Programmation dynamique (TP pyramides)
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 46 (4h jeudi 4/4/2024):"
-    - Programmation dynamique (TP pyramides+TP rendu de monnaie)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 47 (2h mardi 9/4/2024):"
-    - Programmation dynamique (TP rendu de monnaie)
-    ??? note "Devoirs"
+    - Cryptographie
+    - Le chiffrement RSA
+    - Algorithme de Blankinship
+    - HTTPS
+    - Exercices cryptographie    ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Exercice 3 du TP rendu de monnaie
 
 !!! done "séance 48 (4h jeudi 11/4/2024):"
-    - Programmation dynamique (TP rendu de monnaie + TP Le plus grand carré blanc)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - TP Le plus grand carré blanc
 
 !!! done "séance 49 (2h mardi 16/4/2024):"
     - FAQ Grand Oral
     - Programmation dynamique (Recherche textuelle)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Terminer Recherche textuelle
         
 !!! done "séance 50 (4h jeudi 18/4/2024):"
     - Correction du bac blanc
-    - Recherche textuelle
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         
 !!! done "séance 51 (2h mardi 7/5/2024):"
-    - Les graphes
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Réviser les graphes 
