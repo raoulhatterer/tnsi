@@ -110,6 +110,8 @@ Dans ce graphe non orienté, comme B est voisin de C, C est aussi voisin de B, c
 
 #### 2.1.2 Graphe orienté
 
+Un graphe orienté est décrit par une matrice non symétrique.
+
 ![](data/matgraph_2.png){: .center width=70%}
 
 
