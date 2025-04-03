@@ -424,9 +424,11 @@ Le choix de la structure de l'ensemble ```S``` est prépondérant:
 
 **Exemple de parcours en largeur, avec B comme sommet de départ:**
 
-<center>
-<gif-player src="https://raoulhatterer.github.io/tnsi/T1_Structures_de_donnees/1.4_Graphes/data/bfs.gif" speed="1" play></gif-player>
-</center>
+
+
+![image](data/bfs.gif){: .center}
+
+
 
 **Codes couleur :**
 
