@@ -120,7 +120,7 @@ Dans ce graphe non orienté, comme B est voisin de C, C est aussi voisin de B, c
 
 #### 2.1.4 Exercices
 
-!!! note "Remarque:"
+!!! note "Remarque"
     LibreOffice Draw permet de représenter les graphes (utiliser Ellipse et Connecteurs) 
 
 !!! example "{{ exercice() }}"
