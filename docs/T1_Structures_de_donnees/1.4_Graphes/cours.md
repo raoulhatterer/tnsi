@@ -377,7 +377,7 @@ L'objet de type ```Graphe``` aura comme attributs :
             return self.adjacents[sommet]
 
         def sont_voisins(self, sommetA, sommetB):
-            return sommetB in self.adjacents[sommetA]
+            return sommetB in self.adjacents(sommetA)
     ```
 #}
 
