@@ -92,7 +92,7 @@ La clé ! Si Alice et Bob ont besoin d'utiliser un chiffrement pour se parler, c
 
 Le chiffrement symétrique impose qu'Alice et Bob aient pu se rencontrer physiquement au préalable pour convenir d'une clé secrète, ou bien qu'ils aient réussi à établir une connexion sécurisée pour s'échanger cette clé.
 
-#### :arrow_right: Un chiffrement symétrique est-il un chiffrement de mauvaise qualité ?
+#### :arrow_right: Un chiffrement symétrique est-il forcement un chiffrement de mauvaise qualité ?
 Pas du tout ! S'il est associé naturellement à des chiffrements simples et faibles (comme le décalage de César), un chiffrement symétrique peut être très robuste... voire inviolable.
 
 C'est le cas du masque jetable. Si le masque avec lequel on effectue le XOR sur le message est aussi long que le message, alors il est **impossible** de retrouver le message initial. Pourquoi ?
@@ -204,7 +204,7 @@ Il est le véritable inventeur du RSA... mais le reste du monde ne l'apprendra q
 
 Le chiffrement RSA est basé sur *l'arithmétique modulaire*. Faire des calculs *modulo* un entier $n$, c'est ne garder que le reste de la division euclidienne par $n$.
 
-Le fait que 15 soit égal à 1 modulo 7 (car $15=2 \times 7+1$) s'écrira $15 \equiv 1 [7]$.
+Le fait que 15 soit égal à 1 modulo 7 (car $15=2 \times 7+1$) s'écrira $15 \equiv 1 [7]$. Ce qui se lit "15 est congru à 1 modulo 7".
 
 De même, $10 \equiv  3 [7]$, $25 \equiv 4 [7]$, $32 \equiv 2 [10]$, etc.
 
