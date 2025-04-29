@@ -339,24 +339,24 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Préparer Contrôle sur un des 20 premiers [sujets de l'épreuve pratique](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi)
 
-!!! done "séance 47 (4h jeudi 03/04/2025):"
+!!! done "séance 47 (4h jeudi 24/04/2025):"
     - Épreuve pratique (sujet 7)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Préparer un contrôle sur un des 25 premiers [sujets de l'épreuve pratique](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi)
+
+!!! done "séance 48 (2h mardi 29/4/2024):"
+    - Cryptographie (chiffrement symétrique, chiffrement asymétrique, le chiffrement RSA)
+    ??? note "Devoirs"
+        - Préparer un contrôle sur un des 30 premiers [sujets de l'épreuve pratique](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi)        
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 {#
 
-!!! done "séance 47 (2h mardi 9/4/2024):"
-    - Cryptographie
-    - Le chiffrement RSA
+
+!!! done "séance 48 (4h jeudi 11/4/2024):"
     - Algorithme de Blankinship
     - HTTPS
     - Exercices cryptographie    
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-!!! done "séance 48 (4h jeudi 11/4/2024):"
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
