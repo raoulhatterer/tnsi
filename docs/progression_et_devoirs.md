@@ -344,35 +344,35 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 48 (2h mardi 29/4/2024):"
+!!! done "séance 48 (2h mardi 29/4/2025):"
     - Cryptographie (chiffrement symétrique, chiffrement asymétrique, le chiffrement RSA)
     ??? note "Devoirs"
         - Préparer un contrôle sur un des 30 premiers [sujets de l'épreuve pratique](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi)        
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+!!! done "séance 49 (2h mardi 06/5/2025):"
+    - Épreuve pratique (sujet 6/30)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        
+!!! done "séance 50 (2h mardi 13/05/2025):"
+    - Correction du sujet 6
+    ??? note "Devoirs"
+        - Préparer une évaluation portant sur un des 35 premiers sujet 
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
 {#
 
 
-!!! done "séance 48 (4h jeudi 11/4/2024):"
+!!! done "séance 51 (2h mardi 7/5/2024):"
+    ??? note "Devoirs"
+    - FAQ Grand Oral
+    - Programmation dynamique (Recherche textuelle)
+    - Correction du bac blanc
     - Algorithme de Blankinship
     - HTTPS
     - Exercices cryptographie    
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-!!! done "séance 49 (2h mardi 16/4/2024):"
-    - FAQ Grand Oral
-    - Programmation dynamique (Recherche textuelle)
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        
-!!! done "séance 50 (4h jeudi 18/4/2024):"
-    - Correction du bac blanc
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        
-!!! done "séance 51 (2h mardi 7/5/2024):"
-    ??? note "Devoirs"
+    
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Réviser les graphes 
     
