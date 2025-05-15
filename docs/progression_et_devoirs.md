@@ -152,7 +152,6 @@
         - Réviser pour le contrôle de la séance prochaine sur les bases de données.
 
 
-
 !!! done "séance 23 (4h jeudi 12/12/2023):"
     - Contrôle SQL
     - Python-SQL 
@@ -219,7 +218,6 @@
         - Réviser le routage (et tout ce qui précède) pour le contrôle de la semaine prochaine.
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-
 !!! done "séance 32 (2h mardi 28/01/2025):"
     - Gestion des processus    
     - Exercices sur la gestion des processus
@@ -253,7 +251,6 @@
         - Réviser le prochain contrôle portant sur la gestion des processus (et tout ce qui précède).    
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         
-
 !!! done "séance 37 (4h jeudi 27/02/2025):"
     - Contrôle n°7 sur les processus
     - Exercice 1  (Comparaison de la vitesse d'exécution des deux algorithmes puissance)
@@ -308,13 +305,11 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-
 !!! done "séance 43 (4h jeudi 27/03/2025):"
     - :new: Les sujets 2025 de l'épreuve pratique + Présentation de l'épreuve pratique et du rythme de préparation.
     - Programmation dynamique (Recherche textuelle vers l'Algorithme de Boyer-Moore-Horspool)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
 
 
 !!! done "séance 44 (2h mardi 01/04/2025):"
@@ -361,29 +356,27 @@
         - Préparer une évaluation portant sur un des 35 premiers sujet 
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+
+!!! done "séance 51 (4h jeudi 15/05/2024):"
+    - Épreuve pratique (sujet 34/35)
+    - HTTPS
+    - Exercices cryptographie       
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
 {#
 
 
-!!! done "séance 51 (2h mardi 7/5/2024):"
-    ??? note "Devoirs"
-    - FAQ Grand Oral
-    - Programmation dynamique (Recherche textuelle)
-    - Correction du bac blanc
-    - Algorithme de Blankinship
-    - HTTPS
-    - Exercices cryptographie    
-    
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Réviser les graphes 
     
 !!! done "séance 52 (2h mardi 14/5/2024):"
-    - Parcours de graphes
+    - FAQ Grand Oral
+    - Programmation dynamique (Recherche textuelle)
+    - Algorithme de Blankinship    
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Réviser le contrôle sur les graphes 
 
 !!! done "séance 53 (4h jeudi 16/5/2024):"
-    - Contrôle sur les graphes
     - Révision épreuve pratique
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
@@ -399,7 +392,6 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         
 !!! done "séance 56 (2h mardi 28/5/2024):"
-    - Correction du contrôle sur les graphes
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Pour cause d'épreuves et de conseils de classe, le prochain cours aura lieu de 10h à 12h le jeudi 06/06/24.
