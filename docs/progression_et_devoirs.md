@@ -364,23 +364,22 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-{#
-
-
-    
-!!! done "séance 52 (2h mardi 14/5/2024):"
-    - FAQ Grand Oral
-    - Programmation dynamique (Recherche textuelle)
-    - Algorithme de Blankinship    
+!!! done "séance 52 (2h mardi 20/05/2025):"
+    - Algorithme de Blankinship  
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Réviser le contrôle sur les graphes 
+        - Jeudi : rattrapage de l'évaluation pratique manquée par 3 élèves
+
+
+{#
 
 !!! done "séance 53 (4h jeudi 16/5/2024):"
+    - FAQ Grand Oral
+    - Programmation dynamique (Recherche textuelle)
     - Révision épreuve pratique
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        
+        - Réviser le contrôle sur les graphes         
 !!! done "séance 54 (2h mardi 21/5/2024):"
     - Révision épreuve pratique
     ??? note "Devoirs"
