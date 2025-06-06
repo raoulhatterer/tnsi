@@ -370,38 +370,30 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Jeudi : rattrapage de l'évaluation pratique manquée par 3 élèves
 
+!!! done "séance 53 (4h jeudi 22/05/2025):"
+    - Révisions
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 54 (2h mardi 27/05/2025):"
+    - Révisions
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 55 (2h mardi 03/06/2025):"
+    - Bilan des épreuves pratiques de la veille
+    - Révisions POO
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 56 (4h jeudi 05/06/2025):"
+    - Annulée pour cause d'ECE
+
+!!! done "séance 57 (2h mardi 10/06/2025):"
+    - Annulée : session de conseil
+
 
 {#
-
-!!! done "séance 53 (4h jeudi 16/5/2024):"
-    - FAQ Grand Oral
-    - Programmation dynamique (Recherche textuelle)
-    - Révision épreuve pratique
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Réviser le contrôle sur les graphes         
-!!! done "séance 54 (2h mardi 21/5/2024):"
-    - Révision épreuve pratique
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-!!! done "séance 55 (4h jeudi 23/5/2024):"
-    - Révision épreuve pratique
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        
-!!! done "séance 56 (2h mardi 28/5/2024):"
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Pour cause d'épreuves et de conseils de classe, le prochain cours aura lieu de 10h à 12h le jeudi 06/06/24.
-
-!!! done "séance 57 (2h vendredi 31/5/2024):"
-    - T5 > Systèmes sur puce
-    - Architecture Von Neumann
-    - Programmation en langage assembleur.
-
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 #}
 
