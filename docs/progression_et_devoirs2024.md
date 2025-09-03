@@ -1,16 +1,13 @@
 # Progression et devoirs
 
-[2025-2026](#a-suivre)
+[2024-2025](#a-suivre)
 
 
-!!! done "séance 1 (4h jeudi 04/09/25):"
+!!! done "séance 1 (4h jeudi 5/09/24):"
     - Cours sur la POO (T2>Chap1)
     - TP d'introduction à la POO
     ??? note "Devoirs"
         - Avancer dans le TP jusqu'au 2 et le déposer dans votre dossier personnel
-
-{#
-
 
 !!! done "séance 2 (2h mardi 10/09/24):"
     - TP d'introduction à la POO 
@@ -396,7 +393,7 @@
     - Annulée : session de conseil
 
 
-
+{#
 
 #}
 

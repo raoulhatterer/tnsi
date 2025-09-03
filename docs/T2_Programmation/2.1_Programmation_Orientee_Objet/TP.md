@@ -149,7 +149,7 @@ Attention au nommage des variables...
 
 
 
-??? info "Correction"
+??? info "Correction"{#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -217,7 +217,7 @@ Attention au nommage des variables...
         time.sleep(0.03)
 
 
-    ```
+    ```#}
 
 ### 1.3 Gestion de la collision entre les deux balles
 **Q1.** À l'aide d'un schéma (papier-crayon !), mettez en évidence le test devant être réalisé pour détecter une collision.
@@ -310,7 +310,7 @@ Attention au nommage des variables...
 
 **Q3.** Pour donner l'illusion physique du rebond, échangez les valeurs respectives de ```dx``` et ```dy``` pour les deux balles.
 
-??? info "Correction"
+??? info "Correction"{#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -388,7 +388,7 @@ Attention au nommage des variables...
 
 
 
-    ```
+    ```#}
 
 
 
@@ -461,7 +461,7 @@ Créez cette classe et instanciez une balle.
 
     ```
 
-??? info "Correction"
+??? info "Correction"{#
     ```python linenums='1'
     import pygame, sys
     import time
@@ -519,7 +519,7 @@ Créez cette classe et instanciez une balle.
 
 
     ```
-    
+    #}
 
 
 ### 2.2 Plusieurs balles
@@ -589,7 +589,7 @@ L'idée est de stocker dans une liste ```sac_a_balles``` un nombre déterminé d
     ```
 
 
-??? info "Correction"
+??? info "Correction"{#
     
     ```python linenums='1'
     import pygame, sys
@@ -650,7 +650,7 @@ L'idée est de stocker dans une liste ```sac_a_balles``` un nombre déterminé d
 
 
     ```
-    
+    #}
 
 ### 2.3 Collision de toutes les balles
 

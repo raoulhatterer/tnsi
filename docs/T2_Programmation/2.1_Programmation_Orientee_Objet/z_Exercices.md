@@ -20,7 +20,7 @@
             'Philippe'
             ```
 
-    === "Correction"
+    === "Correction"{#
         ```python linenums='1'
         class Eleve:
             def __init__(self, nom, classe, note):
@@ -33,7 +33,7 @@
                 return eleve1.nom
             else:
                 return eleve2.nom
-        ```
+        ```#}
         
 
 
@@ -57,14 +57,14 @@
 
 
 
-    === "Correction"
+    === "Correction"{#
         ```python linenums='1'
         class TriangleRect:
             def __init__(self, a, b):
                 self.cote1 = a
                 self.cote2 = b
                 self.hypotenuse = (self.cote1**2 + self.cote2**2)**0.5
-        ```
+        ```#}
 
 
 !!! example "{{ exercice() }}"
@@ -89,7 +89,7 @@
             >>> t.affiche()
             'Il est 17 heures, 26 minutes et 5 secondes'
             ```
-    === "Correction"
+    === "Correction"{#
         ```python linenums='1'
         class Chrono:
             def __init__(self, h, m, s):
@@ -115,7 +115,7 @@
                 # il ne faut garder des minutes que ce qui n'a pas servi
                 # à fabriquer des heures supplémentaires
                 self.minutes = self.minutes % 60
-        ```
+        ```#}
 
   
 
@@ -154,7 +154,7 @@
             0
             ```
 
-    === "Correction"       
+    === "Correction"{#
         ```python linenums='1'
         class Player:
             def __init__(self):
@@ -170,7 +170,7 @@
                 if self.energie > 0:
                     self.energie += 1
         ```
-        
+        #}
 
 !!! capytale "À faire sur Capytale"
     !!! example "{{ exercice() }}"

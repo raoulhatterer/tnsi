@@ -1,3 +1,10 @@
+
+{##}
+!!! abstract ":star: Actualités :star:"
+    - Bonne rentrée à toutes et à tous !
+
+
+
 !!! info "Exercices pratiques pour vous entraîner"
     - Le site [e-nsi](https://e-nsi.gitlab.io/pratique/tags/){:target="_blank"} propose des exercices d'entrainement à la pratique de la programmation en lien avec la spécialité NSI.
     - Pour chaque exercice, on trouve un énoncé, souvent pour créer une fonction, puis des exemples d'application de la fonction. Ensuite, une zone de saisie du code qui est accompagné des premiers tests. Il y a des tests secrets qui permettent ensuite d'accepter (ou valider) votre code.
@@ -36,14 +43,9 @@
 
 
 ### :high_brightness: Thème en cours d'étude
-- :arrow_right: [T5 > Cryptographie](./T5_Architecture_materielle/5.4_Cryptographie/cours.md)
+- :arrow_right: [T2 Programmation > POO](./T2_Programmation/2.1_Programmation_Orientee_Objet/cours.md)
 
 {#
-#}
-
-
-### Thèmes déjà traités
-- :arrow_right: [T2 Programmation > POO](./T2_Programmation/2.1_Programmation_Orientee_Objet/cours.md)
 - :arrow_right: [T1 Structures de données > Dictionnaires](./T1_Structures_de_donnees/1.2_Dictionnaires/cours.md)
 - :arrow_right: [T2 Programmation > Récursivité](./T2_Programmation/2.2_Recursivite/cours.md)
 - :arrow_right: [T1 Structures de données > Listes / piles / files](./T1_Structures_de_donnees/1.1_Listes_Piles_Files/cours.md)
@@ -54,3 +56,10 @@
 - :arrow_right: [T3 > Dichotomie](./T3_Algorithmique/3.1_Diviser_pour_regner/cours.md)
 - :arrow_right: [T3 > Programmation dynamique](./T3_Algorithmique/3.2_Programmation_dynamique/cours.md)
 - :arrow_right: [T1 Structures de données > Graphes](./T1_Structures_de_donnees/1.4_Graphes/cours.md)
+- :arrow_right: [T5 > Cryptographie](./T5_Architecture_materielle/5.4_Cryptographie/cours.md)
+
+#}
+
+
+### Thèmes déjà traités
+
