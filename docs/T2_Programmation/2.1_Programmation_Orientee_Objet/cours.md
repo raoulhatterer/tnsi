@@ -168,7 +168,7 @@ class Voiture :
         self.annee = annee
         self.couleur = coul
         self.vitesse_max = vmax
-        self.age = 2023 - self.annee
+        self.age = 2025 - self.annee
 ```
 
 - le mot-clé ```self```, omniprésent en POO (d'autres langages utilisent ```this```), fait référence à l'objet lui-même, qui est en train d'être construit.
@@ -194,7 +194,7 @@ __main__.Voiture
 ```mon_bolide``` possède 4 attributs : 
 
 - ```annee```, ```couleur``` et ```vitesse_max``` ont été donnés par l'utilisateur lors de la création.
-- ```age``` s'est créé «tout seul» par l'instruction ```self.age = 2021 - self.annee```.
+- ```age``` s'est créé «tout seul» par l'instruction ```self.age = 2025 - self.annee```.
 
 
 ```python
@@ -257,7 +257,7 @@ class Voiture :
         self.annee = annee
         self.couleur = coul
         self.vitesse_max = vmax
-        self.age = 2023 - self.annee
+        self.age = 2025 - self.annee
     
     def petite_annonce(self) :
         print("À vendre voiture", self.couleur, "de", self.annee,\
@@ -281,7 +281,7 @@ class Voiture :
         self.annee = annee
         self.couleur = coul
         self.vitesse_max = vmax
-        self.age = 2023 - self.annee
+        self.age = 2025 - self.annee
     
     def petite_annonce(self) :
         """ Rédige automatiquement une petite annonce concernant le véhicule"""

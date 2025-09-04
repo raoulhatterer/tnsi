@@ -7,7 +7,7 @@
     - Cours sur la POO (T2>Chap1)
     - TP d'introduction à la POO
     ??? note "Devoirs"
-        - Avancer dans le TP jusqu'au 2 et le déposer dans votre dossier personnel
+        - Avancer dans le TP jusqu'au 2 et le ramener sur clé USB
 
 {#
 
