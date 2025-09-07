@@ -9,13 +9,15 @@
     ??? note "Devoirs"
         - Avancer dans le TP jusqu'au 2 et le ramener sur clé USB
 
-{#
 
 
-!!! done "séance 2 (2h mardi 10/09/24):"
+
+!!! done "séance 2 (2h vendredi 05/09/24):"
     - TP d'introduction à la POO 
     ??? note "Devoirs"
-        - Finir la partie POO du  TP et le déposer dans dans votre dossier personnel
+        - Finir la partie POO du  TP et le déposer sur votre clé et dans devoirs
+
+{#
 
 !!! done "séance 3 (4h jeudi 12/09/24):"
     - POO : Exercices
