@@ -3,7 +3,7 @@
 [2025-2026](#a-suivre)
 
 
-!!! done "séance 1 (4h jeudi 04/09/25):"
+!!! done "séance 1 (2h jeudi 04/09/25):"
     - Cours sur la POO (T2>Chap1)
     - TP d'introduction à la POO
     ??? note "Devoirs"
@@ -17,22 +17,26 @@
     ??? note "Devoirs"
         - Finir la partie POO du  TP et le déposer sur votre clé et dans devoirs
 
-{#
 
-!!! done "séance 3 (4h jeudi 12/09/24):"
+
+!!! done "séance 3 (2h lundi 08/09/24):"
+    - Fin du TP POO
     - POO : Exercices
     ??? note "Devoirs"
-        - Exercices sur la POO à déposer dans votre dossier personnel
-        - Réviser contrôle sur la POO
 
-!!! done "séance 5 (2h mardi 16/09/24):"
+!!! done "séance 4 (1h jeudi 11/09/24):"
     - POO : Correction des exercices sur la POO
-    - Les dictionnaires
+
     ??? note "Devoirs"
-        - Réviser la POO et les dictionnaires
-        - Contrôle écrit d'une heure sur la POO jeudi 19/09.
-        
+        - Exercices 4 et 5 sur la POO à déposer et à mettre sur Capytale
+        - Commencer à réviser la POO pour le prochain contrôle (jeudi prochain)  et les dictionnaires (du programme de première)
+        - Contrôle écrit d'une heure sur la POO jeudi 18/09.
+
+
+{#
+
 !!! done "séance 5 (4h jeudi 19/09/24):"
+    - Les dictionnaires
     - Révision POO en salle 217
     - Contrôle sur la POO en salle 104
     - Les dictionnaires
