@@ -32,16 +32,15 @@
         - Commencer à réviser la POO pour le prochain contrôle (jeudi prochain)  et les dictionnaires (du programme de première)
         - Contrôle écrit d'une heure sur la POO jeudi 18/09.
 
-
-{#
-
-!!! done "séance 5 (4h jeudi 19/09/24):"
-    - Les dictionnaires
-    - Révision POO en salle 217
-    - Contrôle sur la POO en salle 104
+!!! done "séance 5 (2h vendredi 12/09/24):"
+    - Exercice 6  POO
     - Les dictionnaires
     ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Réviser la POO pour le prochain contrôle et les dictionnaires (du programme de première).
+
+
+
+{#
 
 !!! done "séance 6 (2h mardi 24/09/24):"
     - exercice 1: dictionnaires (création d'une rainbow table)
@@ -49,6 +48,7 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 7 (4h jeudi 26/09/24):"
+
     - Correction du contrôle POO
     - exercice 2: dictionnaires (Centres Etrangers J1 2021)
     ??? note "Devoirs"
