@@ -40,12 +40,30 @@
 
 
 
-{#
-
-!!! done "séance 6 (2h mardi 24/09/24):"
-    - exercice 1: dictionnaires (création d'une rainbow table)
+!!! done "séance 6 (2h lundi 15/09/25):"
+    - Les dictionnaires
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Réviser la POO pour le prochain contrôle et les dictionnaires (du programme de première).
+
+!!! done "séance 7 (3h vendredi 19/09/25):"
+    - 1h de révisons
+    - Contrôle n°1 sur la POO et les dictionnaires
+    ??? note "Devoirs"
+        - exercice 1: dictionnaires (création d'une rainbow table)
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
+
+{#
+
+
+
+
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
 
 !!! done "séance 7 (4h jeudi 26/09/24):"
 
