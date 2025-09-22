@@ -55,17 +55,22 @@
 
 
 
+!!! done "séance 8 (2h lundi 22/09/25):"
+    - Rattrapage du DS1 par les absents
+    - Cours sur la récursivité  (avancé suite à un panne de courant ayant empêché d'utiliser les ordinateurs)  
+
+
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Si ce n'est pas encore fait : exercice 1 dictionnaires (création d'une rainbow table)
+        - Programmer le suite de Fibonacci de façon itérative (non récursive) 
+
 {#
 
 
 
 
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-
-
-!!! done "séance 7 (4h jeudi 26/09/24):"
 
     - Correction du contrôle POO
     - exercice 2: dictionnaires (Centres Etrangers J1 2021)
@@ -73,8 +78,8 @@
         - Revoir le dernier exercice sur les dictionnaires (surtout la fin de l'exercice qui est plus difficile)
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 8 (2h mardi 1/10/24):"
-    - Cours sur la récursivité
+
+    
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
