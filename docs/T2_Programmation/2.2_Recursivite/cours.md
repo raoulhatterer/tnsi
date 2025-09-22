@@ -1,8 +1,6 @@
 # Récursivité
 
 ![image](data/BO.png){: .center}
-
-
 ![image](data/infini.jpeg){: .center width=60%}
 
 ## 1. Première approche
@@ -202,12 +200,6 @@ Cette fonction ```mystere(n)``` calcule donc la somme des entiers positifs infé
         ```
         
 
-<!--
-
-Lien vers une [correction](https://gist.github.com/glassus/de73e52a753f58e2e29e2ebad5a09871)
-
--->
-
 ## 3. Le mécanisme interne de la récursivité
 
 
@@ -216,11 +208,11 @@ Lors d'un appel à une fonction récursive, le processeur utilise une structure 
 
 La pile d'appels de notre fonction ```mystere(5)``` peut donc être schématisée comme ceci :
 
-<center>
-![](https://glassus.github.io/terminale_nsi/T2_Programmation/2.2_Recursivite/data/pile_exec.gif)
-</center>
 
-<!-- ![](data/pile_exec.webp){: .center width=30%} -->
+![image](data/pile_exec.gif){: .center}
+
+
+
 
 ### 3.2 Limitation de la taille de la pile
 Nous venons de voir que notre appel à ```mystere(5)``` générait une pile de hauteur 6 (on parlera plutôt de *profondeur* 6). Cette profondeur est-elle limitée ?
