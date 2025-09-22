@@ -57,7 +57,7 @@
 
 !!! done "séance 8 (2h lundi 22/09/25):"
     - Rattrapage du DS1 par les absents
-    - Cours sur la récursivité  (avancé suite à un panne de courant ayant empêché d'utiliser les ordinateurs)  
+    - Cours sur la récursivité  (avancé suite à une panne de courant ayant empêché d'utiliser les ordinateurs)  
 
 
     ??? note "Devoirs"
