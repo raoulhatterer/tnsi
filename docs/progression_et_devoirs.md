@@ -65,6 +65,26 @@
         - Si ce n'est pas encore fait : exercice 1 dictionnaires (création d'une rainbow table)
         - Programmer le suite de Fibonacci de façon itérative (non récursive) 
 
+
+!!! done "séance 9 (4h jeudi 25/09/25):"
+    - Correction (individualisée) de l'exercice 1 du contrôle POO et dictionnaire
+    - Exercices du cours sur la récursivité
+    - Exercices supplémentaires sur la récursivité
+    ??? note "Devoirs"
+        - Exercices 1 et 2 sur la récursivité (déposer un Notebook dans votre répertoire personnel)
+
+!!! done "séance 10 (2h vendredi 26/09/2025):"  
+    - Correction (individualisée) de l'exercice 2 du contrôle POO et dictionnaire
+    - Exercices du cours sur la récursivité
+    - Exercices supplémentaires sur la récursivité
+    ??? note "Devoirs"
+        - Terminer les exercices sur la récursivité
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
+
+
+
 {#
 
 
@@ -72,7 +92,7 @@
 
 
 
-    - Correction du contrôle POO
+
     - exercice 2: dictionnaires (Centres Etrangers J1 2021)
     ??? note "Devoirs"
         - Revoir le dernier exercice sur les dictionnaires (surtout la fin de l'exercice qui est plus difficile)
@@ -84,16 +104,6 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-!!! done "séance 9 (4h jeudi 3/10/24):"
-    - Exercices du cours sur la récursivité
-    - Exercices supplémentaires sur la récursivité
-    ??? note "Devoirs"
-        - Exercices 1 et 2 sur la récursivité (déposer un Notebook dans votre répertoire personnel)
-
-!!! done "séance 10 (2h mardi 8/10/2024):"  
-    - Exercices 2 et 3 sur la récursivité
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 11 (4h jeudi 9/10/2024):"
     - Exercices 4 à 8 sur la récursivité
