@@ -119,7 +119,7 @@
         ```
 
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         from turtle import *
@@ -155,7 +155,7 @@
         - sinon $a^n=a \times (a \times a)^{(n-1)/2}$
 
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         def puissance_mod(x, n):
@@ -200,7 +200,7 @@
         Si la liste est triée, il faut trouver un slicing bien plus efficace. 
 
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         def recherche(lst, m):
@@ -327,7 +327,7 @@
         2) Créer une fonction ```triangle(n, l)``` qui trace le flocon complet.
 
     === "Correction"
-        {#       
+        {#        #}
         ```python linenums='1'
         ```python linenums='1'
         from turtle import forward, left, right, speed, mainloop
@@ -356,7 +356,7 @@
         mainloop() # lance le gestionnaire de fenetres
         ```
 
-        ``` #}
+        ```
 
 
 
