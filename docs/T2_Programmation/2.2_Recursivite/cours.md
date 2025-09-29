@@ -318,7 +318,7 @@ On y remarque (par exemple) que ```fibo(2)``` est calculé 5 fois...
     === "Énoncé"
         Écrire une fonction ```fibo_imperatif(n)``` qui calcule de façon directe (*impérative*) le n-ième terme de la suite de Fibonacci.
     === "Correction"
-        {#
+        {#   #}
         ```python linenums='1'
         def fibo_imperatif(n):
             a = 0
@@ -329,7 +329,7 @@ On y remarque (par exemple) que ```fibo(2)``` est calculé 5 fois...
                 a = t
             return b
         ```
-        #}
+      
 
 
 
