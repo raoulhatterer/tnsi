@@ -208,6 +208,24 @@
             if lst==[]:
                 return False
             if len(lst) == 1:  #cas de base
+                if lst[0]==m:
+                    return True
+                else:
+                    return False
+            else :              #cas récursif
+                mid = len(lst)//2
+                if lst[mid] > m:
+                    return recherche(lst[:mid],m)
+                else:
+                    return recherche(lst[mid:],m)
+        ```
+        ou bien
+        ```python linenums='1'
+        def recherche(lst, m):
+            print(lst) # pour voir la taille de la liste diminuer (facultatif)
+            if lst==[]:
+                return False
+            if len(lst) == 1:  #cas de base
                 return lst[0]==m
             else :              #cas récursif
                 mid = len(lst)//2
