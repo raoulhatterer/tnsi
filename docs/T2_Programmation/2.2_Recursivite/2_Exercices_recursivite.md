@@ -208,8 +208,7 @@
             if lst==[]:
                 return False
             if len(lst) == 1:  #cas de base
-                if lst[0] == m:
-                    return lst[0]==m
+                return lst[0]==m
             else :              #cas récursif
                 mid = len(lst)//2
                 if lst[mid] > m:
