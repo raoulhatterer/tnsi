@@ -82,7 +82,7 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-!!! done "séance 11 (4h lundi 29/09/2025):"
+!!! done "séance 11 (2h lundi 29/09/2025):"
     - Correction des excercices sur la récursivité
     ??? note "Devoirs"
         - préparer l'épreuve pratique : Sujet 1 exo 2 Sujet 2 exo 1
