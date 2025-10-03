@@ -87,6 +87,12 @@
     ??? note "Devoirs"
         - préparer l'épreuve pratique : Sujet 1 exo 2 Sujet 2 exo 1
 
+!!! done "séance 12 (3h vendredi 3/10/2025):"
+    - Exercices récursivité (Slicing + hanoi + flocon)
+    - Ajout de la BNS 2025
+    ??? note "Devoirs"
+        - Préparer test pratique sur le sujet 04 et sur le sujet 05 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md)
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
 
@@ -114,11 +120,6 @@
     - Exercices 4 à 8 sur la récursivité
     ??? note "Devoirs"
 
-!!! done "séance 12 (2h mardi 15/10/2024):"
-    - Exercices récursivité (hanoi + flocon)
-    ??? note "Devoirs"
-        - Préparer contrôle (tout ce qui a été fait jusqu'à présent)
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 !!! done "séance 13 (2h mardi 5/11/2024):"
     - Contrôle 2 portant sur la récursivité
