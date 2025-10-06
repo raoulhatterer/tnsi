@@ -96,6 +96,13 @@
 
 
 
+!!! done "séance 13 (2h lundi 6/10/2025):"
+    - Test pratique (sujet 5 BNS 2025)
+    - Récursivité : propagation sur Capytale
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Terminer l'exercice propagation sur Capytale
+
 {#
 
 
@@ -105,9 +112,6 @@
 
 
     - exercice 2: dictionnaires (Centres Etrangers J1 2021)
-    ??? note "Devoirs"
-        - Revoir le dernier exercice sur les dictionnaires (surtout la fin de l'exercice qui est plus difficile)
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
     
@@ -116,12 +120,12 @@
 
 
 
-!!! done "séance 11 (4h jeudi 9/10/2024):"
+
     - Exercices 4 à 8 sur la récursivité
     ??? note "Devoirs"
 
 
-!!! done "séance 13 (2h mardi 5/11/2024):"
+
     - Contrôle 2 portant sur la récursivité
     ??? note "Devoirs"
         - Trouver un nom pour votre équipe Passe Ton Hack D'abord
