@@ -167,9 +167,9 @@ Mais plus précisément, on a :
 
 {{initexo(0)}}
 !!! example "{{ exercice() }}"
-    === "Énoncé"
+    === "Énoncé" {#exo1#}
         Retrouvez comment accéder aux éléments 3, 5 et 1.
-    === "Correction"
+    === "Correction" 
         {{ correction(True,
         "
         ```python
@@ -222,7 +222,7 @@ Imaginons que nous possédons une interface offrant les fonctionnalités suivant
 
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
+    === "Énoncé" {#exo2#}
         On considère l'enchaînement d'opérations ci-dessous. Écrire à chaque étape l'état de la liste ```lst``` et la valeur éventuellement renvoyée.
         ```python
         1. lst = Liste()      
@@ -238,7 +238,7 @@ Imaginons que nous possédons une interface offrant les fonctionnalités suivant
         11. lst.est_vide()    
         ```
     === "Correction"
-        {{ correction(True,
+        {{ correction(True,   
         "
         ```python
         1. lst = Liste()      # lst = None
@@ -273,7 +273,7 @@ Pour être utilisée, l'interface d'une pile doit permettre a minima :
 ### 3.1 Utilisation d'une interface de pile
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
+    === "Énoncé" {#exo3#}
         On considère l'enchaînement d'opérations ci-dessous. Écrire à chaque étape l'état de la pile ```p``` et la valeur éventuellement renvoyée.
 
         Bien comprendre que la classe ```Pile()``` et ses méthodes n'existent pas vraiment. Nous *jouons* avec son interface.
@@ -329,12 +329,12 @@ Ces 3 méthodes sont essentielles et se retrouveront systématiquement dans chaq
 
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
+    === "Énoncé" {#exo4#}
         Créer la classe ```Pile```   ci-dessus. 
         
         Le type ```list``` de Python est parfaitement adapté. Des renseignements intéressants à son sujet peuvent être trouvés [ici](https://docs.python.org/fr/3/tutorial/datastructures.html#more-on-lists).
-    === "Correction :heart:"
-        {{ correction(True,
+    === "Correction :heart:" 
+        {{ correction(True,  
         "
         ```python linenums='1'
         class Pile:
@@ -391,7 +391,7 @@ class Cellule :
 ```
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
+    === "Énoncé" {#exo5#}
         À l'aide cette classe, re-créer une classe ```Pile``` disposant exactement de la même interface que dans l'exercice précédent.
 
     === "Correction :heart:"
@@ -450,7 +450,7 @@ pour l'utilisateur, les interfaces du 3.2.1 et 3.2.2 sont strictement identiques
 ### 3.3 Application des piles
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
+    === "Énoncé" {#exo6#}
         Simulez une gestion de l'historique de navigation internet, en créant une classe ```Nav``` qui utilisera une pile.
         Attention, il ne faut pas réinventer la classe ```Pile```, mais uniquement s'en servir !
         
@@ -511,7 +511,7 @@ La représentation la plus courante d'une file se fait horizontalement, en enfil
 ### 4.1 Utilisation d'une interface de file
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
+    === "Énoncé" {#exo7#}
         On considère l'enchaînement d'opérations ci-dessous. Écrire à chaque étape l'état de la file ```f``` et la valeur éventuellement renvoyée.
         Par convention, on enfilera **à gauche** et on défilera **à droite**.
         ```python
@@ -561,7 +561,7 @@ Nous y ajouterons comme précédemment la méthode facultative suivante :
 
 
 !!! example "{{ exercice() }}"
-    === "Énoncé"
+    === "Énoncé" {#exo8#}
         Créer la classe ci-dessus. Là encore, le type ```list```  de Python est peut être utilisé.
         
         Penser à aller voir [ici](https://docs.python.org/fr/3/tutorial/datastructures.html#more-on-lists) les méthodes des objets de types ```list```, notamment la méthode ```insert```.
