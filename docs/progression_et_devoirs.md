@@ -103,10 +103,21 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Terminer l'exercice propagation sur Capytale
 
+
+
+!!! done "séance 14 (2h jeudi 09/10/2025):"
+    - T1 > 1 Liste, Pile, File    
+    - Exercices du cours
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Préparer contrôle sur la récursivité et tout ce qui précède
+
+
 {#
 
 
 
+        - Exercices 6 du cours sur les listes, piles et files
 
 
 
