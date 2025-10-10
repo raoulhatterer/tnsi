@@ -468,9 +468,24 @@ pour l'utilisateur, les interfaces du 3.2.1 et 3.2.2 sont strictement identiques
         >>> n.back()
         page quittée : google.fr
         ```
-
-    === "Correction"
+    === "Aide"
         {{ correction(True,
+        "
+        ```python linenums='1'
+        class Nav:
+            def __init__(self):
+                self.pile = Pile()
+            
+            def visite(self, page):
+                pass # ... à vous
+            
+            def back(self):
+                pass # ... à vous
+        ```      
+        "
+        ) }}
+    === "Correction"
+        {{ correction(False,
         "
         ```python linenums='1'
         class Nav:
