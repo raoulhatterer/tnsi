@@ -113,11 +113,16 @@
         - Préparer contrôle sur la récursivité et tout ce qui précède
 
 
+!!! done "séance 15 (2h vendredi 10/10/2025):"
+    - Exercices 1 à 5 du cours sur les listes, piles et files
+    ??? note "Devoirs"
+        - Exercices 6 du cours sur les listes, piles et files
+    
 {#
 
 
 
-        - Exercices 6 du cours sur les listes, piles et files
+
 
 
 
@@ -143,7 +148,7 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-!!! done "séance 14 (4h jeudi 07/11/2024):"
+
     - T1 > 1 Liste, Pile, File    
     - Exercices du cours
     ??? note "Devoirs"
@@ -155,7 +160,7 @@
     - Pour cause de convocation extérieure
 
 
-!!! done "séance 15 (4h jeudi 14/11/2024):"
+
     - Correction du contrôle n°2
     - Exercices du cours sur les listes, piles et files
     ??? note "Devoirs"
