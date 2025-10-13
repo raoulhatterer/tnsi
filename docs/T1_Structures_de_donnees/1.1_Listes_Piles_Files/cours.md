@@ -395,7 +395,7 @@ class Cellule :
         À l'aide cette classe, re-créer une classe ```Pile``` disposant exactement de la même interface que dans l'exercice précédent.
 
     === "Correction :heart:"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         class Cellule :
@@ -485,7 +485,7 @@ pour l'utilisateur, les interfaces du 3.2.1 et 3.2.2 sont strictement identiques
         "
         ) }}
     === "Correction"
-        {{ correction(False,
+        {{ correction(True,
         "
         ```python linenums='1'
         class Nav:
@@ -497,8 +497,9 @@ pour l'utilisateur, les interfaces du 3.2.1 et 3.2.2 sont strictement identiques
                 print('page actuelle :', page)
             
             def back(self):
-                page_quittee = self.pile.depile()
-                print('page quittée :', page_quittee)
+                if not(self.pile.est8vide()):
+                    page_quittee = self.pile.depile()
+                    print('page quittée :', page_quittee)
         ```      
         "
         ) }}
