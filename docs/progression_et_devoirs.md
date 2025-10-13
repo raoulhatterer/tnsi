@@ -117,6 +117,19 @@
     - Exercices 1 à 5 du cours sur les listes, piles et files
     ??? note "Devoirs"
         - Exercices 6 du cours sur les listes, piles et files
+
+
+
+!!! done "séance 16 (2h lundi 13/10/2025):"
+    - Exercices 6 à 8 du cours sur les listes, piles et files
+    - Les files
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Préparer contrôle sur la récursivité et tout ce qui précède
+
+    
+
+
     
 {#
 
@@ -169,7 +182,6 @@
 
     
     
-!!! done "séance 16 (2h mardi 19/11/2024):"
     - [T4 Base de données > Modèle relationnel](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
     - Exercices sur le modèle relationnel
     - Utilisation de [Mocodo](https://www.mocodo.net/)
