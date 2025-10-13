@@ -497,7 +497,7 @@ pour l'utilisateur, les interfaces du 3.2.1 et 3.2.2 sont strictement identiques
                 print('page actuelle :', page)
             
             def back(self):
-                if not(self.pile.est8vide()):
+                if not(self.pile.est_vide()):
                     page_quittee = self.pile.depile()
                     print('page quittée :', page_quittee)
         ```      
