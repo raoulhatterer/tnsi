@@ -129,6 +129,22 @@
 
     
 
+!!! done "séance 17 (3h vendredi 17/10/2025):"
+    - Thème 4 : le modèle relationnel
+    - DS2
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+     
+
+!!! done "séance 18 (2h lundi 3/11/2025):"
+    - Exercices sur le modèle relationel
+    - Diagrammes relationnels avec mocodo
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+       
+
 
     
 {#
