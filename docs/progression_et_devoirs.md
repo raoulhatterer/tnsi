@@ -144,13 +144,19 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
        
-!!! done "séance 19 (4h jeudi 28/11/2024):"
+!!! done "séance 19 (4h jeudi 6/10/2025):"
     - [T4 Base de données > SQL](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.2_Langage_SQL/cours/)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+!!! done "séance 20 (2h mardi 03/12/2024):"
+    - Correction du contrôle n°2
+    ??? note "Devoirs"
+        - Préparer le contrôle de la semaine prochaine (qui pourra porter sur les sujets [02 à 08] de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md)).
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-    
+
+
 {#
 
 
@@ -194,11 +200,8 @@
 
 
 
-    - Correction du contrôle n°2
+
     - Exercices du cours sur les listes, piles et files
-    ??? note "Devoirs"
-        - Préparer le contrôle de la semaine prochaine (qui pourra porter sur tout ce qui a été vu jusqu'à présent)
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
     
     
@@ -227,7 +230,7 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
   
-!!! done "séance 20 (2h mardi 03/12/2024):"
+
     - Exercices SQL: n°2 et n°3
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
