@@ -157,12 +157,19 @@
 
 
 
+
+!!! done "séance 21 (3h vendredi 14/11/2025):"
+    - Exercices SQL interactifs
+    ??? note "Devoirs"
+        - Préparer le contrôle de la semaine prochaine (qui pourra porter sur les sujets [02 à 10] de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md)).
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
+
+
+
+
 {#
-
-
-
-
-
 
 
 
@@ -237,7 +244,6 @@
         - Finir l'exercice n°3 sur SQL
         - Commencer à réviser pour le contrôle de la semaine prochaine sur les bases de données.
 
-!!! done "séance 21 (4h jeudi 05/12/2024):"
     - Séance annulée pour cause de grève
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
