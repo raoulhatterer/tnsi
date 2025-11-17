@@ -166,8 +166,14 @@
 
 
 
+!!! done "séance 22 (2h lundi 17/11/2024):"
+    - Test pratique 2 (sujet 9 de [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md)).
+    - Exercices SQL (SQL Murder Mystery et suivants)
+      ??? note "Devoirs"
+        - Exercices SQL (SQL Murder Mystery et suivants) : Trouver le meurtrier et le commanditaire 
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-
+  
 
 {#
 
@@ -250,8 +256,7 @@
         - Réviser pour le contrôle de la semaine prochaine sur les bases de données.
 
 
-!!! done "séance 22 (2h mardi 10/12/2024):"
-    - Exercices SQL (SQL Murder Mystery et suivants)
+
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Réviser pour le contrôle de la séance prochaine sur les bases de données.
