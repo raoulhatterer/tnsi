@@ -175,6 +175,13 @@
 
   
 
+!!! done "séance 23 (4h jeudi 12/12/2023):"
+    - Résolution de SQL Murder Mystery
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        
+
+
 {#
 
 
