@@ -64,7 +64,7 @@
         matricule_medecin INTEGER,
         date_ord TEXT,
         medicaments TEXT,
-        FOREIGN KEY(id_patient) REFERENCES Patients(Id),
+        FOREIGN KEY(id_patient) REFERENCES Patients(id),
         FOREIGN KEY(matricule_medecin) REFERENCES Medecins(matricule)
         );
 
