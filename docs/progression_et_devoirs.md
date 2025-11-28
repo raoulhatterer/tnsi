@@ -187,9 +187,18 @@
 
 !!! done "séance 25 (2h lundi 24/11/2025):"
     - SQL en python
+    - Mini projets 1 et 2
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Préparer le DS de vendredi sur tout ce qui a été vu jusqu'à présent y compris SQL
+
+
+!!! done "séance 26 (3h vendredi 28/11/2025):"
+    - SQL en python
+    - Mini projets 3
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+    
 
 
 {#
@@ -295,14 +304,12 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Exercices 2 et 3 sur les arbres 
 
-!!! done "séance 25 (4h jeudi 19/12/2024):"
     - Exercices sur les arbres
     ??? note "Devoirs"
         - Préparer le contrôle sur les arbres prévu à la rentrée.
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-!!! done "séance 26 (2h mardi 07/01/2025):"
     - Exercices sur les arbres
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
