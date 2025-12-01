@@ -201,6 +201,13 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
     
 
+!!! done "séance 27 (2h lundi 1/112/2025):"
+    - Contrôle n°3
+    - Les arbres
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Faire l'arbre de la famille royale britanique avec tikz.trees sur Overleaf 
+    
 
 {#
 
