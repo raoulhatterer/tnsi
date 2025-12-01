@@ -6,7 +6,7 @@
         Exercice 2 du sujet [Nouvelle-Calédonie J2 2022](https://glassus.github.io/terminale_nsi/T6_Annales/data/2022/2022_Nouvelle-Caledonie_J2.pdf){. target="_blank"}  
     === "Correction"
         {{
-        correction(True,
+        correction(False,
         """
         ??? success \"Correction 1.\" 
             C'est un arbre binaire car chaque nœud possède au maximum deux fils.
@@ -15,7 +15,7 @@
         }}
     
         {{
-        correction(True,
+        correction(False,
         """
         ??? success \"Correction 2.a\" 
             ```V``` est un dictionnaire. 
@@ -24,7 +24,7 @@
         }}
     
         {{
-        correction(True,
+        correction(False,
         """
         ??? success \"Correction 2.b\" 
             ```python
@@ -242,7 +242,7 @@
         valeur `True` si cet entier est une étiquette de l’arbre, `False` sinon.
     === "Correction"
         {{
-        correction(True,
+        correction(False,
         """
         **1.a.** Il y a 4 feuilles, d'étiquette 12, `val`, 21 et 32.  
         **1.b.** Le sous-arbre gauche du nœud 23 est 19-21.  

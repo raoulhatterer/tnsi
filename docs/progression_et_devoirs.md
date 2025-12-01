@@ -196,6 +196,7 @@
 !!! done "séance 26 (3h vendredi 28/11/2025):"
     - SQL en python
     - Mini projets 3
+    - Contrôle n°3
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
     
