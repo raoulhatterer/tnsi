@@ -201,13 +201,28 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
     
 
-!!! done "séance 27 (2h lundi 1/112/2025):"
-    - Contrôle n°3
+!!! done "séance 27 (2h lundi 1/12/2025):"
+    - Contrôle n°3 bis
     - Les arbres
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Faire l'arbre de la famille royale britanique avec tikz.trees sur Overleaf 
+
+
+
+!!! done "séance 28 (2h jeudi 4/12/2025):"
+    - Correction du contrôle n°3
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 29 (2h vendredi 5/11/2025):"
+    - Correction du contrôle n°3 bis (avec mise en pratique du code sur notebook)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 15 de 2025 pour une prochaine évaluation dont la date n'a pas encore été fixée).
+
     
+
+
 
 {#
 
@@ -331,14 +346,14 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 28 (2h mardi 14/01/2025):"
+
     - Contrôle sur les arbres
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Prochaine séance annulée pour cause de présentation de la spécialité NSI aux élèves de seconde.
 
 
-!!! done "séance 29 (2h jeudi 16/01/2025):"
+
     - Séance annulée pour cause de présentation de la spécialité NSI aux élèves de seconde.
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
