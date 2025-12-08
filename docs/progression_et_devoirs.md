@@ -215,8 +215,15 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 29 (2h vendredi 5/11/2025):"
+!!! done "séance 29 (2h vendredi 5/12/2025):"
     - Correction du contrôle n°3 bis (avec mise en pratique du code sur notebook)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 15 de 2025 pour une prochaine évaluation dont la date n'a pas encore été fixée).
+
+    
+!!! done "séance 30 (2h lundi 8/12/2025):"
+    - Fin de la Correction du contrôle n°3 bis (avec mise en pratique du code sur notebook)
+    - Les arbres - exercice 1
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 15 de 2025 pour une prochaine évaluation dont la date n'a pas encore été fixée).
 
