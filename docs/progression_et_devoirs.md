@@ -203,7 +203,7 @@
 
 !!! done "séance 27 (2h lundi 1/12/2025):"
     - Contrôle n°3 bis
-    - Les arbres
+    - [T1 Structures de données > Arbres](./T1_Structures_de_donnees/1.3_Arbres/cours.md)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         - Faire l'arbre de la famille royale britanique avec tikz.trees sur Overleaf 
