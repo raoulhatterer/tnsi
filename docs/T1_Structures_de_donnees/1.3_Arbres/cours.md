@@ -655,10 +655,10 @@ a.right.right.right = Arbre(3)
         - Regardez et appréciez [cette vidéo](https://youtu.be/OTfp2_SwxHk){. target="_blank"}
         - À l'aide de la vidéo, codez le parcours infixe en itératif.  
     === "Canevas"
-        La fonction `infixe` prend un arbre en paramètre et retourne une liste avec le parcours infixe.
-        
-        Essayer d'exécuter mentalement le code pour l'arbre suivant (on souhaite que la liste `parcours` soit progressivement construite pour devenir égale à  `[6, 8, 1, 2, 9, 7, 4, 5, 3]`:
-        ![](data/exo_2.png){: .center}
+        - La fonction `infixe` prend un arbre en paramètre et retourne une liste avec le parcours infixe.
+        - Essayer d'exécuter mentalement le code pour l'arbre suivant :
+          ![](data/exo_2.png){: .center}
+        -  Noter le contenu successif des variables `pile`, `current` et `parcours` (on souhaite que la liste `parcours` soit progressivement construite pour devenir égale à  `[6, 8, 1, 2, 9, 7, 4, 5, 3]`).
     
         ```python linenums='1'
         def infixe(arbre):
