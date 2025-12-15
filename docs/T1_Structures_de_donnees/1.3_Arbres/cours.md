@@ -650,10 +650,36 @@ a.right.right.right = Arbre(3)
 6-1-2-8-4-3-5-7-9-
 ```
 
-!!! aide "Pause vidéo" 
-    - Regardez et appréciez [cette vidéo](https://youtu.be/OTfp2_SwxHk){. target="_blank"}
-    - À l'aide de la vidéo, codez le parcours infixe en itératif.  
-    ??? tip "solution"
+!!! example "{{ exercice()}} : Pause vidéo"
+    === "Énoncé"
+        - Regardez et appréciez [cette vidéo](https://youtu.be/OTfp2_SwxHk){. target="_blank"}
+        - À l'aide de la vidéo, codez le parcours infixe en itératif.  
+    === "Canevas"
+        La fonction `infixe` prend un arbre en paramètre et retourne une liste avec le parcours infixe.
+        
+        Essayer d'exécuter mentalement le code pour l'arbre suivant (on souhaite que la liste `parcours` soit progressivement construite pour devenir égale à  `[6, 8, 1, 2, 9, 7, 4, 5, 3]`:
+        ![](data/exo_2.png){: .center}
+    
+        ```python linenums='1'
+        def infixe(arbre):
+            parcours = []
+            pile = []
+
+            current = arbre
+
+            while pile != [] or current is not None:
+                if current is not None:  # on empile les sous-arbres de gauche 
+                                         # jusqu'à arriver à la feuille la plus à gauche
+                    pile.append(...)
+                    current = ...
+                else:
+                    current = pile.pop() # on dépile car `pop()` renvoie le dernier élément
+                    parcours.append(current.data)
+                    current = ...
+
+            return ...
+        ```
+    === "Correction"
         ```python linenums='1'
         def infixe(arbre):
             parcours = []

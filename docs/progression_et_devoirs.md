@@ -169,7 +169,7 @@
 !!! done "séance 22 (2h lundi 17/11/2025):"
     - Test pratique 2 (sujet 9 de [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md)).
     - Exercices SQL (SQL Murder Mystery et suivants)
-      ??? note "Devoirs"
+    ??? note "Devoirs"
         - Exercices SQL (SQL Murder Mystery et suivants) : Trouver le meurtrier et le commanditaire 
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
@@ -196,13 +196,13 @@
 !!! done "séance 26 (3h vendredi 28/11/2025):"
     - SQL en python
     - Mini projets 3
-    - Contrôle n°3
+    - Contrôle n°3 (python & SQL)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
     
 
 !!! done "séance 27 (2h lundi 1/12/2025):"
-    - Contrôle n°3 bis
+    - Contrôle n°3 bis (python & SQL)
     - [T1 Structures de données > Arbres](./T1_Structures_de_donnees/1.3_Arbres/cours.md)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
@@ -228,49 +228,21 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 15 de 2025 pour une prochaine évaluation dont la date n'a pas encore été fixée).
 
     
+!!! done "séance 31 (3h vendredi 12/12/2025):"
+    - Les arbres - exercices 2 à 6
+    - Les arbres - parcours d'arbre
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 15 de 2025 pour une prochaine évaluation dont la date n'a pas encore été fixée).
 
 
+!!! done "séance 32 (2h lundi 15/12/2025):"
+    - Les arbres - exercice 7
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 15 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation dont la date est vendredi 18/12).
+    
 
 {#
 
-
-
-    - exercice 2: dictionnaires (Centres Etrangers J1 2021)
-
-
-    
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-
-
-    - Exercices 4 à 8 sur la récursivité
-    ??? note "Devoirs"
-
-
-
-    - Contrôle 2 portant sur la récursivité
-    ??? note "Devoirs"
-        - Trouver un nom pour votre équipe Passe Ton Hack D'abord
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-
-    - T1 > 1 Liste, Pile, File    
-    - Exercices du cours
-    ??? note "Devoirs"
-        - Exercices 6 du cours sur les listes, piles et files
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-!!! done "séance annulée (2h mardi 12/11/2024):"
-    - Pour cause de convocation extérieure
-
-
-
-
-    - Exercices du cours sur les listes, piles et files
 
     
     
@@ -367,7 +339,7 @@
         - Préparer les exercices sur le routage.
 
 
-!!! done "séance 30 (2h mardi 21/01/2025):"
+
     - Exercices sur le routage
     - Correction du contrôle sur les arbres
     - Distribution des codes passe ton hack d'abord
@@ -375,14 +347,14 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-!!! done "séance 31 (4h jeudi 23/01/2025):"
+
     - Fin de la correction du contrôle sur les arbres
     - Exercices sur le routage
     ??? note "Devoirs"
         - Réviser le routage (et tout ce qui précède) pour le contrôle de la semaine prochaine.
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 32 (2h mardi 28/01/2025):"
+
     - Gestion des processus    
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
