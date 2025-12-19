@@ -704,45 +704,57 @@ a.right.right.right = Arbre(3)
     === "Algorithme"
         Programmer l'algorithme suivant :
         ```
-        Algorithme ParcoursPostfixe(racine) :
+        ParcoursPostfixe(racine) :
             Si racine est NUL alors
-                retourner listeVide()
+                retourner
             Fin Si
             
             pile ← nouvelle Pile()
+            dernierVisité ← NUL
             courant ← racine
-            parcoursNoeuds ← nouvelle Liste()  // Liste de RÉFÉRENCES
             
             Tant que pile non vide OU courant ≠ NUL :
                 
+                // --- PHASE 1 : DESCENTE MAXIMALE À GAUCHE ---
+                // On descend toujours le plus à gauche possible
                 Si courant ≠ NUL alors
                     pile.empiler(courant)
                     courant ← courant.gauche
                     
                 Sinon
-                    courant ← pile.sommet() // lecture du dernier noeud empilé
+                    // --- PHASE 2 : EXAMEN DU NŒUD COURANT ---
+                    // On a atteint NULL, on regarde le nœud au sommet
+                    courant ← pile.sommet()  // sans dépiler
                     
-                    // Vérifie si le fils droit (référence) est déjà traité
-                    Si courant.droit ≠ NUL ET parcoursNoeuds.contient(courant.droit) = FAUX alors
+                    // --- PHASE 3 : VÉRIFICATION DU FILS DROIT ---
+                    // Si le nœud a un fils droit non encore visité
+                    Si courant.droit ≠ NUL ET courant.droit ≠ dernierVisité alors
+                        // --- SOUS-PHASE : EXPLORATION À DROITE ---
+                        // On doit traiter le sous-arbre droit avant le nœud courant
                         courant ← courant.droit
+                        
                     Sinon
-                        parcoursNoeuds.ajouter(courant)  // Ajoute la RÉFÉRENCE
+                        // --- PHASE 4 : TRAITEMENT DU NŒUD ---
+                        // Le nœud n'a pas de fils droit, ou son fils droit est déjà visité
+                        // On peut donc traiter le nœud courant (ordre postfixe)
+                        afficher(courant.valeur)
+                        
+                        // --- PHASE 5 : REMONTÉE ET MÉMOIRISATION ---
+                        // On mémorise ce nœud comme dernier visité
+                        dernierVisité ← courant
+                        
+                        // On dépile le nœud traité
                         pile.dépiler()
+                        
+                        // On force la remontée pour examiner le parent
                         courant ← NUL
+                        
                     Fin Si
                     
                 Fin Si
                 
             Fin Tant que
-            
-            // Convertir les références en valeurs
-            resultat ← nouvelle Liste()
-            Pour chaque noeud dans parcoursNoeuds :
-                resultat.ajouter(noeud.valeur)
-            Fin Pour
-            
-            retourner resultat
-        Fin Algorithme
+
         ```
 
 
