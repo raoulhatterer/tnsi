@@ -700,7 +700,7 @@ a.right.right.right = Arbre(3)
         ```
 
 
-!!! example "{{ exercice()}} : Parcours postfixe itératif"
+!!! example "{{ exercice()}} : Parcours postfixe en itératif"
     === "Algorithme"
         Programmer l'algorithme suivant :
         ```
