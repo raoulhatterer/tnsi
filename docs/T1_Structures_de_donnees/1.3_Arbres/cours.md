@@ -699,6 +699,56 @@ a.right.right.right = Arbre(3)
             return parcours
         ```
 
+
+!!! example "{{ exercice()}} : Parcours postfixe itératif"
+    === "Algorithme"
+        Programmer l'algorithme suivant :
+        ```
+        Algorithme ParcoursPostfixe(racine) :
+            Si racine est NUL alors
+                retourner listeVide()
+            Fin Si
+            
+            pile ← nouvelle Pile()
+            courant ← racine
+            parcoursNoeuds ← nouvelle Liste()  // Liste de RÉFÉRENCES
+            
+            Tant que pile non vide OU courant ≠ NUL :
+                
+                Si courant ≠ NUL alors
+                    pile.empiler(courant)
+                    courant ← courant.gauche
+                    
+                Sinon
+                    courant ← pile.sommet() // lecture du dernier noeud empilé
+                    
+                    // Vérifie si le fils droit (référence) est déjà traité
+                    Si courant.droit ≠ NUL ET parcoursNoeuds.contient(courant.droit) = FAUX alors
+                        courant ← courant.droit
+                    Sinon
+                        parcoursNoeuds.ajouter(courant)  // Ajoute la RÉFÉRENCE
+                        pile.dépiler()
+                        courant ← NUL
+                    Fin Si
+                    
+                Fin Si
+                
+            Fin Tant que
+            
+            // Convertir les références en valeurs
+            resultat ← nouvelle Liste()
+            Pour chaque noeud dans parcoursNoeuds :
+                resultat.ajouter(noeud.valeur)
+            Fin Pour
+            
+            retourner resultat
+        Fin Algorithme
+        ```
+
+
+
+
+
 ### 4.2 Calcul de la taille d'un arbre
 Rappel : la taille d'un arbre est le nombre de ses nœuds.
 
