@@ -239,7 +239,21 @@
     - Les arbres - exercice 7
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 15 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation dont la date est vendredi 18/12).
-    
+
+
+!!! done "séance 33 (1h jeudi 18/12/2025):"
+    - Les arbres - exercice 8 (postfixe itératif)
+    - Séance d'1h car réunion parents-profs
+    ??? note "Devoirs"    
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 15 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation dont la date est vendredi 18/12).    
+
+!!! done "séance 34 (2h vendredi 19/12/2025):"
+    - Epreuve pratique remise à la rentrée
+    - [Yann Le Cun - les nouveaux défis de l'IA](https://youtu.be/Z208NMP7_-0?si=U7y4bqjkdN358KKJ)
+    ??? note "Devoirs"
+         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 20 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation à la rentrée).     
+
+
 
 {#
 
@@ -361,13 +375,11 @@
         - Réviser le routage (et tout ce qui précède) pour le contrôle de la semaine prochaine.
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 33 (4h jeudi 30/1/2025):"
     - Contrôle n°6 portant sur le routage
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 34 (2h mardi 04/02/2025):"
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
