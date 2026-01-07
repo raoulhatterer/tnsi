@@ -253,66 +253,19 @@
     ??? note "Devoirs"
          - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 20 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation à la rentrée).     
 
+!!! done "séance 35 (2h lundi 05/01/2026):"
+    - Pas de courant donc épreuve pratique remise à la prochaine séance
+    - Les arbres binaires de recherche.
+    ??? note "Devoirs"
+        - Exercices 1 & 2 sur les arbres
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 20 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
+
 
 
 {#
 
 
-    
-    
-    - [T4 Base de données > Modèle relationnel](https://raoulhatterer.github.io/tnsi/T4_Bases_de_donnees/4.1_Modele_relationnel/cours/)
-    - Exercices sur le modèle relationnel
-    - Utilisation de [Mocodo](https://www.mocodo.net/)
-    ??? note "Devoirs"
-        - Préparer le contrôle de jeudi  (qui pourra porter sur tout ce qui a été vu jusqu'à présent)
-    
 
-!!! done "séance 17 (4h jeudi 21/11/2024):"
-    - Contrôle n°3 sur les piles et files 
-    - Exercices SQL
-!!! done "séance 18 (2h mardi 26/11/2024):"
-    - Rattrapage du contrôle pour les absents
-    - Exercices SQL 
-    - Révisions Wims sur les bases de python
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-    - Correction du contrôle n°3
-    - Exercices SQL: n°1
-    ??? note "Devoirs"
-        - Finir exercice 1 (Q3 sur JOIN)
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-  
-
-    - Exercices SQL: n°2 et n°3
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Finir l'exercice n°3 sur SQL
-        - Commencer à réviser pour le contrôle de la semaine prochaine sur les bases de données.
-
-    - Séance annulée pour cause de grève
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Réviser pour le contrôle de la semaine prochaine sur les bases de données.
-
-
-
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Réviser pour le contrôle de la séance prochaine sur les bases de données.
-
-
-!!! done "séance 23 (4h jeudi 12/12/2023):"
-    - Contrôle SQL
-    - Python-SQL 
-    - Mini-projets python-SQL
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Terminer les Mini-projets python-SQL
-
-!!! done "séance 24 (2h mardi 17/12/2024):"
     - Les arbres
     - Les commandes Linux
     - Exercices sur les arbres
@@ -384,7 +337,7 @@
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 35 (4h jeudi 06/02/2025):"
+
     - Correction du contrôle n°6 portant sur le routage
     - Exercices sur la gestion des processus
     ??? note "Devoirs"
