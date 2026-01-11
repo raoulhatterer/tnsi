@@ -262,6 +262,15 @@
 
 
 
+!!! done "séance 36 (3h vendredi 09/01/2026):"
+    - [Exercice 1 sur les arbres](T1_Structures_de_donnees/1.3_Arbres/exercices.md)
+    ??? note "Devoirs"
+        - [Exercice 2 sur les arbres](T1_Structures_de_donnees/1.3_Arbres/exercices.md)
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
+    
+
+
+
 {#
 
 
@@ -344,7 +353,7 @@
         - Réviser le prochain contrôle portant sur la gestion des processus (et tout ce qui précède).
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 36 (2h mardi 25/02/2025):"
+
     - [T3 > Dichotomie](./T3_Algorithmique/3.1_Diviser_pour_regner/cours.md)
     - [Activité d'introduction](./T3_Algorithmique/3.1_Diviser_pour_regner/intro_dichotomie.md)
     - Dichotomie version récursive avec slicing
