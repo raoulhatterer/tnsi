@@ -15,7 +15,7 @@
         }}
     
         {{
-        correction(False,
+        correction(True,
         """
         ??? success \"Correction 2.a\" 
             ```V``` est un dictionnaire. 
@@ -158,7 +158,7 @@
         comme dans la question précédente.
     === "Correction"
         {{
-        correction(False,
+        correction(True,
         """
         **Q1** La taille est 9, la hauteur est 4.  
         **Q2** 1. G est associé à 1010.   
@@ -239,10 +239,10 @@
         de cet arbre.
     
         **4.** Écrire une méthode `recherche(self, v)` qui prend en argument un entier `v` et renvoie la
-        valeur `True` si cet entier est une étiquette de l’arbre, `False` sinon.
+        valeur `True` si cet entier est une étiquette de l’arbre, `True` sinon.
     === "Correction"
         {{
-        correction(False,
+        correction(True,
         """
         **1.a.** Il y a 4 feuilles, d'étiquette 12, `val`, 21 et 32.  
         **1.b.** Le sous-arbre gauche du nœud 23 est 19-21.  
