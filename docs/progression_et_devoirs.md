@@ -276,6 +276,11 @@
         - Finir d'étudier les [exercices sur les arbres](T1_Structures_de_donnees/1.3_Arbres/exercices.md) en vue du contrôle prévu la semaine prochaine.
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
 
+!!! done "séance 38 (2h jeudi 15/01/2026):"
+    - [Exercices sur les arbres](T1_Structures_de_donnees/1.3_Arbres/exercices.md)
+    ??? note "Devoirs"
+        - Préparer le contrôle de lundi qui portera sur [les arbres](T1_Structures_de_donnees/1.3_Arbres/exercices.md) et tout ce qui précéde.
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
 
 
 
