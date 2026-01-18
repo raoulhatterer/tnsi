@@ -13,7 +13,24 @@
     - Le site [https://www.pythonanywhere.com](https://www.pythonanywhere.com){:target="_blank"} permet de créer un compte gratuit pour programmer en python ou pour disposer d'un terminal sous Linux.
 
 
+!!! info "Épreuve terminale obligatoire"
+    L'épreuve terminale obligatoire de spécialité est composée de deux parties : une partie écrite et une partie pratique, chacune notée sur 20. La note de la partie écrite a un coefficient de 0,75 et celle de la partie pratique a un coefficient de 0,25. La note globale de l’épreuve est donnée sur 20 points ce qui fait donc 15 points pour l'épreuve écrite et 5 points pour l'épreuve pratique.
+
+
+!!! abstract ":star: :star: :star: Épreuve Pratique 2026 :star: :star: :star:"
+    La partie pratique consiste à programmer sur ordinateur une application informatique à partir d’un document fourni au candidat.
+    
+    L’épreuve a pour objectif d’évaluer le niveau de maîtrise des compétences pratiques du candidat.
+
+    Cette partie est notée sur 20 points.
+
+    Trois sujets 0 ont été publiés, vous pouvez les retrouver sur [cette page](T6_6_Epreuve_pratique/BNS_2026.md){. target="_blank"}.
+
+
 !!! tip "Épreuves pratiques"
+
+
+    Le candidat est évalué sur la base d'un dialogue avec un professeur-examinateur. Un examinateur évalue au maximum quatre élèves simultanément. L'examinateur ne peut pas évaluer un élève qu'il a eu en classe durant l'année en cours.
 
 
       | Critères d’évaluation                    | Définition du critère                         | Très insuffisant                                                | Insuffisant                                                      | Satisfaisant                                                                           | Très satisfaisant                                                 |
