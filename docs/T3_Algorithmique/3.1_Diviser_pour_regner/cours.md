@@ -362,7 +362,11 @@ La grande force de ce tri va être qu'il se programme simplement de manière **r
 Une erreur classique avec les fonctions récursives est de considérer que les appels récursifs sont simultanés. Ceci est faux !
 L'animation suivante montre la progression du tri :
 
-<gif-player src="https://glassus.github.io/terminale_nsi/T3_Algorithmique/3.1_Diviser_pour_regner/data/gif_fusion.gif" speed="1" play></gif-player>
+![image](data/gif_fusion.gif){: .center}
+
+
+
+Il y a aussi [recursion visualizer](https://www.recursionvisualizer.com/?function_definition=def%20fusion%28gauche%2C%20droite%29%3A%20%20%20%20%0A%20%20%20%20resultat%20%3D%20%5B%5D%0A%20%20%20%20index_gauche%2C%20index_droite%20%3D%200%2C%200%0A%20%20%20%20while%20index_gauche%20%3C%20len%28gauche%29%20and%20index_droite%20%3C%20len%28droite%29%3A%20%0A%0A%20%20%20%20%20%20%20%20if%20gauche%5Bindex_gauche%5D%20%3C%3D%20droite%5Bindex_droite%5D%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20resultat.append%28gauche%5Bindex_gauche%5D%29%0A%20%20%20%20%20%20%20%20%20%20%20%20index_gauche%20%2B%3D%201%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20resultat.append%28droite%5Bindex_droite%5D%29%0A%20%20%20%20%20%20%20%20%20%20%20%20index_droite%20%2B%3D%201%0A%0A%20%20%20%20resultat%20%3D%20resultat%20%2B%20gauche%5Bindex_gauche%3A%5D%20%2B%20droite%5Bindex_droite%3A%5D%0A%0A%20%20%20%20return%20resultat%0Adef%20tri_fusion%28tableau%29%3A%0A%20%20%20%20if%20len%28tableau%29%20%3C%3D%201%3A%0A%20%20%20%20%20%20%20%20return%20tableau%0A%20%20%20%20milieu%20%3D%20len%28tableau%29%20%2F%2F%202%0A%0A%20%20%20%20gauche%20%3D%20tableau%5B%3Amilieu%5D%0A%20%20%20%20droite%20%3D%20tableau%5Bmilieu%3A%5D%20%20%20%20%0A%0A%20%20%20%20return%20fusion%28tri_fusion%28gauche%29%2C%20tri_fusion%28droite%29%29%0A&function_call=tri_fusion%28%5B2%2C%201%2C%204%2C%203%2C%200%5D%29) pour montrer l’ordre d’exécution.
 
 
 
