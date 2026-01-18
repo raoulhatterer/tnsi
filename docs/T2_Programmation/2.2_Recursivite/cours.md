@@ -121,11 +121,19 @@ Trois choses sont essentielles et doivent se retrouver dans tout programme récu
 10
 ```
 
+
+
+
+
 !!! aide "Analyse grâce à PythonTutor"
     <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=def%20mystere%28n%29%3A%0A%20%20%20%20if%20n%20%3D%3D%200%20%3A%0A%20%20%20%20%20%20%20%20return%200%0A%20%20%20%20else%20%3A%20%0A%20%20%20%20%20%20%20%20return%20n%20%2B%20mystere%28n-1%29%0A%0Amystere%284%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 
 Que se passe-t-il lorsqu'on appelle ```mystere(4)``` ?
+
+
+[Recursion visualizer](https://www.recursionvisualizer.com/?function_definition=def%20mystere%28n%29%3A%0A%20%20%20%20if%20n%20%3D%3D%200%20%3A%0A%20%20%20%20%20%20%20%20return%200%0A%20%20%20%20else%20%3A%20%0A%20%20%20%20%20%20%20%20return%20n%20%2B%20mystere%28n-1%29&function_call=mystere%284%29) pour montrer l'ordre d'exécution.
+
 
 \begin{align}
   \rm{mystere(4)} &= 4+ \rm{mystere(3)}\\
@@ -287,12 +295,21 @@ On a donc $F_2=0+1=1, F_3=F_2+F_1=1+1=2, F_4=F_3+F_2=2+1=3, F_5=F_4+F_3=3+2=5$ .
 
 **Observation de la pile d'exécution**
 
-Appelons ```F(n)``` la fonction calculant de manière récursive le n-ième terme de la suite. Observons en détail la pile d'exécution lors du calcul de ```F(4)```.
+Appelons ```F(n)``` la fonction calculant de manière récursive le n-ième terme de la suite.
 
 
-<center>
-![](data/pile_fibo.gif)
-</center>
+[Recursion visualizer ](https://www.recursionvisualizer.com/?function_definition=def%20fibo%28n%29%3A%0A%20%20%20%20if%20n%20%3D%3D%200%20%3A%0A%20%20%20%20%20%20%20%20return%200%20%20%20%0A%20%20%20%20elif%20n%20%3D%3D%201%20%3A%0A%20%20%20%20%20%20%20%20return%201%0A%20%20%20%20else%20%3A%0A%20%20%20%20%20%20%20%20return%20fibo%28n-1%29%20%2B%20fibo%28n-2%29&function_call=fibo%284%29) permet de monter l'ordre d'exécution.
+
+
+
+Observons en détail la pile d'exécution lors du calcul de ```F(4)```.
+
+
+
+
+
+![image](data/pile_fibo.gif){: .center}
+
 
 
 !!! aide "Analyse grâce à PythonTutor"
