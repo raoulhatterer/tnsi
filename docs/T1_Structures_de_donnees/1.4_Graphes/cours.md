@@ -169,8 +169,8 @@ Il peut exister des graphes pondérés et orientés.
         1&0&0&1&0\\
         }$
 
-    ??? tip "Correction"
-        ![image](data/ex2_Q1.png){: .center}
+    ??? tip "Correction"{#
+        ![image](data/ex2_Q1.png){: .center}#}
         
     **Q2.** $M_2=\pmatrix{
         0&1&1&0&1\\
@@ -180,8 +180,8 @@ Il peut exister des graphes pondérés et orientés.
         0&0&0&0&0\\
         }$
     
-    ??? tip "Correction"
-        ![image](data/ex2_Q2.png){: .center}
+    ??? tip "Correction"{#
+        ![image](data/ex2_Q2.png){: .center}#}
 
     **Q3.** $M_3=\pmatrix{
         0&5&10&50&12\\
@@ -191,8 +191,8 @@ Il peut exister des graphes pondérés et orientés.
         12&0&0&100&0\\
         }$    
 
-    ??? tip "Correction"
-        ![image](data/ex2_Q3.png){: .center}
+    ??? tip "Correction"{#
+        ![image](data/ex2_Q3.png){: .center}#}
 
 
 
@@ -271,8 +271,8 @@ La modélisation d'un graphe par sa matrice d'adjacence est loin d'être la seul
     'F': ['B', 'E']
          }
     ```
-    ??? tip "Correction Q1"
-        ![image](data/ex3_Q1.png){: .center}
+    ??? tip "Correction Q1"{#
+        ![image](data/ex3_Q1.png){: .center}#}
 
 
     **Q2.** 
@@ -286,8 +286,8 @@ La modélisation d'un graphe par sa matrice d'adjacence est loin d'être la seul
          }
 
     ```
-    ??? tip "Correction Q2"
-        ![image](data/ex3_Q2.png){: .center}
+    ??? tip "Correction Q2"{#
+        ![image](data/ex3_Q2.png){: .center}#}
 
 
 
