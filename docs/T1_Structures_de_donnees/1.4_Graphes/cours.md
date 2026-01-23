@@ -87,7 +87,7 @@ Il possède cependant deux **composantes connexes** : le sous-graphe composé de
 
 Pour modéliser un graphe, il faut établir par convention une manière de donner les renseignements suivants :
 
-- qui sont les sommets ?
+- quels sont les sommets ?
 - pour chaque sommet, quels sont ses voisins ? (et éventuellement quel poids porte l'arête qui les relie)
 
 
@@ -124,7 +124,7 @@ Il peut exister des graphes pondérés et orientés.
 #### 2.1.4 Exercices
 
 !!! note "Remarque"
-    LibreOffice Draw permet de représenter les graphes (utiliser Ellipse et Connecteurs) 
+    LibreOffice Draw permet de représenter les graphes : utiliser Ellipse ( + la touche shift pour avoir un cercle)  et Connecteurs. 
 
 !!! example "{{ exercice() }}"
     Soit un ensemble d'amis connectés sur un réseau social quelconque. Voici les interactions qu'on a recensées :
