@@ -296,7 +296,11 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
 
 
-
+!!! done "séance 41 (2h lundi 26/01/2026):"
+    - [Les graphes](T1_Structures_de_donnees/1.4_Graphes/cours.md) (cours et exercices)
+    ??? note "Devoirs"
+        - Finir le TP labyrinthe 
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
 
 
 {#
@@ -429,7 +433,7 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
-!!! done "séance 41 (4h jeudi 20/03/2025):"
+
     - Correction de l'exercice 4 du sujet Amérique du Sud J2 2022
     - Programmation dynamique (Cours)
     - Programmation dynamique (TP pyramides)
