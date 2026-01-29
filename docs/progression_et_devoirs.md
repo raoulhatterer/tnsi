@@ -303,6 +303,17 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
 
 
+!!! done "séance 42 (2h mardi 25/03/2025):"
+    - [T5 Architecture matérielle > Protocoles de routage](./T5_Architecture_materielle/5.3_Protocoles_de_routage/cours.md)
+    - TP Routage débranché RIP
+    - Algorithme de Dijkstra
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        - Apprendre l'algorithme de Dijkstra
+
+
+
+
 {#
 
 
@@ -327,11 +338,6 @@
 
 !!! done "séance 27 (4h mardi 09/01/2025):"
     - Contrôle sur les arbres reporté à mardi
-    - Routage
-    - TP Routage débranché
-    - Algorithme de Dijkstra
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
     - Contrôle sur les arbres
@@ -441,7 +447,7 @@
         - Exercice 7 pyramide (principe de mémoïsation).
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
-!!! done "séance 42 (2h mardi 25/03/2025):"
+
     - TP rendu de monnaie
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
