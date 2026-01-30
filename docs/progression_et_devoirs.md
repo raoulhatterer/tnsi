@@ -315,6 +315,7 @@
 !!! done "séance 43 (2h vendredi 30/03/2025):"
     - Algorithme de Dijkstra
     ??? note "Devoirs"
+        - Faire la correction du contrôle n°4
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
 
 
