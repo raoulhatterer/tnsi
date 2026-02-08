@@ -325,7 +325,10 @@
         - Finir l'exercice 2 protocoles de routage
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
 
-
+!!! done "séance 45 (3h vendredi 06/02/2026):"
+    - Exercices protocoles de routage
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
 
 {#
 
@@ -481,7 +484,7 @@
         - Contrôle à la rentrée sur un des 20 premiers [sujets de l'épreuve pratique](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi)
 
 
-!!! done "séance 45 (4h jeudi 03/04/2025):"
+
     - T1 > Les graphes
     - Exercices 1 à 5
     ??? note "Devoirs"
