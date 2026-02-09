@@ -326,9 +326,20 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
 
 !!! done "séance 45 (3h vendredi 06/02/2026):"
-    - Exercices protocoles de routage
+    - Exercices protocoles de routage (exercice 5 à terminer)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 25 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une prochaine évaluation).     
+
+
+!!! done "séance 46 (2h lundi 09/02/2026):"
+    - Exercices protocoles de routage
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 27 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une évaluation vendredi 13/02/26).     
+
+
+
+
+
 
 {#
 
