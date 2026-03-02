@@ -347,7 +347,16 @@
 !!! done "séance 48 (2h vendredi 13/02/2026):"
     - [Gestion des processus](./T5_Architecture_materielle/5.2_Gestion_des_processus/cours.md)
     ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 32 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une évaluation vendredi 13/02/26).     
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 32 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une évaluation à la rentrée).     
+
+
+
+!!! done "séance 49 (2h lundi 02/03/2026):"
+    - [Exercices sur la Gestion des processus](./T5_Architecture_materielle/5.2_Gestion_des_processus/exercices.md)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 34 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une évaluation vendredi).     
+
+
 
 
 
