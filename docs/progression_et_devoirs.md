@@ -357,7 +357,19 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées (réviser les sujets pratiques 1 à 34 de la [BNS 2025](./T6_6_Epreuve_pratique/BNS_2025.md) pour une évaluation vendredi).     
 
 
+!!! done "séance 50 (3h vendredi 06/03/2026):"
+    - [Exercices sur la gestion des processus](./T5_Architecture_materielle/5.2_Gestion_des_processus/Exercices.md)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
+
+!!! done "séance 51 (2h lundi 16/03/2026):"
+    - [T3 > Dichotomie](./T3_Algorithmique/3.1_Diviser_pour_regner/cours.md)
+    - [Activité d'introduction](./T3_Algorithmique/3.1_Diviser_pour_regner/intro_dichotomie.md)
+    - Dichotomie version récursive avec slicing
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        
 
 
 
@@ -365,88 +377,6 @@
 {#
 
 
-
-    - Les arbres
-    - Les commandes Linux
-    - Exercices sur les arbres
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Exercices 2 et 3 sur les arbres 
-
-    - Exercices sur les arbres
-    ??? note "Devoirs"
-        - Préparer le contrôle sur les arbres prévu à la rentrée.
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-    - Exercices sur les arbres
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-!!! done "séance 27 (4h mardi 09/01/2025):"
-    - Contrôle sur les arbres reporté à mardi
-
-
-    - Contrôle sur les arbres
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Prochaine séance annulée pour cause de présentation de la spécialité NSI aux élèves de seconde.
-
-
-
-    - Séance annulée pour cause de présentation de la spécialité NSI aux élèves de seconde.
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        - Préparer les exercices sur le routage.
-
-
-
-    - Exercices sur le routage
-    - Correction du contrôle sur les arbres
-    - Distribution des codes passe ton hack d'abord
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-
-    - Fin de la correction du contrôle sur les arbres
-    - Exercices sur le routage
-    ??? note "Devoirs"
-        - Réviser le routage (et tout ce qui précède) pour le contrôle de la semaine prochaine.
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-    - Gestion des processus    
-    - Exercices sur la gestion des processus
-    ??? note "Devoirs"
-        - Réviser le routage (et tout ce qui précède) pour le contrôle de la semaine prochaine.
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-    - Contrôle n°6 portant sur le routage
-    - Exercices sur la gestion des processus
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-    - Exercices sur la gestion des processus
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-    - Correction du contrôle n°6 portant sur le routage
-    - Exercices sur la gestion des processus
-    ??? note "Devoirs"
-        - Réviser le prochain contrôle portant sur la gestion des processus (et tout ce qui précède).
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-    - [T3 > Dichotomie](./T3_Algorithmique/3.1_Diviser_pour_regner/cours.md)
-    - [Activité d'introduction](./T3_Algorithmique/3.1_Diviser_pour_regner/intro_dichotomie.md)
-    - Dichotomie version récursive avec slicing
-    ??? note "Devoirs"
-        - Réviser le prochain contrôle portant sur la gestion des processus (et tout ce qui précède).    
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-        
 
     - Contrôle n°7 sur les processus
     - Exercice 1  (Comparaison de la vitesse d'exécution des deux algorithmes puissance)
