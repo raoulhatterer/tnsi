@@ -376,59 +376,21 @@
 !!! done "séance 52 (3h vendredi 20/03/2026):"
     - [T3 > Dichotomie](./T3_Algorithmique/3.1_Diviser_pour_regner/cours.md)
     - Le tri fusion
+    - Exercice 4 du sujet Amérique du Sud J2 2022
+    - Programmation dynamique (Cours)
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         
-
-
-
 
 {#
 
 
 
     - Contrôle n°7 sur les processus
-    - Exercice 1  (Comparaison de la vitesse d'exécution des deux algorithmes puissance)
-    ??? note "Devoirs"
-        - Exercice 2
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-!!! done "séance 38 (2h mardi 4/3/2025):"
-    - Tri fusion
-    - Exercice 2
-    - Complexité O(1) O(log n) O(n) O(n log n) O(n2) 
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-!!! done "séance 39 (4h jeudi 06/03/2025):"
     - Correction DS7
-    - Exercice 4 du sujet Amérique du Sud J2 2022
-    ??? note "Devoirs"
-        - Finir Exercice 4 du sujet Amérique du Sud J2 2022
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+  
+    
 
-!!! done "séance annulée pour cause de bac blanc (2h mardi 11/03/2025):"
-    ??? note "Devoirs"
-        - Finir Exercice 4 du sujet Amérique du Sud J2 2022
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années
-
-!!! done "séance annulée pour cause de bac blanc (4h jeudi 13/03/2025):"
-    - L'épreuve Bac Blanc de NSI a lieu en salle 107B de 8h00 à 11h30 (12h40 pour les tiers temps).
-    ??? note "Devoirs"
-        - Finir Exercice 4 du sujet Amérique du Sud J2 2022
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années
-
-!!! done "séance 40 (2h mardi 18/03/2025):"
-    - Correction du bac blanc
-    ??? note "Devoirs"
-        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
-
-
-
-    - Correction de l'exercice 4 du sujet Amérique du Sud J2 2022
-    - Programmation dynamique (Cours)
     - Programmation dynamique (TP pyramides)
     ??? note "Devoirs"
         - Exercice 7 pyramide (principe de mémoïsation).
