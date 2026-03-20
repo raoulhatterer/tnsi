@@ -367,6 +367,15 @@
     - [T3 > Dichotomie](./T3_Algorithmique/3.1_Diviser_pour_regner/cours.md)
     - [Activité d'introduction](./T3_Algorithmique/3.1_Diviser_pour_regner/intro_dichotomie.md)
     - Dichotomie version récursive avec slicing
+    - Dichotomie version récursive sans slicing
+    - L'exponentiation rapide
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+        
+
+!!! done "séance 52 (3h vendredi 20/03/2026):"
+    - [T3 > Dichotomie](./T3_Algorithmique/3.1_Diviser_pour_regner/cours.md)
+    - Le tri fusion
     ??? note "Devoirs"
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         
