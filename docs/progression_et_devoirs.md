@@ -382,6 +382,19 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
         
 
+!!! done "séance 53 (2h lundi 23/03/2026):"
+    - Séance annulée pour cause de convocation à une formation
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+!!! done "séance 54 (2h jeudi 26/03/2026):"
+    - Programmation dynamique (TP pyramides)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
+
+
 {#
 
 
@@ -391,7 +404,7 @@
   
     
 
-    - Programmation dynamique (TP pyramides)
+
     ??? note "Devoirs"
         - Exercice 7 pyramide (principe de mémoïsation).
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
