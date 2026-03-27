@@ -393,6 +393,12 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
+!!! done "séance 55 (2h vendredi 27/03/2026):"
+    - Programmation dynamique (TP pyramides suite et fin)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
+
+
 
 
 {#
