@@ -357,6 +357,41 @@ Si la pyramide initiale est grande, ces appels inutiles vont se multiplier et ra
     )
     }}
 
+
+    {{
+    correction(True,
+    """
+    ??? success \"Correction\" 
+        ```python linenums='1'
+        def max_super(pyr):
+            "dict_max protégé"
+            dict_max = {}
+            def max_rec_dynamique(pyr, pos=(0,0)):
+                i, j = pos
+                if i == len(pyr) - 1:
+                    return pyr[i][j]
+            
+                if (i+1, j) in dict_max:
+                    val_gauche = dict_max[(i+1, j)]
+                else:
+                    val_gauche = max_rec_dynamique(pyr, (i+1, j))
+                    dict_max[(i+1, j)] = val_gauche
+                
+                if (i+1, j+1) in dict_max:
+                    val_droit = dict_max[(i+1, j+1)]
+                else:
+                    val_droit = max_rec_dynamique(pyr, (i+1, j+1))
+                    dict_max[(i+1, j+1)] = val_droit
+                
+                return pyr[i][j] + max(val_gauche, val_droit)
+            return  max_rec_dynamique(pyr)
+        ```
+    """
+    )
+    }}
+
+    
+
     **Q2.** Testez votre algorithme avec ```pyr_exemple```, ainsi qu'avec des pyramides de taille supérieure. Que constatez-vous ?
 
     {{
