@@ -364,7 +364,7 @@ Si la pyramide initiale est grande, ces appels inutiles vont se multiplier et ra
     ??? success \"Correction\" 
         ```python linenums='1'
         def max_super(pyr):
-            "dict_max protégé"
+            '''dict_max protégé'''
             dict_max = {}
             def max_rec_dynamique(pyr, pos=(0,0)):
                 i, j = pos
