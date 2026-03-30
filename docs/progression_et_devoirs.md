@@ -399,6 +399,15 @@
         - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées.
 
 
+!!! done "séance 56 (2h lundi 30/03/2026):"
+    - Programmation dynamique (TP rendu de monnaie)
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées. 
+        - J'ai mis en ligne les 23 sujets de l'épreuve pratique 2026 qui sont à préparer.
+
+
+
+
 
 
 {#
