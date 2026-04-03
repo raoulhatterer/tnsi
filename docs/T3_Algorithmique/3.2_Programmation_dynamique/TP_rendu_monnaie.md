@@ -310,7 +310,7 @@ Lors du parcours de toutes les pièces, si un nouveau nombre minimal de pièces 
                 solution[s] = []
                 for p in pieces:
                     if p <= s:
-                        if 1 + rendu[s-p] < rendu[s]:
+                        if 1 + rendu[s-p] <= rendu[s]:
                             rendu[s] = 1 + rendu[s-p]
                             solution[s] = solution[s-p].copy()
                             solution[s].append(p)
