@@ -60,13 +60,12 @@
 
 
 ### :high_brightness: Thème en cours d'étude
-- :arrow_right: [T3 > Programmation dynamique](./T3_Algorithmique/3.2_Programmation_dynamique/cours.md)
+- :arrow_right: [T5 > Cryptographie](./T5_Architecture_materielle/5.4_Cryptographie/cours.md)
 
 
 {#
 
 
-- :arrow_right: [T5 > Cryptographie](./T5_Architecture_materielle/5.4_Cryptographie/cours.md)
 
 #}
 
@@ -83,3 +82,5 @@
 - :arrow_right: [T5 Architecture matérielle > Protocoles de routage](./T5_Architecture_materielle/5.3_Protocoles_de_routage/cours.md)
 - :arrow_right: [T5 Architecture matérielle > Gestion des processus](./T5_Architecture_materielle/5.2_Gestion_des_processus/cours.md)
 - :arrow_right: [T3 > Dichotomie](./T3_Algorithmique/3.1_Diviser_pour_regner/cours.md)
+- :arrow_right: [T3 > Programmation dynamique](./T3_Algorithmique/3.2_Programmation_dynamique/cours.md)
+
