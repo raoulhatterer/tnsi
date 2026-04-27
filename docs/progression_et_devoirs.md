@@ -414,7 +414,12 @@
         - J'ai mis en ligne les 23 sujets de l'épreuve pratique 2026 qui sont à préparer.
 
 
-
+!!! done "séance 58 (2h lundi 27/04/2026)"
+    - Travail autour de l'épreuve pratique
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées. 
+        - Les 23 sujets de l'épreuve pratique 2026 qui sont à préparer DOIVENT être préparés !!!
+    
 
 
 
