@@ -421,6 +421,28 @@
         - Les 23 sujets de l'épreuve pratique 2026 qui sont à préparer DOIVENT être préparés !!!
     
 
+!!! done "séance 59 (2h lundi 04/05/2026)"
+    - Travail autour de l'épreuve pratique
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées. 
+        - Les 23 sujets de l'épreuve pratique 2026 qui sont à préparer DOIVENT être préparés !!!
+    
+
+!!! done "séance 60 (2h jeudi 07/05/2026)"
+    - Travail autour de l'épreuve pratique (mise en ligne des sujets définitifs)
+    - T5 > Cryptographie
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées. 
+        - Les 23 sujets de l'épreuve pratique 2026 qui sont à préparer DOIVENT être préparés !!!
+    
+
+!!! done "séance 61 (2h lundi 11/05/2026)"
+    - T5 > Cryptographie
+    - Décidabilité
+    - Machines de Turing
+    ??? note "Devoirs"
+        - Préparer les épreuves écrites et orales en **révisant régulièrement** quelques extraits des sujets corrigés des années passées. 
+        - Les 23 sujets de l'épreuve pratique 2026 qui sont à préparer DOIVENT être préparés !!!
 
 
 {#
