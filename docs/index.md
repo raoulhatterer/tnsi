@@ -15,22 +15,20 @@
 
 !!! info "Épreuve terminale obligatoire"
     L'épreuve terminale obligatoire de spécialité est composée de deux parties : une partie écrite et une partie pratique, chacune notée sur 20. La note de la partie écrite a un coefficient de 0,75 et celle de la partie pratique a un coefficient de 0,25. La note globale de l’épreuve est donnée sur 20 points ce qui fait donc 15 points pour l'épreuve écrite et 5 points pour l'épreuve pratique.
+    
 
 
 !!! abstract ":star: :star: :star: Épreuve Pratique 2026 :star: :star: :star:"
-    La partie pratique consiste à programmer sur ordinateur une application informatique à partir d’un document fourni au candidat.
-    
-    L’épreuve a pour objectif d’évaluer le niveau de maîtrise des compétences pratiques du candidat.
-
-    Cette partie est notée sur 20 points.
-
+    - La partie pratique consiste à programmer sur ordinateur une application informatique à partir d’un document fourni au candidat.
+    - L’épreuve a pour objectif d’évaluer le niveau de maîtrise des compétences pratiques du candidat.
+    - Cette partie est notée sur 20 points.
     Vignt-trois sujets ont été publiés depuis le 26 mars 2026, vous pouvez les retrouver sur [cette page](T6_6_Epreuve_pratique/BNS_2026.md){. target="_blank"}.
 
 
-!!! tip "Épreuves pratiques"
+!!! tip "Évaluation de l'épreuve pratique"
 
 
-    Le candidat est évalué sur la base d'un dialogue avec un professeur-examinateur. Un examinateur évalue au maximum quatre élèves simultanément. L'examinateur ne peut pas évaluer un élève qu'il a eu en classe durant l'année en cours.
+    - Le candidat est évalué sur la base d'un dialogue avec un professeur-examinateur. Un examinateur évalue au maximum quatre élèves simultanément. L'examinateur ne peut pas évaluer un élève qu'il a eu en classe durant l'année en cours.
 
 
       | Critères d’évaluation                    | Définition du critère                         | Très insuffisant                                                | Insuffisant                                                      | Satisfaisant                                                                           | Très satisfaisant                                                 |
@@ -38,16 +36,28 @@
       | Connaissance des savoir-faire techniques | Connaissance des concepts de base             | Besoin permanent d’assistance                                   | A besoin de consignes complémentaires et d’assistance ponctuelle | A rarement besoin de consignes complémentaires                                         | Travaille de façon autonome                                       |
       | Qualité de mise en œuvre                 | Niveau de conformité des opérations réalisées | Fait fréquemment des erreurs, exige une surveillance permanente | Produit un travail qu’il faut contrôler régulièrement            | Fait des erreurs minimes qu’il ou elle parvient à verbaliser et  propose des solutions | Travaille sans erreur                                             |
       | Qualité du dialogue                      | Justification                                 | Pas de réponse                                                  | Pas clair                                                        | Relativement clair mais manque parfois de précision                                    | Démontre une capacité à reformuler pour bien se faire comprendre. |
+    
+    
+    - Les pondérations qui seront appliquées à tous les sujets de la banque pour l’épreuve pratique sont les suivantes :
+        - Programmation 35 %
+        - Autonomie 20 %
+        - Compréhension 25 %
+        - Oral 20 %
 
 
-    - Informations sur les épreuves:
-        - Les épreuves pratiques seront organisées le lundi 2 et mardi 3 juin 2025 en salle info2.
-        - La **totalité** du programme pourra être évaluée.
-        - Coefficients : 15 points pour l'épreuve écrite, 5 points pour l'épreuve pratique.
-        - Le candidat traite 2 exercices sur ordinateur sans accès à internet.
-        - Durée : 1 heure.
+
+
+
+
+!!! tip "Informations sur les épreuves:"
+
+    - La **totalité** du programme pourra être évaluée. Coefficients : 15 points pour l'épreuve écrite, 5 points pour l'épreuve pratique.
+    - Les épreuves pratiques seront organisées mardi 9 juin 2026 en salle info2. Le candidat traite un sujet sur ordinateur sans accès à internet. Durée : 1 heure.
     - Préparez-vous à l'Épreuve Écrite : les annales des années précédentes sont disponibles [ici](T6_Annales/liste_sujets/)
-    - Les supports d’évaluation sont regroupés dans une banque disponible sur [ce site](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi) au plus tard au 24 mars de chaque session. Les exercices contenus dans cette banque ne sont pas dissociables. Le candidat traite les 2 exercices proposés.
+    - Les supports d’évaluation sont regroupés dans une banque disponible sur [ce site](https://sujets.examens-concours.gouv.fr/delos/public/bgt/nsi) au plus tard au 24 mars de chaque session. Les exercices contenus dans cette banque ne sont pas dissociables. Le candidat traite un des sujets proposés.
+
+
+!!! tip "Orientation"
     - Page sur l'orientation post-bac à retrouver [ici](T7_Divers/10_orientation/cours/).
 
 
