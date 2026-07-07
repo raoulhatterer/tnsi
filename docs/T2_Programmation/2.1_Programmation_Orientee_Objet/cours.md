@@ -290,6 +290,7 @@ class Voiture :
 ```
 
 
+
 ```python
 >>> batmobile = Voiture(2036, "noire", 325)
 >>> batmobile.petite_annonce.__doc__
